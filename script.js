@@ -19,7 +19,7 @@ async function paivitaTVOpas() {
     try {
         // 1. Haetaan EPG (XML) ja Markdown-muotoinen logolistaus (TXT) rinnakkain
         const [epgRes, logotRes] = await Promise.all([
-            fetch('epg_cache.xml'),      // Korvaa tähän oma cached XML-polkusi
+            fetch('opas.xml'),      // Korvaa tähän oma cached XML-polkusi
             fetch('logot_suomi.txt')    // Antamasi tekstitiedosto projektin juuressa
         ]);
 
