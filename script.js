@@ -84,7 +84,7 @@ function loadText(text, label){
     // ✅ Päivitetty: Ohjataan XML muuttujaan ja tallennetaan vain kevyt label välimuistiin
     tallennettuXmlText = text;
     try {
-      localStorage.setItem('epg_portfolio_status_label', label);
+      localStorage.setItem('epg_portfolio_status_label', 'päivitetty');
     } catch(e) {
       console.warn("localStorage ongelma labelia tallennettaessa:", e);
     }
