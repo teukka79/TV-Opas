@@ -18,7 +18,7 @@ async function paivitaTVOpas() {
     try {
         // 1. Haetaan EPG (XML) ja logolistaus (TXT) rinnakkain
         const [epgRes, logotRes] = await Promise.all([
-            fetch('epg_cache.xml'),      // XML-datasi polku
+            fetch('opas.xml'),      // XML-datasi polku
             fetch('logot_suomi.txt')    // Tekstitiedostosi polku projektin juuressa
         ]);
 
