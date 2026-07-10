@@ -1,6 +1,7 @@
 let channels = [];      // {id, name, icon}
 let programmesByCh = {}; // id -> [{start:Date, stop:Date, title, desc, category}]
 let expandedId = null;
+let tallennettuXmlText = null; // ✅ Globaali muuttuja suurelle XML-datalle localStoragen sijaan
 
 const $ = s => document.querySelector(s);
 const fileInput = $('#fileInput');
@@ -80,12 +81,12 @@ function loadText(text, label){
     statusEl.textContent = `Ladattu: ${label} · ${channels.length} kanavaa · ${Object.values(programmesByCh).reduce((a,b)=>a+b.length,0)} ohjelmaa`;
     clearBtn.style.display = 'inline-flex';
     
-    // Säilytetään tila automaattisesti localStorageen selaimen sulkeutumisen varalta
+    // ✅ Päivitetty: Ohjataan XML muuttujaan ja tallennetaan vain kevyt label välimuistiin
+    tallennettuXmlText = text;
     try {
-      localStorage.setItem('epg_portfolio_status_xml', text);
       localStorage.setItem('epg_portfolio_status_label', label);
     } catch(e) {
-      console.warn("localStorage täynnä, ei voitu tallentaa opasta.");
+      console.warn("localStorage ongelma labelia tallennettaessa:", e);
     }
     render();
   }catch(err){
@@ -507,6 +508,7 @@ function onOrderDragStart(e){
   orderDragEl.addEventListener('pointercancel', onOrderDragEnd);
 }
 
+// ---------- Drag operations (Pointer events) ----------
 function onOrderDragMove(e){
   if(!orderDragEl) return;
   const list = $('#orderList');
@@ -688,7 +690,7 @@ dropzone.addEventListener('drop', e => {
 });
 
 clearBtn.addEventListener('click', () => {
-  channels = []; programmesByCh = {}; expandedId = null;
+  channels = []; programmesByCh = {}; expandedId = null; tallennettuXmlText = null;
   try{
     localStorage.removeItem('epg_portfolio_status_xml');
     localStorage.removeItem('epg_portfolio_status_label');
@@ -698,14 +700,16 @@ clearBtn.addEventListener('click', () => {
   render();
 });
 
-// Palautetaan portfolion/oppaan tila suoraan localStorage-muistista sivun latautuessa
+// ✅ Päivitetty: Palautetaan portfolion/oppaan tila muistista ilman localStoragen XML-taakkaa
 (function restore(){
   try{
-    let saved = localStorage.getItem('epg_portfolio_status_xml');
     let label = localStorage.getItem('epg_portfolio_status_label');
+    let savedXml = localStorage.getItem('epg_portfolio_status_xml');
     
-    if(saved) {
-      loadText(saved, label || 'tallennettu opas');
+    // Jos localStoragessa sattuu vielä olemaan vanhaa jättidataa, siivotaan se sieltä ja käytetään kerran
+    if(savedXml) {
+      loadText(savedXml, label || 'tallennettu opas');
+      try { localStorage.removeItem('epg_portfolio_status_xml'); } catch(e){} // Siivotaan pois
     } else {
       loadFromUrl("opas.xml", "opas.xml", true);
     }
