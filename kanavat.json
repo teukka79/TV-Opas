@@ -566,4 +566,4099 @@
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/yle-tv2-fi.png",
     "maa": "finland"
   }
+  {
+    "id": "4-more",
+    "nimi": "4 More",
+    "xmltv_id": "4More.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/4-more-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "4-more-hd",
+    "nimi": "4 More HD",
+    "xmltv_id": "4MoreHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/4-more-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "4-more-plus",
+    "nimi": "4 More Plus",
+    "xmltv_id": "4MorePlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/4-more-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "4-music",
+    "nimi": "4 Music",
+    "xmltv_id": "4Music.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/4-music-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "4-seven",
+    "nimi": "4 Seven",
+    "xmltv_id": "4Seven.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/4-seven-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "4-seven-hd",
+    "nimi": "4 Seven HD",
+    "xmltv_id": "4SevenHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/4-seven-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "5-action",
+    "nimi": "5 Action",
+    "xmltv_id": "5Action.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/5-action-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "5-select",
+    "nimi": "5 Select",
+    "xmltv_id": "5Select.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/5-select-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "5-star",
+    "nimi": "5 Star",
+    "xmltv_id": "5Star.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/5-star-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "5-star-plus",
+    "nimi": "5 Star Plus",
+    "xmltv_id": "5StarPlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/5-star-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "5-usa",
+    "nimi": "5 USA",
+    "xmltv_id": "5USA.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/5-usa-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "5-usa-plus",
+    "nimi": "5 USA Plus",
+    "xmltv_id": "5USAPlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/5-usa-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "92-news",
+    "nimi": "92 News",
+    "xmltv_id": "92News.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/92-news-uk-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "adult-channel",
+    "nimi": "Adult Channel",
+    "xmltv_id": "AdultChannel.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/adult-channel-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "aka",
+    "nimi": "Aka",
+    "xmltv_id": "Aka.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/aka-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "alibi",
+    "nimi": "Alibi",
+    "xmltv_id": "Alibi.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/alibi-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "alibi-plus",
+    "nimi": "Alibi Plus",
+    "xmltv_id": "AlibiPlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/alibi-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "aljazeera",
+    "nimi": "Al Jazeera",
+    "xmltv_id": "AlJazeera.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/aljazeera-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "all-4",
+    "nimi": "All 4",
+    "xmltv_id": "All4.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/all-4-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "amc",
+    "nimi": "AMC",
+    "xmltv_id": "AMC.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/amc-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "animal-planet",
+    "nimi": "Animal Planet",
+    "xmltv_id": "AnimalPlanet.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/animal-planet-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "animal-planet-hd",
+    "nimi": "Animal Planet HD",
+    "xmltv_id": "AnimalPlanetHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/animal-planet-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "animal-planet-plus",
+    "nimi": "Animal Planet Plus",
+    "xmltv_id": "AnimalPlanetPlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/animal-planet-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "arise-news",
+    "nimi": "Arise News",
+    "xmltv_id": "AriseNews.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/arise-news-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "arise-play",
+    "nimi": "Arise Play",
+    "xmltv_id": "ArisePlay.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/arise-play-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "ary-family",
+    "nimi": "ARY Family",
+    "xmltv_id": "ARYFamily.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/ary-family-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "b4u-movies",
+    "nimi": "B4U Movies",
+    "xmltv_id": "B4UMovies.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/b4u-movies-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "b4u-music",
+    "nimi": "B4U Music",
+    "xmltv_id": "B4UMusic.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/b4u-music-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "babes-tv-brazzers-tv-europe",
+    "nimi": "Babes TV / Brazzers TV Europe",
+    "xmltv_id": "BabesTV.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/babes-tv-brazzers-tv-europe-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "babestation",
+    "nimi": "Babestation",
+    "xmltv_id": "Babestation.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/babestation-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "baby-tv",
+    "nimi": "Baby TV",
+    "xmltv_id": "BabyTV.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/baby-tv-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bbc-alba",
+    "nimi": "BBC Alba",
+    "xmltv_id": "BBCAlba.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-alba-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bbc-cbbc",
+    "nimi": "CBBC",
+    "xmltv_id": "CBBC.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-cbbc-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bbc-cbeebies",
+    "nimi": "CBeebies",
+    "xmltv_id": "CBeebies.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-cbeebies-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bbc-cymru-wales",
+    "nimi": "BBC Cymru Wales",
+    "xmltv_id": "BBCCymruWales.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-cymru-wales-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bbc-four",
+    "nimi": "BBC Four",
+    "xmltv_id": "BBCFour.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-four-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bbc-four-cbeebies",
+    "nimi": "BBC Four / CBeebies",
+    "xmltv_id": "BBCFourCBeebies.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-four-cbeebies-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bbc-four-hd",
+    "nimi": "BBC Four HD",
+    "xmltv_id": "BBCFourHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/bbc-four-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bbc-news",
+    "nimi": "BBC News",
+    "xmltv_id": "BBCNews.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-news-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bbc-news-hz",
+    "nimi": "BBC News (HZ)",
+    "xmltv_id": "BBCNewsHZ.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-news-hz-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bbc-news-hz-white",
+    "nimi": "BBC News (HZ White)",
+    "xmltv_id": "BBCNewsHZWhite.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-news-hz-white-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bbc-northern-ireland",
+    "nimi": "BBC Northern Ireland",
+    "xmltv_id": "BBCNorthernIreland.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-northern-ireland-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bbc-one",
+    "nimi": "BBC One",
+    "xmltv_id": "BBCOne.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-one-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bbc-one-hd",
+    "nimi": "BBC One HD",
+    "xmltv_id": "BBCOneHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/bbc-one-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bbc-one-northern-ireland",
+    "nimi": "BBC One Northern Ireland",
+    "xmltv_id": "BBCOneNorthernIreland.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-one-northern-ireland-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bbc-one-scotland",
+    "nimi": "BBC One Scotland",
+    "xmltv_id": "BBCOneScotland.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-one-scotland-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bbc-one-wales",
+    "nimi": "BBC One Wales",
+    "xmltv_id": "BBCOneWales.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-one-wales-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bbc-parliament",
+    "nimi": "BBC Parliament",
+    "xmltv_id": "BBCParliament.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-parliament-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bbc-scotland",
+    "nimi": "BBC Scotland",
+    "xmltv_id": "BBCScotland.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-scotland-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bbc-three",
+    "nimi": "BBC Three",
+    "xmltv_id": "BBCThree.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-three-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bbc-three-cbbc",
+    "nimi": "BBC Three / CBBC",
+    "xmltv_id": "BBCThreeCBBC.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-three-cbbc-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bbc-two",
+    "nimi": "BBC Two",
+    "xmltv_id": "BBCTwo.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-two-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bbc-two-hd",
+    "nimi": "BBC Two HD",
+    "xmltv_id": "BBCTwoHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/bbc-two-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bbc-two-northern-ireland",
+    "nimi": "BBC Two Northern Ireland",
+    "xmltv_id": "BBCTwoNorthernIreland.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-two-northern-ireland-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bbc-two-wales",
+    "nimi": "BBC Two Wales",
+    "xmltv_id": "BBCTwoWales.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-two-wales-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bbc-uhd",
+    "nimi": "BBC UHD",
+    "xmltv_id": "BBCUHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-uhd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bbc-world-news",
+    "nimi": "BBC World News",
+    "xmltv_id": "BBCWorldNews.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-world-news-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bbc-world-news-hz",
+    "nimi": "BBC World News (HZ)",
+    "xmltv_id": "BBCWorldNewsHZ.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-world-news-hz-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bbc-world-news-white-hz",
+    "nimi": "BBC World News (White HZ)",
+    "xmltv_id": "BBCWorldNewsWhiteHZ.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-world-news-white-hz-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bbc-world-service",
+    "nimi": "BBC World Service",
+    "xmltv_id": "BBCWorldService.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-world-service-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "ben-tv",
+    "nimi": "BEN TV",
+    "xmltv_id": "BENTV.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/ben-tv-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "best-direct",
+    "nimi": "Best Direct",
+    "xmltv_id": "BestDirect.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/best-direct-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bet",
+    "nimi": "BET",
+    "xmltv_id": "BET.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bet-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "blaze",
+    "nimi": "Blaze",
+    "xmltv_id": "Blaze.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/blaze-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "blaze-plus",
+    "nimi": "Blaze Plus",
+    "xmltv_id": "BlazePlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/blaze-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "boomerang",
+    "nimi": "Boomerang",
+    "xmltv_id": "Boomerang.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/boomerang-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "boomerang-plus",
+    "nimi": "Boomerang Plus",
+    "xmltv_id": "BoomerangPlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/boomerang-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "box-hits",
+    "nimi": "Box Hits",
+    "xmltv_id": "BoxHits.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/box-hits-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "box-nation",
+    "nimi": "Box Nation",
+    "xmltv_id": "BoxNation.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/box-nation-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "box-nation-hz",
+    "nimi": "Box Nation (HZ)",
+    "xmltv_id": "BoxNationHZ.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/box-nation-hz-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "boxmas",
+    "nimi": "Boxmas",
+    "xmltv_id": "Boxmas.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/boxmas-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "brit-asia-tv",
+    "nimi": "Brit Asia TV",
+    "xmltv_id": "BritAsiaTV.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/brit-asia-tv-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bt-sport",
+    "nimi": "BT Sport",
+    "xmltv_id": "BTSport.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bt-sport-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bt-sport-1",
+    "nimi": "BT Sport 1",
+    "xmltv_id": "BTSport1.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bt-sport-1-uk.png",
+    "maa": "united-kingdom"
+  }
+  {
+    "id": "bt-sport-1-hd",
+    "nimi": "BT Sport 1 HD",
+    "xmltv_id": "BTSport1HD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/bt-sport-1-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bt-sport-10",
+    "nimi": "BT Sport 10",
+    "xmltv_id": "BTSport10.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bt-sport-10-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bt-sport-10-hd",
+    "nimi": "BT Sport 10 HD",
+    "xmltv_id": "BTSport10HD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/bt-sport-10-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bt-sport-2",
+    "nimi": "BT Sport 2",
+    "xmltv_id": "BTSport2.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bt-sport-2-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bt-sport-2-hd",
+    "nimi": "BT Sport 2 HD",
+    "xmltv_id": "BTSport2HD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/bt-sport-2-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bt-sport-3",
+    "nimi": "BT Sport 3",
+    "xmltv_id": "BTSport3.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bt-sport-3-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bt-sport-3-hd",
+    "nimi": "BT Sport 3 HD",
+    "xmltv_id": "BTSport3HD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/bt-sport-3-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bt-sport-4",
+    "nimi": "BT Sport 4",
+    "xmltv_id": "BTSport4.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bt-sport-4-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bt-sport-4-hd",
+    "nimi": "BT Sport 4 HD",
+    "xmltv_id": "BTSport4HD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/bt-sport-4-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bt-sport-4k-uhd",
+    "nimi": "BT Sport 4K UHD",
+    "xmltv_id": "BTSport4kUHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/4k/bt-sport-4k-uhd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bt-sport-5",
+    "nimi": "BT Sport 5",
+    "xmltv_id": "BTSport5.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bt-sport-5-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bt-sport-5-hd",
+    "nimi": "BT Sport 5 HD",
+    "xmltv_id": "BTSport5HD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/bt-sport-5-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bt-sport-6",
+    "nimi": "BT Sport 6",
+    "xmltv_id": "BTSport6.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bt-sport-6-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bt-sport-6-hd",
+    "nimi": "BT Sport 6 HD",
+    "xmltv_id": "BTSport6HD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/bt-sport-6-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bt-sport-7",
+    "nimi": "BT Sport 7",
+    "xmltv_id": "BTSport7.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bt-sport-7-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bt-sport-7-hd",
+    "nimi": "BT Sport 7 HD",
+    "xmltv_id": "BTSport7HD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/bt-sport-7-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bt-sport-8",
+    "nimi": "BT Sport 8",
+    "xmltv_id": "BTSport8.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bt-sport-8-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bt-sport-8-hd",
+    "nimi": "BT Sport 8 HD",
+    "xmltv_id": "BTSport8HD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/bt-sport-8-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bt-sport-9",
+    "nimi": "BT Sport 9",
+    "xmltv_id": "BTSport9.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bt-sport-9-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bt-sport-9-hd",
+    "nimi": "BT Sport 9 HD",
+    "xmltv_id": "BTSport9HD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/bt-sport-9-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bt-sport-box-office",
+    "nimi": "BT Sport Box Office",
+    "xmltv_id": "BTSportBoxOffice.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bt-sport-box-office-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bt-sport-box-office-2",
+    "nimi": "BT Sport Box Office 2",
+    "xmltv_id": "BTSportBoxOffice2.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bt-sport-box-office-2-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bt-sport-box-office-2-hd",
+    "nimi": "BT Sport Box Office 2 HD",
+    "xmltv_id": "BTSportBoxOffice2HD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/bt-sport-box-office-2-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bt-sport-box-office-hd",
+    "nimi": "BT Sport Box Office HD",
+    "xmltv_id": "BTSportBoxOfficeHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/bt-sport-box-office-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bt-sport-box-office-hd-wwe-icon",
+    "nimi": "BT Sport Box Office HD (WWE Icon)",
+    "xmltv_id": "BTSportBoxOfficeHDWWEIcon.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/bt-sport-box-office-hd-wwe-icon-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bt-sport-box-office-icon",
+    "nimi": "BT Sport Box Office (Icon)",
+    "xmltv_id": "BTSportBoxOfficeIcon.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bt-sport-box-office-icon-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bt-sport-box-office-wwe",
+    "nimi": "BT Sport Box Office WWE",
+    "xmltv_id": "BTSportBoxOfficeWWE.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bt-sport-box-office-wwe-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bt-sport-box-office-wwe-hd-hz",
+    "nimi": "BT Sport Box Office WWE HD (HZ)",
+    "xmltv_id": "BTSportBoxOfficeWWEHDHZ.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/bt-sport-box-office-wwe-hd-hz-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bt-sport-box-office-wwe-hz",
+    "nimi": "BT Sport Box Office WWE (HZ)",
+    "xmltv_id": "BTSportBoxOfficeWWEHZ.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bt-sport-box-office-wwe-hz-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bt-sport-box-office-wwe-icon",
+    "nimi": "BT Sport Box Office WWE (Icon)",
+    "xmltv_id": "BTSportBoxOfficeWWEIcon.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bt-sport-box-office-wwe-icon-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bt-sport-espn",
+    "nimi": "BT Sport ESPN",
+    "xmltv_id": "BTSportESPN.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bt-sport-espn-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bt-sport-espn-hd",
+    "nimi": "BT Sport ESPN HD",
+    "xmltv_id": "BTSportESPNHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/bt-sport-espn-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bt-sport-espn-hd-hz",
+    "nimi": "BT Sport ESPN HD (HZ)",
+    "xmltv_id": "BTSportESPNHDHZ.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/bt-sport-espn-hd-hz-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bt-sport-espn-hz",
+    "nimi": "BT Sport ESPN (HZ)",
+    "xmltv_id": "BTSportESPNHZ.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bt-sport-espn-hz-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bt-sport-mosaic",
+    "nimi": "BT Sport Mosaic",
+    "xmltv_id": "BTSportMosaic.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bt-sport-mosaic-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bt-sport-mosaic-hz",
+    "nimi": "BT Sport Mosaic (HZ)",
+    "xmltv_id": "BTSportMosaicHZ.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bt-sport-mosaic-hz-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bt-sport-ultimate",
+    "nimi": "BT Sport Ultimate",
+    "xmltv_id": "BTSportUltimate.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bt-sport-ultimate-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "bt-sport-ultimate-hz",
+    "nimi": "BT Sport Ultimate (HZ)",
+    "xmltv_id": "BTSportUltimateHZ.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bt-sport-ultimate-hz-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "c-itv",
+    "nimi": "CITV",
+    "xmltv_id": "CITV.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/c-itv-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "cartoon-network",
+    "nimi": "Cartoon Network",
+    "xmltv_id": "CartoonNetwork.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/cartoon-network-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "cartoon-network-hd",
+    "nimi": "Cartoon Network HD",
+    "xmltv_id": "CartoonNetworkHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/cartoon-network-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "cartoon-network-plus",
+    "nimi": "Cartoon Network Plus",
+    "xmltv_id": "CartoonNetworkPlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/cartoon-network-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "cartoonito",
+    "nimi": "Cartoonito",
+    "xmltv_id": "Cartoonito.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/cartoonito-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "cbs-drama",
+    "nimi": "CBS Drama",
+    "xmltv_id": "CBSDrama.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/cbs-drama-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "cbs-justice",
+    "nimi": "CBS Justice",
+    "xmltv_id": "CBSJustice.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/cbs-justice-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "cbs-justice-plus",
+    "nimi": "CBS Justice Plus",
+    "xmltv_id": "CBSJusticePlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/cbs-justice-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "cbs-reality",
+    "nimi": "CBS Reality",
+    "xmltv_id": "CBSReality.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/cbs-reality-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "cbs-reality-plus",
+    "nimi": "CBS Reality Plus",
+    "xmltv_id": "CBSRealityPlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/cbs-reality-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "ccx-tv",
+    "nimi": "CCX TV",
+    "xmltv_id": "CCXTV.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/ccx-tv-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "challenge",
+    "nimi": "Challenge",
+    "xmltv_id": "Challenge.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/challenge-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "challenge-plus",
+    "nimi": "Challenge Plus",
+    "xmltv_id": "ChallengePlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/challenge-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "channel-4",
+    "nimi": "Channel 4",
+    "xmltv_id": "Channel4.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/channel-4-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "channel-4-hd",
+    "nimi": "Channel 4 HD",
+    "xmltv_id": "Channel4HD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/channel-4-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "channel-4-plus",
+    "nimi": "Channel 4+1",
+    "xmltv_id": "Channel4Plus1.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/channel-4-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "channel-4-plus-hd",
+    "nimi": "Channel 4+1 HD",
+    "xmltv_id": "Channel4Plus1HD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/channel-4-plus-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "channel-5",
+    "nimi": "Channel 5",
+    "xmltv_id": "Channel5.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/channel-5-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "channel-5-hd",
+    "nimi": "Channel 5 HD",
+    "xmltv_id": "Channel5HD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/channel-5-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "channel-5-plus",
+    "nimi": "Channel 5+1",
+    "xmltv_id": "Channel5Plus1.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/channel-5-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "channel7",
+    "nimi": "Channel 7",
+    "xmltv_id": "Channel7.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/channel7-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "chelsea-tv",
+    "nimi": "Chelsea TV",
+    "xmltv_id": "ChelseaTV.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/chelsea-tv-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "chelsea-tv-badge",
+    "nimi": "Chelsea TV (Badge)",
+    "xmltv_id": "ChelseaTVBadge.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/chelsea-tv-badge-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "chelsea-tv-badge-hz",
+    "nimi": "Chelsea TV Badge (HZ)",
+    "xmltv_id": "ChelseaTVBadgeHZ.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/chelsea-tv-badge-hz-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "christmas-24",
+    "nimi": "Christmas 24",
+    "xmltv_id": "Christmas24.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/christmas-24-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "christmas-24-plus",
+    "nimi": "Christmas 24 Plus",
+    "xmltv_id": "Christmas24Plus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/christmas-24-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "classic-hits",
+    "nimi": "Classic Hits",
+    "xmltv_id": "ClassicHits.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/classic-hits-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "clubland",
+    "nimi": "Clubland TV",
+    "xmltv_id": "Clubland.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/clubland-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "colors",
+    "nimi": "Colors",
+    "xmltv_id": "Colors.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/colors-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "colors-cineplex",
+    "nimi": "Colors Cineplex",
+    "xmltv_id": "ColorsCineplex.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/colors-cineplex-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "colors-gujarati",
+    "nimi": "Colors Gujarati",
+    "xmltv_id": "ColorsGujarati.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/colors-gujarati-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "colors-hd",
+    "nimi": "Colors HD",
+    "xmltv_id": "ColorsHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/colors-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "colors-rishtey",
+    "nimi": "Colors Rishtey",
+    "xmltv_id": "ColorsRishtey.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/colors-rishtey-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "comedy-central",
+    "nimi": "Comedy Central",
+    "xmltv_id": "ComedyCentral.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/comedy-central-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "comedy-central-extra",
+    "nimi": "Comedy Central Extra",
+    "xmltv_id": "ComedyCentralExtra.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/comedy-central-extra-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "comedy-central-extra-hz",
+    "nimi": "Comedy Central Extra (HZ)",
+    "xmltv_id": "ComedyCentralExtraHZ.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/comedy-central-extra-hz-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "comedy-central-extra-plus",
+    "nimi": "Comedy Central Extra Plus",
+    "xmltv_id": "ComedyCentralExtraPlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/comedy-central-extra-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "comedy-central-extra-plus-hz",
+    "nimi": "Comedy Central Extra Plus (HZ)",
+    "xmltv_id": "ComedyCentralExtraPlusHZ.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/comedy-central-extra-plus-hz-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "comedy-central-hd",
+    "nimi": "Comedy Central HD",
+    "xmltv_id": "ComedyCentralHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/comedy-central-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "comedy-central-icon",
+    "nimi": "Comedy Central (Icon)",
+    "xmltv_id": "ComedyCentralIcon.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/comedy-central-icon-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "comedy-central-icon-hd",
+    "nimi": "Comedy Central Icon HD",
+    "xmltv_id": "ComedyCentralIconHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/comedy-central-icon-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "comedy-central-plus",
+    "nimi": "Comedy Central Plus",
+    "xmltv_id": "ComedyCentralPlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/comedy-central-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "comedy-central-plus-icon",
+    "nimi": "Comedy Central Plus (Icon)",
+    "xmltv_id": "ComedyCentralPlusIcon.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/comedy-central-plus-icon-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "court-tv",
+    "nimi": "Court TV",
+    "xmltv_id": "CourtTV.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/court-tv-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "create-and-craft",
+    "nimi": "Create and Craft",
+    "xmltv_id": "CreateandCraft.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/create-and-craft-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "cricket-365",
+    "nimi": "Cricket 365",
+    "xmltv_id": "Cricket365.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/cricket-365-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "crime-and-investigation",
+    "nimi": "Crime & Investigation",
+    "xmltv_id": "CrimeandInvestigation.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/crime-and-investigation-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "crime-and-investigation-hd",
+    "nimi": "Crime & Investigation HD",
+    "xmltv_id": "CrimeandInvestigationHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/crime-and-investigation-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "crime-and-investigation-plus",
+    "nimi": "Crime & Investigation Plus",
+    "xmltv_id": "CrimeandInvestigationPlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/crime-and-investigation-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "cruise-1st-tv",
+    "nimi": "Cruise 1st TV",
+    "xmltv_id": "Cruise1stTV.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/cruise-1st-tv-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "cula-4",
+    "nimi": "Cula4",
+    "xmltv_id": "Cula4.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/cula-4-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "dave",
+    "nimi": "Dave",
+    "xmltv_id": "Dave.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/dave-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "dave-hd",
+    "nimi": "Dave HD",
+    "xmltv_id": "DaveHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/dave-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "dave-ja-vu",
+    "nimi": "Dave ja vu",
+    "xmltv_id": "DavejaVu.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/dave-ja-vu-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "direct-stortv",
+    "nimi": "Direct StorTV",
+    "xmltv_id": "DirectStorTV.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/direct-stortv-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "discovery-channel",
+    "nimi": "Discovery Channel",
+    "xmltv_id": "DiscoveryChannel.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/discovery-channel-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "discovery-channel-hd",
+    "nimi": "Discovery Channel HD",
+    "xmltv_id": "DiscoveryChannelHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/discovery-channel-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "discovery-channel-hd-hz",
+    "nimi": "Discovery Channel HD (HZ)",
+    "xmltv_id": "DiscoveryChannelHDHZ.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/discovery-channel-hd-hz-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "discovery-channel-icon",
+    "nimi": "Discovery Channel (Icon)",
+    "xmltv_id": "DiscoveryChannelIcon.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/discovery-channel-icon-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "discovery-channel-icon-2",
+    "nimi": "Discovery Channel (Icon 2)",
+    "xmltv_id": "DiscoveryChannelIcon2.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/discovery-channel-icon-2-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "discovery-channel-icon-2-plus",
+    "nimi": "Discovery Channel (Icon 2 Plus)",
+    "xmltv_id": "DiscoveryChannelIcon2Plus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/discovery-channel-icon-2-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "discovery-channel-icon-3",
+    "nimi": "Discovery Channel (Icon 3)",
+    "xmltv_id": "DiscoveryChannelIcon3.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/discovery-channel-icon-3-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "discovery-channel-icon-3-plus",
+    "nimi": "Discovery Channel (Icon 3 Plus)",
+    "xmltv_id": "DiscoveryChannelIcon3Plus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/discovery-channel-icon-3-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "discovery-channel-icon-plus",
+    "nimi": "Discovery Channel (Icon Plus)",
+    "xmltv_id": "DiscoveryChannelIconPlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/discovery-channel-icon-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "discovery-channel-plus",
+    "nimi": "Discovery Channel Plus",
+    "xmltv_id": "DiscoveryChannelPlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/discovery-channel-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "discovery-history",
+    "nimi": "Discovery History",
+    "xmltv_id": "DiscoveryHistory.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/discovery-history-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "discovery-history-plus",
+    "nimi": "Discovery History Plus",
+    "xmltv_id": "DiscoveryHistoryPlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/discovery-history-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "discovery-home-and-health",
+    "nimi": "Discovery Home & Health",
+    "xmltv_id": "DiscoveryHomeandHealth.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/discovery-home-and-health-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "discovery-home-and-health-icon",
+    "nimi": "Discovery Home & Health (Icon)",
+    "xmltv_id": "DiscoveryHomeandHealthIcon.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/discovery-home-and-health-icon-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "discovery-home-and-health-plus",
+    "nimi": "Discovery Home & Health Plus",
+    "xmltv_id": "DiscoveryHomeandHealthPlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/discovery-home-and-health-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "discovery-home-and-health-plus-icon",
+    "nimi": "Discovery Home & Health Plus (Icon)",
+    "xmltv_id": "DiscoveryHomeandHealthPlusIcon.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/discovery-home-and-health-plus-icon-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "discovery-science",
+    "nimi": "Discovery Science",
+    "xmltv_id": "DiscoveryScience.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/discovery-science-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "discovery-science-icon",
+    "nimi": "Discovery Science (Icon)",
+    "xmltv_id": "DiscoveryScienceIcon.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/discovery-science-icon-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "discovery-science-plus",
+    "nimi": "Discovery Science Plus",
+    "xmltv_id": "DiscoverySciencePlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/discovery-science-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "discovery-science-plus-icon",
+    "nimi": "Discovery Science Plus (Icon)",
+    "xmltv_id": "DiscoverySciencePlusIcon.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/discovery-science-plus-icon-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "discovery-shed",
+    "nimi": "Discovery Shed",
+    "xmltv_id": "DiscoveryShed.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/discovery-shed-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "discovery-turbo",
+    "nimi": "Discovery Turbo",
+    "xmltv_id": "DiscoveryTurbo.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/discovery-turbo-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "discovery-turbo-plus",
+    "nimi": "Discovery Turbo Plus",
+    "xmltv_id": "DiscoveryTurboPlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/discovery-turbo-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "disney-channel",
+    "nimi": "Disney Channel",
+    "xmltv_id": "DisneyChannel.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/disney-channel-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "disney-channel-bug",
+    "nimi": "Disney Channel (Bug)",
+    "xmltv_id": "DisneyChannelBug.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/disney-channel-bug-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "disney-channel-plus",
+    "nimi": "Disney Channel Plus",
+    "xmltv_id": "DisneyChannelPlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/disney-channel-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "disney-junior",
+    "nimi": "Disney Junior",
+    "xmltv_id": "DisneyJunior.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/disney-junior-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "disney-junior-plus",
+    "nimi": "Disney Junior Plus",
+    "xmltv_id": "DisneyJuniorPlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/disney-junior-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "disney-plus",
+    "nimi": "Disney Plus",
+    "xmltv_id": "DisneyPlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/disney-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "disney-xd",
+    "nimi": "Disney XD",
+    "xmltv_id": "DisneyXD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/disney-xd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "disney-xd-plus",
+    "nimi": "Disney XD Plus",
+    "xmltv_id": "DisneyXDPlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/disney-xd-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "dmax",
+    "nimi": "DMAX",
+    "xmltv_id": "DMAX.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/dmax-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "dmax-plus",
+    "nimi": "DMAX Plus",
+    "xmltv_id": "DMAXPlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/dmax-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "drama",
+    "nimi": "Drama",
+    "xmltv_id": "Drama.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/drama-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "drama-plus",
+    "nimi": "Drama Plus",
+    "xmltv_id": "DramaPlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/drama-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "e-4",
+    "nimi": "E4",
+    "xmltv_id": "E4.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/e-4-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "e-4-extra",
+    "nimi": "E4 Extra",
+    "xmltv_id": "E4Extra.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/e-4-extra-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "e-4-hd",
+    "nimi": "E4 HD",
+    "xmltv_id": "E4HD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/e-4-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "e-4-plus",
+    "nimi": "E4+1",
+    "xmltv_id": "E4Plus1.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/e-4-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "e-entertainment-hd",
+    "nimi": "E! HD",
+    "xmltv_id": "EEntertainmentHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/e-entertainment-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "eden",
+    "nimi": "Eden",
+    "xmltv_id": "Eden.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/eden-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "eden-hd",
+    "nimi": "Eden HD",
+    "xmltv_id": "EdenHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/eden-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "eden-plus",
+    "nimi": "Eden Plus",
+    "xmltv_id": "EdenPlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/eden-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "eurosport-1",
+    "nimi": "Eurosport 1",
+    "xmltv_id": "Eurosport1.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/eurosport-1-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "eurosport-1-hd",
+    "nimi": "Eurosport 1 HD",
+    "xmltv_id": "Eurosport1HD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/eurosport-1-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "eurosport-2",
+    "nimi": "Eurosport 2",
+    "xmltv_id": "Eurosport2.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/eurosport-2-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "eurosport-2-hd",
+    "nimi": "Eurosport 2 HD",
+    "xmltv_id": "Eurosport2HD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/eurosport-2-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "eurosport-3",
+    "nimi": "Eurosport 3",
+    "xmltv_id": "Eurosport3.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/eurosport-3-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "eurosport-3-hd",
+    "nimi": "Eurosport 3 HD",
+    "xmltv_id": "Eurosport3HD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/eurosport-3-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "eurosport-4",
+    "nimi": "Eurosport 4",
+    "xmltv_id": "Eurosport4.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/eurosport-4-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "eurosport-4-hd",
+    "nimi": "Eurosport 4 HD",
+    "xmltv_id": "Eurosport4HD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/eurosport-4-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "eurosport-5",
+    "nimi": "Eurosport 5",
+    "xmltv_id": "Eurosport5.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/eurosport-5-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "eurosport-5-hd",
+    "nimi": "Eurosport 5 HD",
+    "xmltv_id": "Eurosport5HD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/eurosport-5-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "eva",
+    "nimi": "Eva",
+    "xmltv_id": "Eva.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/eva-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "extreme-sports-channel",
+    "nimi": "Extreme Sports Channel",
+    "xmltv_id": "ExtremeSportsChannel.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/extreme-sports-channel-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "faith",
+    "nimi": "Faith TV",
+    "xmltv_id": "Faith.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/faith-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "fight-network",
+    "nimi": "Fight Network",
+    "xmltv_id": "FightNetwork.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/fight-network-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "film-4",
+    "nimi": "Film4",
+    "xmltv_id": "Film4.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/film-4-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "film-4-hd",
+    "nimi": "Film4 HD",
+    "xmltv_id": "Film4HD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/film-4-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "film-4-plus",
+    "nimi": "Film4+1",
+    "xmltv_id": "Film4Plus1.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/film-4-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "food-network",
+    "nimi": "Food Network",
+    "xmltv_id": "FoodNetwork.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/food-network-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "food-network-plus",
+    "nimi": "Food Network Plus",
+    "xmltv_id": "FoodNetworkPlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/food-network-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "food-xp",
+    "nimi": "Food XP",
+    "xmltv_id": "FoodXP.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/food-xp-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "forces-tv",
+    "nimi": "Forces TV",
+    "xmltv_id": "ForcesTV.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/forces-tv-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "fox",
+    "nimi": "FOX",
+    "xmltv_id": "FOX.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/fox-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "fox-hd",
+    "nimi": "FOX HD",
+    "xmltv_id": "FOXHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/fox-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "fox-plus",
+    "nimi": "FOX Plus",
+    "xmltv_id": "FOXPlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/fox-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "free-sports",
+    "nimi": "FreeSports",
+    "xmltv_id": "FreeSports.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/free-sports-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "free-sports-hd",
+    "nimi": "FreeSports HD",
+    "xmltv_id": "FreeSportsHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/free-sports-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "gaa-go",
+    "nimi": "GAAGO",
+    "xmltv_id": "GAAGO.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/gaa-go-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "gb-news",
+    "nimi": "GB News",
+    "xmltv_id": "GBNews.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/gb-news-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "gemporia",
+    "nimi": "Gemporia",
+    "xmltv_id": "Gemporia.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/gemporia-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "gemporia-craft",
+    "nimi": "Gemporia Craft",
+    "xmltv_id": "GemporiaCraft.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/gemporia-craft-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "get-lucky-tv",
+    "nimi": "Get Lucky TV",
+    "xmltv_id": "GetLuckyTV.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/get-lucky-tv-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "gold",
+    "nimi": "Gold",
+    "xmltv_id": "Gold.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/gold-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "gold-hd",
+    "nimi": "Gold HD",
+    "xmltv_id": "GoldHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/gold-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "gold-plus",
+    "nimi": "Gold Plus",
+    "xmltv_id": "GoldPlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/gold-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "good-news-tv",
+    "nimi": "Good News TV",
+    "xmltv_id": "GoodNewsTV.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/good-news-tv-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "great-movies",
+    "nimi": "Great! Movies",
+    "xmltv_id": "GreatMovies.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/great-movies-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "great-movies-action",
+    "nimi": "Great! Movies Action",
+    "xmltv_id": "GreatMoviesAction.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/great-movies-action-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "great-movies-action-hz",
+    "nimi": "Great! Movies Action (HZ)",
+    "xmltv_id": "GreatMoviesActionHZ.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/great-movies-action-hz-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "great-movies-action-plus",
+    "nimi": "Great! Movies Action Plus",
+    "xmltv_id": "GreatMoviesActionPlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/great-movies-action-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "great-movies-action-plus-hz",
+    "nimi": "Great! Movies Action Plus (HZ)",
+    "xmltv_id": "GreatMoviesActionPlusHZ.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/great-movies-action-plus-hz-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "great-movies-christmas",
+    "nimi": "Great! Movies Christmas",
+    "xmltv_id": "GreatMoviesChristmas.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/great-movies-christmas-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "great-movies-christmas-hz",
+    "nimi": "Great! Movies Christmas (HZ)",
+    "xmltv_id": "GreatMoviesChristmasHZ.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/great-movies-christmas-hz-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "great-movies-christmas-plus",
+    "nimi": "Great! Movies Christmas Plus",
+    "xmltv_id": "GreatMoviesChristmasPlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/great-movies-christmas-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "great-movies-christmas-plus-hz",
+    "nimi": "Great! Movies Christmas Plus (HZ)",
+    "xmltv_id": "GreatMoviesChristmasPlusHZ.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/great-movies-christmas-plus-hz-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "great-movies-classic",
+    "nimi": "Great! Movies Classic",
+    "xmltv_id": "GreatMoviesClassic.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/great-movies-classic-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "great-movies-classic-hz",
+    "nimi": "Great! Movies Classic (HZ)",
+    "xmltv_id": "GreatMoviesClassicHZ.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/great-movies-classic-hz-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "great-movies-classic-plus",
+    "nimi": "Great! Movies Classic Plus",
+    "xmltv_id": "GreatMoviesClassicPlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/great-movies-classic-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "great-movies-classic-plus-hz",
+    "nimi": "Great! Movies Classic Plus (HZ)",
+    "xmltv_id": "GreatMoviesClassicPlusHZ.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/great-movies-classic-plus-hz-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "great-movies-hz",
+    "nimi": "Great! Movies (HZ)",
+    "xmltv_id": "GreatMoviesHZ.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/great-movies-hz-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "great-movies-plus",
+    "nimi": "Great! Movies Plus",
+    "xmltv_id": "GreatMoviesPlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/great-movies-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "great-movies-plus-hz",
+    "nimi": "Great! Movies Plus (HZ)",
+    "xmltv_id": "GreatMoviesPlusHZ.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/great-movies-plus-hz-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "great-romance",
+    "nimi": "Great! Romance",
+    "xmltv_id": "GreatRomance.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/great-romance-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "great-romance-hz",
+    "nimi": "Great! Romance (HZ)",
+    "xmltv_id": "GreatRomanceHZ.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/great-romance-hz-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "great-romance-plus",
+    "nimi": "Great! Romance Plus",
+    "xmltv_id": "GreatRomancePlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/great-romance-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "great-tv",
+    "nimi": "Great! TV",
+    "xmltv_id": "GreatTV.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/great-tv-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "great-tv-hz",
+    "nimi": "Great! TV (HZ)",
+    "xmltv_id": "GreatTVHZ.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/great-tv-hz-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "great-tv-plus",
+    "nimi": "Great! TV Plus",
+    "xmltv_id": "GreatTVPlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/great-tv-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "great-tv-plus-hz",
+    "nimi": "Great! TV Plus (HZ)",
+    "xmltv_id": "GreatTVPlusHZ.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/great-tv-plus-hz-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "hgtv",
+    "nimi": "HGTV",
+    "xmltv_id": "HGTV.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hgtv-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "hgtv-plus",
+    "nimi": "HGTV Plus",
+    "xmltv_id": "HGTVPlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hgtv-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "hi-impact-tv",
+    "nimi": "Hi Impact TV",
+    "xmltv_id": "HiImpactTV.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hi-impact-tv-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "high-street-tv",
+    "nimi": "High Street TV",
+    "xmltv_id": "HighStreetTV.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/high-street-tv-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "hochanda",
+    "nimi": "Hochanda",
+    "xmltv_id": "Hochanda.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hochanda-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "horror-channel",
+    "nimi": "Horror Channel",
+    "xmltv_id": "HorrorChannel.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/horror-channel-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "horror-channel-plus",
+    "nimi": "Horror Channel Plus",
+    "xmltv_id": "HorrorChannelPlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/horror-channel-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "horror-xtra",
+    "nimi": "HorrorXtra",
+    "xmltv_id": "HorrorXtra.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/horror-xtra-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "horror-xtra-plus",
+    "nimi": "HorrorXtra Plus",
+    "xmltv_id": "HorrorXtraPlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/horror-xtra-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "horse-and-country",
+    "nimi": "Horse & Country",
+    "xmltv_id": "HorseandCountry.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/horse-and-country-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "ideal-world",
+    "nimi": "Ideal World",
+    "xmltv_id": "IdealWorld.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/ideal-world-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "investigation-discovery",
+    "nimi": "Investigation Discovery",
+    "xmltv_id": "InvestigationDiscovery.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/investigation-discovery-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "investigation-discovery-hd",
+    "nimi": "Investigation Discovery HD",
+    "xmltv_id": "InvestigationDiscoveryHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/investigation-discovery-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "investigation-discovery-plus",
+    "nimi": "Investigation Discovery Plus",
+    "xmltv_id": "InvestigationDiscoveryPlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/investigation-discovery-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "islam-channel",
+    "nimi": "Islam Channel",
+    "xmltv_id": "IslamChannel.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/islam-channel-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "islam-tv",
+    "nimi": "Islam TV",
+    "xmltv_id": "IslamTV.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/islam-tv-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "itv",
+    "nimi": "ITV",
+    "xmltv_id": "ITV.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/itv-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "itv-1",
+    "nimi": "ITV1",
+    "xmltv_id": "ITV1.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/itv-1-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "itv-1-plus",
+    "nimi": "ITV1+1",
+    "xmltv_id": "ITV1Plus1.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/itv-1-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "itv-2",
+    "nimi": "ITV2",
+    "xmltv_id": "ITV2.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/itv-2-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "itv-2-hd",
+    "nimi": "ITV2 HD",
+    "xmltv_id": "ITV2HD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/itv-2-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "itv-2-plus",
+    "nimi": "ITV2+1",
+    "xmltv_id": "ITV2Plus1.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/itv-2-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "itv-3",
+    "nimi": "ITV3",
+    "xmltv_id": "ITV3.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/itv-3-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "itv-3-hd",
+    "nimi": "ITV3 HD",
+    "xmltv_id": "ITV3HD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/itv-3-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "itv-3-plus",
+    "nimi": "ITV3+1",
+    "xmltv_id": "ITV3Plus1.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/itv-3-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "itv-4",
+    "nimi": "ITV4",
+    "xmltv_id": "ITV4.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/itv-4-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "itv-4-hd",
+    "nimi": "ITV4 HD",
+    "xmltv_id": "ITV4HD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/itv-4-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "itv-4-plus",
+    "nimi": "ITV4+1",
+    "xmltv_id": "ITV4Plus1.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/itv-4-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "itv-be",
+    "nimi": "ITVBe",
+    "xmltv_id": "ITVBe.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/itv-be-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "itv-be-plus",
+    "nimi": "ITVBe+1",
+    "xmltv_id": "ITVBePlus1.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/itv-be-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "itv-encore",
+    "nimi": "ITV Encore",
+    "xmltv_id": "ITVEncore.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/itv-encore-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "itv-encore-plus",
+    "nimi": "ITV Encore Plus",
+    "xmltv_id": "ITVEncorePlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/itv-encore-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "itv-plus",
+    "nimi": "ITV+1",
+    "xmltv_id": "ITVPlus1.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/itv-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "itvx-classic-comedy",
+    "nimi": "ITVX Classic Comedy",
+    "xmltv_id": "ITVXClassicComedy.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/itvx-classic-comedy-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "itvx-classic-movies",
+    "nimi": "ITVX Classic Movies",
+    "xmltv_id": "ITVXClassicMovies.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/itvx-classic-movies-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "itvx-crime-drama",
+    "nimi": "ITVX Crime Drama",
+    "xmltv_id": "ITVXCrimeDrama.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/itvx-crime-drama-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "itvx-essex-tv",
+    "nimi": "ITVX Essex TV",
+    "xmltv_id": "ITVXEssexTV.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/itvx-essex-tv-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "itvx-hells-kitchen",
+    "nimi": "ITVX Hells Kitchen",
+    "xmltv_id": "ITVXHellsKitchen.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/itvx-hells-kitchen-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "itvx-itv-classics",
+    "nimi": "ITVX ITV Classics",
+    "xmltv_id": "ITVXITVClassics.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/itvx-itv-classics-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "itvx-itv-signed",
+    "nimi": "ITVX ITV Signed",
+    "xmltv_id": "ITVXITVSigned.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/itvx-itv-signed-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "itvx-love-island",
+    "nimi": "ITVX Love Island",
+    "xmltv_id": "ITVXLoveIsland.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/itvx-love-island-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "itvx-love-island-international",
+    "nimi": "ITVX Love Island International",
+    "xmltv_id": "ITVXLoveIslandInternational.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/itvx-love-island-international-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "itvx-loved-up",
+    "nimi": "ITVX Loved Up",
+    "xmltv_id": "ITVXLovedUp.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/itvx-loved-up-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "itvx-massive-laughs",
+    "nimi": "ITVX Massive Laughs",
+    "xmltv_id": "ITVXMassiveLaughs.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/itvx-massive-laughs-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "itvx-midsomer-murders",
+    "nimi": "ITVX Midsomer Murders",
+    "xmltv_id": "ITVXMidsomerMurders.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/itvx-midsomer-murders-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "itvx-out-of-this-world",
+    "nimi": "ITVX Out of This World",
+    "xmltv_id": "ITVXOutofThisWorld.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/itvx-out-of-this-world-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "itvx-saturday-night-every-night",
+    "nimi": "ITVX Saturday Night Every Night",
+    "xmltv_id": "ITVXSaturdayNightEveryNight.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/itvx-saturday-night-every-night-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "itvx-the-chase",
+    "nimi": "ITVX The Chase",
+    "xmltv_id": "ITVXTheChase.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/itvx-the-chase-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "itvx-the-real-housewives",
+    "nimi": "ITVX The Real Housewives",
+    "xmltv_id": "ITVXTheRealHousewives.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/itvx-the-real-housewives-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "itvx-true-crime-international",
+    "nimi": "ITVX True Crime International",
+    "xmltv_id": "ITVXTrueCrimeInternational.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/itvx-true-crime-international-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "itvx-unwind",
+    "nimi": "ITVX Unwind",
+    "xmltv_id": "ITVXUnwind.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/itvx-unwind-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "itvx-vera",
+    "nimi": "ITVX Vera",
+    "xmltv_id": "ITVXVera.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/itvx-vera-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "itvx-world-of-morse",
+    "nimi": "ITVX World of Morse",
+    "xmltv_id": "ITVXWorldofMorse.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/itvx-world-of-morse-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "jewellery-maker",
+    "nimi": "Jewellery Maker",
+    "xmltv_id": "JewelleryMaker.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/jewellery-maker-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "jml",
+    "nimi": "JML",
+    "xmltv_id": "JML.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/jml-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "kerrang-tv",
+    "nimi": "Kerrang! TV",
+    "xmltv_id": "Kerrang.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/kerrang-tv-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "ketchup-tv",
+    "nimi": "Ketchup TV",
+    "xmltv_id": "KetchupTV.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/ketchup-tv-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "kicc-tv",
+    "nimi": "KICC TV",
+    "xmltv_id": "KICCTV.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/kicc-tv-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "kiss-tv",
+    "nimi": "Kiss TV",
+    "xmltv_id": "Kiss.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/kiss-tv-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "laliga-tv",
+    "nimi": "LaLigaTV",
+    "xmltv_id": "LaLigaTV.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/laliga-tv-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "legend",
+    "nimi": "Legend",
+    "xmltv_id": "Legend.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/legend-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "lfctv",
+    "nimi": "LFCTV",
+    "xmltv_id": "LFCTV.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/lfctv-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "lfctv-hd",
+    "nimi": "LFCTV HD",
+    "xmltv_id": "LFCTVHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/lfctv-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "lifetime",
+    "nimi": "Lifetime",
+    "xmltv_id": "Lifetime.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/lifetime-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "live-360",
+    "nimi": "Live 360",
+    "xmltv_id": "Live360.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/live-360-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "local-tv",
+    "nimi": "Local TV",
+    "xmltv_id": "LocalTV.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/local-tv-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "local-tv-birmingham",
+    "nimi": "Local TV Birmingham",
+    "xmltv_id": "LocalTVBirmingham.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/local-tv-birmingham-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "local-tv-bristol",
+    "nimi": "Local TV Bristol",
+    "xmltv_id": "LocalTVBristol.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/local-tv-bristol-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "local-tv-cardiff",
+    "nimi": "Local TV Cardiff",
+    "xmltv_id": "LocalTVCardiff.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/local-tv-cardiff-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "local-tv-leeds",
+    "nimi": "Local TV Leeds",
+    "xmltv_id": "LocalTVLeeds.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/local-tv-leeds-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "local-tv-liverpool",
+    "nimi": "Local TV Liverpool",
+    "xmltv_id": "LocalTVLiverpool.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/local-tv-liverpool-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "local-tv-manchester",
+    "nimi": "Local TV Manchester",
+    "xmltv_id": "LocalTVManchester.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/local-tv-manchester-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "local-tv-north-wales",
+    "nimi": "Local TV North Wales",
+    "xmltv_id": "LocalTVNorthWales.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/local-tv-north-wales-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "local-tv-teesside",
+    "nimi": "Local TV Teesside",
+    "xmltv_id": "LocalTVTeesside.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/local-tv-teesside-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "local-tv-tyne-and-wear",
+    "nimi": "Local TV Tyne and Wear",
+    "xmltv_id": "LocalTVTyneandWear.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/local-tv-tyne-and-wear-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "london-live",
+    "nimi": "London Live",
+    "xmltv_id": "LondonLive.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/london-live-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "love-nature",
+    "nimi": "Love Nature",
+    "xmltv_id": "LoveNature.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/love-nature-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "love-nature-4k",
+    "nimi": "Love Nature 4K",
+    "xmltv_id": "LoveNature4K.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/4k/love-nature-4k-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "love-nature-4k-white",
+    "nimi": "Love Nature 4K (White)",
+    "xmltv_id": "LoveNature4KWhite.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/4k/love-nature-4k-white-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "love-nature-white",
+    "nimi": "Love Nature (White)",
+    "xmltv_id": "LoveNatureWhite.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/love-nature-white-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "loveworld",
+    "nimi": "Loveworld",
+    "xmltv_id": "Loveworld.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/loveworld-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "magic-tv",
+    "nimi": "Magic TV",
+    "xmltv_id": "Magic.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/magic-tv-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "meet-the-babes",
+    "nimi": "Meet The Babes",
+    "xmltv_id": "MeetTheBabes.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/meet-the-babes-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "movies-24",
+    "nimi": "Movies 24",
+    "xmltv_id": "Movies24.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/movies-24-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "movies-24-plus",
+    "nimi": "Movies 24 Plus",
+    "xmltv_id": "Movies24Plus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/movies-24-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "mtv",
+    "nimi": "MTV",
+    "xmltv_id": "MTV.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/mtv-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "mtv-00s",
+    "nimi": "MTV 00s",
+    "xmltv_id": "MTV00s.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/mtv-00s-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "mtv-80s",
+    "nimi": "MTV 80s",
+    "xmltv_id": "MTV80s.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/mtv-80s-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "mtv-90s",
+    "nimi": "MTV 90s",
+    "xmltv_id": "MTV90s.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/mtv-90s-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "mtv-base",
+    "nimi": "MTV Base",
+    "xmltv_id": "MTVBase.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/mtv-base-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "mtv-classic",
+    "nimi": "MTV Classic",
+    "xmltv_id": "MTVClassic.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/mtv-classic-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "mtv-club",
+    "nimi": "MTV Club",
+    "xmltv_id": "MTVClub.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/mtv-club-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "mtv-hd",
+    "nimi": "MTV HD",
+    "xmltv_id": "MTVHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/mtv-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "mtv-hits",
+    "nimi": "MTV Hits",
+    "xmltv_id": "MTVHits.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/mtv-hits-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "mtv-live-hd",
+    "nimi": "MTV Live HD",
+    "xmltv_id": "MTVLiveHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/mtv-live-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "mtv-love",
+    "nimi": "MTV Love",
+    "xmltv_id": "MTVLove.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/mtv-love-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "mtv-music",
+    "nimi": "MTV Music",
+    "xmltv_id": "MTVMusic.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/mtv-music-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "mtv-music-plus",
+    "nimi": "MTV Music Plus",
+    "xmltv_id": "MTVMusicPlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/mtv-music-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "mtv-omg",
+    "nimi": "MTV OMG",
+    "xmltv_id": "MTVOMG.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/mtv-omg-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "mtv-omg-hz",
+    "nimi": "MTV OMG (HZ)",
+    "xmltv_id": "MTVOMGHZ.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/mtv-omg-hz-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "mtv-plus",
+    "nimi": "MTV Plus",
+    "xmltv_id": "MTVPlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/mtv-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "mtv-pride",
+    "nimi": "MTV Pride",
+    "xmltv_id": "MTVPride.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/mtv-pride-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "mtv-rocks",
+    "nimi": "MTV Rocks",
+    "xmltv_id": "MTVRocks.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/mtv-rocks-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "mtv-summer",
+    "nimi": "MTV Summer",
+    "xmltv_id": "MTVSummer.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/mtv-summer-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "mtv-xmas",
+    "nimi": "MTV Xmas",
+    "xmltv_id": "MTVXmas.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/mtv-xmas-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "mutv",
+    "nimi": "MUTV",
+    "xmltv_id": "MUTV.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/mutv-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "mutv-hd",
+    "nimi": "MUTV HD",
+    "xmltv_id": "MUTVHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/mutv-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "my-5",
+    "nimi": "My5",
+    "xmltv_id": "My5.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/my-5-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "mytv",
+    "nimi": "MyTV",
+    "xmltv_id": "MyTV.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/mytv-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "national-geographic",
+    "nimi": "National Geographic",
+    "xmltv_id": "NationalGeographic.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/national-geographic-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "national-geographic-hd",
+    "nimi": "National Geographic HD",
+    "xmltv_id": "NationalGeographicHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/national-geographic-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "national-geographic-plus",
+    "nimi": "National Geographic Plus",
+    "xmltv_id": "NationalGeographicPlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/national-geographic-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "national-geographic-wild",
+    "nimi": "National Geographic Wild",
+    "xmltv_id": "NationalGeographicWild.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/national-geographic-wild-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "national-geographic-wild-hd",
+    "nimi": "National Geographic Wild HD",
+    "xmltv_id": "NationalGeographicWildHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/national-geographic-wild-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "nbc-news-now",
+    "nimi": "NBC News NOW",
+    "xmltv_id": "NBCNewsNOW.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/nbc-news-now-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "ndtv-24x7",
+    "nimi": "NDTV 24x7",
+    "xmltv_id": "NDTV24x7.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/ndtv-24x7-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "new-media",
+    "nimi": "New Media",
+    "xmltv_id": "NewMedia.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/new-media-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "nick",
+    "nimi": "Nick",
+    "xmltv_id": "Nick.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/nick-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "nick-2",
+    "nimi": "Nick+2",
+    "xmltv_id": "NickPlus2.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/nick-2-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "nick-horrid-henry",
+    "nimi": "Nick (Horrid Henry)",
+    "xmltv_id": "NickHorridHenry.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/nick-horrid-henry-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "nick-jr-paw-patrol",
+    "nimi": "Nick Jr (Paw Patrol)",
+    "xmltv_id": "NickJrPawPatrol.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/nick-jr-paw-patrol-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "nick-jr-peppa",
+    "nimi": "Nick Jr (Peppa)",
+    "xmltv_id": "NickJrPeppa.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/nick-jr-peppa-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "nick-jr-plus",
+    "nimi": "Nick Jr+1",
+    "xmltv_id": "NickJrPlus1.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/nick-jr-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "nick-jr-too",
+    "nimi": "Nick Jr Too",
+    "xmltv_id": "NickJrToo.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/nick-jr-too-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "nick-spongebob",
+    "nimi": "Nick (SpongeBob)",
+    "xmltv_id": "NickSpongeBob.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/nick-spongebob-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "nick-toons",
+    "nimi": "Nicktoons",
+    "xmltv_id": "Nicktoons.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/nick-toons-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "nickelodeon",
+    "nimi": "Nickelodeon",
+    "xmltv_id": "Nickelodeon.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/nickelodeon-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "nickelodeon-plus",
+    "nimi": "Nickelodeon Plus",
+    "xmltv_id": "NickelodeonPlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/nickelodeon-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "now-70s",
+    "nimi": "NOW 70s",
+    "xmltv_id": "NOW70s.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/now-70s-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "now-80s",
+    "nimi": "NOW 80s",
+    "xmltv_id": "NOW80s.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/now-80s-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "now-90s",
+    "nimi": "NOW 90s",
+    "xmltv_id": "NOW90s.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/now-90s-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "now-christmas",
+    "nimi": "NOW Christmas",
+    "xmltv_id": "NOWChristmas.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/now-christmas-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "now-rock",
+    "nimi": "NOW Rock",
+    "xmltv_id": "NOWRock.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/now-rock-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "oireachtas-tv",
+    "nimi": "Oireachtas TV",
+    "xmltv_id": "OireachtasTV.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/oireachtas-tv-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "oireachtas-tv-icon",
+    "nimi": "Oireachtas TV (Icon)",
+    "xmltv_id": "OireachtasTVIcon.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/oireachtas-tv-icon-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "paramount-network",
+    "nimi": "Paramount Network",
+    "xmltv_id": "ParamountNetwork.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/paramount-network-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "paramount-network-hd",
+    "nimi": "Paramount Network HD",
+    "xmltv_id": "ParamountNetworkHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/paramount-network-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "paramount-network-icon",
+    "nimi": "Paramount Network (Icon)",
+    "xmltv_id": "ParamountNetworkIcon.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/paramount-network-icon-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "paramount-network-icon-hd",
+    "nimi": "Paramount Network Icon HD",
+    "xmltv_id": "ParamountNetworkIconHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/paramount-network-icon-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "paramount-network-icon-light",
+    "nimi": "Paramount Network (Icon Light)",
+    "xmltv_id": "ParamountNetworkIconLight.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/paramount-network-icon-light-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "paramount-network-icon-light-hd",
+    "nimi": "Paramount Network Icon Light HD",
+    "xmltv_id": "ParamountNetworkIconLightHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/paramount-network-icon-light-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "paramount-network-light",
+    "nimi": "Paramount Network (Light)",
+    "xmltv_id": "ParamountNetworkLight.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/paramount-network-light-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "paramount-network-plus",
+    "nimi": "Paramount Network Plus",
+    "xmltv_id": "ParamountNetworkPlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/paramount-network-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "paramount-network-plus-light",
+    "nimi": "Paramount Network Plus (Light)",
+    "xmltv_id": "ParamountNetworkPlusLight.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/paramount-network-plus-light-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "pbs-america",
+    "nimi": "PBS America",
+    "xmltv_id": "PBSAmerica.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/pbs-america-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "pbs-america-plus",
+    "nimi": "PBS America Plus",
+    "xmltv_id": "PBSAmericaPlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/pbs-america-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "pick",
+    "nimi": "Pick",
+    "xmltv_id": "Pick.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/pick-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "pick-hd",
+    "nimi": "Pick HD",
+    "xmltv_id": "PickHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/pick-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "pick-plus",
+    "nimi": "Pick Plus",
+    "xmltv_id": "PickPlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/pick-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "pitaara-movies",
+    "nimi": "Pitaara Movies",
+    "xmltv_id": "PitaaraMovies.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/pitaara-movies-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "pop",
+    "nimi": "POP",
+    "xmltv_id": "POP.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/pop-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "pop-max",
+    "nimi": "Pop Max",
+    "xmltv_id": "PopMax.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/pop-max-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "pop-max-plus",
+    "nimi": "Pop Max Plus",
+    "xmltv_id": "PopMaxPlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/pop-max-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "pop-plus",
+    "nimi": "Pop+1",
+    "xmltv_id": "PopPlus1.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/pop-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "premier-sports",
+    "nimi": "Premier Sports",
+    "xmltv_id": "PremierSports.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/premier-sports-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "premier-sports-1",
+    "nimi": "Premier Sports 1",
+    "xmltv_id": "PremierSports1.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/premier-sports-1-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "premier-sports-1-hd",
+    "nimi": "Premier Sports 1 HD",
+    "xmltv_id": "PremierSports1HD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/premier-sports-1-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "premier-sports-2",
+    "nimi": "Premier Sports 2",
+    "xmltv_id": "PremierSports2.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/premier-sports-2-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "premier-sports-2-hd",
+    "nimi": "Premier Sports 2 HD",
+    "xmltv_id": "PremierSports2HD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/premier-sports-2-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "psychic-today",
+    "nimi": "Psychic Today",
+    "xmltv_id": "PsychicToday.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/psychic-today-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "pure-babes",
+    "nimi": "Pure Babes",
+    "xmltv_id": "PureBabes.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/pure-babes-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "quest",
+    "nimi": "Quest",
+    "xmltv_id": "Quest.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/quest-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "quest-hd",
+    "nimi": "Quest HD",
+    "xmltv_id": "QuestHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/quest-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "quest-plus",
+    "nimi": "Quest Plus",
+    "xmltv_id": "QuestPlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/quest-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "quest-red",
+    "nimi": "Quest Red",
+    "xmltv_id": "QuestRed.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/quest-red-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "quest-red-hz",
+    "nimi": "Quest Red (HZ)",
+    "xmltv_id": "QuestRedHZ.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/quest-red-hz-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "quest-red-plus",
+    "nimi": "Quest Red Plus",
+    "xmltv_id": "QuestRedPlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/quest-red-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "quest-red-plus-hz",
+    "nimi": "Quest Red Plus (HZ)",
+    "xmltv_id": "QuestRedPlusHZ.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/quest-red-plus-hz-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "qvc",
+    "nimi": "QVC",
+    "xmltv_id": "QVC.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/qvc-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "qvc-beauty",
+    "nimi": "QVC Beauty",
+    "xmltv_id": "QVCBeauty.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/qvc-beauty-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "qvc-beauty-hd",
+    "nimi": "QVC Beauty HD",
+    "xmltv_id": "QVCBeautyHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/qvc-beauty-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "qvc-extra",
+    "nimi": "QVC Extra",
+    "xmltv_id": "QVCExtra.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/qvc-extra-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "qvc-hd",
+    "nimi": "QVC HD",
+    "xmltv_id": "QVCHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/qvc-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "qvc-style",
+    "nimi": "QVC Style",
+    "xmltv_id": "QVCStyle.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/qvc-style-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "racing-tv",
+    "nimi": "Racing TV",
+    "xmltv_id": "RacingTV.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/racing-tv-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "racing-tv-hd",
+    "nimi": "Racing TV HD",
+    "xmltv_id": "RacingTVHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/racing-tv-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "reality-xtra",
+    "nimi": "RealityXtra",
+    "xmltv_id": "RealityXtra.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/reality-xtra-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "really",
+    "nimi": "Really",
+    "xmltv_id": "Really.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/really-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "revelation-tv",
+    "nimi": "Revelation TV",
+    "xmltv_id": "RevelationTV.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/revelation-tv-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "rok",
+    "nimi": "ROK",
+    "xmltv_id": "ROK.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/rok-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "rte",
+    "nimi": "RTE",
+    "xmltv_id": "RTE.ie",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/rte-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "rte-2",
+    "nimi": "RTE2",
+    "xmltv_id": "RTE2.ie",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/rte-2-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "rte-2-plus",
+    "nimi": "RTE2+1",
+    "xmltv_id": "RTE2Plus1.ie",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/rte-2-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "rte-jr",
+    "nimi": "RTE Jr",
+    "xmltv_id": "RTEJr.ie",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/rte-jr-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "rte-news-now",
+    "nimi": "RTE News Now",
+    "xmltv_id": "RTENewsNow.ie",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/rte-news-now-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "rte-news-now-hz",
+    "nimi": "RTE News Now (HZ)",
+    "xmltv_id": "RTENewsNowHZ.ie",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/rte-news-now-hz-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "rte-one",
+    "nimi": "RTE One",
+    "xmltv_id": "RTEOne.ie",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/rte-one-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "rte-one-plus",
+    "nimi": "RTE One+1",
+    "xmltv_id": "RTEOnePlus1.ie",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/rte-one-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "s4c",
+    "nimi": "S4C",
+    "xmltv_id": "S4C.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/s4c-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "s4c-dau-two",
+    "nimi": "S4C Dau",
+    "xmltv_id": "S4CDau.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/s4c-dau-two-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "s4c-hd",
+    "nimi": "S4C HD",
+    "xmltv_id": "S4CHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/s4c-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "shopping-quarter",
+    "nimi": "Shopping Quarter",
+    "xmltv_id": "ShoppingQuarter.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/shopping-quarter-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "showcase",
+    "nimi": "Showcase",
+    "xmltv_id": "Showcase.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/showcase-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-arts",
+    "nimi": "Sky Arts",
+    "xmltv_id": "SkyArts.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-arts-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-arts-hd",
+    "nimi": "Sky Arts HD",
+    "xmltv_id": "SkyArtsHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/sky-arts-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-arts-icon",
+    "nimi": "Sky Arts (Icon)",
+    "xmltv_id": "SkyArtsIcon.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-arts-icon-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-atlantic",
+    "nimi": "Sky Atlantic",
+    "xmltv_id": "SkyAtlantic.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-atlantic-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-atlantic-hd",
+    "nimi": "Sky Atlantic HD",
+    "xmltv_id": "SkyAtlanticHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/sky-atlantic-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-atlantic-icon",
+    "nimi": "Sky Atlantic (Icon)",
+    "xmltv_id": "SkyAtlanticIcon.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-atlantic-icon-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-atlantic-plus",
+    "nimi": "Sky Atlantic+1",
+    "xmltv_id": "SkyAtlanticPlus1.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-atlantic-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-cinema",
+    "nimi": "Sky Cinema",
+    "xmltv_id": "SkyCinema.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-cinema-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-comedy",
+    "nimi": "Sky Comedy",
+    "xmltv_id": "SkyComedy.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-comedy-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-comedy-hd",
+    "nimi": "Sky Comedy HD",
+    "xmltv_id": "SkyComedyHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/sky-comedy-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-comedy-icon",
+    "nimi": "Sky Comedy (Icon)",
+    "xmltv_id": "SkyComedyIcon.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-comedy-icon-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-comedy-plus",
+    "nimi": "Sky Comedy+1",
+    "xmltv_id": "SkyComedyPlus1.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-comedy-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-crime",
+    "nimi": "Sky Crime",
+    "xmltv_id": "SkyCrime.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-crime-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-crime-hd",
+    "nimi": "Sky Crime HD",
+    "xmltv_id": "SkyCrimeHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/sky-crime-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-crime-icon",
+    "nimi": "Sky Crime (Icon)",
+    "xmltv_id": "SkyCrimeIcon.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-crime-icon-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-crime-plus",
+    "nimi": "Sky Crime+1",
+    "xmltv_id": "SkyCrimePlus1.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-crime-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-docs",
+    "nimi": "Sky Documentaries",
+    "xmltv_id": "SkyDocumentaries.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-docs-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-docs-hd",
+    "nimi": "Sky Documentaries HD",
+    "xmltv_id": "SkyDocumentariesHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/sky-docs-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-news",
+    "nimi": "Sky News",
+    "xmltv_id": "SkyNews.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-news-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-news-hd",
+    "nimi": "Sky News HD",
+    "xmltv_id": "SkyNewsHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/sky-news-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-news-icon",
+    "nimi": "Sky News (Icon)",
+    "xmltv_id": "SkyNewsIcon.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-news-icon-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-one",
+    "nimi": "Sky One",
+    "xmltv_id": "SkyOne.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-one-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-one-hd",
+    "nimi": "Sky One HD",
+    "xmltv_id": "SkyOneHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/sky-one-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-one-icon",
+    "nimi": "Sky One (Icon)",
+    "xmltv_id": "SkyOneIcon.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-one-icon-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-one-plus",
+    "nimi": "Sky One+1",
+    "xmltv_id": "SkyOnePlus1.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-one-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-sports-action",
+    "nimi": "Sky Sports Action",
+    "xmltv_id": "SkySportsAction.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-sports-action-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-sports-action-hd",
+    "nimi": "Sky Sports Action HD",
+    "xmltv_id": "SkySportsActionHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/sky-sports-action-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-sports-arena",
+    "nimi": "Sky Sports Arena",
+    "xmltv_id": "SkySportsArena.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-sports-arena-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-sports-arena-hd",
+    "nimi": "Sky Sports Arena HD",
+    "xmltv_id": "SkySportsArenaHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/sky-sports-arena-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-store",
+    "nimi": "Sky Store",
+    "xmltv_id": "SkyStore.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-store-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-store-icon",
+    "nimi": "Sky Store (Icon)",
+    "xmltv_id": "SkyStoreIcon.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-store-icon-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-two",
+    "nimi": "Sky Two",
+    "xmltv_id": "SkyTwo.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-two-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-two-plus",
+    "nimi": "Sky Two+1",
+    "xmltv_id": "SkyTwoPlus1.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-two-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-witness",
+    "nimi": "Sky Witness",
+    "xmltv_id": "SkyWitness.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-witness-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-witness-hd",
+    "nimi": "Sky Witness HD",
+    "xmltv_id": "SkyWitnessHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/sky-witness-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-witness-icon",
+    "nimi": "Sky Witness (Icon)",
+    "xmltv_id": "SkyWitnessIcon.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-witness-icon-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-witness-plus",
+    "nimi": "Sky Witness+1",
+    "xmltv_id": "SkyWitnessPlus1.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-witness-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "smile-tv3",
+    "nimi": "Smile TV3",
+    "xmltv_id": "SmileTV3.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/smile-tv3-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "smithsonian-channel",
+    "nimi": "Smithsonian Channel",
+    "xmltv_id": "SmithsonianChannel.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/smithsonian-channel-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "smithsonian-channel-hd",
+    "nimi": "Smithsonian Channel HD",
+    "xmltv_id": "SmithsonianChannelHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/smithsonian-channel-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sony-entertainment-television",
+    "nimi": "Sony Entertainment Television",
+    "xmltv_id": "SonyEntertainmentTelevision.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sony-entertainment-television-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sporty-stuff-tv",
+    "nimi": "SportyStuff TV",
+    "xmltv_id": "SportyStuffTV.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sporty-stuff-tv-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "spotlight",
+    "nimi": "Spotlight",
+    "xmltv_id": "Spotlight.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/spotlight-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "starz",
+    "nimi": "STARZ",
+    "xmltv_id": "STARZ.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/starz-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "studio-66",
+    "nimi": "Studio 66",
+    "xmltv_id": "Studio66.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/studio-66-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "stv",
+    "nimi": "STV",
+    "xmltv_id": "STV.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/stv-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "stv-hd",
+    "nimi": "STV HD",
+    "xmltv_id": "STVHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/stv-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "stv-plus",
+    "nimi": "STV+1",
+    "xmltv_id": "STVPlus1.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/stv-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "stv-white",
+    "nimi": "STV (White)",
+    "xmltv_id": "STVWhite.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/stv-white-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "syfy",
+    "nimi": "Syfy",
+    "xmltv_id": "Syfy.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/syfy-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "syfy-hd",
+    "nimi": "Syfy HD",
+    "xmltv_id": "SyfyHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/syfy-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "talk-tv",
+    "nimi": "TalkTV",
+    "xmltv_id": "TalkTV.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/talk-tv-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "talking-pictures-tv",
+    "nimi": "Talking Pictures TV",
+    "xmltv_id": "TalkingPicturesTV.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/talking-pictures-tv-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "tbn",
+    "nimi": "TBN",
+    "xmltv_id": "TBN.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/tbn-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "tcm-movies",
+    "nimi": "TCM Movies",
+    "xmltv_id": "TCMMovies.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/tcm-movies-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "tcm-movies-plus",
+    "nimi": "TCM Movies+1",
+    "xmltv_id": "TCMMoviesPlus1.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/tcm-movies-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "television-x",
+    "nimi": "Television X",
+    "xmltv_id": "TelevisionX.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/television-x-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "tg-4",
+    "nimi": "TG4",
+    "xmltv_id": "TG4.ie",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/tg-4-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "thane",
+    "nimi": "Thane",
+    "xmltv_id": "Thane.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/thane-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "thats-60s",
+    "nimi": "That's 60s",
+    "xmltv_id": "Thats60s.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/thats-60s-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "thats-80s",
+    "nimi": "That's 80s",
+    "xmltv_id": "Thats80s.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/thats-80s-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "thats-tv",
+    "nimi": "That's TV",
+    "xmltv_id": "ThatsTV.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/thats-tv-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "thats-tv-christmas",
+    "nimi": "That's TV Christmas",
+    "xmltv_id": "ThatsTVChristmas.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/thats-tv-christmas-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "thats-tv-gold",
+    "nimi": "That's TV Gold",
+    "xmltv_id": "ThatsTVGold.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/thats-tv-gold-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "the-box",
+    "nimi": "The Box",
+    "xmltv_id": "TheBox.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/the-box-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "the-craft-store",
+    "nimi": "The Craft Store",
+    "xmltv_id": "TheCraftStore.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/the-craft-store-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "tiny-pop",
+    "nimi": "Tiny Pop",
+    "xmltv_id": "TinyPop.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/tiny-pop-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "tiny-pop-plus",
+    "nimi": "Tiny Pop+1",
+    "xmltv_id": "TinyPopPlus1.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/tiny-pop-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "tjc-hd",
+    "nimi": "TJC HD",
+    "xmltv_id": "TJCHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/tjc-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "tjc-the-jewellery-channel",
+    "nimi": "TJC",
+    "xmltv_id": "TJC.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/tjc-the-jewellery-channel-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "tlc",
+    "nimi": "TLC",
+    "xmltv_id": "TLC.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/tlc-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "tlc-hd",
+    "nimi": "TLC HD",
+    "xmltv_id": "TLCHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/tlc-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "tlc-plus",
+    "nimi": "TLC+1",
+    "xmltv_id": "TLCPlus1.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/tlc-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "together-tv",
+    "nimi": "Together TV",
+    "xmltv_id": "TogetherTV.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/together-tv-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "together-tv-plus",
+    "nimi": "Together TV+1",
+    "xmltv_id": "TogetherTVPlus1.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/together-tv-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "trace-hits",
+    "nimi": "TRACE Hits",
+    "xmltv_id": "TRACEHits.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/trace-hits-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "trace-latina",
+    "nimi": "TRACE Latina",
+    "xmltv_id": "TRACELatina.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/trace-latina-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "trace-urban",
+    "nimi": "TRACE Urban",
+    "xmltv_id": "TRACEUrban.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/trace-urban-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "trace-vault",
+    "nimi": "TRACE Vault",
+    "xmltv_id": "TRACEVault.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/trace-vault-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "trace-xmas",
+    "nimi": "TRACE Xmas",
+    "xmltv_id": "TRACEXmas.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/trace-xmas-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "travel-channel",
+    "nimi": "Travel Channel",
+    "xmltv_id": "TravelChannel.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/travel-channel-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "tru-tv",
+    "nimi": "TruTV",
+    "xmltv_id": "TruTV.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/tru-tv-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "tv-warehouse",
+    "nimi": "TV Warehouse",
+    "xmltv_id": "TVWarehouse.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/tv-warehouse-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "tvx-40-plus",
+    "nimi": "Television X 40+",
+    "xmltv_id": "TelevisionX40Plus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/tvx-40-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "u-tv",
+    "nimi": "UTV",
+    "xmltv_id": "UTV.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/u-tv-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "u-tv-plus",
+    "nimi": "UTV+1",
+    "xmltv_id": "UTVPlus1.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/u-tv-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "universal",
+    "nimi": "Universal TV",
+    "xmltv_id": "Universal.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/universal-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "utsav-bharat",
+    "nimi": "Utsav Bharat",
+    "xmltv_id": "UtsavBharat.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/utsav-bharat-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "utsav-gold",
+    "nimi": "Utsav Gold",
+    "xmltv_id": "UtsavGold.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/utsav-gold-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "utsav-gold-hd",
+    "nimi": "Utsav Gold HD",
+    "xmltv_id": "UtsavGoldHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/utsav-gold-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "utsav-plus",
+    "nimi": "Utsav Plus",
+    "xmltv_id": "UtsavPlus.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/utsav-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "utsav-plus-hd",
+    "nimi": "Utsav Plus HD",
+    "xmltv_id": "UtsavPlusHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/utsav-plus-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "vh1",
+    "nimi": "VH1",
+    "xmltv_id": "VH1.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/vh1-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "viaplay-sports-1",
+    "nimi": "Viaplay Sports 1",
+    "xmltv_id": "ViaplaySports1.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/viaplay-sports-1-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "viaplay-sports-1-hz",
+    "nimi": "Viaplay Sports 1 (HZ)",
+    "xmltv_id": "ViaplaySports1HZ.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/viaplay-sports-1-hz-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "viaplay-sports-2",
+    "nimi": "Viaplay Sports 2",
+    "xmltv_id": "ViaplaySports2.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/viaplay-sports-2-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "viaplay-sports-2-hz",
+    "nimi": "Viaplay Sports 2 (HZ)",
+    "xmltv_id": "ViaplaySports2HZ.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/viaplay-sports-2-hz-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "viaplay-xtra",
+    "nimi": "Viaplay Xtra",
+    "xmltv_id": "ViaplayXtra.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/viaplay-xtra-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "viaplay-xtra-hz",
+    "nimi": "Viaplay Xtra (HZ)",
+    "xmltv_id": "ViaplayXtraHZ.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/viaplay-xtra-hz-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "viceland",
+    "nimi": "Viceland",
+    "xmltv_id": "Viceland.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/viceland-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "virgin-media-four",
+    "nimi": "Virgin Media Four",
+    "xmltv_id": "VirginMediaFour.ie",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/virgin-media-four-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "virgin-media-kids",
+    "nimi": "Virgin Media Kids",
+    "xmltv_id": "VirginMediaKids.ie",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/virgin-media-kids-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "virgin-media-news",
+    "nimi": "Virgin Media News",
+    "xmltv_id": "VirginMediaNews.ie",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/virgin-media-news-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "virgin-media-one",
+    "nimi": "Virgin Media One",
+    "xmltv_id": "VirginMediaOne.ie",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/virgin-media-one-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "virgin-media-one-plus",
+    "nimi": "Virgin Media One+1",
+    "xmltv_id": "VirginMediaOnePlus1.ie",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/virgin-media-one-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "virgin-media-player",
+    "nimi": "Virgin Media Player",
+    "xmltv_id": "VirginMediaPlayer.ie",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/virgin-media-player-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "virgin-media-sport",
+    "nimi": "Virgin Media Sport",
+    "xmltv_id": "VirginMediaSport.ie",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/virgin-media-sport-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "virgin-media-television",
+    "nimi": "Virgin Media Television",
+    "xmltv_id": "VirginMediaTelevision.ie",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/virgin-media-television-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "virgin-media-three",
+    "nimi": "Virgin Media Three",
+    "xmltv_id": "VirginMediaThree.ie",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/virgin-media-three-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "virgin-media-tv",
+    "nimi": "Virgin Media TV",
+    "xmltv_id": "VirginMediaTV.ie",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/virgin-media-tv-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "virgin-media-two",
+    "nimi": "Virgin Media Two",
+    "xmltv_id": "VirginMediaTwo.ie",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/virgin-media-two-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "vivid-red-hd",
+    "nimi": "Vivid Red HD",
+    "xmltv_id": "VividRedHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/vivid-red-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "voxafrica",
+    "nimi": "Voxafrica",
+    "xmltv_id": "Voxafrica.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/voxafrica-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "w-network",
+    "nimi": "W",
+    "xmltv_id": "W.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/w-network-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "w-network-hd",
+    "nimi": "W HD",
+    "xmltv_id": "WHD.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/w-network-hd-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "w-network-plus",
+    "nimi": "W+1",
+    "xmltv_id": "WPlus1.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/w-network-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "xpanded",
+    "nimi": "Xpanded",
+    "xmltv_id": "Xpanded.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/xpanded-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "xxx-college",
+    "nimi": "XXX College",
+    "xmltv_id": "XXXCollege.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/xxx-college-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "xxx-girl-girl",
+    "nimi": "XXX Girl Girl",
+    "xmltv_id": "XXXGirlGirl.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/xxx-girl-girl-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "xxx-mums",
+    "nimi": "XXX Mums",
+    "xmltv_id": "XXXMums.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/xxx-mums-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "xxx-public-pickups",
+    "nimi": "XXX Public Pickups",
+    "xmltv_id": "XXXPublicPickups.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/xxx-public-pickups-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "yanga",
+    "nimi": "Yanga!",
+    "xmltv_id": "Yanga.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/yanga-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "yesterday",
+    "nimi": "Yesterday",
+    "xmltv_id": "Yesterday.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/yesterday-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "yesterday-plus",
+    "nimi": "Yesterday+1",
+    "xmltv_id": "YesterdayPlus1.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/yesterday-plus-uk.png",
+    "maa": "united-kingdom"
+  }
 ]
