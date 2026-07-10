@@ -1,13 +1,31 @@
-let channels = [];      // {id, name, icon}
+let channels = [];      // {id, name, icon, xmlNumber}
 let programmesByCh = {}; // id -> [{start:Date, stop:Date, title, desc, category}]
 let expandedId = null;
 let tallennettuXmlText = null; // ✅ Globaali muuttuja suurelle XML-datalle localStoragen sijaan
+let customChannelMap = {}; // Kanavat.json tiedoston tiedot
 
 const $ = s => document.querySelector(s);
 const fileInput = $('#fileInput');
 const dropzone = $('#dropzone');
 const statusEl = $('#status');
 const clearBtn = $('#clearBtn');
+
+// ---------- Load kanavat.json metadata ----------
+function loadChannelJsonMap(){
+  return fetch('kanavat.json', { cache: 'no-store' })
+    .then(res => res.ok ? res.json() : [])
+    .then(data => {
+      customChannelMap = {};
+      if(Array.isArray(data)){
+        data.forEach(item => {
+          if(item.xmltv_id) customChannelMap[item.xmltv_id.trim().toLowerCase()] = item;
+          if(item.nimi) customChannelMap[item.nimi.trim().toLowerCase()] = item;
+          if(item.id) customChannelMap[item.id.trim().toLowerCase()] = item;
+        });
+      }
+    })
+    .catch(() => { customChannelMap = {}; });
+}
 
 // ---------- XMLTV parsing ----------
 function parseXmltvTime(str){
@@ -34,19 +52,27 @@ function parseXmltv(xmlText){
   if(chNodes.length === 0) throw new Error('Tiedostosta ei löytynyt yhtään <channel>-elementtiä.');
 
   channels = chNodes.map(c => {
+    const chIdAttr = c.getAttribute('id') || '';
     const dn = c.querySelector('display-name');
     const icon = c.querySelector('icon');
     const lcn = c.querySelector('lcn, number, channel-number');
     let xmlNumber = lcn ? lcn.textContent.trim() : '';
+    const nameStr = dn ? dn.textContent.trim() : chIdAttr;
+    
     if(!xmlNumber){
       const names = [...c.querySelectorAll('display-name')].map(n => n.textContent.trim());
       const numeric = names.find(n => /^\d{1,4}$/.test(n));
       if(numeric) xmlNumber = numeric;
     }
+
+    // Yhdistetään kanavat.json logo/tiedot, jos löytyy xmltv_id:n tai nimen perusteella
+    let mapped = customChannelMap[chIdAttr.toLowerCase()] || customChannelMap[nameStr.toLowerCase()];
+    let finalIcon = mapped && mapped.logo ? mapped.logo : (icon ? icon.getAttribute('src') : null);
+
     return {
-      id: c.getAttribute('id'),
-      name: dn ? dn.textContent.trim() : c.getAttribute('id'),
-      icon: icon ? icon.getAttribute('src') : null,
+      id: chIdAttr,
+      name: nameStr,
+      icon: finalIcon,
       xmlNumber
     };
   });
@@ -81,7 +107,6 @@ function loadText(text, label){
     statusEl.textContent = `Ladattu: ${label} · ${channels.length} kanavaa · ${Object.values(programmesByCh).reduce((a,b)=>a+b.length,0)} ohjelmaa`;
     clearBtn.style.display = 'inline-flex';
     
-    // ✅ Päivitetty: Ohjataan XML muuttujaan ja tallennetaan vain kevyt label välimuistiin
     tallennettuXmlText = text;
     try {
       localStorage.setItem('epg_portfolio_status_label', 'päivitetty');
@@ -100,25 +125,27 @@ function loadFromUrl(url, name, silent){
     statusEl.className = '';
     statusEl.textContent = `Ladataan: ${name || url}…`;
   }
-  return fetch(url, { cache: 'no-store' })
-    .then(res => {
-      if(!res.ok) throw new Error('Palvelin vastasi: ' + res.status);
-      return res.text();
-    })
-    .then(text => {
-      loadText(text, name || url);
-      localStorage.setItem('epg_active_url', url);
-      localStorage.setItem('epg_last_fetch', String(Date.now()));
-      if(silent){
-        statusEl.className = '';
-        statusEl.textContent = `Ladattu: ${name || url} · ${channels.length} kanavaa · ${Object.values(programmesByCh).reduce((a,b)=>a+b.length,0)} ohjelmaa (päivitetty automaattisesti)`;
-      }
-    })
-    .catch(err => {
-      if(silent) return;
-      statusEl.className = 'err';
-      statusEl.textContent = `Lähteen lataus epäonnistui: ${err.message}`;
-    });
+  return loadChannelJsonMap().then(() => {
+    return fetch(url, { cache: 'no-store' })
+      .then(res => {
+        if(!res.ok) throw new Error('Palvelin vastasi: ' + res.status);
+        return res.text();
+      })
+      .then(text => {
+        loadText(text, name || url);
+        localStorage.setItem('epg_active_url', url);
+        localStorage.setItem('epg_last_fetch', String(Date.now()));
+        if(silent){
+          statusEl.className = '';
+          statusEl.textContent = `Ladattu: ${name || url} · ${channels.length} kanavaa · ${Object.values(programmesByCh).reduce((a,b)=>a+b.length,0)} ohjelmaa (päivitetty automaattisesti)`;
+        }
+      })
+      .catch(err => {
+        if(silent) return;
+        statusEl.className = 'err';
+        statusEl.textContent = `Lähteen lataus epäonnistui: ${err.message}`;
+      });
+  });
 }
 
 function maybeAutoRefreshSource(){
@@ -508,7 +535,6 @@ function onOrderDragStart(e){
   orderDragEl.addEventListener('pointercancel', onOrderDragEnd);
 }
 
-// ---------- Drag operations (Pointer events) ----------
 function onOrderDragMove(e){
   if(!orderDragEl) return;
   const list = $('#orderList');
@@ -644,14 +670,13 @@ function saveChannelEdit(){
   const ok = saveChannelMeta();
   if(!ok){
     $('#chUrlStatus').className = 'ch-url-status err';
-    $('#chUrlStatus').textContent = 'Tallennus epäonnistui – selaimen tallennustila on täynnä. Kokeile pienempää kuvaa, tai varmuuskopioi/tyhjennä asetuksia "⚙ Asetukset" -valikosta.';
+    $('#chUrlStatus').textContent = 'Tallennus epäonnistui – selaimen tallennustila on täynnä.';
     return;
   }
   closeChannelEdit();
   render();
 }
 
-// ---------- Event Listeners and Init ----------
 function resetChannelMeta(){
   if(!editingChannel) return;
   delete channelMeta[chKey(editingChannel)];
@@ -670,7 +695,7 @@ fileInput.addEventListener('change', e => {
   const f = e.target.files[0];
   if(!f) return;
   const reader = new FileReader();
-  reader.onload = ev => loadText(ev.target.result, f.name);
+  reader.onload = ev => loadChannelJsonMap().then(() => loadText(ev.target.result, f.name));
   reader.onerror = () => { statusEl.className='err'; statusEl.textContent = 'Tiedoston luku epäonnistui.'; };
   reader.readAsText(f);
 });
@@ -685,7 +710,7 @@ dropzone.addEventListener('drop', e => {
   const f = e.dataTransfer.files[0];
   if(!f) return;
   const reader = new FileReader();
-  reader.onload = ev => loadText(ev.target.result, f.name);
+  reader.onload = ev => loadChannelJsonMap().then(() => loadText(ev.target.result, f.name));
   reader.readAsText(f);
 });
 
@@ -700,16 +725,14 @@ clearBtn.addEventListener('click', () => {
   render();
 });
 
-// ✅ Päivitetty: Palautetaan portfolion/oppaan tila muistista ilman localStoragen XML-taakkaa
 (function restore(){
   try{
-    let label = localStorage.getItem('epg_portfolio_status_label');
     let savedXml = localStorage.getItem('epg_portfolio_status_xml');
-    
-    // Jos localStoragessa sattuu vielä olemaan vanhaa jättidataa, siivotaan se sieltä ja käytetään kerran
     if(savedXml) {
-      loadText(savedXml, label || 'tallennettu opas');
-      try { localStorage.removeItem('epg_portfolio_status_xml'); } catch(e){} // Siivotaan pois
+      loadChannelJsonMap().then(() => {
+        loadText(savedXml, 'tallennettu opas');
+        try { localStorage.removeItem('epg_portfolio_status_xml'); } catch(e){}
+      });
     } else {
       loadFromUrl("opas.xml", "opas.xml", true);
     }
@@ -719,7 +742,6 @@ clearBtn.addEventListener('click', () => {
   setTimeout(maybeAutoRefreshSource, 4000);
 })();
 
-// ---------- Rendering ----------
 function findCurrent(list, now){
   return list.find(p => p.start <= now && now < p.stop) || null;
 }
@@ -878,7 +900,6 @@ function toggleExpand(id){
   render();
 }
 
-// ---------- Timeline view ----------
 function renderTimeline(){
   const q = $('#search').value.trim().toLowerCase();
   const now = new Date();
@@ -988,7 +1009,6 @@ function renderTimeline(){
   updateHScrollbar();
 }
 
-// ---------- Scrollbar ----------
 function updateHScrollbar(){
   const el = $('#tlHScroll');
   const track = $('#tlSBTrack');
@@ -1074,7 +1094,6 @@ function tlJumpToDate(){
   updateHScrollbar();
 }
 
-// ---------- Program Details Sheet ----------
 function showProgramSheet(ch, p){
   if(!ch || !p) return;
   const now = new Date();
@@ -1112,7 +1131,6 @@ function closeAllSheets(){
   closeChannelEdit();
 }
 
-// ---------- Clock & automatic updates ----------
 function tickClock(){
   $('#clock').textContent = new Date().toLocaleTimeString('fi-FI');
 }
