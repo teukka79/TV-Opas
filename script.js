@@ -1,11 +1,10 @@
 /**
- * Apufunktio: Muunnetaan XMLTV-aikaleima (esim. "20260710183000 +0300") JS Date -objektiksi.
+ * Apufunktio: Muunnetaan XMLTV-aikaleima JS Date -objektiksi.
  */
 function parseeraaXmlAika(aikaStr) {
     if (!aikaStr) return null;
-    // Poimitaan vuosi, kuukausi, päivä, tunnit, minuutit
     const v = aikaStr.substring(0, 4);
-    const kk = aikaStr.substring(4, 6) - 1; // Kuukaudet alkavat nollasta JS:ssä
+    const kk = aikaStr.substring(4, 6) - 1;
     const p = aikaStr.substring(6, 8);
     const t = aikaStr.substring(8, 10);
     const m = aikaStr.substring(10, 12);
@@ -17,10 +16,10 @@ function parseeraaXmlAika(aikaStr) {
  */
 async function paivitaTVOpas() {
     try {
-        // 1. Haetaan EPG (XML) ja Markdown-muotoinen logolistaus (TXT) rinnakkain
+        // 1. Haetaan EPG (XML) ja logolistaus (TXT) rinnakkain
         const [epgRes, logotRes] = await Promise.all([
-            fetch('opas.xml'),      // Korvaa tähän oma cached XML-polkusi
-            fetch('logot_suomi.txt')    // Antamasi tekstitiedosto projektin juuressa
+            fetch('epg_cache.xml'),      // XML-datasi polku
+            fetch('logot_suomi.txt')    // Tekstitiedostosi polku projektin juuressa
         ]);
 
         const xmlTeksti = await epgRes.text();
@@ -30,15 +29,16 @@ async function paivitaTVOpas() {
         const logoKartta = {};
         logotTeksti.split('\n').forEach(rivi => {
             const trimmattu = rivi.trim();
-            // Otetaan kiinni vain rivit, jotka alkavat [ ja sisältävät ]:http
-            if (trimmattu.startsWith('[') && trimmattu.includes(']:http')) {
-                const osat = trimmattu.split(']:');
-                if (osat.length >= 2) {
-                    // Puhdistetaan hakutunnus (esim. "[yle-tv1" -> "yle-tv1")
-                    const tunnus = osat[0].replace('[', '').trim();
-                    // Otetaan URL (erotetaan mahdolliset Markdown-otsikot tai välilyönnit lopusta)
-                    const url = osat[1].split(' ')[0].trim();
-                    
+            if (trimmattu.startsWith('[') && trimmattu.includes(']:')) {
+                // Katkaistaan rivi vain ensimmäisen ']:' kohdalta, ettei URL:n oma protokolla hajoa
+                const jakoIndeksi = trimmattu.indexOf(']:');
+                
+                // Puhdistetaan tunnus (esim. "[yle-tv1" -> "yle-tv1")
+                const tunnus = trimmattu.substring(1, jakoIndeksi).toLowerCase().trim();
+                // Otetaan URL talteen katkaisukohdan jälkeen
+                const url = trimmattu.substring(jakoIndeksi + 2).trim();
+                
+                if (tunnus && url) {
                     logoKartta[tunnus] = url;
                 }
             }
@@ -67,7 +67,6 @@ async function paivitaTVOpas() {
         });
 
         // 5. Haetaan selaimeen tallennettu kustomoitu kanavajärjestys localStoragesta.
-        // Jos sitä ei ole, käytetään XML-datasta löytyviä kanavatunnuksia pohjana.
         let kanavaIdt = JSON.parse(localStorage.getItem('kanavaJarjestys')) || Object.keys(ohjelmaIndeksi);
 
         // 6. Piirretään opas tyhjentämällä ensin vanha kontti
@@ -78,22 +77,21 @@ async function paivitaTVOpas() {
             kanavaIdt.forEach(xmltvId => {
                 const kanavanOhjelmat = ohjelmaIndeksi[xmltvId] || [];
                 
-                // Etsitään parhaillaan tuleva ohjelma (alku <= nyt <= loppu)
+                // Etsitään parhaillaan tuleva ohjelma
                 const nykyinenOhjelma = kanavanOhjelmat.find(o => o.start <= nyt && o.stop >= nyt);
                 
                 const ohjelmaTeksti = nykyinenOhjelma 
                     ? `${nykyinenOhjelma.start.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})} ${nykyinenOhjelma.title}`
                     : 'Ei ohjelmatiedon tietoja';
 
-                // Mäppäys: Muunnetaan XMLTV-id sellaiseen muotoon, että se vastaa TXT-tiedoston tunnusta.
-                // Esimerkiksi: jos XMLTV-id on "YleTV1.fi" tai "yle-tv1.fi", muutetaan se muotoon "yle-tv1"
-                const logoHakuAvain = xmltvId.toLowerCase().replace('.fi', '').replace('.uk', '').trim();
+                // Mäppäys: Muunnetaan XMLTV-id vastaamaan TXT-tiedoston tunnusta (esim. "Yle TV1.fi" -> "yle-tv1")
+                const logoHakuAvain = xmltvId.toLowerCase().replace('.fi', '').replace(/\s+/g, '-').trim();
                 const suoraLogoUrl = logoKartta[logoHakuAvain] || '';
 
                 // Luodaan kanavakortti HTML-rakenteena
                 const kortti = document.createElement('div');
                 kortti.className = 'kanava-kortti';
-                kortti.setAttribute('data-id', xmltvId); // Hyödyllinen drag-and-dropia tai järjestelyä varten
+                kortti.setAttribute('data-id', xmltvId);
                 
                 kortti.innerHTML = `
                     <div class="kanava-otsikko">
@@ -114,5 +112,5 @@ async function paivitaTVOpas() {
     }
 }
 
-// Käynnistetään haku heti kun sivun HTML on latautunut ladatuksi
+// Käynnistetään haku kun sivu on ladattu
 document.addEventListener('DOMContentLoaded', paivitaTVOpas);
