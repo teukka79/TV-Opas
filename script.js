@@ -18,9 +18,20 @@ function loadChannelJsonMap(){
       customChannelMap = {};
       if(Array.isArray(data)){
         data.forEach(item => {
-          if(item.xmltv_id) customChannelMap[item.xmltv_id.trim().toLowerCase()] = item;
-          if(item.nimi) customChannelMap[item.nimi.trim().toLowerCase()] = item;
-          if(item.id) customChannelMap[item.id.trim().toLowerCase()] = item;
+          // Indeksoidaan kaikki mahdolliset avaimet varmasti (id, xmltv_id, nimi)
+          const keys = [
+            item.id,
+            item.xmltv_id,
+            item.nimi
+          ];
+          
+          keys.forEach(key => {
+            if(key){
+              const trimmedKey = String(key).trim();
+              customChannelMap[trimmedKey] = item;
+              customChannelMap[trimmedKey.toLowerCase()] = item;
+            }
+          });
         });
       }
     })
