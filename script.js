@@ -19,7 +19,7 @@ async function paivitaTVOpas() {
     try {
         // 1. Haetaan EPG (XML) ja Markdown-muotoinen logolistaus (TXT) rinnakkain
         const [epgRes, logotRes] = await Promise.all([
-            fetch('opas.xml'),      // Korvaa tähän oma cached XML-polkusi
+            fetch('epg_cache.xml'),      // Korvaa tähän oma cached XML-polkusi
             fetch('logot_suomi.txt')    // Antamasi tekstitiedosto projektin juuressa
         ]);
 
@@ -72,40 +72,42 @@ async function paivitaTVOpas() {
 
         // 6. Piirretään opas tyhjentämällä ensin vanha kontti
         const opasKontti = document.getElementById('opas-kontti');
-        opasKontti.innerHTML = '';
+        if (opasKontti) {
+            opasKontti.innerHTML = '';
 
-        kanavaIdt.forEach(xmltvId => {
-            const kanavanOhjelmat = ohjelmaIndeksi[xmltvId] || [];
-            
-            // Etsitään parhaillaan tuleva ohjelma (alku <= nyt <= loppu)
-            const nykyinenOhjelma = kanavanOhjelmat.find(o => o.start <= nyt && o.stop >= nyt);
-            
-            const ohjelmaTeksti = nykyinenOhjelma 
-                ? `${nykyinenOhjelma.start.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})} ${nykyinenOhjelma.title}`
-                : 'Ei ohjelmatiedon tietoja';
+            kanavaIdt.forEach(xmltvId => {
+                const kanavanOhjelmat = ohjelmaIndeksi[xmltvId] || [];
+                
+                // Etsitään parhaillaan tuleva ohjelma (alku <= nyt <= loppu)
+                const nykyinenOhjelma = kanavanOhjelmat.find(o => o.start <= nyt && o.stop >= nyt);
+                
+                const ohjelmaTeksti = nykyinenOhjelma 
+                    ? `${nykyinenOhjelma.start.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})} ${nykyinenOhjelma.title}`
+                    : 'Ei ohjelmatiedon tietoja';
 
-            // Mäppäys: Muunnetaan XMLTV-id sellaiseen muotoon, että se vastaa TXT-tiedoston tunnusta.
-            // Esimerkiksi: jos XMLTV-id on "YleTV1.fi" tai "yle-tv1.fi", muutetaan se muotoon "yle-tv1"
-            const logoHakuAvain = xmltvId.toLowerCase().replace('.fi', '').replace('.uk', '').trim();
-            const suoraLogoUrl = logoKartta[logoHakuAvain] || '';
+                // Mäppäys: Muunnetaan XMLTV-id sellaiseen muotoon, että se vastaa TXT-tiedoston tunnusta.
+                // Esimerkiksi: jos XMLTV-id on "YleTV1.fi" tai "yle-tv1.fi", muutetaan se muotoon "yle-tv1"
+                const logoHakuAvain = xmltvId.toLowerCase().replace('.fi', '').replace('.uk', '').trim();
+                const suoraLogoUrl = logoKartta[logoHakuAvain] || '';
 
-            // Luodaan kanavakortti HTML-rakenteena
-            const kortti = document.createElement('div');
-            kortti.className = 'kanava-kortti';
-            kortti.setAttribute('data-id', xmltvId); // Hyödyllinen drag-and-dropia tai järjestelyä varten
-            
-            kortti.innerHTML = `
-                <div class="kanava-otsikko">
-                    ${suoraLogoUrl ? `<img src="${suoraLogoUrl}" alt="${xmltvId}" class="kanava-logo" onerror="this.style.display='none';">` : ''}
-                    <span class="kanava-nimi">${xmltvId}</span>
-                </div>
-                <div class="kanava-ohjelma">
-                    <span class="nyt-tulee">${ohjelmaTeksti}</span>
-                </div>
-            `;
-            
-            opasKontti.appendChild(kortti);
-        });
+                // Luodaan kanavakortti HTML-rakenteena
+                const kortti = document.createElement('div');
+                kortti.className = 'kanava-kortti';
+                kortti.setAttribute('data-id', xmltvId); // Hyödyllinen drag-and-dropia tai järjestelyä varten
+                
+                kortti.innerHTML = `
+                    <div class="kanava-otsikko">
+                        ${suoraLogoUrl ? `<img src="${suoraLogoUrl}" alt="${xmltvId}" class="kanava-logo" onerror="this.style.display='none';">` : ''}
+                        <span class="kanava-nimi">${xmltvId}</span>
+                    </div>
+                    <div class="kanava-ohjelma">
+                        <span class="nyt-tulee">${ohjelmaTeksti}</span>
+                    </div>
+                `;
+                
+                opasKontti.appendChild(kortti);
+            });
+        }
 
     } catch (virhe) {
         console.error("Virhe TV-oppaan päivityksessä:", virhe);
