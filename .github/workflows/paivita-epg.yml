@@ -1,0 +1,36 @@
+name: Päivitä XMLTV-opas
+
+on:
+  schedule:
+    # Ajetaan joka aamu klo 04:00 UTC (Suomen aikaa klo 07:00)
+    - cron: '0 4 * * *'
+  workflow_dispatch: # Mahdollistaa testiajon käynnistämisen käsin GitHubin kautta
+
+permissions:
+  contents: write # Tarvitaan, jotta action voi puskea päivitetyn tiedoston takaisin
+
+jobs:
+  update-xml:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Tsekkaa koodi ulos repositoriosta
+      uses: actions/checkout@v4
+
+    - name: Lataa uusin XMLTV-tiedosto
+      run: |
+        # VAIHDA tähän alle oman XMLTV-lähteesi osoite!
+        curl -L -o opas.xml "https://epgshare01.online/epgshare01/epg_ripper_FI1.xml.gz"
+
+    - name: Commit ja Push muutokset
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        
+        if git status --porcelain | grep -q "opas.xml"; then
+          git add opas.xml
+          git commit -m "Automaattinen EPG päivitys: $(date +'%Y-%m-%d %H:%M')"
+          git push
+        else
+          echo "Ei muutoksia XMLTV-datassa."
+        fi
