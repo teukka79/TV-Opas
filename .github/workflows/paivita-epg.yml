@@ -14,23 +14,36 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Tsekkaa koodi ulos repositoriosta
-      uses: actions/checkout@v4
+      - name: Tsekkaa koodi ulos repositoriosta
+        uses: actions/checkout@v4
 
-    - name: Lataa uusin XMLTV-tiedosto
-      run: |
-        # VAIHDA tähän alle oman XMLTV-lähteesi osoite!
-        curl -sL "https://epgshare01.online/epgshare01/epg_ripper_FI1.xml.gz" | zcat > opas.xml
+      - name: Asenna XMLTV-työkalut yhdistämistä varten
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y xmltv-util
 
-    - name: Commit ja Push muutokset
-      run: |
-        git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        
-        if git status --porcelain | grep -q "opas.xml"; then
-          git add opas.xml
-          git commit -m "Automaattinen EPG päivitys: $(date +'%Y-%m-%d %H:%M')"
-          git push
-        else
-          echo "Ei muutoksia XMLTV-datassa."
-        fi
+      - name: Lataa, pura ja yhdistä Open-EPG-lähteet
+        run: |
+          curl -sL "https://www.open-epg.com/files/finland1.xml.gz" | zcat > f1.xml
+          curl -sL "https://www.open-epg.com/files/finland2.xml.gz" | zcat > f2.xml
+          curl -sL "https://www.open-epg.com/files/finland3.xml.gz" | zcat > f3.xml
+          curl -sL "https://www.open-epg.com/files/finland4.xml.gz" | zcat > f4.xml
+
+          tv_merge -i f1.xml -m f2.xml -o t1.xml
+          tv_merge -i t1.xml -m f3.xml -o t2.xml
+          tv_merge -i t2.xml -m f4.xml -o opas.xml
+
+          rm f1.xml f2.xml f3.xml f4.xml t1.xml t2.xml
+
+      - name: Commit ja Push muutokset
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          if git status --porcelain | grep -q "opas.xml"; then
+            git add opas.xml
+            git commit -m "Automaattinen EPG päivitys: $(date +'%Y-%m-%d %H:%M')"
+            git push
+          else
+            echo "Ei muutoksia XMLTV-datassa."
+          fi
