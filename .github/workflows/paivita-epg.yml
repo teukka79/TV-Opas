@@ -20,7 +20,7 @@ jobs:
     - name: Lataa uusin XMLTV-tiedosto
       run: |
         # VAIHDA tähän alle oman XMLTV-lähteesi osoite!
-        curl -L -o opas.xml "https://epgshare01.online/epgshare01/epg_ripper_FI1.xml.gz"
+        curl -sL "https://epgshare01.online/epgshare01/epg_ripper_FI1.xml.gz" | zcat > opas.xml
 
     - name: Commit ja Push muutokset
       run: |
