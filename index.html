@@ -1,0 +1,1596 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>EPG Live</title>
+<style>
+  :root{
+    --bg:#0b0d12;
+    --bg2:#12151c;
+    --card:#161a23;
+    --card-hover:#1c212c;
+    --border:#232935;
+    --text:#e8ecf4;
+    --text-dim:#8b93a7;
+    --accent:#4f8cff;
+    --accent2:#7c5cff;
+    --live:#ff5470;
+    --good:#2ecc8f;
+    --nowline:#2fe0d0;
+    --radius:14px;
+  }
+  *{box-sizing:border-box; -webkit-tap-highlight-color:transparent;}
+  html,body{margin:0; padding:0; background:var(--bg); color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text",Segoe UI,Roboto,sans-serif;
+    -webkit-font-smoothing:antialiased;}
+  body{padding-bottom:calc(24px + env(safe-area-inset-bottom));}
+
+  header{
+    position:sticky; top:0; z-index:20;
+    background:linear-gradient(180deg, var(--bg) 70%, transparent);
+    backdrop-filter:blur(10px);
+    padding:calc(14px + env(safe-area-inset-top)) 16px 10px;
+  }
+  h1{font-size:20px; margin:0 0 2px; font-weight:700; letter-spacing:-0.02em;
+    background:linear-gradient(90deg,var(--accent),var(--accent2));
+    -webkit-background-clip:text; background-clip:text; color:transparent; display:inline-block;}
+  .clock{font-size:12px; color:var(--text-dim); font-variant-numeric:tabular-nums;}
+
+  .toolbar{display:flex; gap:8px; margin-top:12px; flex-wrap:wrap;}
+  .search{
+    flex:1; min-width:140px;
+    background:var(--card); border:1px solid var(--border); color:var(--text);
+    padding:10px 14px; border-radius:999px; font-size:14px; outline:none;
+  }
+  .search::placeholder{color:var(--text-dim);}
+  .tl-date-input{flex:none; min-width:0; width:auto; color-scheme:dark; font-size:13px; padding:9px 10px;}
+  .btn{
+    background:var(--card); border:1px solid var(--border); color:var(--text);
+    padding:10px 14px; border-radius:999px; font-size:13px; cursor:pointer;
+    display:flex; align-items:center; gap:6px; white-space:nowrap;
+  }
+  .btn:active{background:var(--card-hover);}
+  .btn.primary{background:linear-gradient(90deg,var(--accent),var(--accent2)); border:none; color:#fff; font-weight:600;}
+
+  #dropzone{
+    margin:14px 16px 0; padding:22px 16px; border:1.5px dashed var(--border);
+    border-radius:var(--radius); text-align:center; color:var(--text-dim); font-size:13px;
+    transition:.15s;
+  }
+  #dropzone.drag{border-color:var(--accent); color:var(--accent); background:rgba(79,140,255,.06);}
+  #dropzone b{color:var(--text);}
+  input[type=file]{display:none;}
+
+  #status{padding:0 16px; font-size:12px; color:var(--text-dim); margin-top:8px;}
+  #status.err{color:var(--live);}
+
+  main{padding:16px; display:grid; gap:12px;}
+
+  .empty{
+    text-align:center; color:var(--text-dim); padding:60px 20px; font-size:14px; line-height:1.6;
+  }
+  .empty svg{opacity:.35; margin-bottom:10px;}
+
+  .card{
+    background:var(--card); border:1px solid var(--border); border-radius:var(--radius);
+    cursor:pointer; transition:.15s; overflow:hidden; position:relative; display:flex;
+  }
+  .card:active{background:var(--card-hover);}
+  .card.expanded{background:var(--card-hover);}
+
+  .card-icon-col{
+    flex-shrink:0; width:120px; display:flex; align-items:center; justify-content:center;
+    background:var(--bg2); padding:14px 10px;
+  }
+  .card-content{flex:1; min-width:0; padding:14px 16px;}
+  .ch-icon{max-width:96px; max-height:44px; width:auto; height:auto; object-fit:contain; flex-shrink:0;}
+  .ch-icon-name{font-size:13px; font-weight:700; color:var(--text); text-align:center; line-height:1.3; word-break:break-word;}
+  .live-dot{width:7px; height:7px; border-radius:50%; background:var(--live); flex-shrink:0; box-shadow:0 0 0 0 rgba(255,84,112,.6); animation:pulse 1.8s infinite;}
+  @keyframes pulse{
+    0%{box-shadow:0 0 0 0 rgba(255,84,112,.55);}
+    70%{box-shadow:0 0 0 7px rgba(255,84,112,0);}
+    100%{box-shadow:0 0 0 0 rgba(255,84,112,0);}
+  }
+
+  .c2-title-row{display:flex; align-items:baseline; gap:8px; flex-wrap:wrap;}
+  .c2-title{font-size:15.5px; font-weight:700; cursor:pointer; line-height:1.3;}
+  .c2-title:hover{text-decoration:underline;}
+  .c2-remaining{font-size:12.5px; color:var(--text-dim); white-space:nowrap;}
+  .c2-meta-row{display:flex; justify-content:space-between; align-items:center; gap:10px; font-size:12px; color:var(--text-dim); margin-top:8px; flex-wrap:wrap;}
+  .c2-meta-right{white-space:nowrap;}
+  .c2-meta-right b{color:var(--text); font-weight:600;}
+
+  .progress-wrap{height:5px; background:var(--border); border-radius:99px; margin-top:10px; overflow:hidden;}
+  .progress-bar{height:100%; background:linear-gradient(90deg,var(--accent),var(--accent2)); border-radius:99px; transition:width 1s linear;}
+
+  .c2-upcoming{display:flex; flex-direction:column; gap:5px; margin-top:10px; padding-top:10px; border-top:1px dashed var(--border);}
+  .c2-up-item{font-size:12px; color:var(--text-dim); cursor:pointer;}
+  .c2-up-item:hover{color:var(--text);}
+  .c2-up-time{color:var(--text); font-weight:600; margin-right:8px; font-variant-numeric:tabular-nums;}
+
+  .no-info{font-size:13px; color:var(--text-dim); font-style:italic;}
+
+  .schedule{max-height:0; overflow:hidden; transition:.25s;}
+  .card.expanded .schedule{max-height:1000px; margin-top:12px;}
+  .sched-item{display:flex; gap:10px; padding:7px 0; border-top:1px solid var(--border); font-size:12.5px;}
+  .sched-item:first-child{border-top:none;}
+  .sched-item .t{color:var(--text-dim); flex-shrink:0; font-variant-numeric:tabular-nums; width:76px;}
+  .sched-item.past{opacity:.4;}
+  .sched-item.current b{color:var(--accent);}
+
+  .badge{font-size:10px; padding:2px 7px; border-radius:99px; background:rgba(46,204,143,.15); color:var(--good); font-weight:600;}
+  .badge.live{background:rgba(255,84,112,.15); color:var(--live);}
+
+  /* ---- view toggle ---- */
+  .view-toggle{display:flex; background:var(--card); border:1px solid var(--border); border-radius:999px; padding:3px; gap:2px;}
+  .seg{border:none; background:transparent; color:var(--text-dim); font-size:12.5px; padding:7px 13px; border-radius:999px; cursor:pointer; font-weight:600;}
+  .seg.active{background:linear-gradient(90deg,var(--accent),var(--accent2)); color:#fff;}
+
+  /* ---- timeline view ---- */
+  #timelineView{display:none; flex-direction:column; padding:0 0 16px;}
+  .tl-toolbar{display:flex; align-items:center; gap:8px; padding:0 16px 10px;}
+
+  .tl-vscroll{
+    margin:0 16px; border:1px solid var(--border); border-radius:var(--radius) var(--radius) 0 0;
+    overflow-y:auto; overflow-x:hidden; max-height:70vh; background:var(--bg2);
+    scrollbar-width:thin; scrollbar-color:var(--accent) var(--border);
+  }
+  .tl-vscroll::-webkit-scrollbar{ display:block; width:9px; }
+  .tl-vscroll::-webkit-scrollbar-track{ background:var(--border); }
+  .tl-vscroll::-webkit-scrollbar-thumb{ background:linear-gradient(180deg,var(--accent),var(--accent2)); border-radius:99px; }
+
+  .tl-flexwrap{display:flex; align-items:flex-start;}
+  .tl-chcol{
+    flex-shrink:0; width:112px; display:flex; flex-direction:column;
+    background:var(--bg2); border-right:1px solid var(--border);
+  }
+  .tl-chcol-cell{
+    display:flex; flex-direction:column; align-items:center; justify-content:center;
+    padding:8px 6px; text-align:center; gap:5px; height:76px; box-sizing:border-box;
+    border-bottom:1px solid var(--border); overflow:hidden; position:relative;
+  }
+  .tl-chcol-cell.corner{height:26px;}
+  .tl-icon{max-width:64px; max-height:30px; width:auto; height:auto; object-fit:contain;}
+  .tl-ch-name{
+    font-size:10.5px; font-weight:600; color:var(--text); line-height:1.2; max-width:100%;
+    white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+  }
+
+  .tl-hscroll{
+    flex:1; overflow-x:auto; overflow-y:hidden;
+    scrollbar-width:none;
+  }
+  .tl-hscroll::-webkit-scrollbar{ display:none; }
+  .tl-hcontent{position:relative;}
+  .tl-hours-inner{position:relative; height:26px; box-sizing:border-box; border-bottom:1px solid var(--border);}
+  .tl-track{position:relative; height:76px; box-sizing:border-box; border-bottom:1px solid var(--border);}
+  .tl-hour-mark{
+    position:absolute; top:0; bottom:0; border-left:1px solid var(--border);
+    font-size:10.5px; color:var(--text-dim); padding:5px 0 0 5px; white-space:nowrap;
+  }
+  .tl-day-mark{
+    font-weight:700; color:var(--text); border-left:2px solid var(--accent);
+  }
+  .tl-block{
+    position:absolute; top:6px; bottom:6px; background:var(--card);
+    border:1px solid var(--border); border-radius:8px; padding:6px 8px;
+    overflow:hidden; cursor:pointer; transition:.12s;
+  }
+  .tl-block:active{background:var(--card-hover);}
+  .tl-block.current{
+    background:linear-gradient(135deg, rgba(46,204,143,.35), rgba(46,204,143,.12));
+    border-color:rgba(46,204,143,.5);
+  }
+  .tl-block-title{font-size:12.5px; font-weight:700; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+  .tl-block-desc{font-size:11px; color:var(--text-dim); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; margin-top:2px;}
+  .tl-block-time{font-size:10.5px; color:var(--text-dim); margin-top:3px;}
+  .tl-now-line{position:absolute; top:0; bottom:0; width:2px; background:var(--nowline); z-index:8; pointer-events:none; box-shadow:0 0 8px var(--nowline);}
+  .tl-now-line::before{content:''; position:absolute; top:0; left:-4px; width:10px; height:10px; border-radius:50%; background:var(--nowline);}
+
+  .tl-footer-row{
+    margin:0 16px; background:var(--bg2); border:1px solid var(--border); border-top:none;
+    border-radius:0 0 var(--radius) var(--radius); padding:8px 10px; box-sizing:border-box;
+  }
+  .tl-hsbar-track{position:relative; height:8px; background:var(--border); border-radius:99px;}
+  .tl-hsbar-thumb{
+    position:absolute; top:0; height:8px; min-width:30px; border-radius:99px;
+    background:linear-gradient(90deg,var(--accent),var(--accent2)); cursor:grab; touch-action:none;
+  }
+  .tl-hsbar-thumb:active{cursor:grabbing;}
+
+  .tl-sheet-backdrop{
+    display:none; position:fixed; inset:0; background:rgba(0,0,0,.5); z-index:40;
+  }
+  .tl-sheet{
+    display:none; position:fixed; left:0; right:0; bottom:0; z-index:41;
+    background:var(--card); border-top:1px solid var(--border);
+    border-radius:18px 18px 0 0; padding:18px 18px calc(18px + env(safe-area-inset-bottom));
+    max-height:60vh; overflow:auto;
+  }
+  .tl-sheet h3{margin:0 0 6px; font-size:16px;}
+  .tl-sheet .meta{font-size:12.5px; color:var(--text-dim); margin-bottom:10px;}
+  .tl-sheet .desc{font-size:13.5px; line-height:1.6; color:var(--text);}
+  .tl-sheet .close{
+    position:absolute; top:12px; right:14px; background:var(--border); border:none;
+    color:var(--text); width:28px; height:28px; border-radius:50%; font-size:14px; cursor:pointer;
+  }
+
+  /* ---- channel icon column: number badge + edit pencil ---- */
+  .icon-wrap{position:relative; flex-shrink:0;}
+  .ch-number-badge{
+    position:absolute; right:-4px; bottom:-4px; background:var(--bg2); color:var(--text-dim);
+    font-size:9px; font-weight:700; padding:1px 4px; border-radius:5px; border:1px solid var(--border);
+    line-height:1.3;
+  }
+  .edit-pencil{
+    position:absolute; top:-5px; left:-5px; width:18px; height:18px; border-radius:50%;
+    background:var(--card); border:1px solid var(--border); color:var(--text-dim);
+    display:flex; align-items:center; justify-content:center; font-size:9px; cursor:pointer;
+    opacity:0; transition:.15s;
+  }
+  .card:hover .edit-pencil, .tl-chcol-cell:hover .edit-pencil{opacity:1;}
+  @media (pointer:coarse){ .edit-pencil{opacity:.85;} }
+
+  .fav-star{
+    position:absolute; top:-5px; right:-5px; width:18px; height:18px; border-radius:50%;
+    background:var(--card); border:1px solid var(--border); color:var(--text-dim);
+    display:flex; align-items:center; justify-content:center; font-size:10px; cursor:pointer;
+    opacity:0; transition:.15s;
+  }
+  .card:hover .fav-star, .tl-chcol-cell:hover .fav-star{opacity:1;}
+  @media (pointer:coarse){ .fav-star{opacity:.85;} }
+  .fav-star.active{opacity:1; color:#ffce45; border-color:rgba(255,206,69,.5);}
+
+  /* ---- channel edit sheet extras ---- */
+  .ch-edit-preview{display:flex; justify-content:center; margin:6px 0 14px;}
+  .ch-edit-preview img{max-width:120px; max-height:64px; width:auto; height:auto; object-fit:contain;}
+  .field-label{display:block; font-size:12px; color:var(--text-dim); margin:12px 0 6px;}
+  .ch-hide-row{
+    display:flex; align-items:center; gap:8px; margin-top:16px; font-size:13.5px; color:var(--text);
+    cursor:pointer;
+  }
+  .ch-hide-row input{width:16px; height:16px; accent-color:var(--accent); flex-shrink:0;}
+
+  .btn.active{background:linear-gradient(90deg,var(--accent),var(--accent2)); border:none; color:#fff; font-weight:600;}
+
+  .category-header{
+    font-size:12px; font-weight:700; color:var(--text-dim); text-transform:uppercase;
+    letter-spacing:.04em; margin:20px 4px 4px; padding-bottom:6px; border-bottom:1px solid var(--border);
+  }
+  .category-header:first-child{margin-top:2px;}
+
+  .tl-group-header{
+    height:28px; box-sizing:border-box; display:flex; align-items:center;
+    font-size:11px; font-weight:700; color:var(--text-dim); text-transform:uppercase; letter-spacing:.04em;
+    padding:0 8px; background:rgba(255,255,255,.02); border-bottom:1px solid var(--border);
+  }
+  #chLogoInput{
+    width:100%; background:var(--bg2); border:1px solid var(--border); border-radius:10px;
+    padding:9px; color:var(--text); font-size:12.5px;
+  }
+  .logo-url-row{display:flex; gap:8px;}
+  .logo-url-row input{flex:1; width:auto;}
+  .ch-url-status{font-size:11.5px; color:var(--text-dim); margin-top:6px; min-height:14px;}
+  .ch-url-status.err{color:var(--live);}
+  .ch-edit-actions{display:flex; gap:8px; margin-top:18px;}
+  .ch-edit-actions .btn{flex:1; justify-content:center;}
+
+  /* ---- sources modal ---- */
+  .modal-backdrop{display:none; position:fixed; inset:0; background:rgba(0,0,0,.55); z-index:50;}
+  .modal{
+    display:none; position:fixed; left:16px; right:16px; top:50%; transform:translateY(-50%);
+    z-index:51; background:var(--card); border:1px solid var(--border); border-radius:16px;
+    padding:20px; max-width:440px; margin:0 auto; max-height:80vh; overflow:auto;
+  }
+  .modal h3{margin:0 0 8px; font-size:16px;}
+  .modal .close{
+    position:absolute; top:14px; right:14px; background:var(--border); border:none;
+    color:var(--text); width:28px; height:28px; border-radius:50%; font-size:14px; cursor:pointer;
+  }
+  .modal-hint{font-size:12px; color:var(--text-dim); line-height:1.5; margin:0 0 14px;}
+  .src-empty{font-size:13px; color:var(--text-dim); padding:10px 0;}
+  .src-item{
+    display:flex; align-items:center; gap:8px; padding:9px 0; border-top:1px solid var(--border);
+  }
+  .src-item:first-child{border-top:none;}
+  .src-info{flex:1; min-width:0;}
+  .src-name{font-size:13.5px; font-weight:600;}
+  .src-url{font-size:11px; color:var(--text-dim); overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+  .btn.small{padding:6px 10px; font-size:12px;}
+  .btn.danger{color:var(--live);}
+  .src-add{margin-top:14px; padding-top:14px; border-top:1px solid var(--border); display:flex; flex-direction:column; gap:8px;}
+  .order-icon-img{width:32px; height:32px; object-fit:contain; flex-shrink:0;}
+  .order-icon-fallback{
+    width:32px; height:32px; border-radius:8px; background:var(--bg2); color:var(--text-dim);
+    display:flex; align-items:center; justify-content:center; font-size:11px; font-weight:700; flex-shrink:0;
+  }
+  .order-item{ background:var(--card); }
+  .order-handle{
+    cursor:grab; color:var(--text-dim); font-size:16px; padding:0 2px 0 0;
+    touch-action:none; flex-shrink:0;
+  }
+  .order-item.dragging{ opacity:.55; background:var(--card-hover); }
+
+  ::-webkit-scrollbar{display:none;}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>EPG Live</h1>
+  <div class="clock" id="clock">--:--:--</div>
+  <div class="toolbar">
+    <input class="search" id="search" placeholder="Hae kanavaa tai ohjelmaa…" oninput="onSearchInput()">
+    <label class="btn primary" for="fileInput">📂 Avaa opas</label>
+    <input type="file" id="fileInput" accept=".xml,.xmltv,text/xml,application/xml">
+    <button class="btn" onclick="openSourcesModal()">🔗 Lähteet</button>
+    <button class="btn" onclick="openOrderModal()">↕ Järjestä</button>
+    <button class="btn" id="groupToggleBtn" onclick="toggleGrouping()">🗂 Ryhmitä</button>
+    <button class="btn" onclick="openHiddenModal()">🙈 Piilotetut</button>
+    <button class="btn" onclick="openSettingsModal()">⚙ Asetukset</button>
+    <button class="btn" id="clearBtn" style="display:none">🗑</button>
+  </div>
+  <div class="toolbar">
+    <div class="view-toggle">
+      <button class="seg active" id="viewCardsBtn" onclick="setView('cards')">Kortit</button>
+      <button class="seg" id="viewTimelineBtn" onclick="setView('timeline')">Aikajana</button>
+    </div>
+  </div>
+  <div id="dropzone">Vedä <b>XMLTV</b>-tiedosto tähän, tai avaa se yllä olevasta napista</div>
+  <div id="status"></div>
+</header>
+
+<main id="main">
+  <div class="empty" id="emptyState">
+    <div>📺</div>
+    Lataa ohjelmaopas (XMLTV .xml) nähdäksesi mitä kanavilla menee juuri nyt.
+  </div>
+</main>
+
+<div id="timelineView">
+  <div class="tl-toolbar">
+    <button class="btn" onclick="tlPage(-1)">◀ 3h</button>
+    <button class="btn" onclick="tlJumpNow()">● Nyt</button>
+    <button class="btn" onclick="tlPage(1)">3h ▶</button>
+    <input type="date" id="tlDateInput" class="search tl-date-input" onchange="tlJumpToDate()">
+    <span style="flex:1"></span>
+    <button class="btn" onclick="tlZoom(-1)">－</button>
+    <button class="btn" onclick="tlZoom(1)">＋</button>
+  </div>
+  <div class="tl-vscroll" id="tlVScroll">
+    <div class="tl-flexwrap">
+      <div class="tl-chcol" id="tlChCol"></div>
+      <div class="tl-hscroll" id="tlHScroll">
+        <div class="tl-hcontent" id="tlHContent"></div>
+      </div>
+    </div>
+  </div>
+  <div class="tl-footer-row" id="tlFooterRow">
+    <div class="tl-hsbar-track" id="tlSBTrack">
+      <div class="tl-hsbar-thumb" id="tlSBThumb"></div>
+    </div>
+  </div>
+</div>
+
+<div class="tl-sheet-backdrop" id="tlBackdrop" onclick="closeAllSheets()"></div>
+<div class="tl-sheet" id="tlSheet"></div>
+<div class="tl-sheet" id="chEditSheet"></div>
+
+<div class="modal-backdrop" id="sourcesBackdrop" onclick="closeSourcesModal()"></div>
+<div class="modal" id="sourcesModal">
+  <button class="close" onclick="closeSourcesModal()">✕</button>
+  <h3>Ohjelmaoppaan lähteet</h3>
+  <p class="modal-hint">Lisää URL-osoite XMLTV-oppaaseen, niin voit ladata sen suoraan verkosta. Osa palvelimista ei salli selaimen suoraa hakua (CORS) — jos lataus epäonnistuu, lataa tiedosto koneelle ja avaa se "Avaa opas" -napista.</p>
+  <div id="sourcesList"></div>
+  <div class="src-add">
+    <input type="text" id="srcNameInput" class="search" placeholder="Nimi (valinnainen)">
+    <input type="text" id="srcUrlInput" class="search" placeholder="https://…/opas.xml">
+    <div style="display:flex; gap:8px; margin-top:8px;">
+      <button class="btn" id="suggestBtn" type="button">💡 Open-EPG Suomi</button>
+      <button class="btn primary" id="addSourceBtn" type="button" style="flex:1">+ Lisää lähde</button>
+    </div>
+  </div>
+</div>
+
+<div class="modal-backdrop" id="orderBackdrop" onclick="closeOrderModal()"></div>
+<div class="modal" id="orderModal">
+  <button class="close" onclick="closeOrderModal()">✕</button>
+  <h3>Kanavien järjestys</h3>
+  <p class="modal-hint">Järjestä kanavat nuolilla. Järjestys näkyy sekä kortti- että aikajananäkymässä.</p>
+  <div id="orderList"></div>
+</div>
+
+<div class="modal-backdrop" id="hiddenBackdrop" onclick="closeHiddenModal()"></div>
+<div class="modal" id="hiddenModal">
+  <button class="close" onclick="closeHiddenModal()">✕</button>
+  <h3>Piilotetut kanavat</h3>
+  <p class="modal-hint">Nämä kanavat on piilotettu kortti- ja aikajananäkymistä. Piilota kanava napauttamalla sen logoa ja valitsemalla "Piilota tämä kanava listoista".</p>
+  <div id="hiddenList"></div>
+</div>
+
+<div class="modal-backdrop" id="settingsBackdrop" onclick="closeSettingsModal()"></div>
+<div class="modal" id="settingsModal">
+  <button class="close" onclick="closeSettingsModal()">✕</button>
+  <h3>Asetukset</h3>
+
+  <p class="modal-hint">Saa selainilmoitus kun suosikkikanavan (★) ohjelma on alkamassa 5 minuutin kuluttua. Toimii kun tämä välilehti on auki.</p>
+  <div class="ch-edit-actions">
+    <button class="btn primary" onclick="requestNotificationPermission()" style="flex:1; justify-content:center;">🔔 Salli ilmoitukset suosikeille</button>
+  </div>
+  <div class="ch-url-status" id="notifStatus"></div>
+
+  <div style="margin-top:18px; padding-top:14px; border-top:1px solid var(--border);">
+    <p class="modal-hint">Varmuuskopioi kanavien logot, numerot, järjestyksen ja tallennetut lähteet tiedostoon, tai palauta ne aiemmasta varmuuskopiosta.</p>
+    <div class="ch-edit-actions">
+      <button class="btn" onclick="exportSettings()">⬇ Vie asetukset</button>
+      <label class="btn primary" for="importSettingsInput">⬆ Tuo asetukset</label>
+    </div>
+    <input type="file" id="importSettingsInput" accept="application/json,.json" style="display:none">
+    <div class="ch-url-status" id="settingsStatus"></div>
+  </div>
+
+  <div style="margin-top:18px; padding-top:14px; border-top:1px solid var(--border);">
+    <button class="btn danger" onclick="resetAllSettings()" style="width:100%; justify-content:center;">Nollaa kaikki mukautukset</button>
+  </div>
+</div>
+
+<script>
+let channels = [];      // {id, name, icon}
+let programmesByCh = {}; // id -> [{start:Date, stop:Date, title, desc, category}]
+let expandedId = null;
+
+const $ = s => document.querySelector(s);
+const fileInput = $('#fileInput');
+const dropzone = $('#dropzone');
+const statusEl = $('#status');
+const clearBtn = $('#clearBtn');
+
+// ---------- XMLTV parsing ----------
+function parseXmltvTime(str){
+  if(!str) return null;
+  const m = str.trim().match(/^(\d{4})(\d{2})(\d{2})(\d{2})(\d{2})(\d{2})(?:\s?([+-]\d{2})(\d{2}))?$/);
+  if(!m) return null;
+  const [, y, mo, d, h, mi, s, offH, offM] = m;
+  let utcMs = Date.UTC(+y, +mo-1, +d, +h, +mi, +s);
+  if(offH !== undefined){
+    const sign = offH[0] === '-' ? -1 : 1;
+    const hh = Math.abs(parseInt(offH,10));
+    const mm = parseInt(offM,10);
+    utcMs -= sign*(hh*60+mm)*60000;
+  }
+  return new Date(utcMs);
+}
+
+function parseXmltv(xmlText){
+  const doc = new DOMParser().parseFromString(xmlText, 'text/xml');
+  const perr = doc.querySelector('parsererror');
+  if(perr) throw new Error('XML ei kelpaa – tarkista tiedosto.');
+
+  const chNodes = [...doc.getElementsByTagName('channel')];
+  if(chNodes.length === 0) throw new Error('Tiedostosta ei löytynyt yhtään <channel>-elementtiä.');
+
+  channels = chNodes.map(c => {
+    const dn = c.querySelector('display-name');
+    const icon = c.querySelector('icon');
+    const lcn = c.querySelector('lcn, number, channel-number');
+    let xmlNumber = lcn ? lcn.textContent.trim() : '';
+    if(!xmlNumber){
+      // jotkut oppaat pistävät numeron toiseen display-name-elementtiin, esim "118"
+      const names = [...c.querySelectorAll('display-name')].map(n => n.textContent.trim());
+      const numeric = names.find(n => /^\d{1,4}$/.test(n));
+      if(numeric) xmlNumber = numeric;
+    }
+    return {
+      id: c.getAttribute('id'),
+      name: dn ? dn.textContent.trim() : c.getAttribute('id'),
+      icon: icon ? icon.getAttribute('src') : null,
+      xmlNumber
+    };
+  });
+
+  programmesByCh = {};
+  const progNodes = [...doc.getElementsByTagName('programme')];
+  for(const p of progNodes){
+    const chId = p.getAttribute('channel');
+    const start = parseXmltvTime(p.getAttribute('start'));
+    const stop = parseXmltvTime(p.getAttribute('stop'));
+    if(!chId || !start || !stop) continue;
+    const titleEl = p.querySelector('title');
+    const descEl = p.querySelector('desc');
+    const catEl = p.querySelector('category');
+    (programmesByCh[chId] ||= []).push({
+      start, stop,
+      title: titleEl ? titleEl.textContent.trim() : '(nimetön ohjelma)',
+      desc: descEl ? descEl.textContent.trim() : '',
+      category: catEl ? catEl.textContent.trim() : ''
+    });
+  }
+  for(const id in programmesByCh){
+    programmesByCh[id].sort((a,b) => a.start - b.start);
+  }
+}
+
+// ---------- IndexedDB (isot EPG-tiedostot eivät mahdu localStorageen) ----------
+const IDB_NAME = 'epgLiveDB';
+const IDB_STORE = 'kv';
+
+function idbOpen(){
+  return new Promise((resolve, reject) => {
+    if(!('indexedDB' in window)){ reject(new Error('IndexedDB ei tuettu')); return; }
+    const req = indexedDB.open(IDB_NAME, 1);
+    req.onupgradeneeded = () => { req.result.createObjectStore(IDB_STORE); };
+    req.onsuccess = () => resolve(req.result);
+    req.onerror = () => reject(req.error);
+  });
+}
+async function idbSet(key, value){
+  try{
+    const db = await idbOpen();
+    return await new Promise((resolve, reject) => {
+      const tx = db.transaction(IDB_STORE, 'readwrite');
+      tx.objectStore(IDB_STORE).put(value, key);
+      tx.oncomplete = () => resolve(true);
+      tx.onerror = () => reject(tx.error);
+    });
+  }catch(e){ return false; }
+}
+async function idbGet(key){
+  try{
+    const db = await idbOpen();
+    return await new Promise((resolve, reject) => {
+      const tx = db.transaction(IDB_STORE, 'readonly');
+      const req = tx.objectStore(IDB_STORE).get(key);
+      req.onsuccess = () => resolve(req.result);
+      req.onerror = () => reject(req.error);
+    });
+  }catch(e){ return null; }
+}
+async function idbDelete(key){
+  try{
+    const db = await idbOpen();
+    return await new Promise((resolve, reject) => {
+      const tx = db.transaction(IDB_STORE, 'readwrite');
+      tx.objectStore(IDB_STORE).delete(key);
+      tx.oncomplete = () => resolve(true);
+      tx.onerror = () => reject(tx.error);
+    });
+  }catch(e){ return false; }
+}
+
+// ---------- File loading ----------
+function loadText(text, label){
+  try{
+    parseXmltv(text);
+    statusEl.className = '';
+    statusEl.textContent = `Ladattu: ${label} · ${channels.length} kanavaa · ${Object.values(programmesByCh).reduce((a,b)=>a+b.length,0)} ohjelmaa`;
+    clearBtn.style.display = 'inline-flex';
+    idbSet('epg_xml', text);
+    idbSet('epg_label', label);
+    try{ localStorage.removeItem('epg_xml'); localStorage.removeItem('epg_label'); }catch(e){} // vanhan version jäänteet pois
+    render();
+  }catch(err){
+    statusEl.className = 'err';
+    statusEl.textContent = 'Virhe: ' + err.message;
+  }
+}
+
+function loadFromUrl(url, name, silent){
+  if(!silent){
+    statusEl.className = '';
+    statusEl.textContent = `Ladataan: ${name || url}…`;
+  }
+  return fetch(url, { cache: 'no-store' })
+    .then(res => {
+      if(!res.ok) throw new Error('Palvelin vastasi: ' + res.status);
+      return res.text();
+    })
+    .then(text => {
+      loadText(text, name || url);
+      localStorage.setItem('epg_active_url', url);
+      localStorage.setItem('epg_last_fetch', String(Date.now()));
+      if(silent){
+        statusEl.className = '';
+        statusEl.textContent = `Ladattu: ${name || url} · ${channels.length} kanavaa · ${Object.values(programmesByCh).reduce((a,b)=>a+b.length,0)} ohjelmaa (päivitetty automaattisesti)`;
+      }
+    })
+    .catch(err => {
+      if(silent) return; // taustapäivitys epäonnistui hiljaisesti, yritetään taas myöhemmin
+      statusEl.className = 'err';
+      statusEl.textContent = `Lähteen lataus epäonnistui (${err.message}). Kyseessä voi olla CORS-esto — kokeile ladata tiedosto koneelle ja avaa se "Avaa opas" -napista.`;
+    });
+}
+
+// ---------- Automaattinen taustapäivitys tallennetulle lähteelle ----------
+function maybeAutoRefreshSource(){
+  let activeUrl;
+  try{ activeUrl = localStorage.getItem('epg_active_url'); }catch(e){ return; }
+  if(!activeUrl) return;
+  let lastFetch = 0;
+  try{ lastFetch = parseInt(localStorage.getItem('epg_last_fetch') || '0', 10); }catch(e){}
+  const hoursSince = (Date.now() - lastFetch) / 3600000;
+  if(hoursSince >= 20){
+    loadFromUrl(activeUrl, 'Automaattinen päivitys', true);
+  }
+}
+setInterval(maybeAutoRefreshSource, 60 * 60 * 1000);
+
+// ---------- Sources (URL lähteet) ----------
+let sources = [];
+try{ sources = JSON.parse(localStorage.getItem('epg_sources') || '[]'); }catch(e){ sources = []; }
+
+function saveSources(){
+  try{ localStorage.setItem('epg_sources', JSON.stringify(sources)); }catch(e){}
+}
+
+function renderSources(){
+  const list = $('#sourcesList');
+  if(sources.length === 0){
+    list.innerHTML = `<div class="src-empty">Ei tallennettuja lähteitä vielä.</div>`;
+  } else {
+    list.innerHTML = sources.map((s, i) => `
+      <div class="src-item">
+        <div class="src-info">
+          <div class="src-name">${escapeHtml(s.name)}</div>
+          <div class="src-url">${escapeHtml(s.url)}</div>
+        </div>
+        <button class="btn small" onclick="useSource(${i})">Käytä</button>
+        <button class="btn small danger" onclick="removeSource(${i})">✕</button>
+      </div>
+    `).join('');
+  }
+}
+
+function addSource(name, url){
+  if(!url) return;
+  if(!name) name = url.replace(/^https?:\/\//,'').split('/')[0];
+  sources.push({ name, url });
+  saveSources();
+  renderSources();
+}
+
+function removeSource(i){
+  sources.splice(i, 1);
+  saveSources();
+  renderSources();
+}
+
+function useSource(i){
+  const s = sources[i];
+  if(!s) return;
+  loadFromUrl(s.url, s.name);
+  closeSourcesModal();
+}
+
+function openSourcesModal(){
+  renderSources();
+  $('#sourcesModal').style.display = 'block';
+  $('#sourcesBackdrop').style.display = 'block';
+}
+function closeSourcesModal(){
+  $('#sourcesModal').style.display = 'none';
+  $('#sourcesBackdrop').style.display = 'none';
+}
+
+$('#addSourceBtn').addEventListener('click', () => {
+  const name = $('#srcNameInput').value.trim();
+  const url = $('#srcUrlInput').value.trim();
+  if(!url){ $('#srcUrlInput').focus(); return; }
+  addSource(name, url);
+  $('#srcNameInput').value = '';
+  $('#srcUrlInput').value = '';
+});
+
+$('#suggestBtn').addEventListener('click', () => {
+  $('#srcNameInput').value = 'Open-EPG Suomi';
+  $('#srcUrlInput').value = 'https://www.open-epg.com/files/finland1.xml';
+});
+
+// ---------- Asetusten varmuuskopiointi ----------
+function openSettingsModal(){
+  $('#settingsStatus').textContent = '';
+  updateNotifStatusText();
+  $('#settingsModal').style.display = 'block';
+  $('#settingsBackdrop').style.display = 'block';
+}
+function closeSettingsModal(){
+  $('#settingsModal').style.display = 'none';
+  $('#settingsBackdrop').style.display = 'none';
+}
+
+// ---------- Ilmoitukset suosikkiohjelmille ----------
+function updateNotifStatusText(){
+  const el = $('#notifStatus');
+  if(!('Notification' in window)){
+    el.className = 'ch-url-status err';
+    el.textContent = 'Tämä selain ei tue ilmoituksia.';
+    return;
+  }
+  if(Notification.permission === 'granted'){
+    el.className = 'ch-url-status';
+    el.textContent = 'Ilmoitukset käytössä. Merkitse kanavia suosikeiksi (★) saadaksesi muistutuksen 5 min ennen ohjelman alkua.';
+  } else if(Notification.permission === 'denied'){
+    el.className = 'ch-url-status err';
+    el.textContent = 'Ilmoitukset estetty selaimen asetuksista. Salli ne selaimen sivustoasetuksista käyttääksesi tätä.';
+  } else {
+    el.className = 'ch-url-status';
+    el.textContent = '';
+  }
+}
+
+function requestNotificationPermission(){
+  if(!('Notification' in window)){ updateNotifStatusText(); return; }
+  Notification.requestPermission().then(() => updateNotifStatusText());
+}
+
+let notifiedPrograms = new Set();
+function checkFavoriteNotifications(){
+  if(!('Notification' in window) || Notification.permission !== 'granted') return;
+  const now = new Date();
+  channels.filter(isFavorite).forEach(ch => {
+    const list = programmesByCh[ch.id] || [];
+    list.forEach(p => {
+      const minutesUntil = (p.start - now) / 60000;
+      if(minutesUntil > 0 && minutesUntil <= 5){
+        const key = ch.id + '|' + p.start.getTime();
+        if(!notifiedPrograms.has(key)){
+          notifiedPrograms.add(key);
+          try{
+            const n = new Notification(`${p.title} alkaa pian`, {
+              body: `${ch.name} · klo ${fmtTime(p.start)}`,
+              icon: chIcon(ch) || undefined,
+              tag: key
+            });
+            n.onclick = () => { window.focus(); n.close(); };
+          }catch(e){}
+        }
+      }
+    });
+  });
+}
+setInterval(checkFavoriteNotifications, 30000);
+
+function exportSettings(){
+  const data = {
+    channelMeta, sources, channelOrder,
+    exportedAt: new Date().toISOString()
+  };
+  const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'epg-live-asetukset.json';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
+function importSettingsFile(file){
+  const reader = new FileReader();
+  reader.onload = e => {
+    try{
+      const data = JSON.parse(e.target.result);
+      if(data.channelMeta && typeof data.channelMeta === 'object') channelMeta = data.channelMeta;
+      if(Array.isArray(data.sources)) sources = data.sources;
+      if(Array.isArray(data.channelOrder)) channelOrder = data.channelOrder;
+      saveChannelMeta(); saveSources(); saveChannelOrder();
+      $('#settingsStatus').className = 'ch-url-status';
+      $('#settingsStatus').textContent = 'Asetukset tuotu onnistuneesti.';
+      render();
+    }catch(err){
+      $('#settingsStatus').className = 'ch-url-status err';
+      $('#settingsStatus').textContent = 'Tiedoston luku epäonnistui: virheellinen varmuuskopiotiedosto.';
+    }
+  };
+  reader.readAsText(file);
+}
+$('#importSettingsInput').addEventListener('change', e => {
+  const f = e.target.files[0];
+  if(f) importSettingsFile(f);
+});
+
+function resetAllSettings(){
+  if(!confirm('Poistetaanko kaikki kanavien mukautukset, lähteet ja järjestys? Tätä ei voi perua.')) return;
+  channelMeta = {}; sources = []; channelOrder = [];
+  try{
+    localStorage.removeItem('epg_channel_meta');
+    localStorage.removeItem('epg_sources');
+    localStorage.removeItem('epg_channel_order');
+  }catch(e){}
+  $('#settingsStatus').className = 'ch-url-status';
+  $('#settingsStatus').textContent = 'Kaikki mukautukset nollattu.';
+  render();
+}
+
+// ---------- Kanavan mukautukset: logo + numero ----------
+let channelMeta = {};
+try{ channelMeta = JSON.parse(localStorage.getItem('epg_channel_meta') || '{}'); }catch(e){ channelMeta = {}; }
+
+function chKey(name){ return (name || '').trim().toLowerCase(); }
+function getMeta(name){ return channelMeta[chKey(name)] || {}; }
+function saveChannelMeta(){
+  try{ localStorage.setItem('epg_channel_meta', JSON.stringify(channelMeta)); return true; }
+  catch(e){ return false; }
+}
+function chIcon(ch){ const m = getMeta(ch.name); return m.logo || ch.icon || null; }
+function chNumber(ch){ const m = getMeta(ch.name); return (m.number || ch.xmlNumber || '').trim(); }
+function channelMatchesQuery(ch, q){
+  if(!q) return true;
+  if(ch.name.toLowerCase().includes(q)) return true;
+  const list = programmesByCh[ch.id] || [];
+  return list.some(p =>
+    (p.title && p.title.toLowerCase().includes(q)) ||
+    (p.desc && p.desc.toLowerCase().includes(q))
+  );
+}
+function isHidden(ch){ return !!getMeta(ch.name).hidden; }
+function isFavorite(ch){ return !!getMeta(ch.name).favorite; }
+
+function toggleFavorite(name){
+  const key = chKey(name);
+  const existing = channelMeta[key] || {};
+  channelMeta[key] = { ...existing, favorite: !existing.favorite || undefined };
+  saveChannelMeta();
+  render();
+}
+function getCategory(ch){ return (getMeta(ch.name).category || '').trim(); }
+
+function allCategories(){
+  const set = new Set();
+  Object.values(channelMeta).forEach(m => { if(m.category) set.add(m.category); });
+  return [...set].sort((a,b) => a.localeCompare(b,'fi'));
+}
+
+function groupByCategory(list){
+  const groups = {};
+  const order = [];
+  list.forEach(ch => {
+    const cat = getCategory(ch) || 'Muut';
+    if(!groups[cat]){ groups[cat] = []; order.push(cat); }
+    groups[cat].push(ch);
+  });
+  order.sort((a,b) => {
+    if(a === 'Muut') return 1;
+    if(b === 'Muut') return -1;
+    return a.localeCompare(b, 'fi');
+  });
+  return order.map(cat => ({ category: cat, list: groups[cat] }));
+}
+
+let groupByCategoryEnabled = localStorage.getItem('epg_group_by_category') === '1';
+$('#groupToggleBtn').classList.toggle('active', groupByCategoryEnabled);
+function toggleGrouping(){
+  groupByCategoryEnabled = !groupByCategoryEnabled;
+  try{ localStorage.setItem('epg_group_by_category', groupByCategoryEnabled ? '1' : '0'); }catch(e){}
+  $('#groupToggleBtn').classList.toggle('active', groupByCategoryEnabled);
+  render();
+}
+
+function openHiddenModal(){
+  const hidden = channels.filter(isHidden);
+  $('#hiddenList').innerHTML = hidden.length === 0
+    ? `<div class="src-empty">Ei piilotettuja kanavia.</div>`
+    : hidden.map(ch => {
+        const iconSrc = chIcon(ch);
+        const iconHtml = iconSrc
+          ? `<img class="order-icon-img" src="${escapeHtml(iconSrc)}">`
+          : `<div class="order-icon-fallback">${escapeHtml(ch.name.slice(0,2).toUpperCase())}</div>`;
+        return `<div class="src-item">
+          ${iconHtml}
+          <div class="src-info"><div class="src-name">${escapeHtml(ch.name)}</div></div>
+          <button class="btn small" onclick="unhideChannel('${ch.name.replace(/'/g,"\\'")}')">👁 Näytä</button>
+        </div>`;
+      }).join('');
+  $('#hiddenModal').style.display = 'block';
+  $('#hiddenBackdrop').style.display = 'block';
+}
+function closeHiddenModal(){
+  $('#hiddenModal').style.display = 'none';
+  $('#hiddenBackdrop').style.display = 'none';
+}
+function unhideChannel(name){
+  const key = chKey(name);
+  if(channelMeta[key]) channelMeta[key].hidden = undefined;
+  saveChannelMeta();
+  openHiddenModal();
+  render();
+}
+
+// ---------- Kanavien järjestys ----------
+let channelOrder = [];
+try{ channelOrder = JSON.parse(localStorage.getItem('epg_channel_order') || '[]'); }catch(e){ channelOrder = []; }
+
+function saveChannelOrder(){
+  try{ localStorage.setItem('epg_channel_order', JSON.stringify(channelOrder)); }catch(e){}
+}
+
+function sortChannels(list){
+  return list.slice().sort((a, b) => {
+    const fa = isFavorite(a) ? 0 : 1;
+    const fb = isFavorite(b) ? 0 : 1;
+    if(fa !== fb) return fa - fb;
+    const ia = channelOrder.indexOf(chKey(a.name));
+    const ib = channelOrder.indexOf(chKey(b.name));
+    if(ia === -1 && ib === -1) return a.name.localeCompare(b.name, 'fi');
+    if(ia === -1) return 1;
+    if(ib === -1) return -1;
+    return ia - ib;
+  });
+}
+
+function openOrderModal(){
+  const known = channels.map(c => chKey(c.name));
+  if(channelOrder.length === 0){
+    channelOrder = channels.slice().sort((a,b) => a.name.localeCompare(b.name,'fi')).map(c => chKey(c.name));
+  } else {
+    known.forEach(k => { if(!channelOrder.includes(k)) channelOrder.push(k); });
+    channelOrder = channelOrder.filter(k => known.includes(k));
+  }
+  renderOrderList();
+  $('#orderModal').style.display = 'block';
+  $('#orderBackdrop').style.display = 'block';
+}
+
+function renderOrderList(){
+  $('#orderList').innerHTML = channelOrder.map((key) => {
+    const ch = channels.find(c => chKey(c.name) === key);
+    if(!ch) return '';
+    const iconSrc = chIcon(ch);
+    const iconHtml = iconSrc
+      ? `<img class="order-icon-img" src="${escapeHtml(iconSrc)}">`
+      : `<div class="order-icon-fallback">${escapeHtml(ch.name.slice(0,2).toUpperCase())}</div>`;
+    return `<div class="src-item order-item" data-key="${escapeHtml(key)}">
+      <div class="order-handle">⠿</div>
+      ${iconHtml}
+      <div class="src-info"><div class="src-name">${escapeHtml(ch.name)}</div></div>
+      <button class="btn small" title="Ylimmäiseksi" onclick="moveChannelTop('${key.replace(/'/g,"\\'")}')">⤒</button>
+    </div>`;
+  }).join('');
+  attachOrderDragHandlers();
+}
+
+function moveChannelTop(key){
+  const i = channelOrder.indexOf(key);
+  if(i <= 0) return;
+  channelOrder.splice(i, 1);
+  channelOrder.unshift(key);
+  saveChannelOrder();
+  renderOrderList();
+  render();
+}
+
+function closeOrderModal(){
+  $('#orderModal').style.display = 'none';
+  $('#orderBackdrop').style.display = 'none';
+}
+
+// ---------- Kanavien raahaus (pointer events, toimii myös kosketusnäytöllä) ----------
+let orderDragEl = null;
+let orderDragStartY = 0;
+
+function attachOrderDragHandlers(){
+  $('#orderList').querySelectorAll('.order-handle').forEach(handle => {
+    handle.addEventListener('pointerdown', onOrderDragStart);
+  });
+}
+
+function onOrderDragStart(e){
+  e.preventDefault();
+  orderDragEl = e.target.closest('.order-item');
+  orderDragStartY = e.clientY;
+  orderDragEl.classList.add('dragging');
+  orderDragEl.setPointerCapture(e.pointerId);
+  orderDragEl.addEventListener('pointermove', onOrderDragMove);
+  orderDragEl.addEventListener('pointerup', onOrderDragEnd);
+  orderDragEl.addEventListener('pointercancel', onOrderDragEnd);
+}
+
+function onOrderDragMove(e){
+  if(!orderDragEl) return;
+  const list = $('#orderList');
+  const siblings = [...list.querySelectorAll('.order-item')].filter(el => el !== orderDragEl);
+  for(const sib of siblings){
+    const rect = sib.getBoundingClientRect();
+    const mid = rect.top + rect.height / 2;
+    if(e.clientY < mid){
+      if(sib.previousElementSibling !== orderDragEl) list.insertBefore(orderDragEl, sib);
+      return;
+    }
+  }
+  if(list.lastElementChild !== orderDragEl) list.appendChild(orderDragEl);
+}
+
+function onOrderDragEnd(e){
+  if(!orderDragEl) return;
+  orderDragEl.classList.remove('dragging');
+  orderDragEl.removeEventListener('pointermove', onOrderDragMove);
+  orderDragEl.removeEventListener('pointerup', onOrderDragEnd);
+  orderDragEl.removeEventListener('pointercancel', onOrderDragEnd);
+  channelOrder = [...$('#orderList').querySelectorAll('.order-item')].map(el => el.dataset.key);
+  saveChannelOrder();
+  orderDragEl = null;
+  render();
+}
+
+function resizeImageFile(file, maxSize, cb){
+  const reader = new FileReader();
+  reader.onload = e => {
+    const img = new Image();
+    img.onload = () => {
+      let w = img.width, h = img.height;
+      if(w > h){ if(w > maxSize){ h = Math.round(h*maxSize/w); w = maxSize; } }
+      else { if(h > maxSize){ w = Math.round(w*maxSize/h); h = maxSize; } }
+      const canvas = document.createElement('canvas');
+      canvas.width = w; canvas.height = h;
+      canvas.getContext('2d').drawImage(img, 0, 0, w, h);
+      cb(canvas.toDataURL('image/png', 0.9));
+    };
+    img.onerror = () => cb(null);
+    img.src = e.target.result;
+  };
+  reader.onerror = () => cb(null);
+  reader.readAsDataURL(file);
+}
+
+let editingChannel = null;
+
+function openChannelEdit(name){
+  editingChannel = name;
+  const m = getMeta(name);
+  const ch = channels.find(c => c.name === name);
+  const currentLogo = m.logo || (ch && ch.icon) || '';
+  const categoryOptions = allCategories().map(c => `<option value="${escapeHtml(c)}">`).join('');
+  $('#chEditSheet').innerHTML = `
+    <button class="close" onclick="closeChannelEdit()">✕</button>
+    <h3>${escapeHtml(name)}</h3>
+    <div class="ch-edit-preview">
+      <img id="chEditPreview" src="${escapeHtml(currentLogo)}" onerror="this.style.opacity=0">
+    </div>
+    <label class="field-label">Lataa kuvake omalta koneelta (PNG/JPG)</label>
+    <input type="file" id="chLogoInput" accept="image/*">
+    <label class="field-label">Tai hae kuva linkistä</label>
+    <div class="logo-url-row">
+      <input type="text" id="chLogoUrlInput" class="search" placeholder="https://…/logo.png" value="${/^https?:\/\//.test(currentLogo) ? escapeHtml(currentLogo) : ''}">
+      <button class="btn" id="useLogoUrlBtn" type="button">Käytä</button>
+    </div>
+    <div class="ch-url-status" id="chUrlStatus"></div>
+    <label class="field-label">Kanavanumero</label>
+    <input type="text" id="chNumberInput" class="search" style="width:100%" placeholder="esim. 118" value="${escapeHtml(m.number || (ch ? ch.xmlNumber : '') || '')}">
+    <label class="field-label">Kategoria / ryhmä</label>
+    <input type="text" id="chCategoryInput" class="search" style="width:100%" list="categoryOptions" placeholder="esim. Urheilu, Uutiset, Lapset…" value="${escapeHtml(m.category || '')}">
+    <datalist id="categoryOptions">${categoryOptions}</datalist>
+    <label class="ch-hide-row">
+      <input type="checkbox" id="chFavoriteInput" ${m.favorite ? 'checked' : ''}>
+      <span>★ Merkitse suosikiksi (nostetaan listan kärkeen)</span>
+    </label>
+    <label class="ch-hide-row">
+      <input type="checkbox" id="chHiddenInput" ${m.hidden ? 'checked' : ''}>
+      <span>Piilota tämä kanava listoista</span>
+    </label>
+    <div class="ch-edit-actions">
+      <button class="btn" onclick="resetChannelMeta()">Poista mukautukset</button>
+      <button class="btn primary" onclick="saveChannelEdit()">Tallenna</button>
+    </div>
+  `;
+  $('#chEditSheet').style.display = 'block';
+  $('#tlBackdrop').style.display = 'block';
+  $('#chLogoInput').addEventListener('change', e => {
+    const f = e.target.files[0];
+    if(!f) return;
+    resizeImageFile(f, 128, dataUrl => {
+      if(dataUrl) $('#chEditPreview').src = dataUrl;
+      $('#chEditPreview').dataset.pending = dataUrl || '';
+      $('#chUrlStatus').textContent = '';
+    });
+  });
+  $('#useLogoUrlBtn').addEventListener('click', () => {
+    const url = $('#chLogoUrlInput').value.trim();
+    if(!url){ $('#chLogoUrlInput').focus(); return; }
+    const test = new Image();
+    test.onload = () => {
+      $('#chEditPreview').src = url;
+      $('#chEditPreview').dataset.pending = url;
+      $('#chUrlStatus').className = 'ch-url-status';
+      $('#chUrlStatus').textContent = 'Kuva löytyi ja on valmis tallennettavaksi.';
+    };
+    test.onerror = () => {
+      $('#chUrlStatus').className = 'ch-url-status err';
+      $('#chUrlStatus').textContent = 'Kuvaa ei saatu ladattua tuosta linkistä.';
+    };
+    test.src = url;
+  });
+}
+
+function saveChannelEdit(){
+  if(!editingChannel) return;
+  const key = chKey(editingChannel);
+  const number = $('#chNumberInput').value.trim();
+  const category = $('#chCategoryInput').value.trim();
+  const hidden = $('#chHiddenInput').checked;
+  const favorite = $('#chFavoriteInput').checked;
+  const pendingLogo = $('#chEditPreview').dataset.pending;
+  const existing = channelMeta[key] || {};
+  channelMeta[key] = {
+    number: number || undefined,
+    category: category || undefined,
+    hidden: hidden || undefined,
+    favorite: favorite || undefined,
+    logo: pendingLogo || existing.logo || undefined
+  };
+  const ok = saveChannelMeta();
+  if(!ok){
+    $('#chUrlStatus').className = 'ch-url-status err';
+    $('#chUrlStatus').textContent = 'Tallennus epäonnistui – selaimen tallennustila on täynnä. Kokeile pienempää kuvaa, tai varmuuskopioi/tyhjennä asetuksia "⚙ Asetukset" -valikosta.';
+    return;
+  }
+  closeChannelEdit();
+  render();
+}
+
+function resetChannelMeta(){
+  if(!editingChannel) return;
+  delete channelMeta[chKey(editingChannel)];
+  saveChannelMeta();
+  closeChannelEdit();
+  render();
+}
+
+function closeChannelEdit(){
+  editingChannel = null;
+  $('#chEditSheet').style.display = 'none';
+  if($('#tlSheet').style.display !== 'block') $('#tlBackdrop').style.display = 'none';
+}
+
+fileInput.addEventListener('change', e => {
+
+
+  const f = e.target.files[0];
+  if(!f) return;
+  const reader = new FileReader();
+  reader.onload = ev => loadText(ev.target.result, f.name);
+  reader.onerror = () => { statusEl.className='err'; statusEl.textContent = 'Tiedoston luku epäonnistui.'; };
+  reader.readAsText(f);
+});
+
+['dragenter','dragover'].forEach(ev => dropzone.addEventListener(ev, e => {
+  e.preventDefault(); dropzone.classList.add('drag');
+}));
+['dragleave','drop'].forEach(ev => dropzone.addEventListener(ev, e => {
+  e.preventDefault(); dropzone.classList.remove('drag');
+}));
+dropzone.addEventListener('drop', e => {
+  const f = e.dataTransfer.files[0];
+  if(!f) return;
+  const reader = new FileReader();
+  reader.onload = ev => loadText(ev.target.result, f.name);
+  reader.readAsText(f);
+});
+
+clearBtn.addEventListener('click', () => {
+  channels = []; programmesByCh = {}; expandedId = null;
+  idbDelete('epg_xml'); idbDelete('epg_label');
+  try{ localStorage.removeItem('epg_xml'); localStorage.removeItem('epg_label'); }catch(e){}
+  statusEl.textContent = ''; clearBtn.style.display = 'none';
+  render();
+});
+
+// palauta viimeksi ladattu opas (IndexedDB, ja vanha localStorage-tallennus varajärjestelmänä)
+(async function restore(){
+  try{
+    let saved = await idbGet('epg_xml');
+    let label = await idbGet('epg_label');
+    if(!saved){
+      try{
+        saved = localStorage.getItem('epg_xml');
+        label = localStorage.getItem('epg_label');
+      }catch(e){}
+    }
+    if(saved) loadText(saved, label || 'tallennettu opas');
+  }catch(e){}
+  setTimeout(maybeAutoRefreshSource, 4000);
+})();
+
+// ---------- Rendering ----------
+function findCurrent(list, now){
+  return list.find(p => p.start <= now && now < p.stop) || null;
+}
+function findNext(list, now){
+  return list.find(p => p.start > now) || null;
+}
+function findNextN(list, now, n){
+  return list.filter(p => p.start > now).slice(0, n);
+}
+function fmtTime(d){
+  return d.toLocaleTimeString('fi-FI', {hour:'2-digit', minute:'2-digit'});
+}
+function fmtRemaining(ms){
+  const min = Math.max(0, Math.round(ms/60000));
+  if(min < 60) return `${min} min jäljellä`;
+  const h = Math.floor(min/60), m = min%60;
+  return `${h} h ${m} min jäljellä`;
+}
+function escapeHtml(s){
+  return (s||'').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+let currentView = 'cards';
+let pxPerMin = 6;
+let tlGlobalMin = null;
+let tlGlobalMax = null;
+let tlDateInited = false;
+let tlInited = false;
+
+function setView(v){
+  currentView = v;
+  $('#viewCardsBtn').classList.toggle('active', v === 'cards');
+  $('#viewTimelineBtn').classList.toggle('active', v === 'timeline');
+  $('#main').style.display = v === 'cards' ? '' : 'none';
+  $('#timelineView').style.display = v === 'timeline' ? 'flex' : 'none';
+  render();
+  if(v === 'timeline' && !tlInited){
+    tlInited = true;
+    requestAnimationFrame(() => setTimeout(tlJumpNow, 30));
+  }
+}
+
+let searchDebounceTimer = null;
+function onSearchInput(){
+  clearTimeout(searchDebounceTimer);
+  searchDebounceTimer = setTimeout(render, 150);
+}
+
+function render(){
+  const main = $('#main');
+  const empty = $('#emptyState');
+
+  if(channels.length === 0){
+    main.innerHTML = '';
+    main.appendChild(empty);
+    $('#tlChCol').innerHTML = '';
+    $('#tlHContent').innerHTML = '';
+    return;
+  }
+  if(empty.parentNode) empty.remove();
+
+  if(currentView === 'cards') renderCards();
+  else renderTimeline();
+}
+
+function renderCards(){
+  const q = $('#search').value.trim().toLowerCase();
+  const now = new Date();
+  const main = $('#main');
+
+  const filtered = sortChannels(channels.filter(c => !isHidden(c) && channelMatchesQuery(c, q)));
+
+  if(groupByCategoryEnabled){
+    main.innerHTML = groupByCategory(filtered).map(g => `
+      <div class="category-header">${escapeHtml(g.category)}</div>
+      ${g.list.map(ch => cardHtmlFor(ch, now)).join('')}
+    `).join('');
+  } else {
+    main.innerHTML = filtered.map(ch => cardHtmlFor(ch, now)).join('');
+  }
+}
+
+function cardHtmlFor(ch, now){
+  const list = programmesByCh[ch.id] || [];
+  const cur = findCurrent(list, now);
+  const next3 = findNextN(list, now, 3);
+  const isExpanded = expandedId === ch.id;
+
+  const upcomingHtml = next3.length ? `
+    <div class="c2-upcoming">
+      ${next3.map(p => `<div class="c2-up-item" onclick="event.stopPropagation(); showProgramSheetByTime('${ch.id.replace(/'/g,"\\'")}', ${p.start.getTime()})">
+        <span class="c2-up-time">${fmtTime(p.start)}</span>${escapeHtml(p.title)}
+      </div>`).join('')}
+    </div>` : '';
+
+  let bodyHtml;
+  if(cur){
+    const total = cur.stop - cur.start;
+    const elapsed = now - cur.start;
+    const pct = Math.min(100, Math.max(0, (elapsed/total)*100));
+    bodyHtml = `
+      <div class="c2-title-row">
+        <span class="c2-title" onclick="event.stopPropagation(); showProgramSheetByTime('${ch.id.replace(/'/g,"\\'")}', ${cur.start.getTime()})">${escapeHtml(cur.title)}</span>
+        <span class="live-dot"></span>
+        <span class="c2-remaining">(${fmtRemaining(cur.stop - now)})</span>
+      </div>
+      <div class="c2-meta-row">
+        <span>${fmtTime(cur.start)}–${fmtTime(cur.stop)}${cur.category ? ` · ${escapeHtml(cur.category)}` : ''} <span class="badge live">LIVE</span></span>
+      </div>
+      <div class="progress-wrap"><div class="progress-bar" style="width:${pct}%"></div></div>
+      ${upcomingHtml}
+    `;
+  } else {
+    bodyHtml = `<div class="no-info">Ei ohjelmatietoa juuri nyt</div>${upcomingHtml}`;
+  }
+
+  let scheduleHtml = '';
+  if(isExpanded){
+    const upcoming = list.filter(p => p.stop > now).slice(0, 12);
+    scheduleHtml = `<div class="schedule">` + upcoming.map(p => {
+      const isCur = p === cur;
+      return `<div class="sched-item ${isCur ? 'current' : ''}" onclick="event.stopPropagation(); showProgramSheetByTime('${ch.id.replace(/'/g,"\\'")}', ${p.start.getTime()})">
+        <div class="t">${fmtTime(p.start)}–${fmtTime(p.stop)}</div>
+        <div>${isCur ? '<b>' : ''}${escapeHtml(p.title)}${isCur ? '</b>' : ''}</div>
+      </div>`;
+    }).join('') + `</div>`;
+  }
+
+  const iconSrc = chIcon(ch);
+  const num = chNumber(ch);
+  const fav = isFavorite(ch);
+  const iconInner = iconSrc
+    ? `<img class="ch-icon" src="${escapeHtml(iconSrc)}" onerror="this.style.display='none'">`
+    : `<div class="ch-icon-name">${escapeHtml(ch.name)}</div>`;
+  const iconHtml = `
+    <div class="icon-wrap" onclick="event.stopPropagation(); openChannelEdit('${ch.name.replace(/'/g,"\\'")}')">
+      ${iconInner}
+      <div class="edit-pencil">✎</div>
+      <div class="fav-star ${fav ? 'active' : ''}" title="Suosikki" onclick="event.stopPropagation(); toggleFavorite('${ch.name.replace(/'/g,"\\'")}')">${fav ? '★' : '☆'}</div>
+      ${num ? `<div class="ch-number-badge">${escapeHtml(num)}</div>` : ''}
+    </div>`;
+
+  return `
+    <div class="card ${isExpanded ? 'expanded' : ''}" onclick="toggleExpand('${ch.id.replace(/'/g,"\\'")}')">
+      <div class="card-icon-col">${iconHtml}</div>
+      <div class="card-content">
+        ${bodyHtml}
+        ${scheduleHtml}
+      </div>
+    </div>
+  `;
+}
+
+function toggleExpand(id){
+  expandedId = expandedId === id ? null : id;
+  render();
+}
+
+// ---------- Timeline view ----------
+function renderTimeline(){
+  const q = $('#search').value.trim().toLowerCase();
+  const now = new Date();
+
+  const filtered = sortChannels(channels.filter(c => !isHidden(c) && channelMatchesQuery(c, q)));
+
+  let rows;
+  if(groupByCategoryEnabled){
+    rows = [];
+    groupByCategory(filtered).forEach(g => {
+      rows.push({ type: 'header', category: g.category });
+      g.list.forEach(ch => rows.push({ type: 'channel', ch }));
+    });
+  } else {
+    rows = filtered.map(ch => ({ type: 'channel', ch }));
+  }
+
+  let allProgs = [];
+  filtered.forEach(c => { allProgs = allProgs.concat(programmesByCh[c.id] || []); });
+
+  let globalMin, globalMax;
+  if(allProgs.length){
+    globalMin = new Date(Math.min(...allProgs.map(p => p.start.getTime())));
+    globalMax = new Date(Math.max(...allProgs.map(p => p.stop.getTime())));
+  } else {
+    globalMin = new Date(now.getTime() - 3600000);
+    globalMax = new Date(now.getTime() + 6*3600000);
+  }
+  tlGlobalMin = globalMin;
+  tlGlobalMax = globalMax;
+
+  const dateInput = $('#tlDateInput');
+  const toDateStr = d => `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+  dateInput.min = toDateStr(globalMin);
+  dateInput.max = toDateStr(globalMax);
+  if(!tlDateInited){
+    dateInput.value = toDateStr(now >= globalMin && now <= globalMax ? now : globalMin);
+    tlDateInited = true;
+  }
+
+  const totalMin = Math.max(60, (globalMax - globalMin) / 60000);
+  const timelineWidth = totalMin * pxPerMin;
+
+  let hourMarks = '';
+  let hc = new Date(globalMin);
+  hc.setMinutes(0, 0, 0);
+  while(hc <= globalMax){
+    if(hc >= globalMin){
+      const x = (hc - globalMin) / 60000 * pxPerMin;
+      const isMidnight = hc.getHours() === 0;
+      const label = isMidnight
+        ? hc.toLocaleDateString('fi-FI', { weekday:'short', day:'numeric', month:'numeric' })
+        : fmtTime(hc);
+      hourMarks += `<div class="tl-hour-mark ${isMidnight ? 'tl-day-mark' : ''}" style="left:${x}px">${label}</div>`;
+    }
+    hc = new Date(hc.getTime() + 3600000);
+  }
+
+  const nowX = (now - globalMin) / 60000 * pxPerMin;
+  const nowInRange = now >= globalMin && now <= globalMax;
+  const nowLineHtml = nowInRange ? `<div class="tl-now-line" style="left:${nowX}px"></div>` : '';
+
+  const chColHtml = `<div class="tl-chcol-cell corner"></div>` + rows.map(r => {
+    if(r.type === 'header') return `<div class="tl-group-header">${escapeHtml(r.category)}</div>`;
+    const ch = r.ch;
+    const iconSrc = chIcon(ch);
+    const num = chNumber(ch);
+    const fav = isFavorite(ch);
+    const iconInner = iconSrc
+      ? `<img class="tl-icon" src="${escapeHtml(iconSrc)}" onerror="this.style.display='none'">`
+      : `<div class="tl-ch-name">${escapeHtml(ch.name)}</div>`;
+    return `<div class="tl-chcol-cell">
+      <div class="icon-wrap" onclick="event.stopPropagation(); openChannelEdit('${ch.name.replace(/'/g,"\\'")}')">
+        ${iconInner}
+        <div class="edit-pencil">✎</div>
+        <div class="fav-star ${fav ? 'active' : ''}" title="Suosikki" onclick="event.stopPropagation(); toggleFavorite('${ch.name.replace(/'/g,"\\'")}')">${fav ? '★' : '☆'}</div>
+        ${num ? `<div class="ch-number-badge">${escapeHtml(num)}</div>` : ''}
+      </div>
+    </div>`;
+  }).join('');
+
+  const tracksHtml = rows.map(r => {
+    if(r.type === 'header') return `<div class="tl-group-header" style="width:${timelineWidth}px"></div>`;
+    const ch = r.ch;
+    const list = programmesByCh[ch.id] || [];
+    const blocks = list.map((p, idx) => {
+      const x = (p.start - globalMin) / 60000 * pxPerMin;
+      const w = Math.max(34, (p.stop - p.start) / 60000 * pxPerMin - 3);
+      const isCur = p.start <= now && now < p.stop;
+      return `<div class="tl-block ${isCur ? 'current' : ''}" style="left:${x}px;width:${w}px"
+                onclick="tlShowInfo('${ch.id.replace(/'/g,"\\'")}', ${idx})">
+        <div class="tl-block-title">${escapeHtml(p.title)}</div>
+        ${w > 90 ? `<div class="tl-block-desc">${escapeHtml(p.desc)}</div>` : ''}
+        <div class="tl-block-time">${fmtTime(p.start)} - ${fmtTime(p.stop)}</div>
+      </div>`;
+    }).join('');
+    return `<div class="tl-track" style="width:${timelineWidth}px">${blocks}</div>`;
+  }).join('');
+
+  $('#tlChCol').innerHTML = chColHtml;
+  $('#tlHContent').style.width = timelineWidth + 'px';
+  $('#tlHContent').innerHTML =
+    `<div class="tl-hours-inner" style="width:${timelineWidth}px">${hourMarks}</div>` +
+    tracksHtml + nowLineHtml;
+  $('#tlHContent').dataset.nowx = nowInRange ? nowX : '';
+
+  updateHScrollbar();
+}
+
+// ---------- Oma aina näkyvä vaakavierityspalkki ----------
+function updateHScrollbar(){
+  const el = $('#tlHScroll');
+  const track = $('#tlSBTrack');
+  const thumb = $('#tlSBThumb');
+  const trackWidth = track.clientWidth;
+  const overflow = el.scrollWidth - el.clientWidth;
+  if(overflow <= 2){
+    $('#tlFooterRow').style.visibility = 'hidden';
+    return;
+  }
+  $('#tlFooterRow').style.visibility = 'visible';
+  const ratio = el.clientWidth / el.scrollWidth;
+  const thumbWidth = Math.max(30, ratio * trackWidth);
+  const maxThumbLeft = trackWidth - thumbWidth;
+  const scrollRatio = el.scrollLeft / overflow;
+  thumb.style.width = thumbWidth + 'px';
+  thumb.style.left = (scrollRatio * maxThumbLeft) + 'px';
+}
+
+let sbDragging = false, sbStartX = 0, sbStartScrollLeft = 0;
+$('#tlSBThumb').addEventListener('pointerdown', e => {
+  sbDragging = true;
+  sbStartX = e.clientX;
+  sbStartScrollLeft = $('#tlHScroll').scrollLeft;
+  $('#tlSBThumb').setPointerCapture(e.pointerId);
+});
+$('#tlSBThumb').addEventListener('pointermove', e => {
+  if(!sbDragging) return;
+  const el = $('#tlHScroll');
+  const track = $('#tlSBTrack');
+  const thumb = $('#tlSBThumb');
+  const maxThumbLeft = track.clientWidth - thumb.offsetWidth;
+  if(maxThumbLeft <= 0) return;
+  const dx = e.clientX - sbStartX;
+  const overflow = el.scrollWidth - el.clientWidth;
+  el.scrollLeft = sbStartScrollLeft + (dx / maxThumbLeft) * overflow;
+});
+$('#tlSBThumb').addEventListener('pointerup', () => { sbDragging = false; });
+$('#tlSBTrack').addEventListener('pointerdown', e => {
+  if(e.target !== $('#tlSBTrack')) return;
+  const track = $('#tlSBTrack');
+  const thumb = $('#tlSBThumb');
+  const el = $('#tlHScroll');
+  const rect = track.getBoundingClientRect();
+  const clickX = e.clientX - rect.left - thumb.offsetWidth / 2;
+  const maxThumbLeft = track.clientWidth - thumb.offsetWidth;
+  const ratio = Math.min(1, Math.max(0, clickX / maxThumbLeft));
+  el.scrollLeft = ratio * (el.scrollWidth - el.clientWidth);
+});
+window.addEventListener('resize', () => { if(currentView === 'timeline') updateHScrollbar(); });
+
+$('#tlHScroll').addEventListener('scroll', () => { updateHScrollbar(); });
+
+function tlPage(dir){
+  $('#tlHScroll').scrollBy({ left: dir * 3 * 60 * pxPerMin, behavior: 'smooth' });
+}
+
+function tlZoom(dir){
+  const el = $('#tlHScroll');
+  const oldPx = pxPerMin;
+  pxPerMin = Math.min(14, Math.max(2, pxPerMin + dir * 2));
+  const minutesAtLeft = el.scrollLeft / oldPx;
+  renderTimeline();
+  el.scrollLeft = Math.max(0, minutesAtLeft * pxPerMin);
+  updateHScrollbar();
+}
+
+function tlJumpNow(){
+  renderTimeline();
+  const el = $('#tlHScroll');
+  const nowx = parseFloat($('#tlHContent').dataset.nowx);
+  if(!isNaN(nowx)) el.scrollLeft = Math.max(0, nowx - 60);
+  updateHScrollbar();
+}
+
+function tlJumpToDate(){
+  const val = $('#tlDateInput').value;
+  if(!val || !tlGlobalMin) return;
+  const [y, m, d] = val.split('-').map(Number);
+  const target = new Date(y, m - 1, d, 0, 0, 0);
+  const x = Math.max(0, (target - tlGlobalMin) / 60000 * pxPerMin);
+  $('#tlHScroll').scrollLeft = x;
+  updateHScrollbar();
+}
+
+function showProgramSheet(ch, p){
+  if(!ch || !p) return;
+  const now = new Date();
+  const isCur = p.start <= now && now < p.stop;
+  $('#tlSheet').innerHTML = `
+    <button class="close" onclick="tlCloseSheet()">✕</button>
+    <div class="meta">${escapeHtml(ch.name)} ${isCur ? '· <span style="color:var(--live)">LIVE NYT</span>' : ''}</div>
+    <h3>${escapeHtml(p.title)}</h3>
+    <div class="meta">${fmtTime(p.start)}–${fmtTime(p.stop)}${p.category ? ' · ' + escapeHtml(p.category) : ''}</div>
+    <div class="desc">${escapeHtml(p.desc) || 'Ei kuvausta saatavilla.'}</div>
+  `;
+  $('#tlSheet').style.display = 'block';
+  $('#tlBackdrop').style.display = 'block';
+}
+
+function showProgramSheetByTime(chId, startMs){
+  const ch = channels.find(c => c.id === chId);
+  const p = (programmesByCh[chId] || []).find(pr => pr.start.getTime() === startMs);
+  showProgramSheet(ch, p);
+}
+
+function tlShowInfo(chId, idx){
+  const ch = channels.find(c => c.id === chId);
+  const p = (programmesByCh[chId] || [])[idx];
+  showProgramSheet(ch, p);
+}
+
+function tlCloseSheet(){
+  $('#tlSheet').style.display = 'none';
+  $('#tlBackdrop').style.display = 'none';
+}
+
+function closeAllSheets(){
+  tlCloseSheet();
+  closeChannelEdit();
+}
+
+// ---------- Clock + live refresh ----------
+function tickClock(){
+  $('#clock').textContent = new Date().toLocaleTimeString('fi-FI');
+}
+setInterval(tickClock, 1000);
+tickClock();
+
+setInterval(render, 15000); // päivitä käynnissä olevat ohjelmat 15s välein
+</script>
+</body>
+</html>
