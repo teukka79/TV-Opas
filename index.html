@@ -566,7 +566,10 @@ function loadText(text, label){
     clearBtn.style.display = 'inline-flex';
     idbSet('epg_xml', text);
     idbSet('epg_label', label);
-    try{ localStorage.removeItem('epg_xml'); localStorage.removeItem('epg_label'); }catch(e){}
+    try {
+      localStorage.setItem('epg_portfolio_status_xml', text);
+      localStorage.setItem('epg_portfolio_status_label', label);
+    } catch(e) {}
     render();
   }catch(err){
     statusEl.className = 'err';
@@ -796,6 +799,8 @@ function resetAllSettings(){
     localStorage.removeItem('epg_channel_meta');
     localStorage.removeItem('epg_sources');
     localStorage.removeItem('epg_channel_order');
+    localStorage.removeItem('epg_portfolio_status_xml');
+    localStorage.removeItem('epg_portfolio_status_label');
   }catch(e){}
   $('#settingsStatus').className = 'ch-url-status';
   $('#settingsStatus').textContent = 'Kaikki mukautukset nollattu.';
@@ -1168,7 +1173,12 @@ dropzone.addEventListener('drop', e => {
 clearBtn.addEventListener('click', () => {
   channels = []; programmesByCh = {}; expandedId = null;
   idbDelete('epg_xml'); idbDelete('epg_label');
-  try{ localStorage.removeItem('epg_xml'); localStorage.removeItem('epg_label'); }catch(e){}
+  try{
+    localStorage.removeItem('epg_xml');
+    localStorage.removeItem('epg_label');
+    localStorage.removeItem('epg_portfolio_status_xml');
+    localStorage.removeItem('epg_portfolio_status_label');
+  }catch(e){}
   statusEl.textContent = ''; clearBtn.style.display = 'none';
   render();
 });
@@ -1179,8 +1189,8 @@ clearBtn.addEventListener('click', () => {
     let label = await idbGet('epg_label');
     if(!saved){
       try{
-        saved = localStorage.getItem('epg_xml');
-        label = localStorage.getItem('epg_label');
+        saved = localStorage.getItem('epg_portfolio_status_xml') || localStorage.getItem('epg_xml');
+        label = localStorage.getItem('epg_portfolio_status_label') || localStorage.getItem('epg_label');
       }catch(e){}
     }
     if(saved) {
@@ -1547,6 +1557,7 @@ function tlJumpToDate(){
   updateHScrollbar();
 }
 
+// ---------- Program Details Sheet ----------
 function showProgramSheet(ch, p){
   if(!ch || !p) return;
   const now = new Date();
@@ -1593,5 +1604,6 @@ tickClock();
 
 setInterval(render, 15000);
 </script>
+<script src="script.js"></script>
 </body>
 </html>
