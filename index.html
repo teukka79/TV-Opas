@@ -1252,7 +1252,7 @@ function render(){
     $('#tlHContent').innerHTML = '';
     return;
   }
-  if(empty.parentNode) empty.remove();
+  if(empty?.parentNode) empty.remove();
 
   if(currentView === 'cards') renderCards();
   else renderTimeline();
