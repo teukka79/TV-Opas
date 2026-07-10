@@ -1,0 +1,569 @@
+[
+  {
+    "id": "bbc-nordic",
+    "nimi": "BBC Nordic",
+    "xmltv_id": "BBCNordic.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/bbc-nordic-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "c-more-hits",
+    "nimi": "C More Hits",
+    "xmltv_id": "CMoreHits.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/c-more-hits-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "c-more-hits-hd",
+    "nimi": "C More Hits HD",
+    "xmltv_id": "CMoreHitsHD.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/c-more-hits-hd-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "c-more-hits-hd-hz",
+    "nimi": "C More Hits HD HZ",
+    "xmltv_id": "CMoreHitsHDHZ.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/c-more-hits-hd-hz-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "c-more-hits-hz",
+    "nimi": "C More Hits HZ",
+    "xmltv_id": "CMoreHitsHZ.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/c-more-hits-hz-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "c-more-juniori",
+    "nimi": "C More Juniori",
+    "xmltv_id": "CMoreJuniori.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/c-more-juniori-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "c-more-juniori-hd",
+    "nimi": "C More Juniori HD",
+    "xmltv_id": "CMoreJunioriHD.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/c-more-juniori-hd-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "c-more-juniori-hd-hz",
+    "nimi": "C More Juniori HD HZ",
+    "xmltv_id": "CMoreJunioriHDHZ.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/c-more-juniori-hd-hz-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "c-more-juniori-hz",
+    "nimi": "C More Juniori HZ",
+    "xmltv_id": "CMoreJunioriHZ.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/c-more-juniori-hz-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "c-more-max",
+    "nimi": "C More Max",
+    "xmltv_id": "CMoreMax.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/c-more-max-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "c-more-max-hd",
+    "nimi": "C More Max HD",
+    "xmltv_id": "CMoreMaxHD.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/c-more-max-hd-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "c-more-max-hd-hz",
+    "nimi": "C More Max HD HZ",
+    "xmltv_id": "CMoreMaxHDHZ.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/c-more-max-hd-hz-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "c-more-max-hz",
+    "nimi": "C More Max HZ",
+    "xmltv_id": "CMoreMaxHZ.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/c-more-max-hz-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "c-more-series",
+    "nimi": "C More Series",
+    "xmltv_id": "CMoreSeries.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/c-more-series-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "c-more-series-hd",
+    "nimi": "C More Series HD",
+    "xmltv_id": "CMoreSeriesHD.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/c-more-series-hd-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "c-more-series-hd-hz",
+    "nimi": "C More Series HD HZ",
+    "xmltv_id": "CMoreSeriesHDHZ.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/c-more-series-hd-hz-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "c-more-series-hz",
+    "nimi": "C More Series HZ",
+    "xmltv_id": "CMoreSeriesHZ.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/c-more-series-hz-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "c-more-sport-1",
+    "nimi": "C More Sport 1",
+    "xmltv_id": "CMoreSport1.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/c-more-sport-1-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "c-more-sport-1-hd",
+    "nimi": "C More Sport 1 HD",
+    "xmltv_id": "CMoreSport1HD.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/c-more-sport-1-hd-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "c-more-sport-1-hd-hz",
+    "nimi": "C More Sport 1 HD HZ",
+    "xmltv_id": "CMoreSport1HDHZ.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/c-more-sport-1-hd-hz-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "c-more-sport-1-hz",
+    "nimi": "C More Sport 1 HZ",
+    "xmltv_id": "CMoreSport1HZ.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/c-more-sport-1-hz-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "c-more-sport-2",
+    "nimi": "C More Sport 2",
+    "xmltv_id": "CMoreSport2.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/c-more-sport-2-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "c-more-sport-2-hd",
+    "nimi": "C More Sport 2 HD",
+    "xmltv_id": "CMoreSport2HD.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/c-more-sport-2-hd-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "c-more-sport-2-hd-hz",
+    "nimi": "C More Sport 2 HD HZ",
+    "xmltv_id": "CMoreSport2HDHZ.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/c-more-sport-2-hd-hz-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "c-more-sport-2-hz",
+    "nimi": "C More Sport 2 HZ",
+    "xmltv_id": "CMoreSport2HZ.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/c-more-sport-2-hz-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "c-more-stars",
+    "nimi": "C More Stars",
+    "xmltv_id": "CMoreStars.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/c-more-stars-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "c-more-stars-hd",
+    "nimi": "C More Stars HD",
+    "xmltv_id": "CMoreStarsHD.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/c-more-stars-hd-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "c-more-stars-hd-hz",
+    "nimi": "C More Stars HD HZ",
+    "xmltv_id": "CMoreStarsHDHZ.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/c-more-stars-hd-hz-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "c-more-stars-hz",
+    "nimi": "C More Stars HZ",
+    "xmltv_id": "CMoreStarsHZ.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/c-more-stars-hz-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "c-morerst",
+    "nimi": "C More First",
+    "xmltv_id": "CMoreFirst.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/c-more-first-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "c-morerst-hd",
+    "nimi": "C More First HD",
+    "xmltv_id": "CMoreFirstHD.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/c-more-first-hd-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "c-morerst-hd-hz",
+    "nimi": "C More First HD HZ",
+    "xmltv_id": "CMoreFirstHDHZ.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/c-more-first-hd-hz-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "c-morerst-hz",
+    "nimi": "C More First HZ",
+    "xmltv_id": "CMoreFirstHZ.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/c-more-first-hz-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "deed",
+    "nimi": "Deed",
+    "xmltv_id": "Deed.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/deed-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "frii",
+    "nimi": "Frii",
+    "xmltv_id": "Frii.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/frii-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "hero",
+    "nimi": "Hero",
+    "xmltv_id": "Hero.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/hero-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "irr-tv",
+    "nimi": "IRR-TV",
+    "xmltv_id": "IRRTV.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/irr-tv-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "jim",
+    "nimi": "Jim",
+    "xmltv_id": "Jim.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/jim-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "kutonen",
+    "nimi": "Kutonen",
+    "xmltv_id": "Kutonen.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/kutonen-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "liiga",
+    "nimi": "Liiga",
+    "xmltv_id": "Liiga.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/liiga-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "liv",
+    "nimi": "Liv",
+    "xmltv_id": "Liv.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/liv-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "mt",
+    "nimi": "MT",
+    "xmltv_id": "MT.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/mt-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "mtv",
+    "nimi": "MTV",
+    "xmltv_id": "MTV.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/mtv-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "mtv-ava",
+    "nimi": "MTV Ava",
+    "xmltv_id": "MTVAva.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/mtv-ava-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "mtv-sub",
+    "nimi": "MTV Sub",
+    "xmltv_id": "MTVSub.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/mtv-sub-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "mtv3",
+    "nimi": "MTV3",
+    "xmltv_id": "MTV3.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/mtv3-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "nelonen",
+    "nimi": "Nelonen",
+    "xmltv_id": "Nelonen.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/nelonen-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "one-way-tv",
+    "nimi": "One Way TV",
+    "xmltv_id": "OneWayTV.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/one-way-tv-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "onni-tv",
+    "nimi": "Onni TV",
+    "xmltv_id": "OnniTV.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/onni-tv-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "sf-kanalen",
+    "nimi": "SF-Kanalen",
+    "xmltv_id": "SFKanalen.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/sf-kanalen-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "star-channel",
+    "nimi": "STAR Channel",
+    "xmltv_id": "STARChannel.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/star-channel-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "tapahtuma-tv-eveo",
+    "nimi": "Tapahtuma TV Eveo",
+    "xmltv_id": "TapahtumaTVEveo.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/tapahtuma-tv-eveo-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "tv5",
+    "nimi": "TV5",
+    "xmltv_id": "TV5.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/tv5-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "v-sport",
+    "nimi": "V sport",
+    "xmltv_id": "Vsport.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-sport-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "v-sport-1",
+    "nimi": "V sport 1",
+    "xmltv_id": "Vsport1.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-sport-1-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "v-sport-1-suomi",
+    "nimi": "V sport 1 Suomi",
+    "xmltv_id": "Vsport1Suomi.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-sport-1-suomi-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "v-sport-2-suomi",
+    "nimi": "V sport 2 Suomi",
+    "xmltv_id": "Vsport2Suomi.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-sport-2-suomi-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "v-sport-football",
+    "nimi": "V sport football",
+    "xmltv_id": "VsportFootball.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-sport-football-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "v-sport-golf",
+    "nimi": "V sport golf",
+    "xmltv_id": "VsportGolf.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-sport-golf-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "v-sport-live-1",
+    "nimi": "V sport live 1",
+    "xmltv_id": "VsportLive1.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-sport-live-1-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "v-sport-live-2",
+    "nimi": "V sport live 2",
+    "xmltv_id": "VsportLive2.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-sport-live-2-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "v-sport-live-3",
+    "nimi": "V sport live 3",
+    "xmltv_id": "VsportLive3.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-sport-live-3-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "v-sport-live-4",
+    "nimi": "V sport live 4",
+    "xmltv_id": "VsportLive4.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-sport-live-4-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "v-sport-live-5",
+    "nimi": "V sport live 5",
+    "xmltv_id": "VsportLive5.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-sport-live-5-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "v-sport-plus-suomi",
+    "nimi": "V sport+ Suomi",
+    "xmltv_id": "VsportPlusSuomi.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-sport-plus-suomi-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "v-sport-premium",
+    "nimi": "V sport premium",
+    "xmltv_id": "VsportPremium.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-sport-premium-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "v-sport-vinter",
+    "nimi": "V sport vinter",
+    "xmltv_id": "VsportVinter.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-sport-vinter-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "viasat-explore",
+    "nimi": "Viasat Explore",
+    "xmltv_id": "ViasatExplore.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/viasat-explore-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "viasat-history",
+    "nimi": "Viasat History",
+    "xmltv_id": "ViasatHistory.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/viasat-history-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "viasat-nature",
+    "nimi": "Viasat Nature",
+    "xmltv_id": "ViasatNature.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/viasat-nature-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "vlm-action",
+    "nimi": "V film action",
+    "xmltv_id": "Vfilmaction.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-film-action-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "vlm-action-hd",
+    "nimi": "V film action HD",
+    "xmltv_id": "VfilmactionHD.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-film-action-hd-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "vlm-family",
+    "nimi": "V film family",
+    "xmltv_id": "Vfilmfamily.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-film-family-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "vlm-family-hd",
+    "nimi": "V film family HD",
+    "xmltv_id": "VfilmfamilyHD.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-film-family-hd-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "vlm-hits",
+    "nimi": "V film hits",
+    "xmltv_id": "Vfilmhits.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-film-hits-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "vlm-hits-hd",
+    "nimi": "V film hits HD",
+    "xmltv_id": "VfilmhitsHD.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-film-hits-hd-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "vlm-premiere",
+    "nimi": "V film premiere",
+    "xmltv_id": "Vfilmpremiere.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-film-premiere-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "vlm-premiere-hd",
+    "nimi": "V film premiere HD",
+    "xmltv_id": "VfilmpremiereHD.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-film-premiere-hd-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "yle-teema-fem",
+    "nimi": "Yle Teema Fem",
+    "xmltv_id": "YleTeemaFem.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/yle-teema-fem-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "yle-tv1",
+    "nimi": "Yle TV1",
+    "xmltv_id": "YleTV1.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/yle-tv1-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "yle-tv2",
+    "nimi": "Yle TV2",
+    "xmltv_id": "YleTV2.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/yle-tv2-fi.png",
+    "maa": "finland"
+  }
+]
