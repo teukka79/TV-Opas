@@ -84,6 +84,13 @@
     "maa": "finland"
   },
   {
+    "id": "mtv-juniori",
+    "nimi": "MTV Juniori",
+    "xmltv_id": "MTV Juniori.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/mtv-juniori-fi.png",
+    "maa": "finland"
+  },
+  {
     "id": "tlc",
     "nimi": "TLC",
     "xmltv_id": "TLC.fi",
@@ -109,6 +116,13 @@
     "nimi": "Discovery",
     "xmltv_id": "Discovery Channel.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/denmark/discovery-channel-dk.png",
+    "maa": "finland"
+  },
+  {
+    "id": "discovery-science",
+    "nimi": "Discovery Science",
+    "xmltv_id": "Discovery Science.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/discovery-science-uk.png",
     "maa": "finland"
   },
   {
