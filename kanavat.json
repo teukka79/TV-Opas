@@ -98,6 +98,13 @@
     "maa": "finland"
   },
   {
+    "id": "national-geographic-wild",
+    "nimi": "National Geographic Wild",
+    "xmltv_id": "National Geographic Wild.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/denmark/national-geographic-wild-dk.png",
+    "maa": "finland"
+  },
+  {
     "id": "discovery",
     "nimi": "Discovery",
     "xmltv_id": "Discovery Channel.fi",
