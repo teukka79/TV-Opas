@@ -133,10 +133,10 @@
     "maa": "finland"
   },
   {
-    "id": "c-more-sport-1-hd-hz",
-    "nimi": "C More Sport 1 HD HZ",
-    "xmltv_id": "CMoreSport1HDHZ.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/c-more-sport-1-hd-hz-fi.png",
+    "id": "viaplay-urheilu-1",
+    "nimi": "Viaplay Urheilu 1",
+    "xmltv_id": "Viaplay 1 Urheilu.fi",
+    "logo": "https://github.com/teukka79/TV-Opas/blob/main/Logot/viaplay-urheilu-1.png?raw=true",
     "maa": "finland"
   },
   {
