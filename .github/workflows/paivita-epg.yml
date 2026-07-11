@@ -24,12 +24,12 @@ jobs:
 
     - name: Lataa, pura ja yhdistä Open-EPG-lähteet
       run: |
-        curl -sL "https://www.open-epg.com/files/finland2.xml.gz" | zcat > f2.xml[cite: 2]
-        curl -sL "https://www.open-epg.com/files/finland3.xml.gz" | zcat > f3.xml[cite: 2]
+        curl -sL "https://www.open-epg.com/files/finland2.xml.gz" | zcat > f2.xml
+        curl -sL "https://www.open-epg.com/files/finland3.xml.gz" | zcat > f3.xml
 
-        tv_merge -i f2.xml -m f3.xml -o opas.xml[cite: 2]
+        tv_merge -i f2.xml -m f3.xml -o opas.xml
 
-        rm f2.xml f3.xml[cite: 2]
+        rm f2.xml f3.xml
 
     - name: Commit ja Push muutokset
       run: |
