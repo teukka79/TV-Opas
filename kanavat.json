@@ -84,17 +84,17 @@
     "maa": "finland"
   },
   {
-    "id": "c-more-max-hz",
-    "nimi": "C More Max HZ",
-    "xmltv_id": "CMoreMaxHZ.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/c-more-max-hz-fi.png",
+    "id": "tlc",
+    "nimi": "TLC",
+    "xmltv_id": "TLC.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/denmark/tlc-dk.png",
     "maa": "finland"
   },
   {
-    "id": "c-more-series",
-    "nimi": "C More Series",
-    "xmltv_id": "CMoreSeries.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/c-more-series-fi.png",
+    "id": "national-geographic",
+    "nimi": "National Geographic",
+    "xmltv_id": "National Geographic.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/denmark/national-geographic-dk.png",
     "maa": "finland"
   },
   {
