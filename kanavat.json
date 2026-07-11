@@ -98,24 +98,24 @@
     "maa": "finland"
   },
   {
-    "id": "c-more-series-hd",
-    "nimi": "C More Series HD",
-    "xmltv_id": "CMoreSeriesHD.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/c-more-series-hd-fi.png",
+    "id": "discovery",
+    "nimi": "Discovery",
+    "xmltv_id": "Discovery Channel.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/denmark/discovery-channel-dk.png",
     "maa": "finland"
   },
   {
-    "id": "c-more-series-hd-hz",
-    "nimi": "C More Series HD HZ",
-    "xmltv_id": "CMoreSeriesHDHZ.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/c-more-series-hd-hz-fi.png",
+    "id": "eurosport-1",
+    "nimi": "Eurosport 1",
+    "xmltv_id": "Eurosport 1.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/denmark/eurosport-1-dk.png",
     "maa": "finland"
   },
   {
-    "id": "c-more-series-hz",
-    "nimi": "C More Series HZ",
-    "xmltv_id": "CMoreSeriesHZ.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/c-more-series-hz-fi.png",
+    "id": "eurosport-2",
+    "nimi": "Eurosport 2",
+    "xmltv_id": "Eurosport 2.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/denmark/eurosport-2-dk.png",
     "maa": "finland"
   },
   {
