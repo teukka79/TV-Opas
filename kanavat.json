@@ -2,7 +2,7 @@
   {
     "id": "bbc-nordic",
     "nimi": "BBC Nordic",
-    "xmltv_id": "BBCNordic.fi",
+    "xmltv_id": "BBC Nordic.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/bbc-nordic-fi.png",
     "maa": "finland"
   },
@@ -261,7 +261,7 @@
   {
     "id": "jim",
     "nimi": "Jim",
-    "xmltv_id": "Jim.fi",
+    "xmltv_id": "JIM.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/jim-fi.png",
     "maa": "finland"
   },
@@ -303,14 +303,14 @@
   {
     "id": "mtv-ava",
     "nimi": "MTV Ava",
-    "xmltv_id": "MTVAva.fi",
+    "xmltv_id": "MTV Ava.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/mtv-ava-fi.png",
     "maa": "finland"
   },
   {
     "id": "mtv-sub",
     "nimi": "MTV Sub",
-    "xmltv_id": "MTVSub.fi",
+    "xmltv_id": "MTV Sub.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/mtv-sub-fi.png",
     "maa": "finland"
   },
@@ -345,21 +345,21 @@
   {
     "id": "sf-kanalen",
     "nimi": "SF-Kanalen",
-    "xmltv_id": "SFKanalen.fi",
+    "xmltv_id": "SF Kanalen.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/sf-kanalen-fi.png",
     "maa": "finland"
   },
   {
     "id": "star-channel",
     "nimi": "STAR Channel",
-    "xmltv_id": "STARChannel.fi",
+    "xmltv_id": "STAR Channel.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/star-channel-fi.png",
     "maa": "finland"
   },
   {
     "id": "tapahtuma-tv-eveo",
     "nimi": "Tapahtuma TV Eveo",
-    "xmltv_id": "TapahtumaTVEveo.fi",
+    "xmltv_id": "Eveo.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/tapahtuma-tv-eveo-fi.png",
     "maa": "finland"
   },
@@ -380,7 +380,7 @@
   {
     "id": "v-sport-1",
     "nimi": "V sport 1",
-    "xmltv_id": "Vsport1.fi",
+    "xmltv_id": "V Sport 1.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-sport-1-fi.png",
     "maa": "finland"
   },
@@ -401,49 +401,49 @@
   {
     "id": "v-sport-football",
     "nimi": "V sport football",
-    "xmltv_id": "VsportFootball.fi",
+    "xmltv_id": "V Sport Football.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-sport-football-fi.png",
     "maa": "finland"
   },
   {
     "id": "v-sport-golf",
     "nimi": "V sport golf",
-    "xmltv_id": "VsportGolf.fi",
+    "xmltv_id": "V Sport Golf.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-sport-golf-fi.png",
     "maa": "finland"
   },
   {
     "id": "v-sport-live-1",
     "nimi": "V sport live 1",
-    "xmltv_id": "VsportLive1.fi",
+    "xmltv_id": "V Sport Live 1.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-sport-live-1-fi.png",
     "maa": "finland"
   },
   {
     "id": "v-sport-live-2",
     "nimi": "V sport live 2",
-    "xmltv_id": "VsportLive2.fi",
+    "xmltv_id": "V Sport Live 2.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-sport-live-2-fi.png",
     "maa": "finland"
   },
   {
     "id": "v-sport-live-3",
     "nimi": "V sport live 3",
-    "xmltv_id": "VsportLive3.fi",
+    "xmltv_id": "V Sport Live 3.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-sport-live-3-fi.png",
     "maa": "finland"
   },
   {
     "id": "v-sport-live-4",
     "nimi": "V sport live 4",
-    "xmltv_id": "VsportLive4.fi",
+    "xmltv_id": "V Sport Live 4.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-sport-live-4-fi.png",
     "maa": "finland"
   },
   {
     "id": "v-sport-live-5",
     "nimi": "V sport live 5",
-    "xmltv_id": "VsportLive5.fi",
+    "xmltv_id": "V Sport Live 5.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-sport-live-5-fi.png",
     "maa": "finland"
   },
@@ -457,42 +457,42 @@
   {
     "id": "v-sport-premium",
     "nimi": "V sport premium",
-    "xmltv_id": "VsportPremium.fi",
+    "xmltv_id": "V Sport Premium.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-sport-premium-fi.png",
     "maa": "finland"
   },
   {
     "id": "v-sport-vinter",
     "nimi": "V sport vinter",
-    "xmltv_id": "VsportVinter.fi",
+    "xmltv_id": "V Sport Vinter.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-sport-vinter-fi.png",
     "maa": "finland"
   },
   {
     "id": "viasat-explore",
     "nimi": "Viasat Explore",
-    "xmltv_id": "ViasatExplore.fi",
+    "xmltv_id": "Viasat Explore.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/viasat-explore-fi.png",
     "maa": "finland"
   },
   {
     "id": "viasat-history",
     "nimi": "Viasat History",
-    "xmltv_id": "ViasatHistory.fi",
+    "xmltv_id": "Viasat History.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/viasat-history-fi.png",
     "maa": "finland"
   },
   {
     "id": "viasat-nature",
     "nimi": "Viasat Nature",
-    "xmltv_id": "ViasatNature.fi",
+    "xmltv_id": "Viasat Nature.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/viasat-nature-fi.png",
     "maa": "finland"
   },
   {
     "id": "vlm-action",
     "nimi": "V film action",
-    "xmltv_id": "Vfilmaction.fi",
+    "xmltv_id": "V Film Action.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-film-action-fi.png",
     "maa": "finland"
   },
@@ -506,7 +506,7 @@
   {
     "id": "vlm-family",
     "nimi": "V film family",
-    "xmltv_id": "Vfilmfamily.fi",
+    "xmltv_id": "V Film Family.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-film-family-fi.png",
     "maa": "finland"
   },
@@ -534,7 +534,7 @@
   {
     "id": "vlm-premiere",
     "nimi": "V film premiere",
-    "xmltv_id": "Vfilmpremiere.fi",
+    "xmltv_id": "V Film Premiere.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-film-premiere-fi.png",
     "maa": "finland"
   },
