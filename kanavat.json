@@ -161,6 +161,20 @@
     "maa": "finland"
   },
   {
+    "id": "viaplay-urheilu-2",
+    "nimi": "Viaplay Urheilu 2",
+    "xmltv_id": "Viaplay 2 Urheilu.fi",
+    "logo": "https://github.com/teukka79/TV-Opas/blob/main/Logot/viaplay-urheilu-2.png?raw=true",
+    "maa": "finland"
+  },
+  {
+    "id": "viaplay-urheilu-3",
+    "nimi": "Viaplay Urheilu 3",
+    "xmltv_id": "Viaplay 3 Urheilu.fi",
+    "logo": "https://github.com/teukka79/TV-Opas/blob/main/Logot/viaplay-urheilu-3.png?raw=true",
+    "maa": "finland"
+  },
+  {
     "id": "viasat-nature",
     "nimi": "Viasat Nature",
     "xmltv_id": "Viasat Nature.fi",
