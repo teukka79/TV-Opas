@@ -520,7 +520,7 @@
   {
     "id": "vlm-hits",
     "nimi": "V film hits",
-    "xmltv_id": "Vfilmhits.fi",
+    "xmltv_id": "V Film Hits.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-film-hits-fi.png",
     "maa": "finland"
   },
@@ -548,21 +548,21 @@
   {
     "id": "yle-teema-fem",
     "nimi": "Yle Teema Fem",
-    "xmltv_id": "Yle.Teema.Fem.fi",
+    "xmltv_id": "Yle Teema Fem.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/yle-teema-fem-fi.png",
     "maa": "finland"
   },
   {
     "id": "yle-tv1",
     "nimi": "Yle TV1",
-    "xmltv_id": "YleTV1.fi",
+    "xmltv_id": "Yle TV1.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/yle-tv1-fi.png",
     "maa": "finland"
   },
   {
     "id": "yle-tv2",
     "nimi": "Yle TV2",
-    "xmltv_id": "YleTV2.fi",
+    "xmltv_id": "Yle TV2.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/yle-tv2-fi.png",
     "maa": "finland"
   },
