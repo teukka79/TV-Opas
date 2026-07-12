@@ -711,8 +711,15 @@ function maybeAutoRefreshSource(){
 setInterval(maybeAutoRefreshSource, 60 * 60 * 1000);
 
 // ---------- Sources (URL lähteet) ----------
+const DEFAULT_EPG_URL = 'https://raw.githubusercontent.com/teukka79/TV-Opas/main/opas.xml';
+const DEFAULT_LOGO_MAP_URL = 'https://raw.githubusercontent.com/teukka79/TV-Opas/main/kanavat.json';
+
 let sources = [];
 try{ sources = JSON.parse(localStorage.getItem('epg_sources') || '[]'); }catch(e){ sources = []; }
+if(sources.length === 0 && !localStorage.getItem('epg_sources')){
+  sources = [{ name: 'Oma TV-opas (GitHub)', url: DEFAULT_EPG_URL }];
+  try{ localStorage.setItem('epg_sources', JSON.stringify(sources)); }catch(e){}
+}
 
 function saveSources(){
   try{ localStorage.setItem('epg_sources', JSON.stringify(sources)); }catch(e){}
@@ -844,7 +851,7 @@ function closeGroupDetail(){
 function renderGroupDetailList(){
   const q = $('#groupDetailSearch').value.trim().toLowerCase();
   const list = channels
-    .filter(ch => !q || ch.name.toLowerCase().includes(q))
+    .filter(ch => !q || ch.name.toLowerCase().includes(q) || chDisplayName(ch).toLowerCase().includes(q))
     .slice().sort((a,b) => a.name.localeCompare(b.name, 'fi'));
   $('#groupDetailList').innerHTML = list.length === 0
     ? `<div class="src-empty">Ei kanavia.</div>`
@@ -857,7 +864,7 @@ function renderGroupDetailList(){
           : `<div class="order-icon-fallback">${escapeHtml(ch.name.slice(0,2).toUpperCase())}</div>`;
         return `<div class="src-item">
           ${iconHtml}
-          <div class="src-info"><div class="src-name">${escapeHtml(ch.name)}</div></div>
+          <div class="src-info"><div class="src-name">${escapeHtml(chDisplayName(ch))}</div></div>
           <label class="switch">
             <input type="checkbox" ${checked ? 'checked' : ''} onchange="setChannelGroup('${key.replace(/'/g,"\\'")}', this.checked)">
             <span class="switch-track"></span>
@@ -1030,6 +1037,10 @@ try{ channelMeta = JSON.parse(localStorage.getItem('epg_channel_meta') || '{}');
 
 function chKey(name){ return (name || '').trim().toLowerCase(); }
 function getMeta(name){ return channelMeta[chKey(name)] || {}; }
+function chDisplayName(ch){
+  const m = getMeta(ch.name);
+  return (m.customName && m.customName.trim()) || ch.name;
+}
 function saveChannelMeta(){
   try{ localStorage.setItem('epg_channel_meta', JSON.stringify(channelMeta)); return true; }
   catch(e){ return false; }
@@ -1067,12 +1078,12 @@ function buildLogoMapFromArray(arr){
   return { byId, byName };
 }
 
-$('#fetchLogoMapBtn').addEventListener('click', () => {
-  const url = $('#logoMapUrlInput').value.trim();
-  if(!url){ $('#logoMapUrlInput').focus(); return; }
-  $('#logoMapStatus').className = 'ch-url-status';
-  $('#logoMapStatus').textContent = 'Haetaan…';
-  fetch(url, { cache: 'no-store' })
+function fetchLogoMap(url, silent){
+  if(!silent){
+    $('#logoMapStatus').className = 'ch-url-status';
+    $('#logoMapStatus').textContent = 'Haetaan…';
+  }
+  return fetch(url, { cache: 'no-store' })
     .then(res => { if(!res.ok) throw new Error('Palvelin vastasi: ' + res.status); return res.json(); })
     .then(data => {
       const arr = Array.isArray(data) ? data : (data.channels || data.kanavat || []);
@@ -1082,26 +1093,37 @@ $('#fetchLogoMapBtn').addEventListener('click', () => {
         localStorage.setItem('epg_logo_map', JSON.stringify(logoMap));
         localStorage.setItem('epg_logo_map_url', url);
       }catch(e){}
-      $('#logoMapStatus').className = 'ch-url-status';
-      $('#logoMapStatus').textContent = `${arr.length} kanavan logotiedot ladattu.`;
+      if($('#logoMapStatus')){
+        $('#logoMapStatus').className = 'ch-url-status';
+        $('#logoMapStatus').textContent = `${arr.length} kanavan logotiedot ladattu.`;
+      }
       render();
     })
     .catch(err => {
-      $('#logoMapStatus').className = 'ch-url-status err';
-      $('#logoMapStatus').textContent = `Haku epäonnistui (${err.message}). Tarkista että linkki on suora raw-JSON-osoite ja sallii CORS-haun.`;
+      if($('#logoMapStatus')){
+        $('#logoMapStatus').className = 'ch-url-status err';
+        $('#logoMapStatus').textContent = `Haku epäonnistui (${err.message}). Tarkista että linkki on suora raw-JSON-osoite ja sallii CORS-haun.`;
+      }
     });
+}
+
+$('#fetchLogoMapBtn').addEventListener('click', () => {
+  const url = $('#logoMapUrlInput').value.trim();
+  if(!url){ $('#logoMapUrlInput').focus(); return; }
+  fetchLogoMap(url, false);
 });
 
 (function initLogoMapUrl(){
   try{
     const savedUrl = localStorage.getItem('epg_logo_map_url');
-    if(savedUrl) $('#logoMapUrlInput').value = savedUrl;
+    $('#logoMapUrlInput').value = savedUrl || DEFAULT_LOGO_MAP_URL;
   }catch(e){}
 })();
 function chNumber(ch){ const m = getMeta(ch.name); return (m.number || ch.xmlNumber || '').trim(); }
 function channelMatchesQuery(ch, q){
   if(!q) return true;
   if(ch.name.toLowerCase().includes(q)) return true;
+  if(chDisplayName(ch).toLowerCase().includes(q)) return true;
   const list = programmesByCh[ch.id] || [];
   return list.some(p =>
     (p.title && p.title.toLowerCase().includes(q)) ||
@@ -1174,7 +1196,7 @@ function channelPassesCategoryFilter(ch){
 function renderHiddenList(){
   const q = ($('#hiddenSearchInput').value || '').trim().toLowerCase();
   const list = channels
-    .filter(ch => !q || ch.name.toLowerCase().includes(q))
+    .filter(ch => !q || ch.name.toLowerCase().includes(q) || chDisplayName(ch).toLowerCase().includes(q))
     .slice().sort((a,b) => a.name.localeCompare(b.name, 'fi'));
   const hiddenCount = channels.filter(isHidden).length;
   $('#hiddenSummary').textContent = `${hiddenCount} / ${channels.length} kanavaa piilotettu`;
@@ -1190,7 +1212,7 @@ function renderHiddenList(){
           : `<div class="order-icon-fallback">${escapeHtml(ch.name.slice(0,2).toUpperCase())}</div>`;
         return `<div class="src-item">
           ${iconHtml}
-          <div class="src-info"><div class="src-name">${escapeHtml(ch.name)}</div></div>
+          <div class="src-info"><div class="src-name">${escapeHtml(chDisplayName(ch))}</div></div>
           <label class="switch">
             <input type="checkbox" ${hidden ? 'checked' : ''} onchange="setChannelHidden('${key.replace(/'/g,"\\'")}', this.checked)">
             <span class="switch-track"></span>
@@ -1242,7 +1264,7 @@ function sortChannels(list){
     if(fa !== fb) return fa - fb;
     const ia = channelOrder.indexOf(chKey(a.name));
     const ib = channelOrder.indexOf(chKey(b.name));
-    if(ia === -1 && ib === -1) return a.name.localeCompare(b.name, 'fi');
+    if(ia === -1 && ib === -1) return chDisplayName(a).localeCompare(chDisplayName(b), 'fi');
     if(ia === -1) return 1;
     if(ib === -1) return -1;
     return ia - ib;
@@ -1273,7 +1295,7 @@ function renderOrderList(){
       <div class="order-item-top">
         <span class="msi order-handle">drag_indicator</span>
         ${iconHtml}
-        <div class="src-info"><div class="src-name">${escapeHtml(ch.name)}</div></div>
+        <div class="src-info"><div class="src-name">${escapeHtml(chDisplayName(ch))}</div></div>
       </div>
       <div class="order-item-actions">
         <button class="btn small" title="Ylimmäiseksi" onclick="moveChannelTop('${k}')"><span class="msi" style="font-size:15px">vertical_align_top</span></button>
@@ -1398,7 +1420,9 @@ function openChannelEdit(name){
   const categoryOptions = allCategories().map(c => `<option value="${escapeHtml(c)}">`).join('');
   $('#chEditSheet').innerHTML = `
     <button class="close" onclick="closeChannelEdit()"><span class="msi">close</span></button>
-    <h3>${escapeHtml(name)}</h3>
+    <h3>${escapeHtml(m.customName || name)}</h3>
+    <label class="field-label">Kanavan nimi</label>
+    <input type="text" id="chNameInput" class="search" style="width:100%" placeholder="${escapeHtml(name)}" value="${escapeHtml(m.customName || '')}">
     <div class="ch-edit-preview">
       <img id="chEditPreview" src="${escapeHtml(currentLogo)}" onerror="this.style.opacity=0">
     </div>
@@ -1460,6 +1484,7 @@ function openChannelEdit(name){
 function saveChannelEdit(){
   if(!editingChannel) return;
   const key = chKey(editingChannel);
+  const customName = $('#chNameInput').value.trim();
   const number = $('#chNumberInput').value.trim();
   const category = $('#chCategoryInput').value.trim();
   const hidden = $('#chHiddenInput').checked;
@@ -1467,6 +1492,7 @@ function saveChannelEdit(){
   const pendingLogo = $('#chEditPreview').dataset.pending;
   const existing = channelMeta[key] || {};
   channelMeta[key] = {
+    customName: (customName && customName !== editingChannel) ? customName : undefined,
     number: number || undefined,
     category: category || undefined,
     hidden: hidden || undefined,
@@ -1545,8 +1571,18 @@ clearBtn.addEventListener('click', () => {
         label = localStorage.getItem('epg_label');
       }catch(e){}
     }
-    if(saved) loadText(saved, label || 'tallennettu opas');
+    if(saved){
+      loadText(saved, label || 'tallennettu opas');
+    } else if(!localStorage.getItem('epg_active_url')){
+      // ensimmäinen käynnistys: ei vielä ladattua opasta eikä aktiivista lähdettä -> ladataan oletusopas
+      loadFromUrl(DEFAULT_EPG_URL, 'Oma TV-opas (GitHub)');
+    }
   }catch(e){}
+
+  if(!logoMap && !localStorage.getItem('epg_logo_map_url')){
+    fetchLogoMap(DEFAULT_LOGO_MAP_URL, true);
+  }
+
   setTimeout(maybeAutoRefreshSource, 4000);
 })();
 
@@ -1677,7 +1713,7 @@ function cardHtmlFor(ch, now){
   const fav = isFavorite(ch);
   const iconInner = iconSrc
     ? `<img class="ch-icon" src="${escapeHtml(iconSrc)}" onerror="this.style.display='none'">`
-    : `<div class="ch-icon-name">${escapeHtml(ch.name)}</div>`;
+    : `<div class="ch-icon-name">${escapeHtml(chDisplayName(ch))}</div>`;
   const iconHtml = `
     <div class="icon-wrap">
       <div style="position:relative" onclick="event.stopPropagation(); openChannelEdit('${ch.name.replace(/'/g,"\\'")}')">
@@ -1769,7 +1805,7 @@ function renderTimeline(){
     const fav = isFavorite(ch);
     const iconInner = iconSrc
       ? `<img class="tl-icon" src="${escapeHtml(iconSrc)}" onerror="this.style.display='none'">`
-      : `<div class="tl-ch-name">${escapeHtml(ch.name)}</div>`;
+      : `<div class="tl-ch-name">${escapeHtml(chDisplayName(ch))}</div>`;
     return `<div class="tl-chcol-cell">
       <div class="icon-wrap">
         <div style="position:relative" onclick="event.stopPropagation(); openChannelEdit('${ch.name.replace(/'/g,"\\'")}')">
@@ -1906,7 +1942,7 @@ function showProgramSheet(ch, p){
   const isCur = p.start <= now && now < p.stop;
   $('#tlSheet').innerHTML = `
     <button class="close" onclick="tlCloseSheet()"><span class="msi">close</span></button>
-    <div class="meta">${escapeHtml(ch.name)} ${isCur ? '· <span style="color:var(--live)">LIVE NYT</span>' : ''}</div>
+    <div class="meta">${escapeHtml(chDisplayName(ch))} ${isCur ? '· <span style="color:var(--live)">LIVE NYT</span>' : ''}</div>
     <h3>${escapeHtml(p.title)}</h3>
     <div class="meta">${fmtTime(p.start)}–${fmtTime(p.stop)}${p.category ? ' · ' + escapeHtml(p.category) : ''}</div>
     <div class="desc">${escapeHtml(p.desc) || 'Ei kuvausta saatavilla.'}</div>
@@ -1950,6 +1986,5 @@ tickClock();
 
 setInterval(render, 15000); // päivitä käynnissä olevat ohjelmat 15s välein
 </script>
-<script src="script.js"></script>
 </body>
 </html>
