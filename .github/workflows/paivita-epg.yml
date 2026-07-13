@@ -26,10 +26,16 @@ jobs:
       run: |
         curl -sL "https://www.open-epg.com/files/finland2.xml.gz" | zcat > f2.xml
         curl -sL "https://www.open-epg.com/files/finland3.xml.gz" | zcat > f3.xml
+        curl -sL "https://www.open-epg.com/files/unitedkingdom.xml.gz" | zcat > uk.xml
 
-        tv_merge -i f2.xml -m f3.xml -o opas.xml
+        # Yhdistetään ensin Suomen lähteet keskenään
+        tv_merge -i f2.xml -m f3.xml -o t1.xml
+        
+        # Yhdistetään UK-lähteet mukaan lopulliseen oppaaseen
+        tv_merge -i t1.xml -m uk.xml -o opas.xml
 
-        rm f2.xml f3.xml
+        # Siivotaan väliaikaiset tiedostot pois
+        rm f2.xml f3.xml uk.xml t1.xml
 
     - name: Commit ja Push muutokset
       run: |
