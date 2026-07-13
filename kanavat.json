@@ -459,6 +459,13 @@
     "maa": "finland"
   },
   {
+    "id": "v-sport-ultra-hd",
+    "nimi": "V Sport Ultra HD",
+    "xmltv_id": "V Sport Ultra HD.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/sweden/v-sport-ultrahd-se.png",
+    "maa": "finland"
+  },
+  {
     "id": "v-sport-1",
     "nimi": "V sport 1",
     "xmltv_id": "V Sport 1.fi",
