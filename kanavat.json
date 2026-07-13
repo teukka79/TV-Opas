@@ -1,5 +1,45 @@
 [
   {
+    "id": "yle-tv1",
+    "nimi": "Yle TV1",
+    "xmltv_id": "Yle TV1.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/yle-tv1-fi.png",
+    "maa": "finland",
+    "numero": 1
+  },
+  {
+    "id": "yle-tv2",
+    "nimi": "Yle TV2",
+    "xmltv_id": "Yle TV2.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/yle-tv2-fi.png",
+    "maa": "finland",
+    "numero": 2
+  },
+  {
+    "id": "mtv3",
+    "nimi": "MTV3",
+    "xmltv_id": "MTV3.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/mtv3-fi.png",
+    "maa": "finland",
+    "numero": 3
+  },
+  {
+    "id": "nelonen",
+    "nimi": "Nelonen",
+    "xmltv_id": "Nelonen.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/nelonen-fi.png",
+    "maa": "finland",
+    "numero": 4
+  },
+  {
+    "id": "yle-teema-and-fem",
+    "nimi": "Yle Teema And Fem",
+    "xmltv_id": "Yle Teema And Fem.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/yle-teema-fem-fi.png",
+    "maa": "finland",
+    "numero": 5
+  },
+  {
     "id": "bbc-nordic",
     "nimi": "BBC Nordic",
     "xmltv_id": "BBC Nordic.fi",
@@ -367,22 +407,6 @@
     "numero": 5
   },
   {
-    "id": "mtv3",
-    "nimi": "MTV3",
-    "xmltv_id": "MTV3.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/mtv3-fi.png",
-    "maa": "finland",
-    "numero": 3
-  },
-  {
-    "id": "nelonen",
-    "nimi": "Nelonen",
-    "xmltv_id": "Nelonen.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/nelonen-fi.png",
-    "maa": "finland",
-    "numero": 4
-  },
-  {
     "id": "one-way-tv",
     "nimi": "One Way TV",
     "xmltv_id": "OneWayTV.fi",
@@ -601,30 +625,6 @@
     "xmltv_id": "VfilmpremiereHD.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-film-premiere-hd-fi.png",
     "maa": "finland"
-  },
-  {
-    "id": "yle-teema-fem",
-    "nimi": "Yle Teema Fem",
-    "xmltv_id": "Yle Teema Fem.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/yle-teema-fem-fi.png",
-    "maa": "finland",
-    "numero": 5
-  },
-  {
-    "id": "yle-tv1",
-    "nimi": "Yle TV1",
-    "xmltv_id": "Yle TV1.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/yle-tv1-fi.png",
-    "maa": "finland",
-    "numero": 1
-  },
-  {
-    "id": "yle-tv2",
-    "nimi": "Yle TV2",
-    "xmltv_id": "Yle TV2.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/yle-tv2-fi.png",
-    "maa": "finland",
-    "numero": 2
   },
   {
     "id": "4-more",
