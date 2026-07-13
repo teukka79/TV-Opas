@@ -7,7 +7,7 @@
     "maa": "finland"
   },
   {
-    "id": "mtv-urheilu",
+    "id": "mtv-urheilu-1",
     "nimi": "MTV Urheilu 1",
     "xmltv_id": "MTV Urheilu 1.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/mtv-urheilu-1-fi.png",
@@ -88,6 +88,13 @@
     "nimi": "MTV Juniori",
     "xmltv_id": "MTV Juniori.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/mtv-juniori-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "mtv-viihde",
+    "nimi": "MTV Viihde",
+    "xmltv_id": "MTV Viihde.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/mtv-viihde-fi.png",
     "maa": "finland"
   },
   {
