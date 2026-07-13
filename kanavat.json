@@ -9,7 +9,7 @@
   {
     "id": "mtv-urheilu",
     "nimi": "MTV Urheilu 1",
-    "xmltv_id": "MTV Urheilu.fi",
+    "xmltv_id": "MTV Urheilu 1.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/mtv-urheilu-1-fi.png",
     "maa": "finland"
   },
@@ -227,10 +227,10 @@
     "maa": "finland"
   },
   {
-    "id": "c-more-stars-hd-hz",
-    "nimi": "C More Stars HD HZ",
-    "xmltv_id": "CMoreStarsHDHZ.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/c-more-stars-hd-hz-fi.png",
+    "id": "cnn",
+    "nimi": "CNN",
+    "xmltv_id": "CNN.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-states/cnn-us.png",
     "maa": "finland"
   },
   {
