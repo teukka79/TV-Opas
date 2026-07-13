@@ -1065,17 +1065,33 @@ function lookupLogoMap(ch){
   return null;
 }
 
+function lookupLogoMapNumber(ch){
+  if(!logoMap) return null;
+  if(logoMap.numById && logoMap.numById[ch.id] !== undefined) return logoMap.numById[ch.id];
+  const nk = chKey(ch.name);
+  if(logoMap.numByName && logoMap.numByName[nk] !== undefined) return logoMap.numByName[nk];
+  return null;
+}
+
 function buildLogoMapFromArray(arr){
-  const byId = {}, byName = {};
+  const byId = {}, byName = {}, numById = {}, numByName = {};
   arr.forEach(entry => {
     const logo = entry.logo || entry.icon;
-    if(!logo) return;
-    if(entry.xmltv_id) byId[entry.xmltv_id] = logo;
-    if(entry.id) byId[entry.id] = logo;
-    if(entry.nimi) byName[chKey(entry.nimi)] = logo;
-    if(entry.name) byName[chKey(entry.name)] = logo;
+    if(logo){
+      if(entry.xmltv_id) byId[entry.xmltv_id] = logo;
+      if(entry.id) byId[entry.id] = logo;
+      if(entry.nimi) byName[chKey(entry.nimi)] = logo;
+      if(entry.name) byName[chKey(entry.name)] = logo;
+    }
+    const num = entry.numero !== undefined ? entry.numero : entry.number;
+    if(num !== undefined && num !== null && num !== ''){
+      if(entry.xmltv_id) numById[entry.xmltv_id] = num;
+      if(entry.id) numById[entry.id] = num;
+      if(entry.nimi) numByName[chKey(entry.nimi)] = num;
+      if(entry.name) numByName[chKey(entry.name)] = num;
+    }
   });
-  return { byId, byName };
+  return { byId, byName, numById, numByName };
 }
 
 function fetchLogoMap(url, silent){
@@ -1119,7 +1135,13 @@ $('#fetchLogoMapBtn').addEventListener('click', () => {
     $('#logoMapUrlInput').value = savedUrl || DEFAULT_LOGO_MAP_URL;
   }catch(e){}
 })();
-function chNumber(ch){ const m = getMeta(ch.name); return (m.number || ch.xmlNumber || '').trim(); }
+function chNumber(ch){
+  const m = getMeta(ch.name);
+  if(m.number) return String(m.number).trim();
+  const mapped = lookupLogoMapNumber(ch);
+  if(mapped !== null && mapped !== undefined && mapped !== '') return String(mapped);
+  return (ch.xmlNumber || '').trim();
+}
 function channelMatchesQuery(ch, q){
   if(!q) return true;
   if(ch.name.toLowerCase().includes(q)) return true;
@@ -1257,24 +1279,39 @@ function saveChannelOrder(){
   try{ localStorage.setItem('epg_channel_order', JSON.stringify(channelOrder)); }catch(e){}
 }
 
+function channelSortNumber(ch){
+  const n = parseInt(chNumber(ch), 10);
+  return isNaN(n) ? null : n;
+}
+
 function sortChannels(list){
   return list.slice().sort((a, b) => {
     const fa = isFavorite(a) ? 0 : 1;
     const fb = isFavorite(b) ? 0 : 1;
     if(fa !== fb) return fa - fb;
+
     const ia = channelOrder.indexOf(chKey(a.name));
     const ib = channelOrder.indexOf(chKey(b.name));
-    if(ia === -1 && ib === -1) return chDisplayName(a).localeCompare(chDisplayName(b), 'fi');
-    if(ia === -1) return 1;
-    if(ib === -1) return -1;
-    return ia - ib;
+    if(ia !== -1 && ib !== -1) return ia - ib;
+    if(ia !== -1) return -1;
+    if(ib !== -1) return 1;
+
+    const na = channelSortNumber(a);
+    const nb = channelSortNumber(b);
+    if(na !== null && nb !== null) return na - nb;
+    if(na !== null) return -1;
+    if(nb !== null) return 1;
+
+    return chDisplayName(a).localeCompare(chDisplayName(b), 'fi');
   });
 }
 
 function initOrderList(){
   const known = channels.map(c => chKey(c.name));
   if(channelOrder.length === 0){
-    channelOrder = channels.slice().sort((a,b) => a.name.localeCompare(b.name,'fi')).map(c => chKey(c.name));
+    // Siemennetään nykyisen tehollisen järjestyksen (esim. kanavanumerot) mukaan,
+    // jotta pelkkä välilehden avaaminen ei hyppäytä järjestystä aakkosiin.
+    channelOrder = sortChannels(channels).map(c => chKey(c.name));
   } else {
     known.forEach(k => { if(!channelOrder.includes(k)) channelOrder.push(k); });
     channelOrder = channelOrder.filter(k => known.includes(k));
