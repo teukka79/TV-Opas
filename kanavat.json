@@ -40,14 +40,6 @@
     "numero": 5
   },
   {
-    "id": "yle-teema-fem",
-    "nimi": "Yle Teema Fem",
-    "xmltv_id": "Yle Teema Fem.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/yle-teema-fem-fi.png",
-    "maa": "finland",
-    "numero": 5
-  },
-  {
     "id": "bbc-nordic",
     "nimi": "BBC Nordic",
     "xmltv_id": "BBC Nordic.fi",
