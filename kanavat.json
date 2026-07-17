@@ -225,6 +225,13 @@
     "maa": "finland"
   },
   {
+    "id": "viaplay-tv",
+    "nimi": "Viaplay TV",
+    "xmltv_id": "Viaplay TV.fi",
+    "logo": "https://github.com/teukka79/TV-Opas/blob/main/Logot/Viaplay_TV.png?raw=true",
+    "maa": "finland"
+  },
+  {
     "id": "viasat-nature",
     "nimi": "Viasat Nature",
     "xmltv_id": "Viasat Nature.fi",
