@@ -267,20 +267,6 @@
     "maa": "finland"
   },
   {
-    "id": "c-more-sport-2-hz",
-    "nimi": "C More Sport 2 HZ",
-    "xmltv_id": "CMoreSport2HZ.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/c-more-sport-2-hz-fi.png",
-    "maa": "finland"
-  },
-  {
-    "id": "c-more-stars",
-    "nimi": "C More Stars",
-    "xmltv_id": "CMoreStars.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/c-more-stars-fi.png",
-    "maa": "finland"
-  },
-  {
     "id": "disney-channel",
     "nimi": "Disney Channel",
     "xmltv_id": "Disney Channel.fi",
@@ -292,41 +278,6 @@
     "nimi": "CNN",
     "xmltv_id": "CNN.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-states/cnn-us.png",
-    "maa": "finland"
-  },
-  {
-    "id": "c-more-stars-hz",
-    "nimi": "C More Stars HZ",
-    "xmltv_id": "CMoreStarsHZ.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/c-more-stars-hz-fi.png",
-    "maa": "finland"
-  },
-  {
-    "id": "c-morerst",
-    "nimi": "C More First",
-    "xmltv_id": "CMoreFirst.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/c-more-first-fi.png",
-    "maa": "finland"
-  },
-  {
-    "id": "c-morerst-hd",
-    "nimi": "C More First HD",
-    "xmltv_id": "CMoreFirstHD.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/c-more-first-hd-fi.png",
-    "maa": "finland"
-  },
-  {
-    "id": "c-morerst-hd-hz",
-    "nimi": "C More First HD HZ",
-    "xmltv_id": "CMoreFirstHDHZ.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/c-more-first-hd-hz-fi.png",
-    "maa": "finland"
-  },
-  {
-    "id": "c-morerst-hz",
-    "nimi": "C More First HZ",
-    "xmltv_id": "CMoreFirstHZ.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/c-more-first-hz-fi.png",
     "maa": "finland"
   },
   {
@@ -552,7 +503,7 @@
   {
     "id": "v-sport-live-5",
     "nimi": "V sport live 5",
-    "xmltv_id": "V Sport Live 5.fi",
+    "xmltv_id": "V sport live 5.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-sport-live-5-fi.png",
     "maa": "finland"
   },
