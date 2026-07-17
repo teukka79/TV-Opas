@@ -117,6 +117,13 @@
     "maa": "finland"
   },
   {
+    "id": "mtv-liiga-8",
+    "nimi": "MTV Liiga 8",
+    "xmltv_id": "MTV Liiga 8.fi",
+    "logo": "https://github.com/teukka79/TV-Opas/blob/main/Logot/mtv-liiga-8-fi.png",
+    "maa": "finland"
+  },
+  {
     "id": "mtv-aitio",
     "nimi": "MTV Aitio",
     "xmltv_id": "MTV Aitio.fi",
