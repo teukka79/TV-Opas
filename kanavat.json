@@ -417,6 +417,14 @@
     "numero": 7
   },
   {
+    "id": "elisa-viihde",
+    "nimi": "Elisa Viihde",
+    "xmltv_id": "Elisa Viihde.fi",
+    "logo": "https://github.com/teukka79/TV-Opas/blob/main/Logot/elisa_viihde.png",
+    "maa": "finland",
+    "numero": 16
+  },
+  {
     "id": "v-sport",
     "nimi": "V sport",
     "xmltv_id": "V Sport.fi",
