@@ -253,10 +253,10 @@
     "maa": "finland"
   },
   {
-    "id": "c-more-sport-2-hd-hz",
-    "nimi": "C More Sport 2 HD HZ",
-    "xmltv_id": "CMoreSport2HDHZ.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/c-more-sport-2-hd-hz-fi.png",
+    "id": "eveo",
+    "nimi": "EVEO",
+    "xmltv_id": "EVEO.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/tapahtuma-tv-eveo-fi.png",
     "maa": "finland"
   },
   {
@@ -332,7 +332,7 @@
   {
     "id": "frii",
     "nimi": "Frii",
-    "xmltv_id": "Frii.fi",
+    "xmltv_id": "Frii HD.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/frii-fi.png",
     "maa": "finland",
     "numero": 15
