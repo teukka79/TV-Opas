@@ -1991,4 +1991,74 @@
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/disney-xd-plus-uk.png",
     "maa": "united-kingdom"
   }
+  {
+    "id": "great-action",
+    "nimi": "Great Action",
+    "xmltv_id": "GreatAction.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/great-action-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "great-action-plus1",
+    "nimi": "Great Action +1",
+    "xmltv_id": "GreatActionPlus1.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/great-action-plus1-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "great-british-menu",
+    "nimi": "Great British Menu",
+    "xmltv_id": "GreatBritishMenu.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/great-british-menu-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "great-movies",
+    "nimi": "Great Movies",
+    "xmltv_id": "GreatMovies.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/great-movies-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "great-mystery",
+    "nimi": "Great Mystery",
+    "xmltv_id": "GreatMystery.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/great-mystery-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "great-mystery-plus1",
+    "nimi": "Great Mystery +1",
+    "xmltv_id": "GreatMysteryPlus1.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/great-mystery-plus1-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "great-romance",
+    "nimi": "Great Romance",
+    "xmltv_id": "GreatRomance.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/great-romance-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "great-romance-plus1",
+    "nimi": "Great Romance +1",
+    "xmltv_id": "GreatRomancePlus1.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/great-romance-plus1-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "great-tv",
+    "nimi": "Great TV",
+    "xmltv_id": "GreatTV.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/great-tv-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "great-tv-plus1",
+    "nimi": "Great TV +1",
+    "xmltv_id": "GreatTVPlus1.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/great-tv-plus1-uk.png",
+    "maa": "united-kingdom"
+  }
 ]
