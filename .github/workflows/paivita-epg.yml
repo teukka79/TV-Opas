@@ -24,18 +24,14 @@ jobs:
 
     - name: Lataa, pura ja yhdistä Open-EPG-lähteet
       run: |
-        curl -sL "https://www.open-epg.com/files/finland2.xml.gz" | zcat > f2.xml
-        curl -sL "https://www.open-epg.com/files/finland3.xml.gz" | zcat > f3.xml
+        curl -sL "https://www.open-epg.com/files/finland4.xml.gz" | zcat > f4.xml
         curl -sL "https://www.open-epg.com/files/unitedkingdom.xml.gz" | zcat > uk.xml
 
-        # Yhdistetään ensin Suomen lähteet keskenään
-        tv_merge -i f2.xml -m f3.xml -o t1.xml
-        
-        # Yhdistetään UK-lähteet mukaan lopulliseen oppaaseen
-        tv_merge -i t1.xml -m uk.xml -o opas.xml
+        # Yhdistetään Suomen ja UK:n lähteet lopulliseen oppaaseen
+        tv_merge -i f4.xml -m uk.xml -o opas.xml
 
         # Siivotaan väliaikaiset tiedostot pois
-        rm f2.xml f3.xml uk.xml t1.xml
+        rm f4.xml uk.xml
 
     - name: Commit ja Push muutokset
       run: |
