@@ -560,7 +560,7 @@
   {
     "id": "vlm-action",
     "nimi": "V film action",
-    "xmltv_id": "V Film Action.fi",
+    "xmltv_id": "V film action.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-film-action-fi.png",
     "maa": "finland"
   },
@@ -574,7 +574,7 @@
   {
     "id": "vlm-family",
     "nimi": "V film family",
-    "xmltv_id": "V Film Family.fi",
+    "xmltv_id": "V film family.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-film-family-fi.png",
     "maa": "finland"
   },
@@ -588,7 +588,7 @@
   {
     "id": "vlm-hits",
     "nimi": "V film hits",
-    "xmltv_id": "V Film Hits.fi",
+    "xmltv_id": "V film hits.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-film-hits-fi.png",
     "maa": "finland"
   },
@@ -602,7 +602,7 @@
   {
     "id": "vlm-premiere",
     "nimi": "V film premiere",
-    "xmltv_id": "V Film Premiere.fi",
+    "xmltv_id": "V film premiere.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-film-premiere-fi.png",
     "maa": "finland"
   },
