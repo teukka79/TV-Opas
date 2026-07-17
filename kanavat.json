@@ -481,8 +481,15 @@
   },
   {
     "id": "v-sport-1",
-    "nimi": "V sport 1",
+    "nimi": "V Sport 1",
     "xmltv_id": "V Sport 1.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-sport-1-fi.png",
+    "maa": "finland"
+  },
+  {
+    "id": "v-sport-1",
+    "nimi": "V sport 1",
+    "xmltv_id": "V sport 1.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-sport-1-fi.png",
     "maa": "finland"
   },
