@@ -2068,5 +2068,306 @@
     "xmltv_id": "GreatTVPlus1.uk",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/great-tv-plus1-uk.png",
     "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-arts",
+    "nimi": "Sky Arts",
+    "xmltv_id": "SkyArts.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-arts-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-atlantic",
+    "nimi": "Sky Atlantic",
+    "xmltv_id": "SkyAtlantic.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-atlantic-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-atlantic-plus1",
+    "nimi": "Sky Atlantic +1",
+    "xmltv_id": "SkyAtlanticPlus1.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-atlantic-plus1-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-cinema-action",
+    "nimi": "Sky Cinema Action",
+    "xmltv_id": "SkyCinemaAction.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-cinema-action-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-cinema-comedy",
+    "nimi": "Sky Cinema Comedy",
+    "xmltv_id": "SkyCinemaComedy.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-cinema-comedy-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-cinema-drama",
+    "nimi": "Sky Cinema Drama",
+    "xmltv_id": "SkyCinemaDrama.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-cinema-drama-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-cinema-family",
+    "nimi": "Sky Cinema Family",
+    "xmltv_id": "SkyCinemaFamily.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-cinema-family-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-cinema-greats",
+    "nimi": "Sky Cinema Greats",
+    "xmltv_id": "SkyCinemaGreats.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-cinema-greats-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-cinema-hits",
+    "nimi": "Sky Cinema Hits",
+    "xmltv_id": "SkyCinemaHits.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-cinema-hits-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-cinema-premiere",
+    "nimi": "Sky Cinema Premiere",
+    "xmltv_id": "SkyCinemaPremiere.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-cinema-premiere-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-cinema-sci-fi-and-horror",
+    "nimi": "Sky Cinema Sci-Fi And Horror",
+    "xmltv_id": "SkyCinemaSciFiandHorror.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-cinema-sci-fi-and-horror-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-cinema-select",
+    "nimi": "Sky Cinema Select",
+    "xmltv_id": "SkyCinemaSelect.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-cinema-select-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-cinema-thriller",
+    "nimi": "Sky Cinema Thriller",
+    "xmltv_id": "SkyCinemaThriller.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-cinema-thriller-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-comedy",
+    "nimi": "Sky Comedy",
+    "xmltv_id": "SkyComedy.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-comedy-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-crime",
+    "nimi": "Sky Crime",
+    "xmltv_id": "SkyCrime.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-crime-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-crime-plus1",
+    "nimi": "Sky Crime +1",
+    "xmltv_id": "SkyCrimePlus1.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-crime-plus1-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-documentaries",
+    "nimi": "Sky Documentaries",
+    "xmltv_id": "SkyDocumentaries.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-documentaries-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-history",
+    "nimi": "Sky History",
+    "xmltv_id": "SkyHistory.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-history-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-history-2",
+    "nimi": "Sky History 2",
+    "xmltv_id": "SkyHistory2.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-history-2-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-kids",
+    "nimi": "Sky Kids",
+    "xmltv_id": "SkyKids.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-kids-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-mix",
+    "nimi": "Sky Mix",
+    "xmltv_id": "SkyMix.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-mix-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-nature",
+    "nimi": "Sky Nature",
+    "xmltv_id": "SkyNature.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-nature-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-news",
+    "nimi": "Sky News",
+    "xmltv_id": "SkyNews.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-news-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-news-arabia",
+    "nimi": "Sky News Arabia",
+    "xmltv_id": "SkyNewsArabia.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-news-arabia-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-one",
+    "nimi": "Sky One",
+    "xmltv_id": "SkyOne.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-one-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-sci-fi",
+    "nimi": "Sky Sci-Fi",
+    "xmltv_id": "SkySciFi.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-sci-fi-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-sports-action",
+    "nimi": "Sky Sports Action",
+    "xmltv_id": "SkySportsAction.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-sports-action-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-sports-box-office",
+    "nimi": "Sky Sports Box Office",
+    "xmltv_id": "SkySportsBoxOffice.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-sports-box-office-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-sports-cricket",
+    "nimi": "Sky Sports Cricket",
+    "xmltv_id": "SkySportsCricket.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-sports-cricket-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-sports-f1",
+    "nimi": "Sky Sports F1",
+    "xmltv_id": "SkySportsF1.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-sports-f1-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-sports-football",
+    "nimi": "Sky Sports Football",
+    "xmltv_id": "SkySportsFootball.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-sports-football-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-sports-golf",
+    "nimi": "Sky Sports Golf",
+    "xmltv_id": "SkySportsGolf.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-sports-golf-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-sports-main-event",
+    "nimi": "Sky Sports Main Event",
+    "xmltv_id": "SkySportsMainEvent.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-sports-main-event-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-sports-mix",
+    "nimi": "Sky Sports Mix",
+    "xmltv_id": "SkySportsMix.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-sports-mix-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-sports-news",
+    "nimi": "Sky Sports News",
+    "xmltv_id": "SkySportsNews.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-sports-news-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-sports-plus",
+    "nimi": "Sky Sports+",
+    "xmltv_id": "SkySportsPlus.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-sports-plus-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-sports-premier-league",
+    "nimi": "Sky Sports Premier League",
+    "xmltv_id": "SkySportsPremierLeague.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-sports-premier-league-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-sports-racing",
+    "nimi": "Sky Sports Racing",
+    "xmltv_id": "SkySportsRacing.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-sports-racing-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-sports-tennis",
+    "nimi": "Sky Sports Tennis",
+    "xmltv_id": "SkySportsTennis.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-sports-tennis-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-sports-uhd-1",
+    "nimi": "Sky Sports UHD 1",
+    "xmltv_id": "SkySportsUHD1.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-sports-uhd-1-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-sports-uhd-2",
+    "nimi": "Sky Sports UHD 2",
+    "xmltv_id": "SkySportsUHD2.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-sports-uhd-2-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-witness",
+    "nimi": "Sky Witness",
+    "xmltv_id": "SkyWitness.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-witness-uk.png",
+    "maa": "united-kingdom"
+  },
+  {
+    "id": "sky-witness-plus1",
+    "nimi": "Sky Witness +1",
+    "xmltv_id": "SkyWitnessPlus1.uk",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-witness-plus1-uk.png",
+    "maa": "united-kingdom"
   }
 ]
