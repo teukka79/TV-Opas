@@ -2,9 +2,11 @@
   {
     "id": "yle-tv1",
     "nimi": "Yle TV1",
-    "ryhma": "Peruskanavat",
-    "xmltv_id": ["Yle TV1.fi", "YLE TV1.fi"],
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/yle-tv1-fi.png",
+    "xmltv_id": [
+      "Yle TV1.fi",
+      "YLE TV1.fi"
+    ],
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/yle-tv1-fi.png",
     "maa": "finland",
     "numero": 1
   },
