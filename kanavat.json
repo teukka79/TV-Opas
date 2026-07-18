@@ -152,6 +152,14 @@
     "numero": 20
   },
   {
+    "id": "viaplay-tv",
+    "nimi": "Viaplay TV",
+    "xmltv_id": "Viaplay TV.fi",
+    "logo": "https://github.com/teukka79/TV-Opas/blob/main/Logot/Viaplay_TV.png?raw=true",
+    "maa": "finland"
+    "numero": 21
+  },
+  {
     "id": "bbc-nordic",
     "nimi": "BBC Nordic",
     "xmltv_id": "BBC Nordic.fi",
