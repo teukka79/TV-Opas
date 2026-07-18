@@ -241,9 +241,15 @@
     color:var(--text); width:28px; height:28px; border-radius:50%; font-size:14px; cursor:pointer;
   }
 
-  /* ---- channel icon column: favorite + number footer, edit pencil ---- */
+  /* ---- channel icon column: edit + favorite + number footer row ---- */
   .icon-wrap{position:relative; flex-shrink:0; display:flex; flex-direction:column; align-items:center; gap:5px;}
   .icon-footer{display:flex; align-items:center; justify-content:center; gap:6px;}
+  .edit-pencil-btn{
+    cursor:pointer; color:var(--text-dim); display:flex; align-items:center; justify-content:center;
+    width:22px; height:22px; border-radius:50%; transition:.15s; flex-shrink:0;
+  }
+  .edit-pencil-btn:active{background:var(--bg2);}
+  .edit-pencil-btn .msi{font-size:16px;}
   .fav-star-btn{
     cursor:pointer; color:var(--text-dim); display:flex; align-items:center; justify-content:center;
     width:22px; height:22px; border-radius:50%; transition:.15s; flex-shrink:0;
@@ -255,15 +261,6 @@
     font-size:11px; font-weight:700; color:var(--text-dim); background:var(--bg2);
     border:1px solid var(--border); border-radius:6px; padding:2px 6px; line-height:1.3;
   }
-  .edit-pencil{
-    position:absolute; top:-5px; left:-5px; width:18px; height:18px; border-radius:50%;
-    background:var(--card); border:1px solid var(--border); color:var(--text-dim);
-    display:flex; align-items:center; justify-content:center; cursor:pointer;
-    opacity:0; transition:.15s;
-  }
-  .edit-pencil .msi{font-size:11px;}
-  .card:hover .edit-pencil, .tl-chcol-cell:hover .edit-pencil{opacity:1;}
-  @media (pointer:coarse){ .edit-pencil{opacity:.85;} }
 
   /* ---- channel edit sheet extras ---- */
   .ch-edit-preview{display:flex; justify-content:center; margin:6px 0 14px;}
@@ -466,7 +463,7 @@
     </div>
 
     <div style="margin-top:18px; padding-top:14px; border-top:1px solid var(--border);">
-      <p class="modal-hint">Voit myös hakea kanavien logot erilliseltä JSON-listalta (esim. omalta GitHub-tililtä). Kentät <code>xmltv_id</code> / <code>id</code> ja <code>nimi</code> / <code>name</code> täsmätään kanaviin, ja <code>logo</code>-kenttää käytetään kuvakkeena jos kanavalle ei ole erikseen asetettu omaa kuvaketta.</p>
+      <p class="modal-hint">Voit myös hakea kanavien logot erilliseltä JSON-listalta (esim. omalta GitHub-tililtä). Kentät <code>xmltv_id</code> / <code>id</code> ja <code>nimi</code> / <code>name</code> täsmätään kanaviin (kirjainkoolla ei väliä, ja <code>xmltv_id</code> voi olla myös taulukko useasta tunnisteesta, esim. <code>["Yle TV1.fi", "YLE TV1.fi"]</code>), ja <code>logo</code>-kenttää käytetään kuvakkeena jos kanavalle ei ole erikseen asetettu omaa kuvaketta.</p>
       <div class="logo-url-row">
         <input type="text" id="logoMapUrlInput" class="search" placeholder="https://raw.githubusercontent.com/…/kanavat.json">
         <button class="btn" id="fetchLogoMapBtn" type="button"><span class="msi">image</span> Hae logot</button>
@@ -1149,8 +1146,10 @@ let logoMap = null;
 try{ logoMap = JSON.parse(localStorage.getItem('epg_logo_map') || 'null'); }catch(e){ logoMap = null; }
 
 function lookupLogoMap(ch){
-  if(!logoMap) return null;
-  if(logoMap.byId && logoMap.byId[ch.id]) return logoMap.byId[ch.id];
+  if(!logoMap || !logoMap.byId) return null;
+  if(logoMap.byId[ch.id]) return logoMap.byId[ch.id];
+  const lower = logoMap.byId[ch.id.toLowerCase()];
+  if(lower) return lower;
   const nk = chKey(ch.name);
   if(logoMap.byName && logoMap.byName[nk]) return logoMap.byName[nk];
   return null;
@@ -1158,7 +1157,11 @@ function lookupLogoMap(ch){
 
 function lookupLogoMapNumber(ch){
   if(!logoMap) return null;
-  if(logoMap.numById && logoMap.numById[ch.id] !== undefined) return logoMap.numById[ch.id];
+  if(logoMap.numById){
+    if(logoMap.numById[ch.id] !== undefined) return logoMap.numById[ch.id];
+    const lower = logoMap.numById[ch.id.toLowerCase()];
+    if(lower !== undefined) return lower;
+  }
   const nk = chKey(ch.name);
   if(logoMap.numByName && logoMap.numByName[nk] !== undefined) return logoMap.numByName[nk];
   return null;
@@ -1168,19 +1171,31 @@ function buildLogoMapFromArray(arr){
   const byId = {}, byName = {}, numById = {}, numByName = {};
   arr.forEach(entry => {
     const logo = entry.logo || entry.icon;
-    if(logo){
-      if(entry.xmltv_id) byId[entry.xmltv_id] = logo;
-      if(entry.id) byId[entry.id] = logo;
-      if(entry.nimi) byName[chKey(entry.nimi)] = logo;
-      if(entry.name) byName[chKey(entry.name)] = logo;
-    }
     const num = entry.numero !== undefined ? entry.numero : entry.number;
-    if(num !== undefined && num !== null && num !== ''){
-      if(entry.xmltv_id) numById[entry.xmltv_id] = num;
-      if(entry.id) numById[entry.id] = num;
-      if(entry.nimi) numByName[chKey(entry.nimi)] = num;
-      if(entry.name) numByName[chKey(entry.name)] = num;
-    }
+
+    // xmltv_id (ja id) voi olla joko yksittäinen merkkijono tai taulukko useasta tunnisteesta
+    // (esim. eri lähteet käyttävät samasta kanavasta muotoja "Yle TV1.fi" ja "YLE TV1.fi").
+    const ids = [];
+    const addIds = v => { if(Array.isArray(v)) ids.push(...v); else if(v) ids.push(v); };
+    addIds(entry.xmltv_id);
+    addIds(entry.id);
+
+    ids.forEach(id => {
+      if(typeof id !== 'string' || !id) return;
+      if(logo){ byId[id] = logo; byId[id.toLowerCase()] = logo; }
+      if(num !== undefined && num !== null && num !== ''){
+        numById[id] = num; numById[id.toLowerCase()] = num;
+      }
+    });
+
+    const names = [];
+    if(entry.nimi) names.push(entry.nimi);
+    if(entry.name) names.push(entry.name);
+    names.forEach(n => {
+      const key = chKey(n);
+      if(logo) byName[key] = logo;
+      if(num !== undefined && num !== null && num !== '') numByName[key] = num;
+    });
   });
   return { byId, byName, numById, numByName };
 }
@@ -1864,11 +1879,13 @@ function cardHtmlFor(ch, now){
     : `<div class="ch-icon-name">${escapeHtml(chDisplayName(ch))}</div>`;
   const iconHtml = `
     <div class="icon-wrap">
-      <div style="position:relative" onclick="event.stopPropagation(); openChannelEdit('${ch.name.replace(/'/g,"\\'")}')">
+      <div onclick="event.stopPropagation(); openChannelEdit('${ch.name.replace(/'/g,"\\'")}')">
         ${iconInner}
-        <div class="edit-pencil"><span class="msi">edit</span></div>
       </div>
       <div class="icon-footer">
+        <div class="edit-pencil-btn" title="Muokkaa" onclick="event.stopPropagation(); openChannelEdit('${ch.name.replace(/'/g,"\\'")}')">
+          <span class="msi">edit</span>
+        </div>
         <div class="fav-star-btn ${fav ? 'active' : ''}" title="Suosikki" onclick="event.stopPropagation(); toggleFavorite('${ch.name.replace(/'/g,"\\'")}')">
           <span class="msi ${fav ? 'filled' : ''}">star</span>
         </div>
@@ -1983,11 +2000,13 @@ function timelineRowHtml(r, now){
     : `<div class="tl-ch-name">${escapeHtml(chDisplayName(ch))}</div>`;
   const chcolHtml = `<div class="tl-chcol-cell">
       <div class="icon-wrap">
-        <div style="position:relative" onclick="event.stopPropagation(); openChannelEdit('${ch.name.replace(/'/g,"\\'")}')">
+        <div onclick="event.stopPropagation(); openChannelEdit('${ch.name.replace(/'/g,"\\'")}')">
           ${iconInner}
-          <div class="edit-pencil"><span class="msi">edit</span></div>
         </div>
         <div class="icon-footer">
+          <div class="edit-pencil-btn" title="Muokkaa" onclick="event.stopPropagation(); openChannelEdit('${ch.name.replace(/'/g,"\\'")}')">
+            <span class="msi">edit</span>
+          </div>
           <div class="fav-star-btn ${fav ? 'active' : ''}" title="Suosikki" onclick="event.stopPropagation(); toggleFavorite('${ch.name.replace(/'/g,"\\'")}')">
             <span class="msi ${fav ? 'filled' : ''}">star</span>
           </div>
