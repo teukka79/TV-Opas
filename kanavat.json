@@ -12,8 +12,8 @@
   },
   {
     "id": "yle-tv2",
-    "nimi": "YLE TV2",
-    "xmltv_id": "YLE TV2.fi",
+    "nimi": "Yle TV2",
+    "xmltv_id": "Yle TV2.fi",
     "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/yle-tv2-fi.png",
     "maa": "finland",
     "numero": 2
