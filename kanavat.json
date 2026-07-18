@@ -13,63 +13,56 @@
   {
     "id": "yle-tv2",
     "nimi": "YLE TV2",
-    "ryhma": "Peruskanavat",
     "xmltv_id": "YLE TV2.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/yle-tv2-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/yle-tv2-fi.png",
     "maa": "finland",
     "numero": 2
   },
   {
     "id": "mtv3",
     "nimi": "MTV3",
-    "ryhma": "Peruskanavat",
     "xmltv_id": "MTV3.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/mtv3-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv3-fi.png",
     "maa": "finland",
     "numero": 3
   },
   {
     "id": "nelonen",
     "nimi": "Nelonen",
-    "ryhma": "Peruskanavat",
     "xmltv_id": "Nelonen.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/nelonen-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/nelonen-fi.png",
     "maa": "finland",
     "numero": 4
   },
   {
     "id": "yle-teema-and-fem",
     "nimi": "Yle Teema And Fem",
-    "ryhma": "Peruskanavat",
     "xmltv_id": "Yle Teema And Fem.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/yle-teema-fem-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/yle-teema-fem-fi.png",
     "maa": "finland",
     "numero": 5
   },
   {
     "id": "mtv-sub",
     "nimi": "MTV Sub",
-    "ryhma": "Peruskanavat",
     "xmltv_id": "MTV Sub.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/mtv-sub-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv-sub-fi.png",
     "maa": "finland",
     "numero": 6
   },
   {
     "id": "tv5",
     "nimi": "TV5",
-    "ryhma": "Peruskanavat",
     "xmltv_id": "TV5.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/tv5-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/tv5-fi.png",
     "maa": "finland",
     "numero": 7
   },
   {
     "id": "liv",
     "nimi": "Liv",
-    "ryhma": "Peruskanavat",
     "xmltv_id": "Liv.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/liv-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/liv-fi.png",
     "maa": "finland",
     "numero": 8
   },
@@ -77,96 +70,71 @@
     "id": "jim",
     "nimi": "Jim",
     "xmltv_id": "Jim.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/jim-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/jim-fi.png",
     "maa": "finland",
     "numero": 9
   },
   {
     "id": "kutonen",
     "nimi": "Kutonen",
-    "ryhma": "Peruskanavat",
     "xmltv_id": "Kutonen.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/kutonen-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/kutonen-fi.png",
     "maa": "finland",
     "numero": 10
   },
   {
     "id": "tlc",
     "nimi": "TLC",
-    "ryhma": "Peruskanavat",
     "xmltv_id": "TLC.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/denmark/tlc-dk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/denmark/tlc-dk.png",
     "maa": "finland",
     "numero": 11
   },
   {
     "id": "star-channel",
     "nimi": "STAR Channel",
-    "ryhma": "Peruskanavat",
     "xmltv_id": "STAR Channel.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/star-channel-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/star-channel-fi.png",
     "maa": "finland",
     "numero": 12
   },
   {
     "id": "mtv-ava",
     "nimi": "MTV Ava",
-    "ryhma": "Peruskanavat",
     "xmltv_id": "MTV Ava.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/mtv-ava-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv-ava-fi.png",
     "maa": "finland",
     "numero": 13
   },
   {
     "id": "hero",
     "nimi": "Hero",
-    "ryhma": "Peruskanavat",
     "xmltv_id": "Hero HD.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/hero-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/hero-fi.png",
     "maa": "finland",
     "numero": 14
   },
   {
     "id": "frii",
     "nimi": "Frii",
-    "ryhma": "Peruskanavat",
     "xmltv_id": "Frii HD.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/frii-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/frii-fi.png",
     "maa": "finland",
     "numero": 15
   },
   {
     "id": "national-geographic",
     "nimi": "National Geographic",
-    "ryhma": "Peruskanavat",
     "xmltv_id": "National Geographic.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/denmark/national-geographic-dk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/denmark/national-geographic-dk.png",
     "maa": "finland",
-    "numero": 16
-  },
-  {
-    "id": "eveo",
-    "nimi": "EVEO",
-    "ryhma": "Peruskanavat",
-    "xmltv_id": "EVEO.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/tapahtuma-tv-eveo-fi.png",
-    "maa": "finland",
-    "numero": 20
-  },
-  {
-    "id": "viaplay-tv",
-    "nimi": "Viaplay TV",
-    "ryhma": "Peruskanavat",
-    "xmltv_id": "Viaplay TV.fi",
-    "logo": "https://github.com/teukka79/TV-Opas/blob/main/Logot/Viaplay_TV.png?raw=true",
-    "maa": "finland",
-    "numero": 21
+    "numero": 17
   },
   {
     "id": "national-geographic-wild",
     "nimi": "National Geographic Wild",
     "xmltv_id": "National Geographic Wild.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/denmark/national-geographic-wild-dk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/denmark/national-geographic-wild-dk.png",
     "maa": "finland",
     "numero": 18
   },
@@ -174,274 +142,290 @@
     "id": "discovery",
     "nimi": "Discovery",
     "xmltv_id": "Discovery Channel.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/denmark/discovery-channel-dk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/denmark/discovery-channel-dk.png",
     "maa": "finland",
     "numero": 19
+  },
+  {
+    "id": "eveo",
+    "nimi": "EVEO",
+    "xmltv_id": "EVEO.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/tapahtuma-tv-eveo-fi.png",
+    "maa": "finland",
+    "numero": 20
+  },
+  {
+    "id": "viaplay-tv",
+    "nimi": "Viaplay TV",
+    "xmltv_id": "Viaplay TV.fi",
+    "logo": "https://raw.githubusercontent.com/teukka79/TV-Opas/main/Logot/Viaplay_TV.png",
+    "maa": "finland",
+    "numero": 21
   },
   {
     "id": "bbc-nordic",
     "nimi": "BBC Nordic",
     "xmltv_id": "BBC Nordic.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/bbc-nordic-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/bbc-nordic-fi.png",
     "maa": "finland"
   },
   {
     "id": "mtv-urheilu-1",
     "nimi": "MTV Urheilu 1",
     "xmltv_id": "MTV Urheilu 1.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/mtv-urheilu-1-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv-urheilu-1-fi.png",
     "maa": "finland"
   },
   {
     "id": "mtv-urheilu-2",
     "nimi": "MTV Urheilu 2",
     "xmltv_id": "MTV Urheilu 2.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/mtv-urheilu-2-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv-urheilu-2-fi.png",
     "maa": "finland"
   },
   {
     "id": "mtv-urheilu-3",
     "nimi": "MTV Urheilu 3",
     "xmltv_id": "MTV Urheilu 3.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/mtv-urheilu-3-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv-urheilu-3-fi.png",
     "maa": "finland"
   },
   {
     "id": "mtv-liiga-1",
     "nimi": "MTV Liiga 1",
     "xmltv_id": "MTV Liiga 1.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/mtv-liiga-1-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv-liiga-1-fi.png",
     "maa": "finland"
   },
   {
     "id": "mtv-liiga-2",
     "nimi": "MTV Liiga 2",
     "xmltv_id": "MTV Liiga 2.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/mtv-liiga-2-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv-liiga-2-fi.png",
     "maa": "finland"
   },
   {
     "id": "mtv-liiga-3",
     "nimi": "MTV Liiga 3",
     "xmltv_id": "MTV Liiga 3.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/mtv-liiga-3-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv-liiga-3-fi.png",
     "maa": "finland"
   },
   {
     "id": "mtv-liiga-4",
     "nimi": "MTV Liiga 4",
     "xmltv_id": "MTV Liiga 4.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/mtv-liiga-4-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv-liiga-4-fi.png",
     "maa": "finland"
   },
   {
     "id": "mtv-liiga-5",
     "nimi": "MTV Liiga 5",
     "xmltv_id": "MTV Liiga 5.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/mtv-liiga-5-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv-liiga-5-fi.png",
     "maa": "finland"
   },
   {
     "id": "mtv-liiga-6",
     "nimi": "MTV Liiga 6",
     "xmltv_id": "MTV Liiga 6.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/mtv-liiga-6-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv-liiga-6-fi.png",
     "maa": "finland"
   },
   {
     "id": "mtv-liiga-7",
     "nimi": "MTV Liiga 7",
     "xmltv_id": "MTV Liiga 7.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/mtv-liiga-7-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv-liiga-7-fi.png",
     "maa": "finland"
   },
   {
     "id": "mtv-liiga-8",
     "nimi": "MTV Liiga 8",
     "xmltv_id": "MTV Liiga 8.fi",
-    "logo": "https://github.com/teukka79/TV-Opas/blob/main/Logot/mtv-liiga-8-fi.png?raw=true",
+    "logo": "https://raw.githubusercontent.com/teukka79/TV-Opas/main/Logot/mtv-liiga-8-fi.png",
     "maa": "finland"
   },
   {
     "id": "mtv-aitio",
     "nimi": "MTV Aitio",
     "xmltv_id": "MTV Aitio.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/mtv-aitio-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv-aitio-fi.png",
     "maa": "finland"
   },
   {
     "id": "mtv-juniori",
     "nimi": "MTV Juniori",
     "xmltv_id": "MTV Juniori.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/mtv-juniori-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv-juniori-fi.png",
     "maa": "finland"
   },
   {
     "id": "mtv-viihde",
     "nimi": "MTV Viihde",
     "xmltv_id": "MTV Viihde.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/mtv-viihde-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv-viihde-fi.png",
     "maa": "finland"
   },
   {
     "id": "discovery-science",
     "nimi": "Discovery Science",
     "xmltv_id": "Discovery Science.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/discovery-science-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/discovery-science-uk.png",
     "maa": "finland"
   },
   {
     "id": "eurosport-1",
     "nimi": "Eurosport 1",
     "xmltv_id": "Eurosport.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/denmark/eurosport-1-dk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/denmark/eurosport-1-dk.png",
     "maa": "finland"
   },
   {
     "id": "eurosport-2",
     "nimi": "Eurosport 2",
     "xmltv_id": "Eurosport 2.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/denmark/eurosport-2-dk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/denmark/eurosport-2-dk.png",
     "maa": "finland"
   },
   {
     "id": "animal-planet",
     "nimi": "Animal Planet",
     "xmltv_id": "Animal Planet.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/animal-planet-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/animal-planet-uk.png",
     "maa": "finland"
   },
   {
     "id": "mtv-max",
     "nimi": "MTV Max",
     "xmltv_id": "MTV Max.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/mtv-max-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv-max-fi.png",
     "maa": "finland"
   },
   {
     "id": "viaplay-urheilu-1",
     "nimi": "Viaplay Urheilu 1",
     "xmltv_id": "Viaplay 1 Urheilu.fi",
-    "logo": "https://github.com/teukka79/TV-Opas/blob/main/Logot/viaplay-urheilu-1.png?raw=true",
+    "logo": "https://raw.githubusercontent.com/teukka79/TV-Opas/main/Logot/viaplay-urheilu-1.png",
     "maa": "finland"
   },
   {
     "id": "viaplay-urheilu-2",
     "nimi": "Viaplay Urheilu 2",
     "xmltv_id": "Viaplay 2 Urheilu.fi",
-    "logo": "https://github.com/teukka79/TV-Opas/blob/main/Logot/viaplay-urheilu-2.png?raw=true",
+    "logo": "https://raw.githubusercontent.com/teukka79/TV-Opas/main/Logot/viaplay-urheilu-2.png",
     "maa": "finland"
   },
   {
     "id": "viaplay-urheilu-3",
     "nimi": "Viaplay Urheilu 3",
     "xmltv_id": "Viaplay 3 Urheilu.fi",
-    "logo": "https://github.com/teukka79/TV-Opas/blob/main/Logot/viaplay-urheilu-3.png?raw=true",
+    "logo": "https://raw.githubusercontent.com/teukka79/TV-Opas/main/Logot/viaplay-urheilu-3.png",
     "maa": "finland"
   },
   {
     "id": "viaplay-tv",
     "nimi": "Viaplay TV",
     "xmltv_id": "Viaplay TV.fi",
-    "logo": "https://github.com/teukka79/TV-Opas/blob/main/Logot/Viaplay_TV.png?raw=true",
+    "logo": "https://raw.githubusercontent.com/teukka79/TV-Opas/main/Logot/Viaplay_TV.png",
     "maa": "finland"
   },
   {
     "id": "viasat-nature",
     "nimi": "Viasat Nature",
     "xmltv_id": "Viasat Nature.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/viasat-nature-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/viasat-nature-fi.png",
     "maa": "finland"
   },
   {
     "id": "viasat-explore",
     "nimi": "Viasat Explore",
     "xmltv_id": "Viasat Explore.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/viasat-explore-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/viasat-explore-fi.png",
     "maa": "finland"
   },
   {
     "id": "viasat-history",
     "nimi": "Viasat History",
     "xmltv_id": "Viasat History.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/viasat-history-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/viasat-history-fi.png",
     "maa": "finland"
   },
   {
     "id": "disney-channel",
     "nimi": "Disney Channel",
     "xmltv_id": "Disney Channel.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/denmark/disney-channel-dk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/denmark/disney-channel-dk.png",
     "maa": "finland"
   },
   {
     "id": "cnn",
     "nimi": "CNN",
     "xmltv_id": "CNN.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-states/cnn-us.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cnn-us.png",
     "maa": "finland"
   },
   {
     "id": "deed",
     "nimi": "Deed",
     "xmltv_id": "Deed.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/deed-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/deed-fi.png",
     "maa": "finland"
   },
   {
     "id": "irr-tv",
     "nimi": "IRR-TV",
     "xmltv_id": "IRRTV.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/irr-tv-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/irr-tv-fi.png",
     "maa": "finland"
   },
   {
     "id": "liiga",
     "nimi": "Liiga",
     "xmltv_id": "Liiga.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/liiga-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/liiga-fi.png",
     "maa": "finland"
   },
   {
     "id": "mt",
     "nimi": "MT",
     "xmltv_id": "MT.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/mt-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mt-fi.png",
     "maa": "finland"
   },
   {
     "id": "mtv",
     "nimi": "MTV",
     "xmltv_id": "MTV.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/mtv-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv-fi.png",
     "maa": "finland"
   },
   {
     "id": "one-way-tv",
     "nimi": "One Way TV",
     "xmltv_id": "OneWayTV.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/one-way-tv-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/one-way-tv-fi.png",
     "maa": "finland"
   },
   {
     "id": "onni-tv",
     "nimi": "Onni TV",
     "xmltv_id": "OnniTV.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/onni-tv-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/onni-tv-fi.png",
     "maa": "finland"
   },
   {
     "id": "sf-kanalen",
     "nimi": "SF-Kanalen",
     "xmltv_id": "SF Kanalen.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/sf-kanalen-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/sf-kanalen-fi.png",
     "maa": "finland"
   },
   {
     "id": "elisa-viihde",
     "nimi": "Elisa Viihde",
     "xmltv_id": "Elisa Viihde.fi",
-    "logo": "https://github.com/teukka79/TV-Opas/blob/main/Logot/elisa-viihde.png?raw=true",
+    "logo": "https://raw.githubusercontent.com/teukka79/TV-Opas/main/Logot/elisa-viihde.png",
     "maa": "finland",
     "numero": 16
   },
@@ -449,728 +433,728 @@
     "id": "v-sport",
     "nimi": "V sport",
     "xmltv_id": "V Sport.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-sport-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-sport-fi.png",
     "maa": "finland"
   },
   {
     "id": "v-sport-ultra-hd",
     "nimi": "V Sport Ultra HD",
     "xmltv_id": "V Sport Ultra HD.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/sweden/v-sport-ultrahd-se.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/sweden/v-sport-ultrahd-se.png",
     "maa": "finland"
   },
   {
     "id": "v-sport-1",
     "nimi": "V Sport 1",
     "xmltv_id": "V Sport 1.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-sport-1-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-sport-1-fi.png",
     "maa": "finland"
   },
   {
     "id": "v-sport-1-suomi",
     "nimi": "V sport 1 Suomi",
     "xmltv_id": "Vsport1Suomi.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-sport-1-suomi-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-sport-1-suomi-fi.png",
     "maa": "finland"
   },
   {
     "id": "v-sport-2-suomi",
     "nimi": "V sport 2 Suomi",
     "xmltv_id": "Vsport2Suomi.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-sport-2-suomi-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-sport-2-suomi-fi.png",
     "maa": "finland"
   },
   {
     "id": "v-sport-football",
     "nimi": "V sport football",
     "xmltv_id": "V sport football.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-sport-football-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-sport-football-fi.png",
     "maa": "finland"
   },
   {
     "id": "v-sport-golf",
     "nimi": "V sport golf",
     "xmltv_id": "V sport golf.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-sport-golf-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-sport-golf-fi.png",
     "maa": "finland"
   },
   {
     "id": "v-sport-live-1",
     "nimi": "V sport live 1",
     "xmltv_id": "V sport live 1.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-sport-live-1-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-sport-live-1-fi.png",
     "maa": "finland"
   },
   {
     "id": "v-sport-live-2",
     "nimi": "V sport live 2",
     "xmltv_id": "V sport live 2.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-sport-live-2-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-sport-live-2-fi.png",
     "maa": "finland"
   },
   {
     "id": "v-sport-live-3",
     "nimi": "V sport live 3",
     "xmltv_id": "V sport live 3.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-sport-live-3-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-sport-live-3-fi.png",
     "maa": "finland"
   },
   {
     "id": "v-sport-live-4",
     "nimi": "V sport live 4",
     "xmltv_id": "V sport live 4.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-sport-live-4-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-sport-live-4-fi.png",
     "maa": "finland"
   },
   {
     "id": "v-sport-live-5",
     "nimi": "V sport live 5",
     "xmltv_id": "V sport live 5.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-sport-live-5-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-sport-live-5-fi.png",
     "maa": "finland"
   },
   {
     "id": "v-sport-plus-suomi",
     "nimi": "V sport+ Suomi",
     "xmltv_id": "VsportPlusSuomi.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-sport-plus-suomi-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-sport-plus-suomi-fi.png",
     "maa": "finland"
   },
   {
     "id": "v-sport-premium",
     "nimi": "V sport premium",
     "xmltv_id": "V sport premium.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-sport-premium-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-sport-premium-fi.png",
     "maa": "finland"
   },
   {
     "id": "v-sport-vinter",
     "nimi": "V sport vinter",
     "xmltv_id": "V sport vinter.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-sport-vinter-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-sport-vinter-fi.png",
     "maa": "finland"
   },
   {
     "id": "vlm-action",
     "nimi": "V film action",
     "xmltv_id": "V film action.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-film-action-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-film-action-fi.png",
     "maa": "finland"
   },
   {
     "id": "vlm-action-hd",
     "nimi": "V film action HD",
     "xmltv_id": "VfilmactionHD.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-film-action-hd-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-film-action-hd-fi.png",
     "maa": "finland"
   },
   {
     "id": "vlm-family",
     "nimi": "V film family",
     "xmltv_id": "V film family.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-film-family-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-film-family-fi.png",
     "maa": "finland"
   },
   {
     "id": "vlm-family-hd",
     "nimi": "V film family HD",
     "xmltv_id": "VfilmfamilyHD.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-film-family-hd-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-film-family-hd-fi.png",
     "maa": "finland"
   },
   {
     "id": "vlm-hits",
     "nimi": "V film hits",
     "xmltv_id": "V film hits.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-film-hits-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-film-hits-fi.png",
     "maa": "finland"
   },
   {
     "id": "vlm-hits-hd",
     "nimi": "V film hits HD",
     "xmltv_id": "VfilmhitsHD.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-film-hits-hd-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-film-hits-hd-fi.png",
     "maa": "finland"
   },
   {
     "id": "vlm-premiere",
     "nimi": "V film premiere",
     "xmltv_id": "V film premiere.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-film-premiere-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-film-premiere-fi.png",
     "maa": "finland"
   },
   {
     "id": "vlm-premiere-hd",
     "nimi": "V film premiere HD",
     "xmltv_id": "VfilmpremiereHD.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-film-premiere-hd-fi.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-film-premiere-hd-fi.png",
     "maa": "finland"
   },
   {
     "id": "4-more",
     "nimi": "4 More",
     "xmltv_id": "4More.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/4-more-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/4-more-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "4-more-hd",
     "nimi": "4 More HD",
     "xmltv_id": "4MoreHD.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/hd/4-more-hd-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/4-more-hd-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "4-more-plus",
     "nimi": "4 More Plus",
     "xmltv_id": "4MorePlus.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/4-more-plus-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/4-more-plus-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "4-music",
     "nimi": "4 Music",
     "xmltv_id": "4Music.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/4-music-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/4-music-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "4-seven",
     "nimi": "4 Seven",
     "xmltv_id": "4Seven.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/4-seven-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/4-seven-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "4-seven-hd",
     "nimi": "4 Seven HD",
     "xmltv_id": "4SevenHD.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom//hd/4-seven-hd-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom//hd/4-seven-hd-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "5-action",
     "nimi": "5 Action",
     "xmltv_id": "5Action.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom//5-action-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom//5-action-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "5-select",
     "nimi": "5 Select",
     "xmltv_id": "5Select.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom//5-select-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom//5-select-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "5-star",
     "nimi": "5 Star",
     "xmltv_id": "5Star.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom//5-star-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom//5-star-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "5-star-plus",
     "nimi": "5 Star Plus",
     "xmltv_id": "5StarPlus.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom//5-star-plus-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom//5-star-plus-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "5-usa",
     "nimi": "5 USA",
     "xmltv_id": "5USA.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/5-usa-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/5-usa-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "5-usa-plus",
     "nimi": "5 USA Plus",
     "xmltv_id": "5USAPlus.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/5-usa-plus-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/5-usa-plus-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "92-news",
     "nimi": "92 News",
     "xmltv_id": "92News.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/92-news-uk-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/92-news-uk-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "adult-channel",
     "nimi": "Adult Channel",
     "xmltv_id": "AdultChannel.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/adult-channel-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/adult-channel-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "aka",
     "nimi": "Aka",
     "xmltv_id": "Aka.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/aka-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/aka-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "alibi",
     "nimi": "Alibi",
     "xmltv_id": "Alibi.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/alibi-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/alibi-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "alibi-plus",
     "nimi": "Alibi Plus",
     "xmltv_id": "AlibiPlus.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/alibi-plus-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/alibi-plus-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "aljazeera",
     "nimi": "Al Jazeera",
     "xmltv_id": "AlJazeera.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/aljazeera-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/aljazeera-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "all-4",
     "nimi": "All 4",
     "xmltv_id": "All4.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/all-4-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/all-4-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "amc",
     "nimi": "AMC",
     "xmltv_id": "AMC.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/amc-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/amc-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "animal-planet",
     "nimi": "Animal Planet",
     "xmltv_id": "AnimalPlanet.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/animal-planet-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/animal-planet-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "animal-planet-hd",
     "nimi": "Animal Planet HD",
     "xmltv_id": "AnimalPlanetHD.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/hd/animal-planet-hd-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/animal-planet-hd-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "animal-planet-plus",
     "nimi": "Animal Planet Plus",
     "xmltv_id": "AnimalPlanetPlus.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/animal-planet-plus-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/animal-planet-plus-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "arise-news",
     "nimi": "Arise News",
     "xmltv_id": "AriseNews.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/arise-news-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/arise-news-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "arise-play",
     "nimi": "Arise Play",
     "xmltv_id": "ArisePlay.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/arise-play-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/arise-play-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "ary-family",
     "nimi": "ARY Family",
     "xmltv_id": "ARYFamily.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/ary-family-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/ary-family-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "b4u-movies",
     "nimi": "B4U Movies",
     "xmltv_id": "B4UMovies.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/b4u-movies-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/b4u-movies-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "b4u-music",
     "nimi": "B4U Music",
     "xmltv_id": "B4UMusic.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/b4u-music-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/b4u-music-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "babes-tv-brazzers-tv-europe",
     "nimi": "Babes TV / Brazzers TV Europe",
     "xmltv_id": "BabesTV.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/babes-tv-brazzers-tv-europe-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/babes-tv-brazzers-tv-europe-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "babestation",
     "nimi": "Babestation",
     "xmltv_id": "Babestation.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/babestation-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/babestation-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "baby-tv",
     "nimi": "Baby TV",
     "xmltv_id": "BabyTV.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/baby-tv-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/baby-tv-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "bbc-alba",
     "nimi": "BBC Alba",
     "xmltv_id": "BBCAlba.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/bbc-alba-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-alba-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "bbc-cbbc",
     "nimi": "CBBC",
     "xmltv_id": "CBBC.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/bbc-cbbc-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-cbbc-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "bbc-cbeebies",
     "nimi": "CBeebies",
     "xmltv_id": "CBeebies.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/bbc-cbeebies-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-cbeebies-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "bbc-cymru-wales",
     "nimi": "BBC Cymru Wales",
     "xmltv_id": "BBCCymruWales.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/bbc-cymru-wales-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-cymru-wales-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "bbc-four",
     "nimi": "BBC Four",
     "xmltv_id": "BBCFour.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/bbc-four-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-four-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "bbc-four-cbeebies",
     "nimi": "BBC Four / CBeebies",
     "xmltv_id": "BBCFourCBeebies.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/bbc-four-cbeebies-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-four-cbeebies-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "bbc-four-hd",
     "nimi": "BBC Four HD",
     "xmltv_id": "BBCFourHD.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/hd/bbc-four-hd-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/bbc-four-hd-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "bbc-news",
     "nimi": "BBC News",
     "xmltv_id": "BBCNews.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/bbc-news-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-news-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "bbc-news-hz",
     "nimi": "BBC News (HZ)",
     "xmltv_id": "BBCNewsHZ.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/bbc-news-hz-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-news-hz-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "bbc-news-hz-white",
     "nimi": "BBC News (HZ White)",
     "xmltv_id": "BBCNewsHZWhite.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/bbc-news-hz-white-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-news-hz-white-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "bbc-northern-ireland",
     "nimi": "BBC Northern Ireland",
     "xmltv_id": "BBCNorthernIreland.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/bbc-northern-ireland-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-northern-ireland-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "bbc-one",
     "nimi": "BBC One",
     "xmltv_id": "BBCOne.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/bbc-one-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-one-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "bbc-one-hd",
     "nimi": "BBC One HD",
     "xmltv_id": "BBCOneHD.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/hd/bbc-one-hd-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/bbc-one-hd-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "bbc-one-northern-ireland",
     "nimi": "BBC One Northern Ireland",
     "xmltv_id": "BBCOneNorthernIreland.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/bbc-one-northern-ireland-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-one-northern-ireland-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "bbc-one-scotland",
     "nimi": "BBC One Scotland",
     "xmltv_id": "BBCOneScotland.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/bbc-one-scotland-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-one-scotland-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "bbc-one-wales",
     "nimi": "BBC One Wales",
     "xmltv_id": "BBCOneWales.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/bbc-one-wales-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-one-wales-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "bbc-parliament",
     "nimi": "BBC Parliament",
     "xmltv_id": "BBCParliament.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/bbc-parliament-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-parliament-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "bbc-scotland",
     "nimi": "BBC Scotland",
     "xmltv_id": "BBCScotland.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/bbc-scotland-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-scotland-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "bbc-three",
     "nimi": "BBC Three",
     "xmltv_id": "BBCThree.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/bbc-three-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-three-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "bbc-three-cbbc",
     "nimi": "BBC Three / CBBC",
     "xmltv_id": "BBCThreeCBBC.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/bbc-three-cbbc-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-three-cbbc-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "bbc-two",
     "nimi": "BBC Two",
     "xmltv_id": "BBCTwo.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/bbc-two-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-two-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "bbc-two-hd",
     "nimi": "BBC Two HD",
     "xmltv_id": "BBCTwoHD.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/hd/bbc-two-hd-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/bbc-two-hd-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "bbc-two-northern-ireland",
     "nimi": "BBC Two Northern Ireland",
     "xmltv_id": "BBCTwoNorthernIreland.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/bbc-two-northern-ireland-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-two-northern-ireland-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "bbc-two-wales",
     "nimi": "BBC Two Wales",
     "xmltv_id": "BBCTwoWales.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/bbc-two-wales-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-two-wales-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "bbc-uhd",
     "nimi": "BBC UHD",
     "xmltv_id": "BBCUHD.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/bbc-uhd-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-uhd-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "bbc-world-news",
     "nimi": "BBC World News",
     "xmltv_id": "BBCWorldNews.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/bbc-world-news-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-world-news-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "bbc-world-news-hz",
     "nimi": "BBC World News (HZ)",
     "xmltv_id": "BBCWorldNewsHZ.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/bbc-world-news-hz-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-world-news-hz-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "bbc-world-news-white-hz",
     "nimi": "BBC World News (White HZ)",
     "xmltv_id": "BBCWorldNewsWhiteHZ.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/bbc-world-news-white-hz-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-world-news-white-hz-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "bbc-world-service",
     "nimi": "BBC World Service",
     "xmltv_id": "BBCWorldService.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/bbc-world-service-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-world-service-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "ben-tv",
     "nimi": "BEN TV",
     "xmltv_id": "BENTV.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/ben-tv-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/ben-tv-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "best-direct",
     "nimi": "Best Direct",
     "xmltv_id": "BestDirect.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/best-direct-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/best-direct-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "bet",
     "nimi": "BET",
     "xmltv_id": "BET.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/bet-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bet-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "blaze",
     "nimi": "Blaze",
     "xmltv_id": "Blaze.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/blaze-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/blaze-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "blaze-plus",
     "nimi": "Blaze Plus",
     "xmltv_id": "BlazePlus.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/blaze-plus-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/blaze-plus-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "boomerang",
     "nimi": "Boomerang",
     "xmltv_id": "Boomerang.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/boomerang-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/boomerang-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "boomerang-plus",
     "nimi": "Boomerang Plus",
     "xmltv_id": "BoomerangPlus.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/boomerang-plus-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/boomerang-plus-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "box-hits",
     "nimi": "Box Hits",
     "xmltv_id": "BoxHits.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/box-hits-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/box-hits-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "box-nation",
     "nimi": "Box Nation",
     "xmltv_id": "BoxNation.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/box-nation-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/box-nation-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "box-nation-hz",
     "nimi": "Box Nation (HZ)",
     "xmltv_id": "BoxNationHZ.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/box-nation-hz-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/box-nation-hz-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "boxmas",
     "nimi": "Boxmas",
     "xmltv_id": "Boxmas.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/boxmas-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/boxmas-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "brit-asia-tv",
     "nimi": "Brit Asia TV",
     "xmltv_id": "BritAsiaTV.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/brit-asia-tv-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/brit-asia-tv-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "bt-sport",
     "nimi": "BT Sport",
     "xmltv_id": "BTSport.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/bt-sport-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bt-sport-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "bt-sport-1",
     "nimi": "BT Sport 1",
     "xmltv_id": "BTSport1.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/bt-sport-1-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bt-sport-1-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "bt-sport-1-hd",
     "nimi": "BT Sport 1 HD",
     "xmltv_id": "BTSport1HD.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/hd/bt-sport-1-hd-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/bt-sport-1-hd-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "bt-sport-10",
     "nimi": "BT Sport 10",
     "xmltv_id": "BTSport10.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/bt-sport-10-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bt-sport-10-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "bt-sport-10-hd",
     "nimi": "BT Sport 10 HD",
     "xmltv_id": "BTSport10HD.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/hd/bt-sport-10-hd-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/bt-sport-10-hd-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "bt-sport-2",
     "nimi": "BT Sport 2",
     "xmltv_id": "BTSport2.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/bt-sport-2-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bt-sport-2-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "bt-sport-2-hd",
     "nimi": "BT Sport 2 HD",
     "xmltv_id": "BTSport2HD.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/hd/bt-sport-2-hd-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/bt-sport-2-hd-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "bt-sport-3",
     "nimi": "BT Sport 3",
     "xmltv_id": "BTSport3.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/bt-sport-3-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bt-sport-3-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "bt-sport-3-hd",
     "nimi": "BT Sport 3 HD",
     "xmltv_id": "BTSport3HD.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/hd/bt-sport-3-hd-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/bt-sport-3-hd-uk.png",
     "maa": "united-kingdom"
   },
   {
@@ -1422,42 +1406,42 @@
     "id": "cartoonito",
     "nimi": "Cartoonito",
     "xmltv_id": "Cartoonito.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/cartoonito-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/cartoonito-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "cbs-drama",
     "nimi": "CBS Drama",
     "xmltv_id": "CBSDrama.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/cbs-drama-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/cbs-drama-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "cbs-justice",
     "nimi": "CBS Justice",
     "xmltv_id": "CBSJustice.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/cbs-justice-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/cbs-justice-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "cbs-justice-plus",
     "nimi": "CBS Justice Plus",
     "xmltv_id": "CBSJusticePlus.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/cbs-justice-plus-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/cbs-justice-plus-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "cbs-reality",
     "nimi": "CBS Reality",
     "xmltv_id": "CBSReality.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/cbs-reality-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/cbs-reality-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "cbs-reality-plus",
     "nimi": "CBS Reality Plus",
     "xmltv_id": "CBSRealityPlus.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/cbs-reality-plus-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/cbs-reality-plus-uk.png",
     "maa": "united-kingdom"
   },
   {
@@ -1485,126 +1469,126 @@
     "id": "channel-4",
     "nimi": "Channel 4",
     "xmltv_id": "Channel4.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/channel-4-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/channel-4-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "channel-4-hd",
     "nimi": "Channel 4 HD",
     "xmltv_id": "Channel4HD.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/hd/channel-4-hd-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/channel-4-hd-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "channel-4-plus",
     "nimi": "Channel 4+1",
     "xmltv_id": "Channel4Plus1.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/channel-4-plus-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/channel-4-plus-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "channel-4-plus-hd",
     "nimi": "Channel 4+1 HD",
     "xmltv_id": "Channel4Plus1HD.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/hd/channel-4-plus-hd-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/channel-4-plus-hd-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "channel-5",
     "nimi": "Channel 5",
     "xmltv_id": "Channel5.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/channel-5-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/channel-5-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "channel-5-hd",
     "nimi": "Channel 5 HD",
     "xmltv_id": "Channel5HD.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/hd/channel-5-hd-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/channel-5-hd-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "channel-5-plus",
     "nimi": "Channel 5+1",
     "xmltv_id": "Channel5Plus1.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/channel-5-plus-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/channel-5-plus-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "channel7",
     "nimi": "Channel 7",
     "xmltv_id": "Channel7.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/channel7-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/channel7-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "chelsea-tv",
     "nimi": "Chelsea TV",
     "xmltv_id": "ChelseaTV.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/chelsea-tv-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/chelsea-tv-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "chelsea-tv-badge",
     "nimi": "Chelsea TV (Badge)",
     "xmltv_id": "ChelseaTVBadge.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/chelsea-tv-badge-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/chelsea-tv-badge-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "chelsea-tv-badge-hz",
     "nimi": "Chelsea TV Badge (HZ)",
     "xmltv_id": "ChelseaTVBadgeHZ.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/chelsea-tv-badge-hz-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/chelsea-tv-badge-hz-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "christmas-24",
     "nimi": "Christmas 24",
     "xmltv_id": "Christmas24.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/christmas-24-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/christmas-24-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "christmas-24-plus",
     "nimi": "Christmas 24 Plus",
     "xmltv_id": "Christmas24Plus.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/christmas-24-plus-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/christmas-24-plus-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "classic-hits",
     "nimi": "Classic Hits",
     "xmltv_id": "ClassicHits.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/classic-hits-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/classic-hits-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "clubland",
     "nimi": "Clubland TV",
     "xmltv_id": "Clubland.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/clubland-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/clubland-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "colors",
     "nimi": "Colors",
     "xmltv_id": "Colors.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/colors-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/colors-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "colors-cineplex",
     "nimi": "Colors Cineplex",
     "xmltv_id": "ColorsCineplex.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/colors-cineplex-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/colors-cineplex-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "colors-gujarati",
     "nimi": "Colors Gujarati",
     "xmltv_id": "ColorsGujarati.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/colors-gujarati-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/colors-gujarati-uk.png",
     "maa": "united-kingdom"
   },
   {
@@ -1625,742 +1609,742 @@
     "id": "comedy-central",
     "nimi": "Comedy Central",
     "xmltv_id": "ComedyCentral.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/comedy-central-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/comedy-central-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "comedy-central-extra",
     "nimi": "Comedy Central Extra",
     "xmltv_id": "ComedyCentralExtra.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/comedy-central-extra-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/comedy-central-extra-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "comedy-central-extra-hz",
     "nimi": "Comedy Central Extra (HZ)",
     "xmltv_id": "ComedyCentralExtraHZ.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/comedy-central-extra-hz-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/comedy-central-extra-hz-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "comedy-central-extra-plus",
     "nimi": "Comedy Central Extra Plus",
     "xmltv_id": "ComedyCentralExtraPlus.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/comedy-central-extra-plus-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/comedy-central-extra-plus-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "comedy-central-extra-plus-hz",
     "nimi": "Comedy Central Extra Plus (HZ)",
     "xmltv_id": "ComedyCentralExtraPlusHZ.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/comedy-central-extra-plus-hz-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/comedy-central-extra-plus-hz-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "comedy-central-hd",
     "nimi": "Comedy Central HD",
     "xmltv_id": "ComedyCentralHD.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/hd/comedy-central-hd-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/comedy-central-hd-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "comedy-central-icon",
     "nimi": "Comedy Central (Icon)",
     "xmltv_id": "ComedyCentralIcon.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/comedy-central-icon-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/comedy-central-icon-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "comedy-central-icon-hd",
     "nimi": "Comedy Central Icon HD",
     "xmltv_id": "ComedyCentralIconHD.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/hd/comedy-central-icon-hd-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/comedy-central-icon-hd-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "comedy-central-plus",
     "nimi": "Comedy Central Plus",
     "xmltv_id": "ComedyCentralPlus.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/comedy-central-plus-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/comedy-central-plus-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "comedy-central-plus-icon",
     "nimi": "Comedy Central Plus (Icon)",
     "xmltv_id": "ComedyCentralPlusIcon.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/comedy-central-plus-icon-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/comedy-central-plus-icon-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "court-tv",
     "nimi": "Court TV",
     "xmltv_id": "CourtTV.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/court-tv-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/court-tv-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "create-and-craft",
     "nimi": "Create and Craft",
     "xmltv_id": "CreateandCraft.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/create-and-craft-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/create-and-craft-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "cricket-365",
     "nimi": "Cricket 365",
     "xmltv_id": "Cricket365.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/cricket-365-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/cricket-365-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "crime-and-investigation",
     "nimi": "Crime & Investigation",
     "xmltv_id": "CrimeandInvestigation.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/crime-and-investigation-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/crime-and-investigation-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "crime-and-investigation-hd",
     "nimi": "Crime & Investigation HD",
     "xmltv_id": "CrimeandInvestigationHD.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/hd/crime-and-investigation-hd-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/crime-and-investigation-hd-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "crime-and-investigation-plus",
     "nimi": "Crime & Investigation Plus",
     "xmltv_id": "CrimeandInvestigationPlus.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/crime-and-investigation-plus-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/crime-and-investigation-plus-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "cruise-1st-tv",
     "nimi": "Cruise 1st TV",
     "xmltv_id": "Cruise1stTV.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/cruise-1st-tv-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/cruise-1st-tv-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "cula-4",
     "nimi": "Cula4",
     "xmltv_id": "Cula4.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/cula-4-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/cula-4-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "dave",
     "nimi": "Dave",
     "xmltv_id": "Dave.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/dave-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/dave-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "dave-hd",
     "nimi": "Dave HD",
     "xmltv_id": "DaveHD.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/hd/dave-hd-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/dave-hd-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "dave-ja-vu",
     "nimi": "Dave ja vu",
     "xmltv_id": "DavejaVu.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/dave-ja-vu-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/dave-ja-vu-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "direct-stortv",
     "nimi": "Direct StorTV",
     "xmltv_id": "DirectStorTV.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/direct-stortv-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/direct-stortv-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "discovery-channel",
     "nimi": "Discovery Channel",
     "xmltv_id": "DiscoveryChannel.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/discovery-channel-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/discovery-channel-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "discovery-channel-hd",
     "nimi": "Discovery Channel HD",
     "xmltv_id": "DiscoveryChannelHD.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/hd/discovery-channel-hd-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/discovery-channel-hd-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "discovery-channel-hd-hz",
     "nimi": "Discovery Channel HD (HZ)",
     "xmltv_id": "DiscoveryChannelHDHZ.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/hd/discovery-channel-hd-hz-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/discovery-channel-hd-hz-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "discovery-channel-icon",
     "nimi": "Discovery Channel (Icon)",
     "xmltv_id": "DiscoveryChannelIcon.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/discovery-channel-icon-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/discovery-channel-icon-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "discovery-channel-icon-2",
     "nimi": "Discovery Channel (Icon 2)",
     "xmltv_id": "DiscoveryChannelIcon2.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/discovery-channel-icon-2-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/discovery-channel-icon-2-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "discovery-channel-icon-2-plus",
     "nimi": "Discovery Channel (Icon 2 Plus)",
     "xmltv_id": "DiscoveryChannelIcon2Plus.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/discovery-channel-icon-2-plus-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/discovery-channel-icon-2-plus-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "discovery-channel-icon-3",
     "nimi": "Discovery Channel (Icon 3)",
     "xmltv_id": "DiscoveryChannelIcon3.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/discovery-channel-icon-3-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/discovery-channel-icon-3-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "discovery-channel-icon-3-plus",
     "nimi": "Discovery Channel (Icon 3 Plus)",
     "xmltv_id": "DiscoveryChannelIcon3Plus.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/discovery-channel-icon-3-plus-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/discovery-channel-icon-3-plus-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "discovery-channel-icon-plus",
     "nimi": "Discovery Channel (Icon Plus)",
     "xmltv_id": "DiscoveryChannelIconPlus.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/discovery-channel-icon-plus-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/discovery-channel-icon-plus-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "discovery-channel-plus",
     "nimi": "Discovery Channel Plus",
     "xmltv_id": "DiscoveryChannelPlus.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/discovery-channel-plus-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/discovery-channel-plus-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "discovery-history",
     "nimi": "Discovery History",
     "xmltv_id": "DiscoveryHistory.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/discovery-history-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/discovery-history-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "discovery-history-plus",
     "nimi": "Discovery History Plus",
     "xmltv_id": "DiscoveryHistoryPlus.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/discovery-history-plus-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/discovery-history-plus-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "discovery-home-and-health",
     "nimi": "Discovery Home & Health",
     "xmltv_id": "DiscoveryHomeandHealth.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/discovery-home-and-health-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/discovery-home-and-health-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "discovery-home-and-health-icon",
     "nimi": "Discovery Home & Health (Icon)",
     "xmltv_id": "DiscoveryHomeandHealthIcon.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/discovery-home-and-health-icon-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/discovery-home-and-health-icon-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "discovery-home-and-health-plus",
     "nimi": "Discovery Home & Health Plus",
     "xmltv_id": "DiscoveryHomeandHealthPlus.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/discovery-home-and-health-plus-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/discovery-home-and-health-plus-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "discovery-home-and-health-plus-icon",
     "nimi": "Discovery Home & Health Plus (Icon)",
     "xmltv_id": "DiscoveryHomeandHealthPlusIcon.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/discovery-home-and-health-plus-icon-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/discovery-home-and-health-plus-icon-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "discovery-science",
     "nimi": "Discovery Science",
     "xmltv_id": "DiscoveryScience.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/discovery-science-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/discovery-science-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "discovery-science-icon",
     "nimi": "Discovery Science (Icon)",
     "xmltv_id": "DiscoveryScienceIcon.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/discovery-science-icon-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/discovery-science-icon-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "discovery-science-plus",
     "nimi": "Discovery Science Plus",
     "xmltv_id": "DiscoverySciencePlus.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/discovery-science-plus-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/discovery-science-plus-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "discovery-science-plus-icon",
     "nimi": "Discovery Science Plus (Icon)",
     "xmltv_id": "DiscoverySciencePlusIcon.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/discovery-science-plus-icon-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/discovery-science-plus-icon-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "discovery-shed",
     "nimi": "Discovery Shed",
     "xmltv_id": "DiscoveryShed.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/discovery-shed-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/discovery-shed-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "discovery-turbo",
     "nimi": "Discovery Turbo",
     "xmltv_id": "DiscoveryTurbo.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/discovery-turbo-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/discovery-turbo-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "discovery-turbo-plus",
     "nimi": "Discovery Turbo Plus",
     "xmltv_id": "DiscoveryTurboPlus.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/discovery-turbo-plus-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/discovery-turbo-plus-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "disney-channel",
     "nimi": "Disney Channel",
     "xmltv_id": "DisneyChannel.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/disney-channel-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/disney-channel-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "disney-channel-bug",
     "nimi": "Disney Channel (Bug)",
     "xmltv_id": "DisneyChannelBug.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/disney-channel-bug-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/disney-channel-bug-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "disney-channel-plus",
     "nimi": "Disney Channel Plus",
     "xmltv_id": "DisneyChannelPlus.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/disney-channel-plus-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/disney-channel-plus-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "disney-junior",
     "nimi": "Disney Junior",
     "xmltv_id": "DisneyJunior.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/disney-junior-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/disney-junior-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "disney-junior-plus",
     "nimi": "Disney Junior Plus",
     "xmltv_id": "DisneyJuniorPlus.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/disney-junior-plus-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/disney-junior-plus-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "disney-plus",
     "nimi": "Disney Plus",
     "xmltv_id": "DisneyPlus.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/disney-plus-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/disney-plus-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "disney-xd",
     "nimi": "Disney XD",
     "xmltv_id": "DisneyXD.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/disney-xd-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/disney-xd-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "disney-xd-plus",
     "nimi": "Disney XD Plus",
     "xmltv_id": "DisneyXDPlus.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/disney-xd-plus-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/disney-xd-plus-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "great-action",
     "nimi": "Great Action",
     "xmltv_id": "GreatAction.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/great-action-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/great-action-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "great-action-plus1",
     "nimi": "Great Action +1",
     "xmltv_id": "GreatActionPlus1.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/great-action-plus1-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/great-action-plus1-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "great-british-menu",
     "nimi": "Great British Menu",
     "xmltv_id": "GreatBritishMenu.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/great-british-menu-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/great-british-menu-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "great-movies",
     "nimi": "Great Movies",
     "xmltv_id": "GreatMovies.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/great-movies-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/great-movies-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "great-mystery",
     "nimi": "Great Mystery",
     "xmltv_id": "GreatMystery.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/great-mystery-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/great-mystery-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "great-mystery-plus1",
     "nimi": "Great Mystery +1",
     "xmltv_id": "GreatMysteryPlus1.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/great-mystery-plus1-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/great-mystery-plus1-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "great-romance",
     "nimi": "Great Romance",
     "xmltv_id": "GreatRomance.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/great-romance-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/great-romance-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "great-romance-plus1",
     "nimi": "Great Romance +1",
     "xmltv_id": "GreatRomancePlus1.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/great-romance-plus1-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/great-romance-plus1-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "great-tv",
     "nimi": "Great TV",
     "xmltv_id": "GreatTV.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/great-tv-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/great-tv-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "great-tv-plus1",
     "nimi": "Great TV +1",
     "xmltv_id": "GreatTVPlus1.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/great-tv-plus1-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/great-tv-plus1-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "sky-arts",
     "nimi": "Sky Arts",
     "xmltv_id": "SkyArts.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-arts-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-arts-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "sky-atlantic",
     "nimi": "Sky Atlantic",
     "xmltv_id": "SkyAtlantic.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-atlantic-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-atlantic-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "sky-atlantic-plus1",
     "nimi": "Sky Atlantic +1",
     "xmltv_id": "SkyAtlanticPlus1.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-atlantic-plus1-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-atlantic-plus1-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "sky-cinema-action",
     "nimi": "Sky Cinema Action",
     "xmltv_id": "SkyCinemaAction.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-cinema-action-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-cinema-action-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "sky-cinema-comedy",
     "nimi": "Sky Cinema Comedy",
     "xmltv_id": "SkyCinemaComedy.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-cinema-comedy-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-cinema-comedy-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "sky-cinema-drama",
     "nimi": "Sky Cinema Drama",
     "xmltv_id": "SkyCinemaDrama.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-cinema-drama-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-cinema-drama-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "sky-cinema-family",
     "nimi": "Sky Cinema Family",
     "xmltv_id": "SkyCinemaFamily.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-cinema-family-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-cinema-family-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "sky-cinema-greats",
     "nimi": "Sky Cinema Greats",
     "xmltv_id": "SkyCinemaGreats.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-cinema-greats-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-cinema-greats-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "sky-cinema-hits",
     "nimi": "Sky Cinema Hits",
     "xmltv_id": "SkyCinemaHits.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-cinema-hits-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-cinema-hits-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "sky-cinema-premiere",
     "nimi": "Sky Cinema Premiere",
     "xmltv_id": "SkyCinemaPremiere.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-cinema-premiere-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-cinema-premiere-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "sky-cinema-sci-fi-and-horror",
     "nimi": "Sky Cinema Sci-Fi And Horror",
     "xmltv_id": "SkyCinemaSciFiandHorror.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-cinema-sci-fi-and-horror-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-cinema-sci-fi-and-horror-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "sky-cinema-select",
     "nimi": "Sky Cinema Select",
     "xmltv_id": "SkyCinemaSelect.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-cinema-select-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-cinema-select-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "sky-cinema-thriller",
     "nimi": "Sky Cinema Thriller",
     "xmltv_id": "SkyCinemaThriller.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-cinema-thriller-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-cinema-thriller-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "sky-comedy",
     "nimi": "Sky Comedy",
     "xmltv_id": "SkyComedy.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-comedy-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-comedy-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "sky-crime",
     "nimi": "Sky Crime",
     "xmltv_id": "SkyCrime.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-crime-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-crime-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "sky-crime-plus1",
     "nimi": "Sky Crime +1",
     "xmltv_id": "SkyCrimePlus1.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-crime-plus1-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-crime-plus1-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "sky-documentaries",
     "nimi": "Sky Documentaries",
     "xmltv_id": "SkyDocumentaries.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-documentaries-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-documentaries-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "sky-history",
     "nimi": "Sky History",
     "xmltv_id": "SkyHistory.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-history-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-history-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "sky-history-2",
     "nimi": "Sky History 2",
     "xmltv_id": "SkyHistory2.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-history-2-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-history-2-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "sky-kids",
     "nimi": "Sky Kids",
     "xmltv_id": "SkyKids.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-kids-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-kids-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "sky-mix",
     "nimi": "Sky Mix",
     "xmltv_id": "SkyMix.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-mix-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-mix-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "sky-nature",
     "nimi": "Sky Nature",
     "xmltv_id": "SkyNature.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-nature-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-nature-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "sky-news",
     "nimi": "Sky News",
     "xmltv_id": "SkyNews.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-news-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-news-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "sky-news-arabia",
     "nimi": "Sky News Arabia",
     "xmltv_id": "SkyNewsArabia.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-news-arabia-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-news-arabia-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "sky-one",
     "nimi": "Sky One",
     "xmltv_id": "SkyOne.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-one-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-one-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "sky-sci-fi",
     "nimi": "Sky Sci-Fi",
     "xmltv_id": "SkySciFi.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-sci-fi-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-sci-fi-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "sky-sports-action",
     "nimi": "Sky Sports Action",
     "xmltv_id": "SkySportsAction.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-sports-action-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-sports-action-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "sky-sports-box-office",
     "nimi": "Sky Sports Box Office",
     "xmltv_id": "SkySportsBoxOffice.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-sports-box-office-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-sports-box-office-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "sky-sports-cricket",
     "nimi": "Sky Sports Cricket",
     "xmltv_id": "SkySportsCricket.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-sports-cricket-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-sports-cricket-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "sky-sports-f1",
     "nimi": "Sky Sports F1",
     "xmltv_id": "SkySportsF1.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-sports-f1-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-sports-f1-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "sky-sports-football",
     "nimi": "Sky Sports Football",
     "xmltv_id": "SkySportsFootball.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-sports-football-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-sports-football-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "sky-sports-golf",
     "nimi": "Sky Sports Golf",
     "xmltv_id": "SkySportsGolf.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-sports-golf-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-sports-golf-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "sky-sports-main-event",
     "nimi": "Sky Sports Main Event",
     "xmltv_id": "SkySportsMainEvent.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-sports-main-event-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-sports-main-event-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "sky-sports-mix",
     "nimi": "Sky Sports Mix",
     "xmltv_id": "SkySportsMix.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-sports-mix-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-sports-mix-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "sky-sports-news",
     "nimi": "Sky Sports News",
     "xmltv_id": "SkySportsNews.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-sports-news-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-sports-news-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "sky-sports-plus",
     "nimi": "Sky Sports+",
     "xmltv_id": "SkySportsPlus.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-sports-plus-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-sports-plus-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "sky-sports-premier-league",
     "nimi": "Sky Sports Premier League",
     "xmltv_id": "SkySportsPremierLeague.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-sports-premier-league-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-sports-premier-league-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "sky-sports-racing",
     "nimi": "Sky Sports Racing",
     "xmltv_id": "SkySportsRacing.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-sports-racing-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-sports-racing-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "sky-sports-tennis",
     "nimi": "Sky Sports Tennis",
     "xmltv_id": "SkySportsTennis.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-sports-tennis-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-sports-tennis-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "sky-sports-uhd-1",
     "nimi": "Sky Sports UHD 1",
     "xmltv_id": "SkySportsUHD1.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-sports-uhd-1-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-sports-uhd-1-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "sky-sports-uhd-2",
     "nimi": "Sky Sports UHD 2",
     "xmltv_id": "SkySportsUHD2.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-sports-uhd-2-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-sports-uhd-2-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "sky-witness",
     "nimi": "Sky Witness",
     "xmltv_id": "SkyWitness.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-witness-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-witness-uk.png",
     "maa": "united-kingdom"
   },
   {
     "id": "sky-witness-plus1",
     "nimi": "Sky Witness +1",
     "xmltv_id": "SkyWitnessPlus1.uk",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/sky-witness-plus1-uk.png",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-witness-plus1-uk.png",
     "maa": "united-kingdom"
   }
 ]
