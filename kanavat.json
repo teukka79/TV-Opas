@@ -140,7 +140,7 @@
     "nimi": "Discovery",
     "xmltv_id": "Discovery Channel.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/denmark/discovery-channel-dk.png",
-    "maa": "finland"
+    "maa": "finland",
     "numero": 19
   },
   {
@@ -148,7 +148,7 @@
     "nimi": "EVEO",
     "xmltv_id": "EVEO.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/tapahtuma-tv-eveo-fi.png",
-    "maa": "finland"
+    "maa": "finland",
     "numero": 20
   },
   {
@@ -156,7 +156,7 @@
     "nimi": "Viaplay TV",
     "xmltv_id": "Viaplay TV.fi",
     "logo": "https://github.com/teukka79/TV-Opas/blob/main/Logot/Viaplay_TV.png?raw=true",
-    "maa": "finland"
+    "maa": "finland",
     "numero": 21
   },
   {
