@@ -2,6 +2,7 @@
   {
     "id": "yle-tv1",
     "nimi": "Yle TV1",
+    "ryhma": "Peruskanavat",
     "xmltv_id": ["Yle TV1.fi", "YLE TV1.fi"],
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/yle-tv1-fi.png",
     "maa": "finland",
@@ -10,6 +11,7 @@
   {
     "id": "yle-tv2",
     "nimi": "YLE TV2",
+    "ryhma": "Peruskanavat",
     "xmltv_id": "YLE TV2.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/yle-tv2-fi.png",
     "maa": "finland",
@@ -18,6 +20,7 @@
   {
     "id": "mtv3",
     "nimi": "MTV3",
+    "ryhma": "Peruskanavat",
     "xmltv_id": "MTV3.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/mtv3-fi.png",
     "maa": "finland",
@@ -26,6 +29,7 @@
   {
     "id": "nelonen",
     "nimi": "Nelonen",
+    "ryhma": "Peruskanavat",
     "xmltv_id": "Nelonen.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/nelonen-fi.png",
     "maa": "finland",
@@ -34,6 +38,7 @@
   {
     "id": "yle-teema-and-fem",
     "nimi": "Yle Teema And Fem",
+    "ryhma": "Peruskanavat",
     "xmltv_id": "Yle Teema And Fem.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/yle-teema-fem-fi.png",
     "maa": "finland",
@@ -42,6 +47,7 @@
   {
     "id": "mtv-sub",
     "nimi": "MTV Sub",
+    "ryhma": "Peruskanavat",
     "xmltv_id": "MTV Sub.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/mtv-sub-fi.png",
     "maa": "finland",
@@ -50,6 +56,7 @@
   {
     "id": "tv5",
     "nimi": "TV5",
+    "ryhma": "Peruskanavat",
     "xmltv_id": "TV5.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/tv5-fi.png",
     "maa": "finland",
@@ -58,6 +65,7 @@
   {
     "id": "liv",
     "nimi": "Liv",
+    "ryhma": "Peruskanavat",
     "xmltv_id": "Liv.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/liv-fi.png",
     "maa": "finland",
@@ -74,6 +82,7 @@
   {
     "id": "kutonen",
     "nimi": "Kutonen",
+    "ryhma": "Peruskanavat",
     "xmltv_id": "Kutonen.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/kutonen-fi.png",
     "maa": "finland",
@@ -82,6 +91,7 @@
   {
     "id": "tlc",
     "nimi": "TLC",
+    "ryhma": "Peruskanavat",
     "xmltv_id": "TLC.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/denmark/tlc-dk.png",
     "maa": "finland",
@@ -90,6 +100,7 @@
   {
     "id": "star-channel",
     "nimi": "STAR Channel",
+    "ryhma": "Peruskanavat",
     "xmltv_id": "STAR Channel.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/star-channel-fi.png",
     "maa": "finland",
@@ -98,6 +109,7 @@
   {
     "id": "mtv-ava",
     "nimi": "MTV Ava",
+    "ryhma": "Peruskanavat",
     "xmltv_id": "MTV Ava.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/mtv-ava-fi.png",
     "maa": "finland",
@@ -106,6 +118,7 @@
   {
     "id": "hero",
     "nimi": "Hero",
+    "ryhma": "Peruskanavat",
     "xmltv_id": "Hero HD.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/hero-fi.png",
     "maa": "finland",
@@ -114,6 +127,7 @@
   {
     "id": "frii",
     "nimi": "Frii",
+    "ryhma": "Peruskanavat",
     "xmltv_id": "Frii HD.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/frii-fi.png",
     "maa": "finland",
@@ -122,10 +136,29 @@
   {
     "id": "national-geographic",
     "nimi": "National Geographic",
+    "ryhma": "Peruskanavat",
     "xmltv_id": "National Geographic.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/denmark/national-geographic-dk.png",
     "maa": "finland",
-    "numero": 17
+    "numero": 16
+  },
+  {
+    "id": "eveo",
+    "nimi": "EVEO",
+    "ryhma": "Peruskanavat",
+    "xmltv_id": "EVEO.fi",
+    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/tapahtuma-tv-eveo-fi.png",
+    "maa": "finland",
+    "numero": 20
+  },
+  {
+    "id": "viaplay-tv",
+    "nimi": "Viaplay TV",
+    "ryhma": "Peruskanavat",
+    "xmltv_id": "Viaplay TV.fi",
+    "logo": "https://github.com/teukka79/TV-Opas/blob/main/Logot/Viaplay_TV.png?raw=true",
+    "maa": "finland",
+    "numero": 21
   },
   {
     "id": "national-geographic-wild",
@@ -142,22 +175,6 @@
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/denmark/discovery-channel-dk.png",
     "maa": "finland",
     "numero": 19
-  },
-  {
-    "id": "eveo",
-    "nimi": "EVEO",
-    "xmltv_id": "EVEO.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/tapahtuma-tv-eveo-fi.png",
-    "maa": "finland",
-    "numero": 20
-  },
-  {
-    "id": "viaplay-tv",
-    "nimi": "Viaplay TV",
-    "xmltv_id": "Viaplay TV.fi",
-    "logo": "https://github.com/teukka79/TV-Opas/blob/main/Logot/Viaplay_TV.png?raw=true",
-    "maa": "finland",
-    "numero": 21
   },
   {
     "id": "bbc-nordic",
