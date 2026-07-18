@@ -105,7 +105,11 @@
   }
   .card-content{flex:1; min-width:0; padding:14px 16px;}
   .ch-icon{max-width:106px; max-height:50px; width:auto; height:auto; object-fit:contain; flex-shrink:0;}
-  .ch-icon-name{font-size:13px; font-weight:700; color:var(--text); text-align:center; line-height:1.3; word-break:break-word;}
+  .ch-icon-name{
+    font-size:12.5px; font-weight:700; color:var(--text); text-align:center; line-height:1.25;
+    max-width:96px; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical;
+    overflow:hidden; word-break:break-word;
+  }
   .live-dot{width:7px; height:7px; border-radius:50%; background:var(--live); flex-shrink:0; box-shadow:0 0 0 0 rgba(255,84,112,.6); animation:pulse 1.8s infinite;}
   @keyframes pulse{
     0%{box-shadow:0 0 0 0 rgba(255,84,112,.55);}
@@ -173,8 +177,9 @@
   .tl-chcol-cell.corner{height:26px;}
   .tl-icon{max-width:72px; max-height:34px; width:auto; height:auto; object-fit:contain;}
   .tl-ch-name{
-    font-size:10.5px; font-weight:600; color:var(--text); line-height:1.2; max-width:100%;
-    white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+    font-size:10px; font-weight:600; color:var(--text); line-height:1.2; max-width:96px;
+    display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical;
+    overflow:hidden; word-break:break-word;
   }
 
   .tl-hscroll{
@@ -449,7 +454,7 @@
   </div>
 
   <div class="settings-panel" id="panel-sources">
-    <p class="modal-hint">Lisää URL-osoite XMLTV-oppaaseen, niin voit ladata sen suoraan verkosta. Osa palvelimista ei salli selaimen suoraa hakua (CORS) — jos lataus epäonnistuu, lataa tiedosto koneelle ja avaa se "Avaa opas" -napista.</p>
+    <p class="modal-hint">Kaikki tässä käytössä olevat (kytkin päällä) lähteet ladataan ja yhdistetään yhdeksi oppaaksi automaattisesti aina kun sivu avataan. ↻ hakee lähteen tuoreimman version heti. Osa palvelimista ei salli selaimen suoraa hakua (CORS) — jos lataus epäonnistuu, lataa tiedosto koneelle ja avaa se "Avaa opas" -napista.</p>
     <div id="sourcesList"></div>
     <div class="src-add">
       <input type="text" id="srcNameInput" class="search" placeholder="Nimi (valinnainen)">
@@ -556,7 +561,13 @@ function parseXmltvTime(str){
   return new Date(utcMs);
 }
 
-function parseXmltv(xmlText){
+function hashStr(s){
+  let h = 5381;
+  for(let i = 0; i < s.length; i++){ h = ((h << 5) + h) + s.charCodeAt(i); h = h & 0xffffffff; }
+  return Math.abs(h).toString(36);
+}
+
+function parseXmltvData(xmlText, idPrefix){
   const doc = new DOMParser().parseFromString(xmlText, 'text/xml');
   const perr = doc.querySelector('parsererror');
   if(perr) throw new Error('XML ei kelpaa – tarkista tiedosto.');
@@ -564,7 +575,7 @@ function parseXmltv(xmlText){
   const chNodes = [...doc.getElementsByTagName('channel')];
   if(chNodes.length === 0) throw new Error('Tiedostosta ei löytynyt yhtään <channel>-elementtiä.');
 
-  channels = chNodes.map(c => {
+  const channels = chNodes.map(c => {
     const dn = c.querySelector('display-name');
     const icon = c.querySelector('icon');
     const lcn = c.querySelector('lcn, number, channel-number');
@@ -575,15 +586,17 @@ function parseXmltv(xmlText){
       const numeric = names.find(n => /^\d{1,4}$/.test(n));
       if(numeric) xmlNumber = numeric;
     }
+    const rawId = c.getAttribute('id');
     return {
-      id: c.getAttribute('id'),
-      name: dn ? dn.textContent.trim() : c.getAttribute('id'),
+      id: idPrefix + rawId,
+      rawId,
+      name: dn ? dn.textContent.trim() : rawId,
       icon: icon ? icon.getAttribute('src') : null,
       xmlNumber
     };
   });
 
-  programmesByCh = {};
+  const programmesByCh = {};
   const progNodes = [...doc.getElementsByTagName('programme')];
   for(const p of progNodes){
     const chId = p.getAttribute('channel');
@@ -593,9 +606,11 @@ function parseXmltv(xmlText){
     const titleEl = p.querySelector('title');
     const descEl = p.querySelector('desc');
     const catEl = p.querySelector('category');
-    (programmesByCh[chId] ||= []).push({
+    let titleText = titleEl ? titleEl.textContent.trim() : '';
+    if(!titleText || /^no title$/i.test(titleText)) titleText = '(nimetön ohjelma)';
+    (programmesByCh[idPrefix + chId] ||= []).push({
       start, stop,
-      title: titleEl ? titleEl.textContent.trim() : '(nimetön ohjelma)',
+      title: titleText,
       desc: descEl ? descEl.textContent.trim() : '',
       category: catEl ? catEl.textContent.trim() : ''
     });
@@ -603,6 +618,7 @@ function parseXmltv(xmlText){
   for(const id in programmesByCh){
     programmesByCh[id].sort((a,b) => a.start - b.start);
   }
+  return { channels, programmesByCh };
 }
 
 // ---------- IndexedDB (isot EPG-tiedostot eivät mahdu localStorageen) ----------
@@ -652,18 +668,63 @@ async function idbDelete(key){
   }catch(e){ return false; }
 }
 
-// ---------- File loading ----------
+// ---------- Monilähdeyhdistely ----------
+let loadedSourceData = {}; // avain (url tai 'local-file') -> {label, channels, programmesByCh}
+
+let mergeRenderTimer = null;
+function mergeAndRender(){
+  clearTimeout(mergeRenderTimer);
+  mergeRenderTimer = setTimeout(doMergeAndRender, 150);
+}
+function doMergeAndRender(){
+  const mergedChannels = [];
+  const mergedProgrammes = {};
+  const seenNames = new Set();
+  Object.values(loadedSourceData).forEach(src => {
+    src.channels.forEach(ch => {
+      const key = chKey(ch.name);
+      if(seenNames.has(key)) return; // sama kanava toisesta lähteestä -> ei tuplata
+      seenNames.add(key);
+      mergedChannels.push(ch);
+    });
+    Object.assign(mergedProgrammes, src.programmesByCh);
+  });
+  channels = mergedChannels;
+  programmesByCh = mergedProgrammes;
+  clearBtn.style.display = mergedChannels.length ? 'inline-flex' : 'none';
+  updateCategoryFilterOptions();
+  updateLoadedGuideInfo();
+
+  const activeSourceCount = Object.keys(loadedSourceData).length;
+  const progCount = Object.values(programmesByCh).reduce((a,b) => a + b.length, 0);
+  statusEl.className = '';
+  statusEl.textContent = activeSourceCount > 0
+    ? `Ladattu ${activeSourceCount} lähteestä · yhteensä ${channels.length} kanavaa, ${progCount} ohjelmaa`
+    : '';
+
+  render();
+}
+
+function ingestSource(key, xmlText, label){
+  const prefix = hashStr(key) + '::';
+  const data = parseXmltvData(xmlText, prefix);
+  loadedSourceData[key] = { label, channels: data.channels, programmesByCh: data.programmesByCh };
+  idbSet('src_xml::' + key, xmlText);
+  idbSet('src_label::' + key, label);
+  mergeAndRender();
+}
+
+function removeSourceData(key){
+  delete loadedSourceData[key];
+  idbDelete('src_xml::' + key);
+  idbDelete('src_label::' + key);
+  mergeAndRender();
+}
+
+// ---------- File loading (paikallinen tiedosto) ----------
 function loadText(text, label){
   try{
-    parseXmltv(text);
-    statusEl.className = '';
-    statusEl.textContent = `Ladattu: ${label} · ${channels.length} kanavaa · ${Object.values(programmesByCh).reduce((a,b)=>a+b.length,0)} ohjelmaa`;
-    clearBtn.style.display = 'inline-flex';
-    updateCategoryFilterOptions();
-    idbSet('epg_xml', text);
-    idbSet('epg_label', label);
-    try{ localStorage.removeItem('epg_xml'); localStorage.removeItem('epg_label'); }catch(e){} // vanhan version jäänteet pois
-    render();
+    ingestSource('local-file', text, label);
   }catch(err){
     statusEl.className = 'err';
     statusEl.textContent = 'Virhe: ' + err.message;
@@ -681,13 +742,8 @@ function loadFromUrl(url, name, silent){
       return res.text();
     })
     .then(text => {
-      loadText(text, name || url);
-      localStorage.setItem('epg_active_url', url);
-      localStorage.setItem('epg_last_fetch', String(Date.now()));
-      if(silent){
-        statusEl.className = '';
-        statusEl.textContent = `Ladattu: ${name || url} · ${channels.length} kanavaa · ${Object.values(programmesByCh).reduce((a,b)=>a+b.length,0)} ohjelmaa (päivitetty automaattisesti)`;
-      }
+      ingestSource(url, text, name || url);
+      try{ localStorage.setItem('epg_last_fetch::' + url, String(Date.now())); }catch(e){}
     })
     .catch(err => {
       if(silent) return; // taustapäivitys epäonnistui hiljaisesti, yritetään taas myöhemmin
@@ -696,28 +752,40 @@ function loadFromUrl(url, name, silent){
     });
 }
 
-// ---------- Automaattinen taustapäivitys tallennetulle lähteelle ----------
-function maybeAutoRefreshSource(){
-  let activeUrl;
-  try{ activeUrl = localStorage.getItem('epg_active_url'); }catch(e){ return; }
-  if(!activeUrl) return;
-  let lastFetch = 0;
-  try{ lastFetch = parseInt(localStorage.getItem('epg_last_fetch') || '0', 10); }catch(e){}
-  const hoursSince = (Date.now() - lastFetch) / 3600000;
-  if(hoursSince >= 20){
-    loadFromUrl(activeUrl, 'Automaattinen päivitys', true);
-  }
+// ---------- Automaattinen taustapäivitys kaikille käytössä oleville lähteille ----------
+function maybeAutoRefreshSources(){
+  sources.forEach(s => {
+    if(s.enabled === false) return;
+    let lastFetch = 0;
+    try{ lastFetch = parseInt(localStorage.getItem('epg_last_fetch::' + s.url) || '0', 10); }catch(e){}
+    const hoursSince = (Date.now() - lastFetch) / 3600000;
+    if(hoursSince >= 20){
+      loadFromUrl(s.url, s.name, true);
+    }
+  });
 }
-setInterval(maybeAutoRefreshSource, 60 * 60 * 1000);
+setInterval(maybeAutoRefreshSources, 60 * 60 * 1000);
 
 // ---------- Sources (URL lähteet) ----------
 const DEFAULT_EPG_URL = 'https://raw.githubusercontent.com/teukka79/TV-Opas/main/opas.xml';
 const DEFAULT_LOGO_MAP_URL = 'https://raw.githubusercontent.com/teukka79/TV-Opas/main/kanavat.json';
+const DEFAULT_SOURCES = [
+  { name: 'Oma TV-opas (GitHub)', url: DEFAULT_EPG_URL },
+  { name: 'Open-EPG Suomi 1', url: 'https://www.open-epg.com/files/finland1.xml' },
+  { name: 'Open-EPG Suomi 2', url: 'https://www.open-epg.com/files/finland2.xml' },
+  { name: 'Open-EPG Suomi 3', url: 'https://www.open-epg.com/files/finland3.xml' },
+  { name: 'Open-EPG Suomi 4', url: 'https://www.open-epg.com/files/finland4.xml' }
+];
 
 let sources = [];
 try{ sources = JSON.parse(localStorage.getItem('epg_sources') || '[]'); }catch(e){ sources = []; }
-if(sources.length === 0 && !localStorage.getItem('epg_sources')){
-  sources = [{ name: 'Oma TV-opas (GitHub)', url: DEFAULT_EPG_URL }];
+if(!localStorage.getItem('epg_default_sources_seeded_v2')){
+  DEFAULT_SOURCES.forEach(def => {
+    const existing = sources.find(s => s.url === def.url);
+    if(existing) existing.name = def.name; // nimetään olemassa oleva uudelleen pyydetyllä nimellä
+    else sources.push({ ...def, enabled: true });
+  });
+  try{ localStorage.setItem('epg_default_sources_seeded_v2', '1'); }catch(e){}
   try{ localStorage.setItem('epg_sources', JSON.stringify(sources)); }catch(e){}
 }
 
@@ -736,7 +804,11 @@ function renderSources(){
           <div class="src-name">${escapeHtml(s.name)}</div>
           <div class="src-url">${escapeHtml(s.url)}</div>
         </div>
-        <button class="btn small" onclick="useSource(${i})">Käytä</button>
+        <button class="btn small" title="Päivitä nyt" onclick="refreshSource(${i})"><span class="msi" style="font-size:16px">refresh</span></button>
+        <label class="switch" title="Käytössä">
+          <input type="checkbox" ${s.enabled !== false ? 'checked' : ''} onchange="toggleSourceEnabled(${i}, this.checked)">
+          <span class="switch-track"></span>
+        </label>
         <button class="btn small danger" onclick="removeSource(${i})"><span class="msi">delete</span></button>
       </div>
     `).join('');
@@ -746,22 +818,39 @@ function renderSources(){
 function addSource(name, url){
   if(!url) return;
   if(!name) name = url.replace(/^https?:\/\//,'').split('/')[0];
-  sources.push({ name, url });
+  sources.push({ name, url, enabled: true });
   saveSources();
   renderSources();
+  loadFromUrl(url, name, false);
 }
 
 function removeSource(i){
+  const s = sources[i];
+  if(!s) return;
   sources.splice(i, 1);
   saveSources();
+  removeSourceData(s.url);
+  try{ localStorage.removeItem('epg_last_fetch::' + s.url); }catch(e){}
   renderSources();
 }
 
-function useSource(i){
+function refreshSource(i){
   const s = sources[i];
   if(!s) return;
-  loadFromUrl(s.url, s.name);
-  closeSettingsModal();
+  if(s.enabled === false){ s.enabled = true; saveSources(); renderSources(); }
+  loadFromUrl(s.url, s.name, false);
+}
+
+function toggleSourceEnabled(i, enabled){
+  const s = sources[i];
+  if(!s) return;
+  s.enabled = enabled;
+  saveSources();
+  if(enabled){
+    loadFromUrl(s.url, s.name, false);
+  } else {
+    removeSourceData(s.url);
+  }
 }
 
 $('#addSourceBtn').addEventListener('click', () => {
@@ -812,7 +901,9 @@ function updateLoadedGuideInfo(){
     return;
   }
   const progCount = Object.values(programmesByCh).reduce((a,b) => a + b.length, 0);
-  el.textContent = `Ladattu opas: ${channels.length} kanavaa, ${progCount} ohjelmaa.`;
+  const srcCount = Object.keys(loadedSourceData).length;
+  const srcLabels = Object.values(loadedSourceData).map(s => s.label).join(', ');
+  el.textContent = `Ladattu yhteensä: ${channels.length} kanavaa, ${progCount} ohjelmaa, ${srcCount} lähteestä (${srcLabels}).`;
 }
 
 // ---------- Kanavaryhmien hallinta ----------
@@ -1589,7 +1680,12 @@ dropzone.addEventListener('drop', e => {
 });
 
 clearBtn.addEventListener('click', () => {
+  loadedSourceData = {};
   channels = []; programmesByCh = {}; expandedId = null;
+  const keys = new Set(['local-file']);
+  sources.forEach(s => keys.add(s.url));
+  keys.forEach(k => { idbDelete('src_xml::' + k); idbDelete('src_label::' + k); });
+  // vanhan version jäänteet pois
   idbDelete('epg_xml'); idbDelete('epg_label');
   try{ localStorage.removeItem('epg_xml'); localStorage.removeItem('epg_label'); }catch(e){}
   statusEl.textContent = ''; clearBtn.style.display = 'none';
@@ -1597,22 +1693,34 @@ clearBtn.addEventListener('click', () => {
   render();
 });
 
-// palauta viimeksi ladattu opas (IndexedDB, ja vanha localStorage-tallennus varajärjestelmänä)
+// palauta kaikki käytössä olevat lähteet (ensin IndexedDB-välimuistista, tarvittaessa verkosta)
 (async function restore(){
   try{
-    let saved = await idbGet('epg_xml');
-    let label = await idbGet('epg_label');
-    if(!saved){
-      try{
-        saved = localStorage.getItem('epg_xml');
-        label = localStorage.getItem('epg_label');
-      }catch(e){}
+    // vanhan version yksittäinen tallennus -> siirretään paikallistiedostoksi jos löytyy
+    const legacy = await idbGet('epg_xml');
+    if(legacy){
+      const legacyLabel = await idbGet('epg_label');
+      try{ ingestSource('local-file', legacy, legacyLabel || 'tallennettu opas'); }catch(e){}
+      idbDelete('epg_xml'); idbDelete('epg_label');
     }
-    if(saved){
-      loadText(saved, label || 'tallennettu opas');
-    } else if(!localStorage.getItem('epg_active_url')){
-      // ensimmäinen käynnistys: ei vielä ladattua opasta eikä aktiivista lähdettä -> ladataan oletusopas
-      loadFromUrl(DEFAULT_EPG_URL, 'Oma TV-opas (GitHub)');
+
+    let anyCached = false;
+    for(const s of sources){
+      if(s.enabled === false) continue;
+      const cached = await idbGet('src_xml::' + s.url);
+      if(cached){
+        try{ ingestSource(s.url, cached, s.name); anyCached = true; }catch(e){}
+      }
+    }
+
+    // haetaan tuoreet tiedot verkosta jokaiselle käytössä olevalle lähteelle taustalla
+    sources.forEach(s => {
+      if(s.enabled === false) return;
+      loadFromUrl(s.url, s.name, true);
+    });
+
+    if(!anyCached && sources.every(s => s.enabled === false)){
+      // ei yhtään käytössä olevaa lähdettä eikä välimuistia -> ei tehdä mitään, käyttäjä voi lisätä lähteen itse
     }
   }catch(e){}
 
@@ -1620,7 +1728,7 @@ clearBtn.addEventListener('click', () => {
     fetchLogoMap(DEFAULT_LOGO_MAP_URL, true);
   }
 
-  setTimeout(maybeAutoRefreshSource, 4000);
+  setTimeout(maybeAutoRefreshSources, 4000);
 })();
 
 // ---------- Rendering ----------
@@ -1642,14 +1750,17 @@ function fmtRemaining(ms){
   const h = Math.floor(min/60), m = min%60;
   return `${h} h ${m} min jäljellä`;
 }
+const HTML_ESCAPE_MAP = {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'};
 function escapeHtml(s){
-  return (s||'').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  return (s||'').replace(/[&<>"']/g, c => HTML_ESCAPE_MAP[c]);
 }
 
 let currentView = 'cards';
 let pxPerMin = 6;
 let tlGlobalMin = null;
 let tlGlobalMax = null;
+let tlWindowStart = null;
+let tlWindowEnd = null;
 let tlDateInited = false;
 let tlInited = false;
 
@@ -1782,12 +1893,16 @@ function toggleExpand(id){
 }
 
 // ---------- Timeline view ----------
+const TL_ROW_HEIGHT = 82;
+let tlRows = [];
+let tlBuildData = null;
+
 function renderTimeline(){
   const q = $('#search').value.trim().toLowerCase();
   const now = new Date();
 
   const filtered = sortChannels(channels.filter(c => !isHidden(c) && channelPassesCategoryFilter(c) && channelMatchesQuery(c, q)));
-  const rows = filtered.map(ch => ({ type: 'channel', ch }));
+  tlRows = filtered.map(ch => ({ type: 'channel', ch }));
 
   let allProgs = [];
   filtered.forEach(c => { allProgs = allProgs.concat(programmesByCh[c.id] || []); });
@@ -1802,6 +1917,16 @@ function renderTimeline(){
   }
   tlGlobalMin = globalMin;
   tlGlobalMax = globalMax;
+
+  // Renderöidään ohjelmalohkot vain kapealle aikaikkunalle (muuten esim. 5 lähteen
+  // yhdistäminen voi tuottaa kymmeniätuhansia DOM-elementtejä ja jäädyttää sivun).
+  if(!tlWindowStart || !tlWindowEnd){
+    tlWindowStart = new Date(Math.max(globalMin.getTime(), now.getTime() - 3*3600000));
+    tlWindowEnd = new Date(Math.min(globalMax.getTime(), now.getTime() + 21*3600000));
+  }
+  if(tlWindowStart < globalMin) tlWindowStart = new Date(globalMin);
+  if(tlWindowEnd > globalMax) tlWindowEnd = new Date(globalMax);
+  if(tlWindowStart > tlWindowEnd) tlWindowStart = new Date(tlWindowEnd);
 
   const dateInput = $('#tlDateInput');
   const toDateStr = d => `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
@@ -1834,16 +1959,29 @@ function renderTimeline(){
   const nowInRange = now >= globalMin && now <= globalMax;
   const nowLineHtml = nowInRange ? `<div class="tl-now-line" style="left:${nowX}px"></div>` : '';
 
-  const chColHtml = `<div class="tl-chcol-cell corner"></div>` + rows.map(r => {
-    if(r.type === 'header') return `<div class="tl-group-header">${escapeHtml(r.category)}</div>`;
-    const ch = r.ch;
-    const iconSrc = chIcon(ch);
-    const num = chNumber(ch);
-    const fav = isFavorite(ch);
-    const iconInner = iconSrc
-      ? `<img class="tl-icon" src="${escapeHtml(iconSrc)}" onerror="this.style.display='none'">`
-      : `<div class="tl-ch-name">${escapeHtml(chDisplayName(ch))}</div>`;
-    return `<div class="tl-chcol-cell">
+  tlBuildData = { globalMin, globalMax, timelineWidth, hourMarks, nowLineHtml, nowInRange, nowX };
+  $('#tlHContent').style.width = timelineWidth + 'px';
+
+  renderVisibleTimelineRows();
+  updateHScrollbar();
+}
+
+// Rakentaa yhden kanavarivin HTML:n (logosarake + ohjelmaraita) — kutsutaan vain näkyville riveille.
+function timelineRowHtml(r, now){
+  if(r.type === 'header'){
+    return {
+      chcolHtml: `<div class="tl-group-header">${escapeHtml(r.category)}</div>`,
+      trackHtml: `<div class="tl-group-header" style="width:${tlBuildData.timelineWidth}px"></div>`
+    };
+  }
+  const ch = r.ch;
+  const iconSrc = chIcon(ch);
+  const num = chNumber(ch);
+  const fav = isFavorite(ch);
+  const iconInner = iconSrc
+    ? `<img class="tl-icon" src="${escapeHtml(iconSrc)}" onerror="this.style.display='none'">`
+    : `<div class="tl-ch-name">${escapeHtml(chDisplayName(ch))}</div>`;
+  const chcolHtml = `<div class="tl-chcol-cell">
       <div class="icon-wrap">
         <div style="position:relative" onclick="event.stopPropagation(); openChannelEdit('${ch.name.replace(/'/g,"\\'")}')">
           ${iconInner}
@@ -1857,35 +1995,65 @@ function renderTimeline(){
         </div>
       </div>
     </div>`;
-  }).join('');
 
-  const tracksHtml = rows.map(r => {
-    if(r.type === 'header') return `<div class="tl-group-header" style="width:${timelineWidth}px"></div>`;
-    const ch = r.ch;
-    const list = programmesByCh[ch.id] || [];
-    const blocks = list.map((p, idx) => {
-      const x = (p.start - globalMin) / 60000 * pxPerMin;
-      const w = Math.max(34, (p.stop - p.start) / 60000 * pxPerMin - 3);
-      const isCur = p.start <= now && now < p.stop;
-      return `<div class="tl-block ${isCur ? 'current' : ''}" style="left:${x}px;width:${w}px"
-                onclick="tlShowInfo('${ch.id.replace(/'/g,"\\'")}', ${idx})">
-        <div class="tl-block-title">${escapeHtml(p.title)}</div>
-        ${w > 90 ? `<div class="tl-block-desc">${escapeHtml(p.desc)}</div>` : ''}
-        <div class="tl-block-time">${fmtTime(p.start)} - ${fmtTime(p.stop)}</div>
-      </div>`;
-    }).join('');
-    return `<div class="tl-track" style="width:${timelineWidth}px">${blocks}</div>`;
+  const list = programmesByCh[ch.id] || [];
+  const blocks = list.map((p, idx) => {
+    if(p.stop < tlWindowStart || p.start > tlWindowEnd) return '';
+    const x = (p.start - tlBuildData.globalMin) / 60000 * pxPerMin;
+    const w = Math.max(34, (p.stop - p.start) / 60000 * pxPerMin - 3);
+    const isCur = p.start <= now && now < p.stop;
+    return `<div class="tl-block ${isCur ? 'current' : ''}" style="left:${x}px;width:${w}px"
+              onclick="tlShowInfo('${ch.id.replace(/'/g,"\\'")}', ${idx})">
+      <div class="tl-block-title">${escapeHtml(p.title)}</div>
+      ${w > 90 ? `<div class="tl-block-desc">${escapeHtml(p.desc)}</div>` : ''}
+      <div class="tl-block-time">${fmtTime(p.start)} - ${fmtTime(p.stop)}</div>
+    </div>`;
   }).join('');
+  const trackHtml = `<div class="tl-track" style="width:${tlBuildData.timelineWidth}px">${blocks}</div>`;
+
+  return { chcolHtml, trackHtml };
+}
+
+// Piirtää vain pystyvierityksessä näkyvät kanavarivit (+ puskuri), ei kaikkia satoja kanavia kerralla.
+function renderVisibleTimelineRows(){
+  if(!tlBuildData) return;
+  const now = new Date();
+  const vscroll = $('#tlVScroll');
+  const scrollTop = vscroll.scrollTop;
+  const viewportH = vscroll.clientHeight || 600;
+  const buffer = 6;
+  const startIdx = Math.max(0, Math.floor(scrollTop / TL_ROW_HEIGHT) - buffer);
+  const visibleCount = Math.ceil(viewportH / TL_ROW_HEIGHT) + buffer * 2;
+  const endIdx = Math.min(tlRows.length, startIdx + visibleCount);
+
+  const topH = startIdx * TL_ROW_HEIGHT;
+  const bottomH = (tlRows.length - endIdx) * TL_ROW_HEIGHT;
+
+  let chColHtml = `<div class="tl-chcol-cell corner"></div><div style="height:${topH}px"></div>`;
+  let tracksHtml = `<div style="height:${topH}px"></div>`;
+  for(let i = startIdx; i < endIdx; i++){
+    const { chcolHtml, trackHtml } = timelineRowHtml(tlRows[i], now);
+    chColHtml += chcolHtml;
+    tracksHtml += trackHtml;
+  }
+  chColHtml += `<div style="height:${bottomH}px"></div>`;
+  tracksHtml += `<div style="height:${bottomH}px"></div>`;
 
   $('#tlChCol').innerHTML = chColHtml;
-  $('#tlHContent').style.width = timelineWidth + 'px';
   $('#tlHContent').innerHTML =
-    `<div class="tl-hours-inner" style="width:${timelineWidth}px">${hourMarks}</div>` +
-    tracksHtml + nowLineHtml;
-  $('#tlHContent').dataset.nowx = nowInRange ? nowX : '';
-
-  updateHScrollbar();
+    `<div class="tl-hours-inner" style="width:${tlBuildData.timelineWidth}px">${tlBuildData.hourMarks}</div>` +
+    tracksHtml + tlBuildData.nowLineHtml;
+  $('#tlHContent').dataset.nowx = tlBuildData.nowInRange ? tlBuildData.nowX : '';
 }
+
+let tlVScrollRAF = null;
+$('#tlVScroll').addEventListener('scroll', () => {
+  if(tlVScrollRAF) return;
+  tlVScrollRAF = requestAnimationFrame(() => {
+    tlVScrollRAF = null;
+    if(currentView === 'timeline') renderVisibleTimelineRows();
+  });
+});
 
 // ---------- Oma aina näkyvä vaakavierityspalkki ----------
 function updateHScrollbar(){
@@ -1939,7 +2107,36 @@ $('#tlSBTrack').addEventListener('pointerdown', e => {
 });
 window.addEventListener('resize', () => { if(currentView === 'timeline') updateHScrollbar(); });
 
-$('#tlHScroll').addEventListener('scroll', () => { updateHScrollbar(); });
+let tlExpandTimer = null;
+$('#tlHScroll').addEventListener('scroll', () => {
+  updateHScrollbar();
+  clearTimeout(tlExpandTimer);
+  tlExpandTimer = setTimeout(tlMaybeExpandWindow, 150);
+});
+
+function tlMaybeExpandWindow(){
+  if(!tlWindowStart || !tlWindowEnd || !tlGlobalMin || !tlGlobalMax) return;
+  const el = $('#tlHScroll');
+  const leftEdgeX = (tlWindowStart - tlGlobalMin) / 60000 * pxPerMin;
+  const rightEdgeX = (tlWindowEnd - tlGlobalMin) / 60000 * pxPerMin;
+  const viewLeft = el.scrollLeft;
+  const viewRight = el.scrollLeft + el.clientWidth;
+  let changed = false;
+  if(viewLeft < leftEdgeX + 400 && tlWindowStart > tlGlobalMin){
+    tlWindowStart = new Date(Math.max(tlGlobalMin.getTime(), tlWindowStart.getTime() - 24*3600000));
+    changed = true;
+  }
+  if(viewRight > rightEdgeX - 400 && tlWindowEnd < tlGlobalMax){
+    tlWindowEnd = new Date(Math.min(tlGlobalMax.getTime(), tlWindowEnd.getTime() + 24*3600000));
+    changed = true;
+  }
+  if(changed){
+    const savedScrollLeft = el.scrollLeft;
+    renderTimeline();
+    el.scrollLeft = savedScrollLeft;
+    updateHScrollbar();
+  }
+}
 
 function tlPage(dir){
   $('#tlHScroll').scrollBy({ left: dir * 3 * 60 * pxPerMin, behavior: 'smooth' });
@@ -1956,10 +2153,15 @@ function tlZoom(dir){
 }
 
 function tlJumpNow(){
+  const now = new Date();
+  if(tlGlobalMin && tlGlobalMax){
+    tlWindowStart = new Date(Math.max(tlGlobalMin.getTime(), now.getTime() - 3*3600000));
+    tlWindowEnd = new Date(Math.min(tlGlobalMax.getTime(), now.getTime() + 21*3600000));
+  }
   renderTimeline();
   const el = $('#tlHScroll');
   const nowx = parseFloat($('#tlHContent').dataset.nowx);
-  if(!isNaN(nowx)) el.scrollLeft = Math.max(0, nowx - 60);
+  if(!isNaN(nowx)) el.scrollLeft = Math.max(0, nowx - el.clientWidth / 2);
   updateHScrollbar();
 }
 
@@ -1968,6 +2170,10 @@ function tlJumpToDate(){
   if(!val || !tlGlobalMin) return;
   const [y, m, d] = val.split('-').map(Number);
   const target = new Date(y, m - 1, d, 0, 0, 0);
+  // varmistetaan että aikaikkuna kattaa kohdepäivän ennen renderöintiä
+  tlWindowStart = new Date(Math.max(tlGlobalMin.getTime(), target.getTime() - 3*3600000));
+  tlWindowEnd = new Date(Math.min(tlGlobalMax.getTime(), target.getTime() + 27*3600000));
+  renderTimeline();
   const x = Math.max(0, (target - tlGlobalMin) / 60000 * pxPerMin);
   $('#tlHScroll').scrollLeft = x;
   updateHScrollbar();
