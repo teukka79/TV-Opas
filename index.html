@@ -1874,9 +1874,11 @@ function cardHtmlFor(ch, now){
   const iconSrc = chIcon(ch);
   const num = chNumber(ch);
   const fav = isFavorite(ch);
+  const displayName = chDisplayName(ch);
   const iconInner = iconSrc
-    ? `<img class="ch-icon" src="${escapeHtml(iconSrc)}" onerror="this.style.display='none'">`
-    : `<div class="ch-icon-name">${escapeHtml(chDisplayName(ch))}</div>`;
+    ? `<img class="ch-icon" src="${escapeHtml(iconSrc)}" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+       <div class="ch-icon-name" style="display:none">${escapeHtml(displayName)}</div>`
+    : `<div class="ch-icon-name">${escapeHtml(displayName)}</div>`;
   const iconHtml = `
     <div class="icon-wrap">
       <div onclick="event.stopPropagation(); openChannelEdit('${ch.name.replace(/'/g,"\\'")}')">
@@ -1995,9 +1997,11 @@ function timelineRowHtml(r, now){
   const iconSrc = chIcon(ch);
   const num = chNumber(ch);
   const fav = isFavorite(ch);
+  const tlDisplayName = chDisplayName(ch);
   const iconInner = iconSrc
-    ? `<img class="tl-icon" src="${escapeHtml(iconSrc)}" onerror="this.style.display='none'">`
-    : `<div class="tl-ch-name">${escapeHtml(chDisplayName(ch))}</div>`;
+    ? `<img class="tl-icon" src="${escapeHtml(iconSrc)}" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+       <div class="tl-ch-name" style="display:none">${escapeHtml(tlDisplayName)}</div>`
+    : `<div class="tl-ch-name">${escapeHtml(tlDisplayName)}</div>`;
   const chcolHtml = `<div class="tl-chcol-cell">
       <div class="icon-wrap">
         <div onclick="event.stopPropagation(); openChannelEdit('${ch.name.replace(/'/g,"\\'")}')">
