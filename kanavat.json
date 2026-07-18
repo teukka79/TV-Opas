@@ -398,22 +398,6 @@
     "maa": "finland"
   },
   {
-    "id": "mtv-ava",
-    "nimi": "MTV Ava",
-    "xmltv_id": "MTV Ava.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/mtv-ava-fi.png",
-    "maa": "finland",
-    "numero": 11
-  },
-  {
-    "id": "mtv-sub",
-    "nimi": "MTV Sub",
-    "xmltv_id": "MTV Sub.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/mtv-sub-fi.png",
-    "maa": "finland",
-    "numero": 5
-  },
-  {
     "id": "one-way-tv",
     "nimi": "One Way TV",
     "xmltv_id": "OneWayTV.fi",
@@ -433,23 +417,6 @@
     "xmltv_id": "SF Kanalen.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/sf-kanalen-fi.png",
     "maa": "finland"
-  },
-  
-  {
-    "id": "tapahtuma-tv-eveo",
-    "nimi": "Tapahtuma TV Eveo",
-    "xmltv_id": "Eveo.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/tapahtuma-tv-eveo-fi.png",
-    "maa": "finland",
-    "numero": 14
-  },
-  {
-    "id": "tv5",
-    "nimi": "TV5",
-    "xmltv_id": "TV5.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/tv5-fi.png",
-    "maa": "finland",
-    "numero": 7
   },
   {
     "id": "elisa-viihde",
@@ -477,13 +444,6 @@
     "id": "v-sport-1",
     "nimi": "V Sport 1",
     "xmltv_id": "V Sport 1.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-sport-1-fi.png",
-    "maa": "finland"
-  },
-  {
-    "id": "v-sport-1",
-    "nimi": "V sport 1",
-    "xmltv_id": "V sport 1.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-sport-1-fi.png",
     "maa": "finland"
   },
@@ -569,27 +529,6 @@
     "nimi": "V sport vinter",
     "xmltv_id": "V sport vinter.fi",
     "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/v-sport-vinter-fi.png",
-    "maa": "finland"
-  },
-  {
-    "id": "viasat-explore",
-    "nimi": "Viasat Explore",
-    "xmltv_id": "Viasat Explore.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/viasat-explore-fi.png",
-    "maa": "finland"
-  },
-  {
-    "id": "viasat-history",
-    "nimi": "Viasat History",
-    "xmltv_id": "Viasat History.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/viasat-history-fi.png",
-    "maa": "finland"
-  },
-  {
-    "id": "viasat-nature",
-    "nimi": "Viasat Nature",
-    "xmltv_id": "Viasat Nature.fi",
-    "logo": "https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/finland/viasat-nature-fi.png",
     "maa": "finland"
   },
   {
