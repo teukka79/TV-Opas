@@ -2368,4 +2368,18 @@
     "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/dw-int.png",
     "maa": "finland"
    },
+   {
+    "id": "food-network",
+    "nimi": "Food Network",
+    "xmltv_id": "Food Network.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/food-network-uk.png"
+    "maa": "finland"
+   },
+   {
+    "id": "france-24",
+    "nimi": "France 24",
+    "xmltv_id": "France 24.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/france-24-int.png"
+    "maa": "finland"
+   },
 ]
