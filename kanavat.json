@@ -2346,5 +2346,11 @@
     "xmltv_id": "SkyWitnessPlus1.uk",
     "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-witness-plus1-uk.png",
     "maa": "united-kingdom"
-  }
+  }{
+    "id": "tv4",
+    "nimi": "TV4",
+    "xmltv_id": "TV4.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/sweden/tv4-hits-se.png",
+    "maa": "sweden"
+  }  
 ]
