@@ -2353,5 +2353,19 @@
     "xmltv_id": "TV4.fi",
     "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/sweden/tv4-hits-se.png",
     "maa": "sweden"
-  }  
+   },
+  {
+    "id": "euronews",
+    "nimi": "Euronews",
+    "xmltv_id": "Euronews.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/euro-news-int.png",
+    "maa": "finland"
+   },
+   {
+    "id": "dw",
+    "nimi": "DW",
+    "xmltv_id": "DW.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/dw-int.png",
+    "maa": "finland"
+   },
 ]
