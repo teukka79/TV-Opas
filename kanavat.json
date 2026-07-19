@@ -2382,4 +2382,11 @@
     "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/france-24-int.png"
     "maa": "finland"
    },
+   {
+    "id": "history-channel",
+    "nimi": "History Channel",
+    "xmltv_id": "History Channel.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/history-channel-us.png"
+    "maa": "finland"
+   },
 ]
