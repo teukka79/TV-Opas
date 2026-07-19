@@ -2389,4 +2389,11 @@
     "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/history-channel-us.png"
     "maa": "finland"
    },
+   {
+    "id": "viasat-nature-hd",
+    "nimi": "Viasat Nature HD",
+    "xmltv_id": "Viasat Nature HD.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/viasat-nature-fi.png"
+    "maa": "finland"
+   },
 ]
