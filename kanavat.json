@@ -2396,4 +2396,88 @@
     "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/viasat-nature-fi.png"
     "maa": "finland"
    },
+   {
+    "id": "mezzo-live",
+    "nimi": "Mezzo Live",
+    "xmltv_id": "Mezzo Live.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/mezzo-live-fr.png"
+    "maa": "finland"
+   },
+   {
+    "id": "svt1",
+    "nimi": "SVT1",
+    "xmltv_id": "SVT1.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/sweden/svt1-se.png"
+    "maa": "finland"
+   },
+   {
+    "id": "svt2",
+    "nimi": "SVT2",
+    "xmltv_id": "SVT2.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/sweden/svt2-se.png"
+    "maa": "finland"
+   },
+   {
+    "id": "svt-barn",
+    "nimi": "SVT Barn",
+    "xmltv_id": "SVT Barn.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/sweden/svt-barn-se.png"
+    "maa": "finland"
+   },
+   {
+    "id": "tv6",
+    "nimi": "TV6",
+    "xmltv_id": "TV6.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/sweden/tv6-se.png"
+    "maa": "finland"
+   },
+   {
+    "id": "tv7",
+    "nimi": "TV7",
+    "xmltv_id": "TV7.fi",
+    "logo": "https://raw.githubusercontent.com/teukka79/TV-Opas/main/Logot/TV7.png"
+    "maa": "finland"
+   },
+   {
+    "id": "tv8",
+    "nimi": "TV8",
+    "xmltv_id": "TV8.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/sweden/tv8-se.png"
+    "maa": "finland"
+   },
+   {
+    "id": "tv10",
+    "nimi": "TV10",
+    "xmltv_id": "TV10.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/sweden/tv10-se.png"
+    "maa": "finland"
+   },
+   {
+    "id": "eurochannel",
+    "nimi": "Eurochannel",
+    "xmltv_id": "Eurochannel.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/euro-channel-int.png"
+    "maa": "finland"
+   },
+   {
+    "id": "investigation-discovery",
+    "nimi": "Investigation Discovery",
+    "xmltv_id": "Investigation Discovery.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/investigation-discovery-id-int.png"
+    "maa": "finland"
+   },
+   {
+    "id": "cartoon-networks",
+    "nimi": "Cartoon Networks",
+    "xmltv_id": "Cartoon Networks.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/cartoon-network-int.png"
+    "maa": "finland"
+   },
+   {
+    "id": "al-jazeera-english",
+    "nimi": "Al Jazeera English",
+    "xmltv_id": "Al Jazeera English.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/aljazeera-uk.png"
+    "maa": "finland"
+   }
 ]
