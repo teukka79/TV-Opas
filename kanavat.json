@@ -155,152 +155,84 @@
     "numero": 20
   },
   {
+    "id": "elisa-viihde",
+    "nimi": "Elisa Viihde",
+    "xmltv_id": "Elisa Viihde.fi",
+    "logo": "https://raw.githubusercontent.com/teukka79/TV-Opas/main/Logot/elisa-viihde.png",
+    "maa": "finland",
+    "numero": 21
+  },
+  {
     "id": "viaplay-tv",
     "nimi": "Viaplay TV",
     "xmltv_id": "Viaplay TV.fi",
     "logo": "https://raw.githubusercontent.com/teukka79/TV-Opas/main/Logot/Viaplay_TV.png",
     "maa": "finland",
-    "numero": 21
+    "numero": 22
   },
   {
-    "id": "bbc-nordic",
-    "nimi": "BBC Nordic",
-    "xmltv_id": "BBC Nordic.fi",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/bbc-nordic-fi.png",
+    "id": "vlm-action",
+    "nimi": "V film action",
+    "xmltv_id": "V film action.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-film-action-fi.png",
     "maa": "finland"
+    "numero": 23
   },
   {
-    "id": "mtv-urheilu-1",
-    "nimi": "MTV Urheilu 1",
-    "xmltv_id": "MTV Urheilu 1.fi",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv-urheilu-1-fi.png",
+    "id": "vlm-hits",
+    "nimi": "V film hits",
+    "xmltv_id": "V film hits.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-film-hits-fi.png",
     "maa": "finland"
+    "numero": 24
   },
   {
-    "id": "mtv-urheilu-2",
-    "nimi": "MTV Urheilu 2",
-    "xmltv_id": "MTV Urheilu 2.fi",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv-urheilu-2-fi.png",
+    "id": "vlm-family",
+    "nimi": "V film family",
+    "xmltv_id": "V film family.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-film-family-fi.png",
     "maa": "finland"
+    "numero": 25
   },
   {
-    "id": "mtv-urheilu-3",
-    "nimi": "MTV Urheilu 3",
-    "xmltv_id": "MTV Urheilu 3.fi",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv-urheilu-3-fi.png",
+    "id": "vlm-premiere",
+    "nimi": "V film premiere",
+    "xmltv_id": "V film premiere.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-film-premiere-fi.png",
     "maa": "finland"
+    "numero": 26
   },
   {
-    "id": "mtv-liiga-1",
-    "nimi": "MTV Liiga 1",
-    "xmltv_id": "MTV Liiga 1.fi",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv-liiga-1-fi.png",
+    "id": "v-sport",
+    "nimi": "V sport",
+    "xmltv_id": "V Sport.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-sport-fi.png",
     "maa": "finland"
+    "numero": 27
   },
   {
-    "id": "mtv-liiga-2",
-    "nimi": "MTV Liiga 2",
-    "xmltv_id": "MTV Liiga 2.fi",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv-liiga-2-fi.png",
+    "id": "v-sport-vinter",
+    "nimi": "V sport vinter",
+    "xmltv_id": "V sport vinter.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-sport-vinter-fi.png",
     "maa": "finland"
+    "numero": 28
   },
   {
-    "id": "mtv-liiga-3",
-    "nimi": "MTV Liiga 3",
-    "xmltv_id": "MTV Liiga 3.fi",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv-liiga-3-fi.png",
+    "id": "v-sport-premium",
+    "nimi": "V sport premium",
+    "xmltv_id": "V sport premium.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-sport-premium-fi.png",
     "maa": "finland"
+    "numero": 29
   },
   {
-    "id": "mtv-liiga-4",
-    "nimi": "MTV Liiga 4",
-    "xmltv_id": "MTV Liiga 4.fi",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv-liiga-4-fi.png",
+    "id": "v-sport-football",
+    "nimi": "V sport football",
+    "xmltv_id": "V sport football.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-sport-football-fi.png",
     "maa": "finland"
-  },
-  {
-    "id": "mtv-liiga-5",
-    "nimi": "MTV Liiga 5",
-    "xmltv_id": "MTV Liiga 5.fi",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv-liiga-5-fi.png",
-    "maa": "finland"
-  },
-  {
-    "id": "mtv-liiga-6",
-    "nimi": "MTV Liiga 6",
-    "xmltv_id": "MTV Liiga 6.fi",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv-liiga-6-fi.png",
-    "maa": "finland"
-  },
-  {
-    "id": "mtv-liiga-7",
-    "nimi": "MTV Liiga 7",
-    "xmltv_id": "MTV Liiga 7.fi",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv-liiga-7-fi.png",
-    "maa": "finland"
-  },
-  {
-    "id": "mtv-liiga-8",
-    "nimi": "MTV Liiga 8",
-    "xmltv_id": "MTV Liiga 8.fi",
-    "logo": "https://raw.githubusercontent.com/teukka79/TV-Opas/main/Logot/mtv-liiga-8-fi.png",
-    "maa": "finland"
-  },
-  {
-    "id": "mtv-aitio",
-    "nimi": "MTV Aitio",
-    "xmltv_id": "MTV Aitio.fi",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv-aitio-fi.png",
-    "maa": "finland"
-  },
-  {
-    "id": "mtv-juniori",
-    "nimi": "MTV Juniori",
-    "xmltv_id": "MTV Juniori.fi",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv-juniori-fi.png",
-    "maa": "finland"
-  },
-  {
-    "id": "mtv-viihde",
-    "nimi": "MTV Viihde",
-    "xmltv_id": "MTV Viihde.fi",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv-viihde-fi.png",
-    "maa": "finland"
-  },
-  {
-    "id": "discovery-science",
-    "nimi": "Discovery Science",
-    "xmltv_id": "Discovery Science.fi",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/discovery-science-uk.png",
-    "maa": "finland"
-  },
-  {
-    "id": "eurosport-1",
-    "nimi": "Eurosport 1",
-    "xmltv_id": "Eurosport.fi",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/denmark/eurosport-1-dk.png",
-    "maa": "finland"
-  },
-  {
-    "id": "eurosport-2",
-    "nimi": "Eurosport 2",
-    "xmltv_id": "Eurosport 2.fi",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/denmark/eurosport-2-dk.png",
-    "maa": "finland"
-  },
-  {
-    "id": "animal-planet",
-    "nimi": "Animal Planet",
-    "xmltv_id": "Animal Planet.fi",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/animal-planet-uk.png",
-    "maa": "finland"
-  },
-  {
-    "id": "mtv-max",
-    "nimi": "MTV Max",
-    "xmltv_id": "MTV Max.fi",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv-max-fi.png",
-    "maa": "finland"
+    "numero": 30
   },
   {
     "id": "viaplay-urheilu-1",
@@ -308,6 +240,7 @@
     "xmltv_id": "Viaplay 1 Urheilu.fi",
     "logo": "https://raw.githubusercontent.com/teukka79/TV-Opas/main/Logot/viaplay-urheilu-1.png",
     "maa": "finland"
+    "numero": 31
   },
   {
     "id": "viaplay-urheilu-2",
@@ -315,6 +248,7 @@
     "xmltv_id": "Viaplay 2 Urheilu.fi",
     "logo": "https://raw.githubusercontent.com/teukka79/TV-Opas/main/Logot/viaplay-urheilu-2.png",
     "maa": "finland"
+    "numero": 32
   },
   {
     "id": "viaplay-urheilu-3",
@@ -322,13 +256,255 @@
     "xmltv_id": "Viaplay 3 Urheilu.fi",
     "logo": "https://raw.githubusercontent.com/teukka79/TV-Opas/main/Logot/viaplay-urheilu-3.png",
     "maa": "finland"
+    "numero": 33
   },
   {
-    "id": "viaplay-tv",
-    "nimi": "Viaplay TV",
-    "xmltv_id": "Viaplay TV.fi",
-    "logo": "https://raw.githubusercontent.com/teukka79/TV-Opas/main/Logot/Viaplay_TV.png",
+    "id": "eurosport-1",
+    "nimi": "Eurosport 1",
+    "xmltv_id": "Eurosport.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/denmark/eurosport-1-dk.png",
     "maa": "finland"
+    "numero": 34
+  },
+  {
+    "id": "eurosport-2",
+    "nimi": "Eurosport 2",
+    "xmltv_id": "Eurosport 2.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/denmark/eurosport-2-dk.png",
+    "maa": "finland"
+    "numero": 35
+  },
+  {
+    "id": "mtv-urheilu-1",
+    "nimi": "MTV Urheilu 1",
+    "xmltv_id": "MTV Urheilu 1.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv-urheilu-1-fi.png",
+    "maa": "finland"
+    "numero": 36
+  },
+  {
+    "id": "mtv-urheilu-2",
+    "nimi": "MTV Urheilu 2",
+    "xmltv_id": "MTV Urheilu 2.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv-urheilu-2-fi.png",
+    "maa": "finland"
+    "numero": 37
+  },
+  {
+    "id": "mtv-urheilu-3",
+    "nimi": "MTV Urheilu 3",
+    "xmltv_id": "MTV Urheilu 3.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv-urheilu-3-fi.png",
+    "maa": "finland"
+    "numero": 38
+  },
+  {
+    "id": "mtv-liiga-1",
+    "nimi": "MTV Liiga 1",
+    "xmltv_id": "MTV Liiga 1.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv-liiga-1-fi.png",
+    "maa": "finland"
+    "numero": 39
+  },
+  {
+    "id": "mtv-liiga-2",
+    "nimi": "MTV Liiga 2",
+    "xmltv_id": "MTV Liiga 2.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv-liiga-2-fi.png",
+    "maa": "finland"
+    "numero": 40
+  },
+  {
+    "id": "mtv-liiga-3",
+    "nimi": "MTV Liiga 3",
+    "xmltv_id": "MTV Liiga 3.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv-liiga-3-fi.png",
+    "maa": "finland"
+    "numero": 41
+  },
+  {
+    "id": "mtv-liiga-4",
+    "nimi": "MTV Liiga 4",
+    "xmltv_id": "MTV Liiga 4.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv-liiga-4-fi.png",
+    "maa": "finland"
+    "numero": 42
+  },
+  {
+    "id": "mtv-liiga-5",
+    "nimi": "MTV Liiga 5",
+    "xmltv_id": "MTV Liiga 5.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv-liiga-5-fi.png",
+    "maa": "finland"
+    "numero": 43
+  },
+  {
+    "id": "mtv-liiga-6",
+    "nimi": "MTV Liiga 6",
+    "xmltv_id": "MTV Liiga 6.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv-liiga-6-fi.png",
+    "maa": "finland"
+    "numero": 44
+  },
+  {
+    "id": "mtv-liiga-7",
+    "nimi": "MTV Liiga 7",
+    "xmltv_id": "MTV Liiga 7.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv-liiga-7-fi.png",
+    "maa": "finland"
+    "numero": 45
+  },
+  {
+    "id": "mtv-liiga-8",
+    "nimi": "MTV Liiga 8",
+    "xmltv_id": "MTV Liiga 8.fi",
+    "logo": "https://raw.githubusercontent.com/teukka79/TV-Opas/main/Logot/mtv-liiga-8-fi.png",
+    "maa": "finland"
+    "numero": 46
+  },
+  {
+    "id": "v-sport-live-1",
+    "nimi": "V sport live 1",
+    "xmltv_id": "V sport live 1.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-sport-live-1-fi.png",
+    "maa": "finland"
+    "numero": 47
+  },
+  {
+    "id": "v-sport-live-2",
+    "nimi": "V sport live 2",
+    "xmltv_id": "V sport live 2.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-sport-live-2-fi.png",
+    "maa": "finland"
+    "numero": 48
+  },
+  {
+    "id": "v-sport-live-3",
+    "nimi": "V sport live 3",
+    "xmltv_id": "V sport live 3.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-sport-live-3-fi.png",
+    "maa": "finland"
+    "numero": 49
+  },
+  {
+    "id": "v-sport-live-4",
+    "nimi": "V sport live 4",
+    "xmltv_id": "V sport live 4.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-sport-live-4-fi.png",
+    "maa": "finland"
+    "numero": 50
+  },
+  {
+    "id": "v-sport-live-5",
+    "nimi": "V sport live 5",
+    "xmltv_id": "V sport live 5.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-sport-live-5-fi.png",
+    "maa": "finland"
+    "numero": 51
+  },
+  {
+    "id": "elisa-viihde-sport-1",
+    "nimi": "Elisa Viihde Sport 1",
+    "xmltv_id": "Elisa Viihde Sport 1.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/elisa_viihde_sport_1.png",
+    "maa": "finland"
+    "numero": 52
+  },
+  {
+    "id": "elisa-viihde-sport-2",
+    "nimi": "Elisa Viihde Sport 2",
+    "xmltv_id": "Elisa Viihde Sport 2.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/elisa_viihde_sport_2.png",
+    "maa": "finland"
+    "numero": 53
+  },
+  {
+    "id": "elisa-viihde-sport-3",
+    "nimi": "Elisa Viihde Sport 3",
+    "xmltv_id": "Elisa Viihde Sport 3.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/elisa_viihde_sport_3.png",
+    "maa": "finland"
+    "numero": 54
+  },
+  {
+    "id": "elisa-viihde-sport-4",
+    "nimi": "Elisa Viihde Sport 4",
+    "xmltv_id": "Elisa Viihde Sport 4.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/elisa_viihde_sport_4.png",
+    "maa": "finland"
+    "numero": 55
+  },
+  {
+    "id": "mtv",
+    "nimi": "MTV",
+    "xmltv_id": "MTV.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv-fi.png",
+    "maa": "finland"
+    "numero": 56
+  },
+  {
+    "id": "mtv-viihde",
+    "nimi": "MTV Viihde",
+    "xmltv_id": "MTV Viihde.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv-viihde-fi.png",
+    "maa": "finland"
+    "numero": 57
+  },
+  {
+    "id": "mtv-aitio",
+    "nimi": "MTV Aitio",
+    "xmltv_id": "MTV Aitio.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv-aitio-fi.png",
+    "maa": "finland"
+    "numero": 58
+  },
+  {
+    "id": "mtv-max",
+    "nimi": "MTV Max",
+    "xmltv_id": "MTV Max.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv-max-fi.png",
+    "maa": "finland"
+    "numero": 59
+  },
+  {
+    "id": "mtv-juniori",
+    "nimi": "MTV Juniori",
+    "xmltv_id": "MTV Juniori.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv-juniori-fi.png",
+    "maa": "finland"
+    "numero": 60
+  },
+  {
+    "id": "discovery",
+    "nimi": "Discovery",
+    "xmltv_id": "Discovery.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/discovery-channel-uk.png",
+    "maa": "finland"
+    "numero": 61
+  },
+  {
+    "id": "discovery-science",
+    "nimi": "Discovery Science",
+    "xmltv_id": "Discovery Science.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/discovery-science-uk.png",
+    "maa": "finland"
+    "numero": 62
+  },
+  {
+    "id": "bbc-nordic",
+    "nimi": "BBC Nordic",
+    "xmltv_id": "BBC Nordic.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/bbc-nordic-fi.png",
+    "maa": "finland"
+    "numero": 63
+  },
+  {
+    "id": "animal-planet",
+    "nimi": "Animal Planet",
+    "xmltv_id": "Animal Planet.fi",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/animal-planet-uk.png",
+    "maa": "finland"
+    "numero": 64
   },
   {
     "id": "viasat-nature",
@@ -336,6 +512,7 @@
     "xmltv_id": "Viasat Nature.fi",
     "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/viasat-nature-fi.png",
     "maa": "finland"
+    "numero": 65
   },
   {
     "id": "viasat-explore",
@@ -343,6 +520,7 @@
     "xmltv_id": "Viasat Explore.fi",
     "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/viasat-explore-fi.png",
     "maa": "finland"
+    "numero": 66
   },
   {
     "id": "viasat-history",
@@ -350,6 +528,7 @@
     "xmltv_id": "Viasat History.fi",
     "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/viasat-history-fi.png",
     "maa": "finland"
+    "numero": 67
   },
   {
     "id": "disney-channel",
@@ -357,6 +536,7 @@
     "xmltv_id": "Disney Channel.fi",
     "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/denmark/disney-channel-dk.png",
     "maa": "finland"
+    "numero": 68
   },
   {
     "id": "cnn",
@@ -394,13 +574,6 @@
     "maa": "finland"
   },
   {
-    "id": "mtv",
-    "nimi": "MTV",
-    "xmltv_id": "MTV.fi",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv-fi.png",
-    "maa": "finland"
-  },
-  {
     "id": "one-way-tv",
     "nimi": "One Way TV",
     "xmltv_id": "OneWayTV.fi",
@@ -419,21 +592,6 @@
     "nimi": "SF-Kanalen",
     "xmltv_id": "SF Kanalen.fi",
     "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/sf-kanalen-fi.png",
-    "maa": "finland"
-  },
-  {
-    "id": "elisa-viihde",
-    "nimi": "Elisa Viihde",
-    "xmltv_id": "Elisa Viihde.fi",
-    "logo": "https://raw.githubusercontent.com/teukka79/TV-Opas/main/Logot/elisa-viihde.png",
-    "maa": "finland",
-    "numero": 16
-  },
-  {
-    "id": "v-sport",
-    "nimi": "V sport",
-    "xmltv_id": "V Sport.fi",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-sport-fi.png",
     "maa": "finland"
   },
   {
@@ -465,13 +623,6 @@
     "maa": "finland"
   },
   {
-    "id": "v-sport-football",
-    "nimi": "V sport football",
-    "xmltv_id": "V sport football.fi",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-sport-football-fi.png",
-    "maa": "finland"
-  },
-  {
     "id": "v-sport-golf",
     "nimi": "V sport golf",
     "xmltv_id": "V sport golf.fi",
@@ -479,115 +630,10 @@
     "maa": "finland"
   },
   {
-    "id": "v-sport-live-1",
-    "nimi": "V sport live 1",
-    "xmltv_id": "V sport live 1.fi",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-sport-live-1-fi.png",
-    "maa": "finland"
-  },
-  {
-    "id": "v-sport-live-2",
-    "nimi": "V sport live 2",
-    "xmltv_id": "V sport live 2.fi",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-sport-live-2-fi.png",
-    "maa": "finland"
-  },
-  {
-    "id": "v-sport-live-3",
-    "nimi": "V sport live 3",
-    "xmltv_id": "V sport live 3.fi",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-sport-live-3-fi.png",
-    "maa": "finland"
-  },
-  {
-    "id": "v-sport-live-4",
-    "nimi": "V sport live 4",
-    "xmltv_id": "V sport live 4.fi",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-sport-live-4-fi.png",
-    "maa": "finland"
-  },
-  {
-    "id": "v-sport-live-5",
-    "nimi": "V sport live 5",
-    "xmltv_id": "V sport live 5.fi",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-sport-live-5-fi.png",
-    "maa": "finland"
-  },
-  {
     "id": "v-sport-plus-suomi",
     "nimi": "V sport+ Suomi",
     "xmltv_id": "VsportPlusSuomi.fi",
     "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-sport-plus-suomi-fi.png",
-    "maa": "finland"
-  },
-  {
-    "id": "v-sport-premium",
-    "nimi": "V sport premium",
-    "xmltv_id": "V sport premium.fi",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-sport-premium-fi.png",
-    "maa": "finland"
-  },
-  {
-    "id": "v-sport-vinter",
-    "nimi": "V sport vinter",
-    "xmltv_id": "V sport vinter.fi",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-sport-vinter-fi.png",
-    "maa": "finland"
-  },
-  {
-    "id": "vlm-action",
-    "nimi": "V film action",
-    "xmltv_id": "V film action.fi",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-film-action-fi.png",
-    "maa": "finland"
-  },
-  {
-    "id": "vlm-action-hd",
-    "nimi": "V film action HD",
-    "xmltv_id": "VfilmactionHD.fi",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-film-action-hd-fi.png",
-    "maa": "finland"
-  },
-  {
-    "id": "vlm-family",
-    "nimi": "V film family",
-    "xmltv_id": "V film family.fi",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-film-family-fi.png",
-    "maa": "finland"
-  },
-  {
-    "id": "vlm-family-hd",
-    "nimi": "V film family HD",
-    "xmltv_id": "VfilmfamilyHD.fi",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-film-family-hd-fi.png",
-    "maa": "finland"
-  },
-  {
-    "id": "vlm-hits",
-    "nimi": "V film hits",
-    "xmltv_id": "V film hits.fi",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-film-hits-fi.png",
-    "maa": "finland"
-  },
-  {
-    "id": "vlm-hits-hd",
-    "nimi": "V film hits HD",
-    "xmltv_id": "VfilmhitsHD.fi",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-film-hits-hd-fi.png",
-    "maa": "finland"
-  },
-  {
-    "id": "vlm-premiere",
-    "nimi": "V film premiere",
-    "xmltv_id": "V film premiere.fi",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-film-premiere-fi.png",
-    "maa": "finland"
-  },
-  {
-    "id": "vlm-premiere-hd",
-    "nimi": "V film premiere HD",
-    "xmltv_id": "VfilmpremiereHD.fi",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/v-film-premiere-hd-fi.png",
     "maa": "finland"
   },
   {
