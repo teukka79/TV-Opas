@@ -536,7 +536,7 @@
     "xmltv_id": "MTV Juniori.fi",
     "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/mtv-juniori-fi.png",
     "maa": "finland",
-    "ryhma": ["MTV", "Lapset"]
+    "ryhma": ["MTV", "Lapset"],
     "numero": 61
   },
   {
@@ -545,7 +545,7 @@
     "xmltv_id": "Discovery.fi",
     "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/discovery-channel-uk.png",
     "maa": "finland",
-    "ryhmat": ["Dokumentit", "Tiede & Luonto"]
+    "ryhmat": ["Dokumentit", "Tiede & Luonto"],
     "numero": 62
   },
   {
@@ -562,7 +562,7 @@
     "nimi": "BBC Nordic",
     "xmltv_id": "BBC Nordic.fi",
     "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/bbc-nordic-fi.png",
-    "maa": "finland"
+    "maa": "finland",
     "numero": 64
   },
   {
@@ -606,7 +606,7 @@
     "nimi": "Disney Channel",
     "xmltv_id": "Disney Channel.fi",
     "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/denmark/disney-channel-dk.png",
-    "maa": "finland"
+    "maa": "finland",
     "numero": 69
   },
   {
@@ -672,7 +672,7 @@
     "xmltv_id": "V Sport Ultra HD.fi",
     "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/sweden/v-sport-ultrahd-se.png",
     "maa": "finland",
-    "ryhma": "Urheilu",
+    "ryhma": "Urheilu"
   },
   {
     "id": "v-sport-1",
