@@ -2,10 +2,7 @@
   {
     "id": "yle-tv1",
     "nimi": "Yle TV1",
-    "xmltv_id": [
-      "Yle TV1.fi",
-      "YLE TV1.fi"
-    ],
+    "xmltv_id": ["Yle TV1.fi","YLE TV1.fi"],
     "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/yle-tv1-fi.png",
     "maa": "finland",
     "ryhma": "Peruskanavat",
@@ -14,7 +11,7 @@
   {
     "id": "yle-tv2",
     "nimi": "Yle TV2",
-    "xmltv_id": "Yle TV2.fi",
+    "xmltv_id": ["Yle TV2.fi","YLE TV2.fi"],
     "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/yle-tv2-fi.png",
     "maa": "finland",
     "ryhma": "Peruskanavat",
@@ -41,7 +38,7 @@
   {
     "id": "yle-teema-and-fem",
     "nimi": "Yle Teema And Fem",
-    "xmltv_id": "Yle Teema And Fem.fi",
+    "xmltv_id": ["Yle Teema And Fem.fi","Yle Teema Fem.fi"],
     "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/finland/yle-teema-fem-fi.png",
     "maa": "finland",
     "ryhma": "Peruskanavat",
@@ -2175,6 +2172,14 @@
     "xmltv_id": "GreatTVPlus1.uk",
     "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/great-tv-plus1-uk.png",
     "maa": "united-kingdom"
+  },
+  {
+    "id": "mtv",
+    "nimi": "MTV",
+    "xmltv_id": "MTV.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/mtv-uk.png",
+    "maa": "united-kingdom",
+    "ryhma": "Musiikki"
   },
   {
     "id": "outdoorchannel",
