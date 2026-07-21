@@ -20,23 +20,28 @@
       <span class="msi header-clock-icon">schedule</span>
       <span id="clock">--:--:--</span>
     </div>
+    <button class="menu-toggle-btn" id="menuToggleBtn" onclick="toggleHeaderCompact()" title="Näytä/piilota valikko">
+      <span class="msi">menu</span>
+    </button>
   </div>
-  <div class="toolbar">
-    <input class="search" id="search" placeholder="Hae kanavaa tai ohjelmaa…" oninput="onSearchInput()">
-    <select class="search cat-filter" id="categoryFilterSelect" onchange="onCategoryFilterChange()">
-      <option value="all">Kaikki ryhmät</option>
-    </select>
-    <label class="btn primary" for="fileInput"><span class="msi">folder_open</span> Avaa opas</label>
-    <input type="file" id="fileInput" accept=".xml,.xmltv,text/xml,application/xml">
-    <button class="btn" onclick="openSettingsModal()"><span class="msi">settings</span> Asetukset</button>
-  </div>
-  <div class="toolbar">
-    <div class="view-toggle">
-      <button class="seg active" id="viewCardsBtn" onclick="setView('cards')">Kortit</button>
-      <button class="seg" id="viewTimelineBtn" onclick="setView('timeline')">Aikajana</button>
+  <div class="header-collapsible" id="headerCollapsible">
+    <div class="toolbar">
+      <input class="search" id="search" placeholder="Hae kanavaa tai ohjelmaa…" oninput="onSearchInput()">
+      <select class="search cat-filter" id="categoryFilterSelect" onchange="onCategoryFilterChange()">
+        <option value="all">Kaikki ryhmät</option>
+      </select>
+      <label class="btn primary" for="fileInput"><span class="msi">folder_open</span> Avaa opas</label>
+      <input type="file" id="fileInput" accept=".xml,.xmltv,text/xml,application/xml">
+      <button class="btn" onclick="openSettingsModal()"><span class="msi">settings</span> Asetukset</button>
     </div>
+    <div class="toolbar">
+      <div class="view-toggle">
+        <button class="seg active" id="viewCardsBtn" onclick="setView('cards')">Kortit</button>
+        <button class="seg" id="viewTimelineBtn" onclick="setView('timeline')">Aikajana</button>
+      </div>
+    </div>
+    <div id="dropzone">Vedä <b>XMLTV</b>-tiedosto tähän, tai avaa se yllä olevasta napista</div>
   </div>
-  <div id="dropzone">Vedä <b>XMLTV</b>-tiedosto tähän, tai avaa se yllä olevasta napista</div>
   <div id="status"></div>
 </header>
 

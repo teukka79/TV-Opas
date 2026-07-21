@@ -370,13 +370,19 @@ function updateLoadedGuideInfo(){
 }
 
 // ---------- Kanavaryhmien hallinta ----------
+const FAVORITES_GROUP = '__favorites__';
+
 function renderGroupsPanel(){
   $('#groupDetailView').style.display = 'none';
   $('#groupsListView').style.display = 'block';
   const cats = allCategories();
-  $('#groupsList').innerHTML = cats.length === 0
-    ? `<div class="src-empty">Ei vielä ryhmiä.</div>`
-    : cats.map(cat => {
+  const favCount = channels.filter(isFavorite).length;
+
+  const favRow = `<div class="src-item group-row" onclick="openGroupDetail('${FAVORITES_GROUP}')">
+      <div class="src-info"><div class="src-name">★ Suosikit</div><div class="src-url">${favCount} kanavaa</div></div>
+    </div>`;
+
+  const otherRows = cats.map(cat => {
         const count = channels.filter(c => getCategory(c) === cat).length;
         return `<div class="src-item group-row" onclick="openGroupDetail('${cat.replace(/'/g,"\\'")}')">
           <div class="src-info"><div class="src-name">${escapeHtml(cat)}</div><div class="src-url">${count} kanavaa</div></div>
@@ -384,13 +390,15 @@ function renderGroupsPanel(){
           <button class="btn small danger" onclick="event.stopPropagation(); deleteCategory('${cat.replace(/'/g,"\\'")}')"><span class="msi" style="font-size:15px">delete</span></button>
         </div>`;
       }).join('');
+
+  $('#groupsList').innerHTML = favRow + otherRows;
 }
 
 let editingGroupName = null;
 
 function openGroupDetail(cat){
   editingGroupName = cat;
-  $('#groupDetailTitle').textContent = cat;
+  $('#groupDetailTitle').textContent = cat === FAVORITES_GROUP ? '★ Suosikit' : cat;
   $('#groupDetailSearch').value = '';
   renderGroupDetailList();
   $('#groupsListView').style.display = 'none';
@@ -411,7 +419,7 @@ function renderGroupDetailList(){
     ? `<div class="src-empty">Ei kanavia.</div>`
     : list.map(ch => {
         const key = chKey(ch.name);
-        const checked = getCategory(ch) === editingGroupName;
+        const checked = editingGroupName === FAVORITES_GROUP ? isFavorite(ch) : getCategory(ch) === editingGroupName;
         const iconSrc = chIcon(ch);
         const iconHtml = iconSrc
           ? `<img class="order-icon-img" src="${escapeHtml(iconSrc)}">`
@@ -430,7 +438,9 @@ function renderGroupDetailList(){
 function setChannelGroup(key, checked){
   if(!editingGroupName) return;
   const existing = channelMeta[key] || {};
-  if(checked){
+  if(editingGroupName === FAVORITES_GROUP){
+    channelMeta[key] = { ...existing, favorite: checked || undefined };
+  } else if(checked){
     channelMeta[key] = { ...existing, category: editingGroupName };
   } else if(existing.category === editingGroupName){
     channelMeta[key] = { ...existing, category: undefined };
@@ -798,9 +808,10 @@ function updateCategoryFilterOptions(){
   const cats = allCategories();
   const hasUncategorized = channels.some(c => !getCategory(c));
   sel.innerHTML = `<option value="all">Kaikki ryhmät</option>` +
+    `<option value="${FAVORITES_GROUP}">★ Suosikit</option>` +
     cats.map(c => `<option value="${escapeHtml(c)}">${escapeHtml(c)}</option>`).join('') +
     (hasUncategorized ? `<option value="__none__">Ryhmittelemättömät</option>` : '');
-  const validValues = ['all', '__none__', ...cats];
+  const validValues = ['all', '__none__', FAVORITES_GROUP, ...cats];
   sel.value = validValues.includes(activeCategoryFilter) ? activeCategoryFilter : 'all';
   activeCategoryFilter = sel.value;
 }
@@ -813,6 +824,7 @@ function onCategoryFilterChange(){
 
 function channelPassesCategoryFilter(ch){
   if(activeCategoryFilter === 'all') return true;
+  if(activeCategoryFilter === FAVORITES_GROUP) return isFavorite(ch);
   if(activeCategoryFilter === '__none__') return !getCategory(ch);
   return getCategory(ch) === activeCategoryFilter;
 }
@@ -1240,6 +1252,25 @@ clearBtn.addEventListener('click', () => {
 })();
 
 // ---------- Rendering ----------
+function isMovie(p){
+  const cat = (p.category || '').toLowerCase();
+  if(cat.includes('elokuva') || cat.includes('movie') || cat.includes('film')) return true;
+  if(/^elokuva\s*:/i.test(p.title || '')) return true;
+  return false;
+}
+const MOVIE_REEL_SVG = `<svg class="movie-reel-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="12" cy="12" r="9.3" stroke="currentColor" stroke-width="1.7"/>
+  <circle cx="12" cy="12" r="2.3" fill="currentColor"/>
+  <circle cx="12" cy="4.9" r="1.7" fill="currentColor"/>
+  <circle cx="18.7" cy="9.1" r="1.7" fill="currentColor"/>
+  <circle cx="16.1" cy="17.4" r="1.7" fill="currentColor"/>
+  <circle cx="7.9" cy="17.4" r="1.7" fill="currentColor"/>
+  <circle cx="5.3" cy="9.1" r="1.7" fill="currentColor"/>
+</svg>`;
+function movieIconHtml(p){
+  return isMovie(p) ? ` <span class="movie-icon" title="Elokuva">${MOVIE_REEL_SVG}</span>` : '';
+}
+
 function findCurrent(list, now){
   return list.find(p => p.start <= now && now < p.stop) || null;
 }
@@ -1327,7 +1358,7 @@ function cardHtmlFor(ch, now){
   const upcomingHtml = next3.length ? `
     <div class="c2-upcoming">
       ${next3.map(p => `<div class="c2-up-item" onclick="event.stopPropagation(); showProgramSheetByTime('${ch.id.replace(/'/g,"\\'")}', ${p.start.getTime()})">
-        <span class="c2-up-time">${fmtTime(p.start)}</span>${escapeHtml(p.title)}
+        <span class="c2-up-time">${fmtTime(p.start)}</span>${escapeHtml(p.title)}${movieIconHtml(p)}
       </div>`).join('')}
     </div>` : '';
 
@@ -1338,7 +1369,7 @@ function cardHtmlFor(ch, now){
     const pct = Math.min(100, Math.max(0, (elapsed/total)*100));
     bodyHtml = `
       <div class="c2-title-row">
-        <span class="c2-title" onclick="event.stopPropagation(); showProgramSheetByTime('${ch.id.replace(/'/g,"\\'")}', ${cur.start.getTime()})">${escapeHtml(cur.title)}</span>
+        <span class="c2-title" onclick="event.stopPropagation(); showProgramSheetByTime('${ch.id.replace(/'/g,"\\'")}', ${cur.start.getTime()})">${escapeHtml(cur.title)}${movieIconHtml(cur)}</span>
         <span class="live-dot"></span>
         <span class="c2-remaining">(${fmtRemaining(cur.stop - now)})</span>
       </div>
@@ -1359,7 +1390,7 @@ function cardHtmlFor(ch, now){
       const isCur = p === cur;
       return `<div class="sched-item ${isCur ? 'current' : ''}" onclick="event.stopPropagation(); showProgramSheetByTime('${ch.id.replace(/'/g,"\\'")}', ${p.start.getTime()})">
         <div class="t">${fmtTime(p.start)}–${fmtTime(p.stop)}</div>
-        <div>${isCur ? '<b>' : ''}${escapeHtml(p.title)}${isCur ? '</b>' : ''}</div>
+        <div>${isCur ? '<b>' : ''}${escapeHtml(p.title)}${isCur ? '</b>' : ''}${movieIconHtml(p)}</div>
       </div>`;
     }).join('') + `</div>`;
   }
@@ -1367,12 +1398,14 @@ function cardHtmlFor(ch, now){
   const iconSrc = chIcon(ch);
   const num = chNumber(ch);
   const fav = isFavorite(ch);
+  const displayName = chDisplayName(ch);
   const iconInner = iconSrc
-    ? `<img class="ch-icon" src="${escapeHtml(iconSrc)}" onerror="this.style.display='none'">`
-    : `<div class="ch-icon-name">${escapeHtml(chDisplayName(ch))}</div>`;
+    ? `<img class="ch-icon" src="${escapeHtml(iconSrc)}" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+       <div class="ch-icon-name" style="display:none">${escapeHtml(displayName)}</div>`
+    : `<div class="ch-icon-name">${escapeHtml(displayName)}</div>`;
   const iconHtml = `
     <div class="icon-wrap">
-      <div onclick="event.stopPropagation(); openChannelEdit('${ch.name.replace(/'/g,"\\'")}')">
+      <div class="logo-slot" onclick="event.stopPropagation(); openChannelEdit('${ch.name.replace(/'/g,"\\'")}')">
         ${iconInner}
       </div>
       <div class="icon-footer">
@@ -1485,12 +1518,14 @@ function timelineRowHtml(r, now){
   const iconSrc = chIcon(ch);
   const num = chNumber(ch);
   const fav = isFavorite(ch);
+  const tlDisplayName = chDisplayName(ch);
   const iconInner = iconSrc
-    ? `<img class="tl-icon" src="${escapeHtml(iconSrc)}" onerror="this.style.display='none'">`
-    : `<div class="tl-ch-name">${escapeHtml(chDisplayName(ch))}</div>`;
+    ? `<img class="tl-icon" src="${escapeHtml(iconSrc)}" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+       <div class="tl-ch-name" style="display:none">${escapeHtml(tlDisplayName)}</div>`
+    : `<div class="tl-ch-name">${escapeHtml(tlDisplayName)}</div>`;
   const chcolHtml = `<div class="tl-chcol-cell">
       <div class="icon-wrap">
-        <div onclick="event.stopPropagation(); openChannelEdit('${ch.name.replace(/'/g,"\\'")}')">
+        <div class="logo-slot" onclick="event.stopPropagation(); openChannelEdit('${ch.name.replace(/'/g,"\\'")}')">
           ${iconInner}
         </div>
         <div class="icon-footer">
@@ -1513,7 +1548,7 @@ function timelineRowHtml(r, now){
     const isCur = p.start <= now && now < p.stop;
     return `<div class="tl-block ${isCur ? 'current' : ''}" style="left:${x}px;width:${w}px"
               onclick="tlShowInfo('${ch.id.replace(/'/g,"\\'")}', ${idx})">
-      <div class="tl-block-title">${escapeHtml(p.title)}</div>
+      <div class="tl-block-title">${escapeHtml(p.title)}${movieIconHtml(p)}</div>
       ${w > 90 ? `<div class="tl-block-desc">${escapeHtml(p.desc)}</div>` : ''}
       <div class="tl-block-time">${fmtTime(p.start)} - ${fmtTime(p.stop)}</div>
     </div>`;
@@ -1575,6 +1610,39 @@ function updateHScrollbar(){
 
 $('#tlHScroll').addEventListener('scroll', updateHScrollbar);
 
+// Vaakavierityspalkin vetimen raahaus (hiiri ja kosketus)
+let sbDragging = false, sbStartX = 0, sbStartScrollLeft = 0;
+$('#tlSBThumb').addEventListener('pointerdown', e => {
+  sbDragging = true;
+  sbStartX = e.clientX;
+  sbStartScrollLeft = $('#tlHScroll').scrollLeft;
+  $('#tlSBThumb').setPointerCapture(e.pointerId);
+});
+$('#tlSBThumb').addEventListener('pointermove', e => {
+  if(!sbDragging) return;
+  const el = $('#tlHScroll');
+  const track = $('#tlSBTrack');
+  const thumb = $('#tlSBThumb');
+  const maxThumbLeft = track.clientWidth - thumb.offsetWidth;
+  if(maxThumbLeft <= 0) return;
+  const dx = e.clientX - sbStartX;
+  const overflow = el.scrollWidth - el.clientWidth;
+  el.scrollLeft = sbStartScrollLeft + (dx / maxThumbLeft) * overflow;
+});
+$('#tlSBThumb').addEventListener('pointerup', () => { sbDragging = false; });
+$('#tlSBThumb').addEventListener('pointercancel', () => { sbDragging = false; });
+$('#tlSBTrack').addEventListener('pointerdown', e => {
+  if(e.target !== $('#tlSBTrack')) return;
+  const track = $('#tlSBTrack');
+  const thumb = $('#tlSBThumb');
+  const el = $('#tlHScroll');
+  const rect = track.getBoundingClientRect();
+  const clickX = e.clientX - rect.left - thumb.offsetWidth / 2;
+  const maxThumbLeft = track.clientWidth - thumb.offsetWidth;
+  const ratio = Math.min(1, Math.max(0, clickX / maxThumbLeft));
+  el.scrollLeft = ratio * (el.scrollWidth - el.clientWidth);
+});
+
 function tlJumpNow(){
   if(!tlBuildData || !tlBuildData.nowInRange) return;
   const hs = $('#tlHScroll');
@@ -1618,7 +1686,7 @@ function tlShowInfo(chId, idx){
   const ch = channels.find(c => c.id === chId);
   $('#tlSheet').innerHTML = `
     <button class="close" onclick="closeAllSheets()"><span class="msi">close</span></button>
-    <h3>${escapeHtml(p.title)}</h3>
+    <h3>${escapeHtml(p.title)}${movieIconHtml(p)}</h3>
     <div class="meta">${ch ? escapeHtml(chDisplayName(ch)) : ''} · klo ${fmtTime(p.start)}–${fmtTime(p.stop)} ${p.category ? `· ${escapeHtml(p.category)}` : ''}</div>
     <div class="desc">${escapeHtml(p.desc || 'Ei tarkempia ohjelmatietoja.')}</div>
   `;
@@ -1647,3 +1715,18 @@ function updateHeaderClock(){
 }
 setInterval(updateHeaderClock, 1000);
 updateHeaderClock();
+
+// Yläpalkin kompaktointi (piilottaa haun, ryhmävalinnan, avaa opas -napin, asetukset-napin,
+// kortit/aikajana-valitsimen ja XML-pudotusalueen)
+function toggleHeaderCompact(){
+  const header = document.querySelector('header');
+  const isCompact = header.classList.toggle('compact');
+  try{ localStorage.setItem('epg_header_compact', isCompact ? '1' : '0'); }catch(e){}
+}
+(function initHeaderCompact(){
+  try{
+    if(localStorage.getItem('epg_header_compact') === '1'){
+      document.querySelector('header').classList.add('compact');
+    }
+  }catch(e){}
+})();
