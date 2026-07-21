@@ -2521,6 +2521,13 @@
     "maa": "united-kingdom"
   },
   {
+    "id": "cnbc",
+    "nimi": "CNBC",
+    "xmltv_id": "CNBC.uk",
+    "logo": "https://raw.githubusercontent.com/teukka79/TV-Opas/main/Logot/CNBC.png",
+    "maa": "united-kingdom"
+  },
+  {
     "id": "tv4",
     "nimi": "TV4",
     "xmltv_id": "TV4.fi",
