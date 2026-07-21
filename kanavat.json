@@ -2177,6 +2177,13 @@
     "maa": "united-kingdom"
   },
   {
+    "id": "outdoorchannel",
+    "nimi": "OutdoorChannel",
+    "xmltv_id": "OutdoorChannel.uk",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/outdoor-channel-us.png",
+    "maa": "united-kingdom"
+  },
+  {
     "id": "sky-arts",
     "nimi": "Sky Arts",
     "xmltv_id": "SkyArts.uk",
