@@ -671,11 +671,30 @@ function lookupLogoMapNumber(ch){
   return null;
 }
 
+function lookupLogoMapGroup(ch){
+  if(!logoMap) return null;
+  if(logoMap.groupById){
+    for(const id of chLookupIds(ch)){
+      if(logoMap.groupById[id]) return logoMap.groupById[id];
+      const lower = logoMap.groupById[id.toLowerCase()];
+      if(lower) return lower;
+    }
+  }
+  if(logoMap.groupByName){
+    const nk = chKey(ch.name);
+    if(logoMap.groupByName[nk]) return logoMap.groupByName[nk];
+    const nkNoTld = nk.replace(/\.(fi|uk|se|no|dk|de|us)$/, '');
+    if(nkNoTld !== nk && logoMap.groupByName[nkNoTld]) return logoMap.groupByName[nkNoTld];
+  }
+  return null;
+}
+
 function buildLogoMapFromArray(arr){
-  const byId = {}, byName = {}, numById = {}, numByName = {};
+  const byId = {}, byName = {}, numById = {}, numByName = {}, groupById = {}, groupByName = {};
   arr.forEach(entry => {
     const logo = entry.logo || entry.icon;
     const num = entry.numero !== undefined ? entry.numero : entry.number;
+    const group = entry.ryhma || entry.group || entry.category;
 
     const ids = [];
     const addIds = v => { if(Array.isArray(v)) ids.push(...v); else if(v) ids.push(v); };
@@ -688,6 +707,7 @@ function buildLogoMapFromArray(arr){
       if(num !== undefined && num !== null && num !== ''){
         numById[id] = num; numById[id.toLowerCase()] = num;
       }
+      if(group){ groupById[id] = group; groupById[id.toLowerCase()] = group; }
     });
 
     const names = [];
@@ -697,9 +717,10 @@ function buildLogoMapFromArray(arr){
       const key = chKey(n);
       if(logo) byName[key] = logo;
       if(num !== undefined && num !== null && num !== '') numByName[key] = num;
+      if(group) groupByName[key] = group;
     });
   });
-  return { byId, byName, numById, numByName };
+  return { byId, byName, numById, numByName, groupById, groupByName };
 }
 
 function fetchLogoMap(url, silent){
@@ -774,7 +795,13 @@ function toggleFavorite(name){
   render();
 }
 
-function getCategory(ch){ return (getMeta(ch.name).category || '').trim(); }
+function getCategory(ch){
+  const m = getMeta(ch.name);
+  if(m.category) return m.category.trim();
+  const mapped = lookupLogoMapGroup(ch);
+  if(mapped) return mapped.trim();
+  return '';
+}
 
 // ---------- Tunnetut ryhmät ----------
 const DEFAULT_CATEGORIES = ['Peruskanavat', 'Elokuvat & Sarjat', 'Urheilu'];
@@ -797,6 +824,10 @@ function registerCategory(name){
 function allCategories(){
   const set = new Set(knownCategories);
   Object.values(channelMeta).forEach(m => { if(m.category) set.add(m.category); });
+  if(logoMap){
+    if(logoMap.groupById) Object.values(logoMap.groupById).forEach(g => set.add(g));
+    if(logoMap.groupByName) Object.values(logoMap.groupByName).forEach(g => set.add(g));
+  }
   return [...set].sort((a,b) => a.localeCompare(b,'fi'));
 }
 
@@ -921,19 +952,30 @@ function sortChannels(list){
   });
 }
 
+let displayOrderList = [];
+
 function initOrderList(){
   const known = channels.map(c => chKey(c.name));
   if(channelOrder.length === 0){
-    channelOrder = sortChannels(channels).map(c => chKey(c.name));
+    // Ei vielä käsin järjestelty: näytetään nykyinen automaattinen (suosikki/numero/aakkos-)
+    // järjestys, mutta EI tallenneta channelOrderiin pelkän katsomisen perusteella. Näin
+    // esim. numero-kentän päivittyminen kanavat.json:sta vaikuttaa yhä järjestykseen siihen asti
+    // kunnes käyttäjä oikeasti raahaa tai painaa jotain siirtonappia.
+    displayOrderList = sortChannels(channels).map(c => chKey(c.name));
   } else {
     known.forEach(k => { if(!channelOrder.includes(k)) channelOrder.push(k); });
     channelOrder = channelOrder.filter(k => known.includes(k));
+    displayOrderList = channelOrder;
   }
   renderOrderList();
 }
 
+function commitOrderIfNeeded(){
+  if(channelOrder.length === 0) channelOrder = [...displayOrderList];
+}
+
 function renderOrderList(){
-  $('#orderList').innerHTML = channelOrder.map((key) => {
+  $('#orderList').innerHTML = displayOrderList.map((key) => {
     const ch = channels.find(c => chKey(c.name) === key);
     if(!ch) return '';
     const iconSrc = chIcon(ch);
@@ -961,27 +1003,31 @@ function renderOrderList(){
 }
 
 function moveChannelTop(key){
+  commitOrderIfNeeded();
   const i = channelOrder.indexOf(key);
   if(i <= 0) return;
   channelOrder.splice(i, 1);
   channelOrder.unshift(key);
   saveChannelOrder();
+  displayOrderList = channelOrder;
   renderOrderList();
   render();
 }
 
-// Tästä eteenpäin koodi jatkuu tismalleen alkuperäisen pohjan mukaisesti
 function moveChannelBottom(key){
+  commitOrderIfNeeded();
   const i = channelOrder.indexOf(key);
   if(i === -1 || i === channelOrder.length - 1) return;
   channelOrder.splice(i, 1);
   channelOrder.push(key);
   saveChannelOrder();
+  displayOrderList = channelOrder;
   renderOrderList();
   render();
 }
 
 function moveChannelBy(key, delta){
+  commitOrderIfNeeded();
   const i = channelOrder.indexOf(key);
   if(i === -1) return;
   const j = Math.max(0, Math.min(channelOrder.length - 1, i + delta));
@@ -989,6 +1035,7 @@ function moveChannelBy(key, delta){
   channelOrder.splice(i, 1);
   channelOrder.splice(j, 0, key);
   saveChannelOrder();
+  displayOrderList = channelOrder;
   renderOrderList();
   render();
 }
@@ -1035,8 +1082,10 @@ function onOrderDragEnd(e){
   orderDragEl.removeEventListener('pointermove', onOrderDragMove);
   orderDragEl.removeEventListener('pointerup', onOrderDragEnd);
   orderDragEl.removeEventListener('pointercancel', onOrderDragEnd);
+  commitOrderIfNeeded();
   channelOrder = [...$('#orderList').querySelectorAll('.order-item')].map(el => el.dataset.key);
   saveChannelOrder();
+  displayOrderList = channelOrder;
   orderDragEl = null;
   render();
 }
@@ -1574,7 +1623,7 @@ function renderVisibleTimelineRows(){
   const bottomH = (tlRows.length - endIdx) * TL_ROW_HEIGHT;
 
   let chColInner = `<div class="tl-chcol-cell corner"></div><div style="height:${topH}px"></div>`;
-  let hContentInner = `<div class="tl-hours-inner">${tlBuildData.hourMarks}${tlBuildData.nowLineHtml}</div><div style="height:${topH}px"></div>`;
+  let hContentInner = `<div class="tl-hours-inner">${tlBuildData.hourMarks}</div><div style="height:${topH}px"></div>`;
 
   for(let i = startIdx; i < endIdx; i++){
     const row = tlRows[i];
@@ -1584,7 +1633,7 @@ function renderVisibleTimelineRows(){
   }
 
   chColInner += `<div style="height:${bottomH}px"></div>`;
-  hContentInner += `<div style="height:${bottomH}px"></div>`;
+  hContentInner += `<div style="height:${bottomH}px"></div>${tlBuildData.nowLineHtml}`;
 
   $('#tlChCol').innerHTML = chColInner;
   $('#tlHContent').innerHTML = hContentInner;
