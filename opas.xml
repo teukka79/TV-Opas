@@ -1,2646 +1,2646 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <tv generator-info-name="Processed by Open-EPG Visual Processor v1.0" generator-info-url="https://www.open-epg.com">
-  <channel id="DMAX.uk">
-    <icon src="https://images.open-epg.com/21524.png" />
-    <display-name>DMAX.uk</display-name>
-  </channel>
-  <channel id="ThatsClassics.uk">
-    <icon src="https://images.open-epg.com/x2307.png" />
-    <display-name>That&apos;s Classics.uk</display-name>
-  </channel>
-  <channel id="SonyTV.uk">
-    <icon src="https://images.open-epg.com/16278.png" />
-    <display-name>Sony TV.uk</display-name>
-  </channel>
-  <channel id="BBCAlba.uk">
-    <icon src="https://images.open-epg.com/x363.png" />
-    <display-name>BBC Alba.uk</display-name>
-  </channel>
-  <channel id="EPLArsenal.uk">
-    <icon src="https://images.open-epg.com/16501558.png" />
-    <display-name>Arsenal.uk</display-name>
-  </channel>
-  <channel id="ITV3Plus1.uk">
-    <icon src="https://images.open-epg.com/x398.png" />
-    <display-name>ITV3 +1.uk</display-name>
-  </channel>
-  <channel id="SPFLRangers.uk">
-    <icon src="https://images.open-epg.com/16502046.png" />
-    <display-name>SPFL Rangers.uk</display-name>
-  </channel>
-  <channel id="iConcerts.fi">
-    <display-name>iConcerts.fi</display-name>
-  </channel>
-  <channel id="LocalTVTeesside.uk">
-    <icon src="https://images.open-epg.com/x520.png" />
-    <display-name>Local TV Teeside.uk</display-name>
-  </channel>
-  <channel id="SkyCinemaAction.uk">
-    <icon src="https://images.open-epg.com/x496.png" />
-    <display-name>Sky Cinema Action.uk</display-name>
-  </channel>
-  <channel id="Viaplay 2 Urheilu.fi">
-    <display-name>Viaplay 2 Urheilu.fi</display-name>
-  </channel>
-  <channel id="BBCFourCBeebies.uk">
-    <icon src="https://images.open-epg.com/x373.png" />
-    <display-name>BBC Four / CBeebies.uk</display-name>
-  </channel>
-  <channel id="MTV Liiga 5.fi">
-    <display-name>MTV Liiga 5.fi</display-name>
-  </channel>
-  <channel id="ITV1TyneTees.uk">
-    <icon src="https://images.open-epg.com/x379.png" />
-    <display-name>ITV1 Tyne Tees.uk</display-name>
-  </channel>
-  <channel id="UandGoldPlus1.uk">
-    <icon src="https://images.open-epg.com/16330.png" />
-    <display-name>U&amp;Gold +1.uk</display-name>
-  </channel>
-  <channel id="EFLCheltenhamTown.uk">
-    <icon src="https://images.open-epg.com/16501666.png" />
-    <display-name>Cheltenham Town.uk</display-name>
-  </channel>
-  <channel id="LaLigaTV.uk">
-    <icon src="https://images.open-epg.com/x515.png" />
-    <display-name>La Liga TV.uk</display-name>
-  </channel>
-  <channel id="NatGeoWild.uk">
-    <icon src="https://images.open-epg.com/16149.png" />
-    <display-name>Nat Geo Wild.uk</display-name>
-  </channel>
-  <channel id="UandDrama.uk">
-    <icon src="https://images.open-epg.com/x827.png" />
-    <display-name>U&amp;Drama.uk</display-name>
-  </channel>
-  <channel id="MTV Liiga 2.fi">
-    <display-name>MTV Liiga 2.fi</display-name>
-  </channel>
-  <channel id="GreatMovies.uk">
-    <icon src="https://images.open-epg.com/x466.png" />
-    <display-name>Great! Movies.uk</display-name>
-  </channel>
-  <channel id="BabesandBrazzers.uk">
-    <icon src="https://images.open-epg.com/19015.png" />
-    <display-name>Babes and Brazzers.uk</display-name>
-  </channel>
-  <channel id="TLCPlus1.uk">
-    <icon src="https://images.open-epg.com/16295.png" />
-    <display-name>TLC +1.uk</display-name>
-  </channel>
-  <channel id="SkyNews.uk">
-    <icon src="https://images.open-epg.com/x418.png" />
-    <display-name>Sky News.uk</display-name>
-  </channel>
-  <channel id="EFLNewportCounty.uk">
-    <icon src="https://images.open-epg.com/16501956.png" />
-    <display-name>Newport County.uk</display-name>
-  </channel>
-  <channel id="KanshiTV.uk">
-    <icon src="https://images.open-epg.com/16123.png" />
-    <display-name>Kanshi TV.uk</display-name>
-  </channel>
-  <channel id="EPLBrightonandHoveAlbion.uk">
-    <icon src="https://images.open-epg.com/16501638.png" />
-    <display-name>Brighton and Hove Albion.uk</display-name>
-  </channel>
-  <channel id="National Geographic.fi">
-    <display-name>National Geographic.fi</display-name>
-  </channel>
-  <channel id="B4UMovies.uk">
-    <icon src="https://images.open-epg.com/15946.png" />
-    <display-name>B4U Movies.uk</display-name>
-  </channel>
-  <channel id="TV3 Sverige.fi">
-    <display-name>TV3 Sverige.fi</display-name>
-  </channel>
-  <channel id="IslamChannelUrdu.uk">
-    <icon src="https://images.open-epg.com/16110.png" />
-    <display-name>Islam Channel Urdu.uk</display-name>
-  </channel>
-  <channel id="QuestPlus1.uk">
-    <icon src="https://images.open-epg.com/19134.png" />
-    <display-name>Quest +1.uk</display-name>
-  </channel>
-  <channel id="UandAlibi.uk">
-    <icon src="https://images.open-epg.com/x830.png" />
-    <display-name>U&amp;Alibi.uk</display-name>
-  </channel>
-  <channel id="EFLWestBromwichAlbion.uk">
-    <icon src="https://images.open-epg.com/16502402.png" />
-    <display-name>West Bromwich Albion.uk</display-name>
-  </channel>
-  <channel id="SkyCinemaThriller.uk">
-    <icon src="https://images.open-epg.com/x506.png" />
-    <display-name>Sky Cinema Thriller.uk</display-name>
-  </channel>
-  <channel id="BBCRadioFoyle.uk">
-    <icon src="https://images.open-epg.com/15974.png" />
-    <display-name>BBC Radio Foyle.uk</display-name>
-  </channel>
-  <channel id="Bloomberg.fi">
-    <display-name>Bloomberg.fi</display-name>
-  </channel>
-  <channel id="Babestation.uk">
-    <icon src="https://images.open-epg.com/12938.png" />
-    <display-name>Babestation.uk</display-name>
-  </channel>
-  <channel id="SkySportsAction.uk">
-    <icon src="https://images.open-epg.com/x476.png" />
-    <display-name>Sky Sports Action.uk</display-name>
-  </channel>
-  <channel id="BBCOneCI.uk">
-    <icon src="https://images.open-epg.com/x364.png" />
-    <display-name>BBC One Channel Islands.uk</display-name>
-  </channel>
-  <channel id="SPFLHeartofMidlothian.uk">
-    <icon src="https://images.open-epg.com/16501839.png" />
-    <display-name>SPFL Heart of Midlothian.uk</display-name>
-  </channel>
-  <channel id="HighStreetTV1.uk">
-    <icon src="https://images.open-epg.com/16096.png" />
-    <display-name>High Street TV 1.uk</display-name>
-  </channel>
-  <channel id="SkyAtlanticPlus1.uk">
-    <icon src="https://images.open-epg.com/x530.png" />
-    <display-name>Sky Atlantic +1.uk</display-name>
-  </channel>
-  <channel id="NewMediaTV.uk">
-    <icon src="https://images.open-epg.com/1075561.png" />
-    <display-name>New Media TV.uk</display-name>
-  </channel>
-  <channel id="MBCGroup.uk">
-    <icon src="https://images.open-epg.com/x464.png" />
-    <display-name>MBC Group.uk</display-name>
-  </channel>
-  <channel id="NationalGeographicPlus1.uk">
-    <icon src="https://images.open-epg.com/16151.png" />
-    <display-name>National Geographic +1.uk</display-name>
-  </channel>
-  <channel id="Yle TV2.fi">
-    <display-name>Yle TV2.fi</display-name>
-  </channel>
-  <channel id="SkySportsF1.uk">
-    <icon src="https://images.open-epg.com/x479.png" />
-    <display-name>Sky Sports F1.uk</display-name>
-  </channel>
-  <channel id="SkyAtlantic.uk">
-    <icon src="https://images.open-epg.com/x591.png" />
-    <display-name>Sky Atlantic.uk</display-name>
-  </channel>
-  <channel id="ITV1Anglia.uk">
-    <icon src="https://images.open-epg.com/x379.png" />
-    <display-name>ITV1 Anglia.uk</display-name>
-  </channel>
-  <channel id="SVT1.fi">
-    <display-name>SVT1.fi</display-name>
-  </channel>
-  <channel id="InsideCrime.uk">
-    <icon src="https://images.open-epg.com/19090.png" />
-    <display-name>Inside Crime.uk</display-name>
-  </channel>
-  <channel id="BBCOneYandL.uk">
-    <icon src="https://images.open-epg.com/x364.png" />
-    <display-name>BBC One Yorkshire &amp; Lincolnshire.uk</display-name>
-  </channel>
-  <channel id="Al Jazeera English.fi">
-    <display-name>Al Jazeera English.fi</display-name>
-  </channel>
-  <channel id="V film action.fi">
-    <display-name>V film action.fi</display-name>
-  </channel>
-  <channel id="ROK.uk">
-    <icon src="https://images.open-epg.com/13093.png" />
-    <display-name>ROK.uk</display-name>
-  </channel>
-  <channel id="WorldWarTV.uk">
-    <icon src="https://images.open-epg.com/16502410.png" />
-    <display-name>World War TV.uk</display-name>
-  </channel>
-  <channel id="UandDaveJaVu.uk">
-    <icon src="https://images.open-epg.com/16323.png" />
-    <display-name>U&amp;DaveJaVu.uk</display-name>
-  </channel>
-  <channel id="KetchupToo.uk">
-    <icon src="https://images.open-epg.com/13053.png" />
-    <display-name>Ketchup Too.uk</display-name>
-  </channel>
-  <channel id="SkySportsRacing.uk">
-    <icon src="https://images.open-epg.com/x481.png" />
-    <display-name>Sky Sports Racing.uk</display-name>
-  </channel>
-  <channel id="SPFLFalkirk.uk">
-    <icon src="https://images.open-epg.com/16501792.png" />
-    <display-name>SPFL Falkirk.uk</display-name>
-  </channel>
-  <channel id="RealCrime.uk">
-    <icon src="https://images.open-epg.com/19140.png" />
-    <display-name>Real Crime.uk</display-name>
-  </channel>
-  <channel id="SVT2.fi">
-    <display-name>SVT2.fi</display-name>
-  </channel>
-  <channel id="PCNEChinese.uk">
-    <icon src="https://images.open-epg.com/16174.png" />
-    <display-name>PCNE Chinese.uk</display-name>
-  </channel>
-  <channel id="Bonuskanava.fi">
-    <display-name>Bonuskanava.fi</display-name>
-  </channel>
-  <channel id="GreatTVPlus1.uk">
-    <icon src="https://images.open-epg.com/x461.png" />
-    <display-name>Great! TV +1.uk</display-name>
-  </channel>
-  <channel id="Viaplay 3 Urheilu.fi">
-    <display-name>Viaplay 3 Urheilu.fi</display-name>
-  </channel>
-  <channel id="PremierSportsRugby.uk">
-    <icon src="https://images.open-epg.com/x519.png" />
-    <display-name>Premier Sports Rugby.uk</display-name>
-  </channel>
-  <channel id="DiscoveryHistoryPlus1.uk">
-    <icon src="https://images.open-epg.com/16045.png" />
-    <display-name>Discovery History +1.uk</display-name>
-  </channel>
-  <channel id="OnniTV.fi">
-    <display-name>OnniTV.fi</display-name>
-  </channel>
-  <channel id="ItIsWrittenTV.uk">
-    <icon src="https://images.open-epg.com/1075556.png" />
-    <display-name>It Is Written TV.uk</display-name>
-  </channel>
-  <channel id="EFLPrestonNorthEnd.uk">
-    <icon src="https://images.open-epg.com/16502030.png" />
-    <display-name>Preston North End.uk</display-name>
-  </channel>
-  <channel id="EFLPortsmouth.uk">
-    <icon src="https://images.open-epg.com/16502023.png" />
-    <display-name>Portsmouth.uk</display-name>
-  </channel>
-  <channel id="HumEurope.uk">
-    <icon src="https://images.open-epg.com/16100.png" />
-    <display-name>Hum Europe.uk</display-name>
-  </channel>
-  <channel id="Now90s00s.uk">
-    <icon src="https://images.open-epg.com/16168.png" />
-    <display-name>Now 90s And 00s.uk</display-name>
-  </channel>
-  <channel id="SPFLHibernian.uk">
-    <icon src="https://images.open-epg.com/16501842.png" />
-    <display-name>SPFL Hibernian.uk</display-name>
-  </channel>
-  <channel id="GreatMystery.uk">
-    <icon src="https://images.open-epg.com/x455.png" />
-    <display-name>Great! Mystery.uk</display-name>
-  </channel>
-  <channel id="EPLEverton.uk">
-    <icon src="https://images.open-epg.com/16501787.png" />
-    <display-name>Everton.uk</display-name>
-  </channel>
-  <channel id="BBCWorldService.uk">
-    <icon src="https://images.open-epg.com/x507.png" />
-    <display-name>BBC World Service.uk</display-name>
-  </channel>
-  <channel id="Cartoon Networks.fi">
-    <display-name>Cartoon Networks.fi</display-name>
-  </channel>
-  <channel id="NTV.uk">
-    <icon src="https://images.open-epg.com/16170.png" />
-    <display-name>NTV.uk</display-name>
-  </channel>
-  <channel id="MUTV.uk">
-    <icon src="https://images.open-epg.com/21593.png" />
-    <display-name>MUTV.uk</display-name>
-  </channel>
-  <channel id="BBCOneLondon.uk">
-    <icon src="https://images.open-epg.com/x364.png" />
-    <display-name>BBC One London.uk</display-name>
-  </channel>
-  <channel id="SonLife.uk">
-    <icon src="https://images.open-epg.com/16272.png" />
-    <display-name>SonLife.uk</display-name>
-  </channel>
-  <channel id="GoldRadio.uk">
-    <icon src="https://images.open-epg.com/16081.png" />
-    <display-name>Gold Radio.uk</display-name>
-  </channel>
-  <channel id="UandLaughs.uk">
-    <icon src="https://images.open-epg.com/19181.png" />
-    <display-name>U&amp;Laughs.uk</display-name>
-  </channel>
-  <channel id="Channel4Plus1.uk">
-    <icon src="https://images.open-epg.com/x401.png" />
-    <display-name>Channel 4 +1.uk</display-name>
-  </channel>
-  <channel id="SkySportsMainEvent.uk">
-    <icon src="https://images.open-epg.com/x468.png" />
-    <display-name>Sky Sports Main Event.uk</display-name>
-  </channel>
-  <channel id="KetchupTV.uk">
-    <icon src="https://images.open-epg.com/13054.png" />
-    <display-name>Ketchup TV.uk</display-name>
-  </channel>
-  <channel id="A1TV.uk">
-    <icon src="https://images.open-epg.com/17963772.png" />
-    <display-name>A1TV.uk</display-name>
-  </channel>
-  <channel id="UandThePast.uk">
-    <icon src="https://images.open-epg.com/19183.png" />
-    <display-name>U&amp;The Past.uk</display-name>
-  </channel>
-  <channel id="V sport premium.fi">
-    <display-name>V sport premium.fi</display-name>
-  </channel>
-  <channel id="UandEden.uk">
-    <icon src="https://images.open-epg.com/x828.png" />
-    <display-name>U&amp;Eden.uk</display-name>
-  </channel>
-  <channel id="NHK World.fi">
-    <display-name>NHK World.fi</display-name>
-  </channel>
-  <channel id="EFLCharltonAthletic.uk">
-    <icon src="https://images.open-epg.com/16501664.png" />
-    <display-name>Charlton Athletic.uk</display-name>
-  </channel>
-  <channel id="TakbeerTV.uk">
-    <icon src="https://images.open-epg.com/16279.png" />
-    <display-name>Takbeer TV.uk</display-name>
-  </channel>
-  <channel id="BBCScotland.uk">
-    <icon src="https://images.open-epg.com/x371.png" />
-    <display-name>BBC Scotland.uk</display-name>
-  </channel>
-  <channel id="Kanal 10.fi">
-    <display-name>Kanal 10.fi</display-name>
-  </channel>
-  <channel id="Mezzo Live.fi">
-    <display-name>Mezzo Live.fi</display-name>
-  </channel>
-  <channel id="EFLYorkCity.uk">
-    <icon src="https://images.open-epg.com/28086525.png" />
-    <display-name>York City.uk</display-name>
-  </channel>
-  <channel id="EFLNorwichCity.uk">
-    <icon src="https://images.open-epg.com/16501988.png" />
-    <display-name>Norwich City.uk</display-name>
-  </channel>
-  <channel id="ClassicFM.uk">
-    <icon src="https://images.open-epg.com/12999.png" />
-    <display-name>Classic FM.uk</display-name>
-  </channel>
-  <channel id="Gemporia.uk">
-    <icon src="https://images.open-epg.com/13025.png" />
-    <display-name>Gemporia.uk</display-name>
-  </channel>
-  <channel id="TVOne.uk">
-    <icon src="https://images.open-epg.com/16313.png" />
-    <display-name>TV One.uk</display-name>
-  </channel>
-  <channel id="EFLExeterCity.uk">
-    <icon src="https://images.open-epg.com/16501789.png" />
-    <display-name>Exeter City.uk</display-name>
-  </channel>
-  <channel id="AdultChannel.uk">
-    <icon src="https://images.open-epg.com/19021.png" />
-    <display-name>Adult Channel.uk</display-name>
-  </channel>
-  <channel id="Motorvision TV.fi">
-    <display-name>Motorvision TV.fi</display-name>
-  </channel>
-  <channel id="SkyCinemaDrama.uk">
-    <icon src="https://images.open-epg.com/x499.png" />
-    <display-name>Sky Cinema Drama.uk</display-name>
-  </channel>
-  <channel id="Trailblazer.uk">
-    <icon src="https://images.open-epg.com/13214.png" />
-    <display-name>Trailblazer.uk</display-name>
-  </channel>
-  <channel id="NewVisionTV.uk">
-    <icon src="https://images.open-epg.com/16154.png" />
-    <display-name>New Vision TV.uk</display-name>
-  </channel>
-  <channel id="Elisa Viihde Sport 1.fi">
-    <display-name>Elisa Viihde Sport 1.fi</display-name>
-  </channel>
-  <channel id="EFLWatford.uk">
-    <icon src="https://images.open-epg.com/16502400.png" />
-    <display-name>Watford.uk</display-name>
-  </channel>
-  <channel id="UandGold.uk">
-    <icon src="https://images.open-epg.com/x824.png" />
-    <display-name>U&amp;Gold.uk</display-name>
-  </channel>
-  <channel id="ITV1Yorkshire.uk">
-    <icon src="https://images.open-epg.com/x379.png" />
-    <display-name>ITV1 Yorkshire.uk</display-name>
-  </channel>
-  <channel id="EFLCardiffCity.uk">
-    <icon src="https://images.open-epg.com/16501649.png" />
-    <display-name>Cardiff City.uk</display-name>
-  </channel>
-  <channel id="Pop.uk">
-    <icon src="https://images.open-epg.com/1994025.png" />
-    <display-name>Pop.uk</display-name>
-  </channel>
-  <channel id="Disney Channel.fi">
-    <display-name>Disney Channel.fi</display-name>
-  </channel>
-  <channel id="ComedyCentralPlus1.uk">
-    <icon src="https://images.open-epg.com/21506.png" />
-    <display-name>Comedy Central +1.uk</display-name>
-  </channel>
-  <channel id="QVCBeauty.uk">
-    <icon src="https://images.open-epg.com/16190.png" />
-    <display-name>QVC Beauty.uk</display-name>
-  </channel>
-  <channel id="OUTflixProud.uk">
-    <icon src="https://images.open-epg.com/13028.png" />
-    <display-name>OUTflix Proud.uk</display-name>
-  </channel>
-  <channel id="RallyTV.uk">
-    <icon src="https://images.open-epg.com/16502045.png" />
-    <display-name>Rally TV.uk</display-name>
-  </channel>
-  <channel id="TNTSports3.uk">
-    <icon src="https://images.open-epg.com/16298.png" />
-    <display-name>TNT Sports 3.uk</display-name>
-  </channel>
-  <channel id="WildEarth.uk">
-    <icon src="https://images.open-epg.com/13232.png" />
-    <display-name>Wild Earth.uk</display-name>
-  </channel>
-  <channel id="EFLSheffieldWednesday.uk">
-    <icon src="https://images.open-epg.com/x1924.png" />
-    <display-name>Sheffield Wednesday.uk</display-name>
-  </channel>
-  <channel id="PoliticsPunjab.uk">
-    <icon src="https://images.open-epg.com/16176.png" />
-    <display-name>Politics Punjab.uk</display-name>
-  </channel>
-  <channel id="NTD.uk">
-    <icon src="https://images.open-epg.com/16169.png" />
-    <display-name>NTD.uk</display-name>
-  </channel>
-  <channel id="TV7.fi">
-    <display-name>TV7.fi</display-name>
-  </channel>
-  <channel id="GreatChristmas.uk">
-    <icon src="https://images.open-epg.com/x2164.png" />
-    <display-name>Great! Christmas.uk</display-name>
-  </channel>
-  <channel id="Film4Plus1.uk">
-    <icon src="https://images.open-epg.com/16072.png" />
-    <display-name>Film4 +1.uk</display-name>
-  </channel>
-  <channel id="ITV1Border.uk">
-    <icon src="https://images.open-epg.com/x379.png" />
-    <display-name>ITV1 Border.uk</display-name>
-  </channel>
-  <channel id="SkyNature.uk">
-    <icon src="https://images.open-epg.com/x601.png" />
-    <display-name>Sky Nature.uk</display-name>
-  </channel>
-  <channel id="ITV1UTV.uk">
-    <icon src="https://images.open-epg.com/x379.png" />
-    <display-name>ITV1 UTV.uk</display-name>
-  </channel>
-  <channel id="ITVQuiz.uk">
-    <icon src="https://images.open-epg.com/x384.png" />
-    <display-name>ITV Quiz.uk</display-name>
-  </channel>
-  <channel id="SkyKids.uk">
-    <icon src="https://images.open-epg.com/x596.png" />
-    <display-name>Sky Kids.uk</display-name>
-  </channel>
-  <channel id="EPLTottenhamHotspur.uk">
-    <icon src="https://images.open-epg.com/16502356.png" />
-    <display-name>Tottenham Hotspur.uk</display-name>
-  </channel>
-  <channel id="HighStreetTV3.uk">
-    <icon src="https://images.open-epg.com/16098.png" />
-    <display-name>High Street TV 3.uk</display-name>
-  </channel>
-  <channel id="BBCRadioCymru2.uk">
-    <icon src="https://images.open-epg.com/15972.png" />
-    <display-name>BBC Radio Cymru 2.uk</display-name>
-  </channel>
-  <channel id="ITV1MeridianPlus1.uk">
-    <icon src="https://images.open-epg.com/x396.png" />
-    <display-name>ITV1 Meridian +1.uk</display-name>
-  </channel>
-  <channel id="V sport live 4.fi">
-    <display-name>V sport live 4.fi</display-name>
-  </channel>
-  <channel id="EPLManchesterUnited.uk">
-    <icon src="https://images.open-epg.com/16501930.png" />
-    <display-name>Manchester United.uk</display-name>
-  </channel>
-  <channel id="EFLRotherhamUnited.uk">
-    <icon src="https://images.open-epg.com/16502055.png" />
-    <display-name>Rotherham United.uk</display-name>
-  </channel>
-  <channel id="SVT Barn.fi">
-    <display-name>SVT Barn.fi</display-name>
-  </channel>
-  <channel id="CNBC NORDIC.fi">
-    <display-name>CNBC NORDIC.fi</display-name>
-  </channel>
-  <channel id="AsharqNews.uk">
-    <icon src="https://images.open-epg.com/1953091.png" />
-    <display-name>Asharq News.uk</display-name>
-  </channel>
-  <channel id="BBC News.fi">
-    <display-name>BBC News.fi</display-name>
-  </channel>
-  <channel id="HeartDance.uk">
-    <icon src="https://images.open-epg.com/16092.png" />
-    <display-name>Heart Dance.uk</display-name>
-  </channel>
-  <channel id="UandWPlus1.uk">
-    <icon src="https://images.open-epg.com/16333.png" />
-    <display-name>U&amp;W +1.uk</display-name>
-  </channel>
-  <channel id="More4Plus1.uk">
-    <icon src="https://images.open-epg.com/16136.png" />
-    <display-name>More4 +1.uk</display-name>
-  </channel>
-  <channel id="TLC.uk">
-    <icon src="https://images.open-epg.com/16294.png" />
-    <display-name>TLC.uk</display-name>
-  </channel>
-  <channel id="TNTSports2.uk">
-    <icon src="https://images.open-epg.com/16297.png" />
-    <display-name>TNT Sports 2.uk</display-name>
-  </channel>
-  <channel id="Rai 1.fi">
-    <display-name>Rai 1.fi</display-name>
-  </channel>
-  <channel id="BBCRadio4Extra.uk">
-    <icon src="https://images.open-epg.com/12963.png" />
-    <display-name>BBC Radio 4 Extra.uk</display-name>
-  </channel>
-  <channel id="MTV Liiga 4.fi">
-    <display-name>MTV Liiga 4.fi</display-name>
-  </channel>
-  <channel id="UandAlibiPlus1.uk">
-    <icon src="https://images.open-epg.com/16320.png" />
-    <display-name>U&amp;Alibi +1.uk</display-name>
-  </channel>
-  <channel id="EFLWalsall.uk">
-    <icon src="https://images.open-epg.com/16502399.png" />
-    <display-name>Walsall.uk</display-name>
-  </channel>
-  <channel id="AnimalPlanet.uk">
-    <icon src="https://images.open-epg.com/15940.png" />
-    <display-name>Animal Planet.uk</display-name>
-  </channel>
-  <channel id="ID.uk">
-    <icon src="https://images.open-epg.com/16102.png" />
-    <display-name>ID.uk</display-name>
-  </channel>
-  <channel id="BBCRadio5SportsExtra.uk">
-    <icon src="https://images.open-epg.com/12966.png" />
-    <display-name>BBC Radio 5 Sports Extra.uk</display-name>
-  </channel>
-  <channel id="Channel4.uk">
-    <icon src="https://images.open-epg.com/x889.png" />
-    <display-name>Channel 4.uk</display-name>
-  </channel>
-  <channel id="5USA.uk">
-    <icon src="https://images.open-epg.com/15928.png" />
-    <display-name>5USA.uk</display-name>
-  </channel>
-  <channel id="NowRock.uk">
-    <icon src="https://images.open-epg.com/16167.png" />
-    <display-name>Now Rock.uk</display-name>
-  </channel>
-  <channel id="Jouluradio.fi">
-    <display-name>Jouluradio.fi</display-name>
-  </channel>
-  <channel id="UandDramaPlus1.uk">
-    <icon src="https://images.open-epg.com/16325.png" />
-    <display-name>U&amp;Drama +1.uk</display-name>
-  </channel>
-  <channel id="Now70s.uk">
-    <icon src="https://images.open-epg.com/16165.png" />
-    <display-name>Now 70s.uk</display-name>
-  </channel>
-  <channel id="SkySportsPremierLeague.uk">
-    <icon src="https://images.open-epg.com/x467.png" />
-    <display-name>Sky Sports Premier League.uk</display-name>
-  </channel>
-  <channel id="EFLStevenage.uk">
-    <icon src="https://images.open-epg.com/16502299.png" />
-    <display-name>Stevenage.uk</display-name>
-  </channel>
-  <channel id="GreatBritishMenu.uk">
-    <icon src="https://images.open-epg.com/19078.png" />
-    <display-name>Great British Menu.uk</display-name>
-  </channel>
-  <channel id="SonyTVAsia.uk">
-    <icon src="https://images.open-epg.com/19160.png" />
-    <display-name>Sony TV Asia.uk</display-name>
-  </channel>
-  <channel id="Challenge.uk">
-    <icon src="https://images.open-epg.com/16011.png" />
-    <display-name>Challenge.uk</display-name>
-  </channel>
-  <channel id="Elisa Viihde Sport 3.fi">
-    <display-name>Elisa Viihde Sport 3.fi</display-name>
-  </channel>
-  <channel id="Newsmax.uk">
-    <icon src="https://images.open-epg.com/13065.png" />
-    <display-name>Newsmax.uk</display-name>
-  </channel>
-  <channel id="JewelleryMaker.uk">
-    <icon src="https://images.open-epg.com/16122.png" />
-    <display-name>Jewellery Maker.uk</display-name>
-  </channel>
-  <channel id="EFLHuddersfieldTown.uk">
-    <icon src="https://images.open-epg.com/16501849.png" />
-    <display-name>Huddersfield Town.uk</display-name>
-  </channel>
-  <channel id="EPLManchesterCity.uk">
-    <icon src="https://images.open-epg.com/16501929.png" />
-    <display-name>Manchester City.uk</display-name>
-  </channel>
-  <channel id="B4UMusic.uk">
-    <icon src="https://images.open-epg.com/15947.png" />
-    <display-name>B4U Music.uk</display-name>
-  </channel>
-  <channel id="EFLLeytonOrient.uk">
-    <icon src="https://images.open-epg.com/16501909.png" />
-    <display-name>Leyton Orient.uk</display-name>
-  </channel>
-  <channel id="France 2.fi">
-    <display-name>France 2.fi</display-name>
-  </channel>
-  <channel id="EFLCrawleyTown.uk">
-    <icon src="https://images.open-epg.com/16501686.png" />
-    <display-name>Crawley Town.uk</display-name>
-  </channel>
-  <channel id="EFLAFCWimbledon.uk">
-    <icon src="https://images.open-epg.com/16501496.png" />
-    <display-name>AFC Wimbledon.uk</display-name>
-  </channel>
-  <channel id="UandEdenPlus1.uk">
-    <icon src="https://images.open-epg.com/16327.png" />
-    <display-name>U&amp;Eden +1.uk</display-name>
-  </channel>
-  <channel id="SkyCinemaFamily.uk">
-    <icon src="https://images.open-epg.com/x500.png" />
-    <display-name>Sky Cinema Family.uk</display-name>
-  </channel>
-  <channel id="EFLWestHamUnited.uk">
-    <icon src="https://images.open-epg.com/16502403.png" />
-    <display-name>West Ham United.uk</display-name>
-  </channel>
-  <channel id="SonyMax2.uk">
-    <icon src="https://images.open-epg.com/16273.png" />
-    <display-name>Sony Max 2.uk</display-name>
-  </channel>
-  <channel id="EFLBoltonWanderers.uk">
-    <icon src="https://images.open-epg.com/16501631.png" />
-    <display-name>Bolton Wanderers.uk</display-name>
-  </channel>
-  <channel id="EFLBromley.uk">
-    <icon src="https://images.open-epg.com/16501643.png" />
-    <display-name>Bromley.uk</display-name>
-  </channel>
-  <channel id="GreatChristmasPlus1.uk">
-    <icon src="https://images.open-epg.com/x2165.png" />
-    <display-name>Great! Christmas +1.uk</display-name>
-  </channel>
-  <channel id="UtsavBharat.uk">
-    <icon src="https://images.open-epg.com/16337.png" />
-    <display-name>Utsav Bharat.uk</display-name>
-  </channel>
-  <channel id="PBSAmerica.uk">
-    <icon src="https://images.open-epg.com/16173.png" />
-    <display-name>PBS America.uk</display-name>
-  </channel>
-  <channel id="5USAPlus1.uk">
-    <icon src="https://images.open-epg.com/15933.png" />
-    <display-name>5USA +1.uk</display-name>
-  </channel>
-  <channel id="MTV Liiga 3.fi">
-    <display-name>MTV Liiga 3.fi</display-name>
-  </channel>
-  <channel id="Viaplay TV.fi">
-    <display-name>Viaplay TV.fi</display-name>
-  </channel>
-  <channel id="SkySportsNews.uk">
-    <icon src="https://images.open-epg.com/x482.png" />
-    <display-name>Sky Sports News.uk</display-name>
-  </channel>
-  <channel id="SkySciFi.uk">
-    <icon src="https://images.open-epg.com/x594.png" />
-    <display-name>Sky Sci-Fi.uk</display-name>
-  </channel>
-  <channel id="PurposeMedia.uk">
-    <icon src="https://images.open-epg.com/13082.png" />
-    <display-name>Purpose Media.uk</display-name>
-  </channel>
-  <channel id="IslamChannel.uk">
-    <icon src="https://images.open-epg.com/16111.png" />
-    <display-name>Islam Channel.uk</display-name>
-  </channel>
-  <channel id="EFLLutonTown.uk">
-    <icon src="https://images.open-epg.com/16501926.png" />
-    <display-name>Luton Town.uk</display-name>
-  </channel>
-  <channel id="TV5.fi">
-    <display-name>TV5.fi</display-name>
-  </channel>
-  <channel id="ITV1Meridian.uk">
-    <icon src="https://images.open-epg.com/x379.png" />
-    <display-name>ITV1 Meridian.uk</display-name>
-  </channel>
-  <channel id="TraceSportStars.uk">
-    <icon src="https://images.open-epg.com/19171.png" />
-    <display-name>Trace Sport Stars.uk</display-name>
-  </channel>
-  <channel id="SkySportsUHD2.uk">
-    <icon src="https://images.open-epg.com/21683.png" />
-    <display-name>Sky Sports UHD 2.uk</display-name>
-  </channel>
-  <channel id="EFLBurnley.uk">
-    <icon src="https://images.open-epg.com/16501644.png" />
-    <display-name>Burnley.uk</display-name>
-  </channel>
-  <channel id="5Plus1.uk">
-    <icon src="https://images.open-epg.com/x890.png" />
-    <display-name>5 +1.uk</display-name>
-  </channel>
-  <channel id="Food Network.fi">
-    <display-name>Food Network.fi</display-name>
-  </channel>
-  <channel id="EFLPortVale.uk">
-    <icon src="https://images.open-epg.com/16502024.png" />
-    <display-name>Port Vale.uk</display-name>
-  </channel>
-  <channel id="DisneyJr.uk">
-    <icon src="https://images.open-epg.com/x509.png" />
-    <display-name>Disney Jr..uk</display-name>
-  </channel>
-  <channel id="EPLNottinghamForest.uk">
-    <icon src="https://images.open-epg.com/16501989.png" />
-    <display-name>Nottingham Forest.uk</display-name>
-  </channel>
-  <channel id="IQRABangla.uk">
-    <icon src="https://images.open-epg.com/16107.png" />
-    <display-name>IQRA Bangla.uk</display-name>
-  </channel>
-  <channel id="SPFLKilmarnock.uk">
-    <icon src="https://images.open-epg.com/16501897.png" />
-    <display-name>SPFL Kilmarnock.uk</display-name>
-  </channel>
-  <channel id="Boomerang.uk">
-    <icon src="https://images.open-epg.com/16001.png" />
-    <display-name>Boomerang.uk</display-name>
-  </channel>
-  <channel id="DiscoveryScience.uk">
-    <icon src="https://images.open-epg.com/21521.png" />
-    <display-name>Discovery Science.uk</display-name>
-  </channel>
-  <channel id="EFLBurtonAlbion.uk">
-    <icon src="https://images.open-epg.com/16501645.png" />
-    <display-name>Burton Albion.uk</display-name>
-  </channel>
-  <channel id="BBCRadio1.uk">
-    <icon src="https://images.open-epg.com/12959.png" />
-    <display-name>BBC Radio 1.uk</display-name>
-  </channel>
-  <channel id="IONTV.uk">
-    <icon src="https://images.open-epg.com/16106.png" />
-    <display-name>iON TV.uk</display-name>
-  </channel>
-  <channel id="FaithUK.uk">
-    <icon src="https://images.open-epg.com/16067.png" />
-    <display-name>Faith UK.uk</display-name>
-  </channel>
-  <channel id="HistoryHit.uk">
-    <icon src="https://images.open-epg.com/19084.png" />
-    <display-name>History Hit.uk</display-name>
-  </channel>
-  <channel id="EmanChannel.uk">
-    <icon src="https://images.open-epg.com/16060.png" />
-    <display-name>Eman Channel.uk</display-name>
-  </channel>
-  <channel id="MusicandMemories.uk">
-    <icon src="https://images.open-epg.com/15636615.png" />
-    <display-name>Music and Memories.uk</display-name>
-  </channel>
-  <channel id="Viasat Nature HD.fi">
-    <display-name>Viasat Nature HD.fi</display-name>
-  </channel>
-  <channel id="TV8.fi">
-    <display-name>TV8.fi</display-name>
-  </channel>
-  <channel id="Cartoonito.uk">
-    <icon src="https://images.open-epg.com/16008.png" />
-    <display-name>Cartoonito.uk</display-name>
-  </channel>
-  <channel id="BBCRadio6Music.uk">
-    <icon src="https://images.open-epg.com/12967.png" />
-    <display-name>BBC Radio 6 Music.uk</display-name>
-  </channel>
-  <channel id="ArirangTV.uk">
-    <icon src="https://images.open-epg.com/15942.png" />
-    <display-name>Arirang TV.uk</display-name>
-  </channel>
-  <channel id="Your80s.uk">
-    <icon src="https://images.open-epg.com/x2358.png" />
-    <display-name>Your 80s.uk</display-name>
-  </channel>
-  <channel id="NickJrToo.uk">
-    <icon src="https://images.open-epg.com/16157.png" />
-    <display-name>Nick Jr. Too.uk</display-name>
-  </channel>
-  <channel id="SkyCinemaGreats.uk">
-    <icon src="https://images.open-epg.com/x501.png" />
-    <display-name>Sky Cinema Greats.uk</display-name>
-  </channel>
-  <channel id="LegendXtraPlus1.uk">
-    <icon src="https://images.open-epg.com/16127.png" />
-    <display-name>Legend Xtra +1.uk</display-name>
-  </channel>
-  <channel id="CNNInternational.uk">
-    <icon src="https://images.open-epg.com/21501.png" />
-    <display-name>CNN International.uk</display-name>
-  </channel>
-  <channel id="Nickelodeon.uk">
-    <icon src="https://images.open-epg.com/16160.png" />
-    <display-name>Nickelodeon.uk</display-name>
-  </channel>
-  <channel id="BFBSRadio.uk">
-    <icon src="https://images.open-epg.com/15997.png" />
-    <display-name>BFBS Radio.uk</display-name>
-  </channel>
-  <channel id="NickelodeonPlus1.uk">
-    <icon src="https://images.open-epg.com/21603.png" />
-    <display-name>Nickelodeon +1.uk</display-name>
-  </channel>
-  <channel id="SkyWitnessPlus1.uk">
-    <icon src="https://images.open-epg.com/x543.png" />
-    <display-name>Sky Witness +1.uk</display-name>
-  </channel>
-  <channel id="BBCRadio5Live.uk">
-    <icon src="https://images.open-epg.com/12965.png" />
-    <display-name>BBC Radio 5 Live.uk</display-name>
-  </channel>
-  <channel id="AnimalPlanetPlus1.uk">
-    <icon src="https://images.open-epg.com/21438.png" />
-    <display-name>Animal Planet +1.uk</display-name>
-  </channel>
-  <channel id="CNBC.uk">
-    <icon src="https://images.open-epg.com/x443.png" />
-    <display-name>CNBC.uk</display-name>
-  </channel>
-  <channel id="MTV Liiga 8.fi">
-    <display-name>MTV Liiga 8.fi</display-name>
-  </channel>
-  <channel id="BBCOneWales.uk">
-    <icon src="https://images.open-epg.com/x365.png" />
-    <display-name>BBC One Wales.uk</display-name>
-  </channel>
-  <channel id="SkySportsFootball.uk">
-    <icon src="https://images.open-epg.com/x469.png" />
-    <display-name>Sky Sports Football.uk</display-name>
-  </channel>
-  <channel id="BBCRadioUlster.uk">
-    <icon src="https://images.open-epg.com/15977.png" />
-    <display-name>BBC Radio Ulster.uk</display-name>
-  </channel>
-  <channel id="CNAOriginals.uk">
-    <icon src="https://images.open-epg.com/13000.png" />
-    <display-name>CNA Originals.uk</display-name>
-  </channel>
-  <channel id="AkaalChannel.uk">
-    <icon src="https://images.open-epg.com/15938.png" />
-    <display-name>Akaal Channel.uk</display-name>
-  </channel>
-  <channel id="YourTV.uk">
-    <icon src="https://images.open-epg.com/x2359.png" />
-    <display-name>Your TV.uk</display-name>
-  </channel>
-  <channel id="Movies24Plus.uk">
-    <icon src="https://images.open-epg.com/19109.png" />
-    <display-name>Movies 24+.uk</display-name>
-  </channel>
-  <channel id="SonySAB.uk">
-    <icon src="https://images.open-epg.com/16276.png" />
-    <display-name>Sony SAB.uk</display-name>
-  </channel>
-  <channel id="STVPlus1.uk">
-    <icon src="https://images.open-epg.com/x525.png" />
-    <display-name>STV +1.uk</display-name>
-  </channel>
-  <channel id="SkySportsCricket.uk">
-    <icon src="https://images.open-epg.com/x470.png" />
-    <display-name>Sky Sports Cricket.uk</display-name>
-  </channel>
-  <channel id="Stingray Classica.fi">
-    <display-name>Stingray Classica.fi</display-name>
-  </channel>
-  <channel id="EPLIpswichTown.uk">
-    <icon src="https://images.open-epg.com/16501858.png" />
-    <display-name>Ipswich Town.uk</display-name>
-  </channel>
-  <channel id="MTV Urheilu 3.fi">
-    <display-name>MTV Urheilu 3.fi</display-name>
-  </channel>
-  <channel id="VirginRadio.uk">
-    <icon src="https://images.open-epg.com/16342.png" />
-    <display-name>Virgin Radio.uk</display-name>
-  </channel>
-  <channel id="BBCOneNI.uk">
-    <icon src="https://images.open-epg.com/x366.png" />
-    <display-name>BBC One Northern Ireland.uk</display-name>
-  </channel>
-  <channel id="BBCRadio1Xtra.uk">
-    <icon src="https://images.open-epg.com/12960.png" />
-    <display-name>BBC Radio 1Xtra.uk</display-name>
-  </channel>
-  <channel id="EFLNottsCounty.uk">
-    <icon src="https://images.open-epg.com/16501990.png" />
-    <display-name>Notts County.uk</display-name>
-  </channel>
-  <channel id="HorseandCountry.uk">
-    <icon src="https://images.open-epg.com/16501848.png" />
-    <display-name>Horse And Country.uk</display-name>
-  </channel>
-  <channel id="Yle Teema And Fem.fi">
-    <display-name>Yle Teema And Fem.fi</display-name>
-  </channel>
-  <channel id="Wild Earth TV HD.fi">
-    <display-name>Wild Earth TV HD.fi</display-name>
-  </channel>
-  <channel id="V sport vinter.fi">
-    <display-name>V sport vinter.fi</display-name>
-  </channel>
-  <channel id="ZenLIFEbyStingray.uk">
-    <icon src="https://images.open-epg.com/19192.png" />
-    <display-name>ZenLIFE by Stingray.uk</display-name>
-  </channel>
-  <channel id="SkySportsGolf.uk">
-    <icon src="https://images.open-epg.com/x472.png" />
-    <display-name>Sky Sports Golf.uk</display-name>
-  </channel>
-  <channel id="TogetherTVPlus1.uk">
-    <icon src="https://images.open-epg.com/13211.png" />
-    <display-name>Together TV +1.uk</display-name>
-  </channel>
-  <channel id="EFLShrewsburyTown.uk">
-    <icon src="https://images.open-epg.com/16502074.png" />
-    <display-name>Shrewsbury Town.uk</display-name>
-  </channel>
-  <channel id="EFLSouthampton.uk">
-    <icon src="https://images.open-epg.com/16502237.png" />
-    <display-name>Southampton.uk</display-name>
-  </channel>
-  <channel id="ITVQuizPlus1.uk">
-    <icon src="https://images.open-epg.com/x400.png" />
-    <display-name>ITV Quiz +1.uk</display-name>
-  </channel>
-  <channel id="France24.uk">
-    <icon src="https://images.open-epg.com/16075.png" />
-    <display-name>France24.uk</display-name>
-  </channel>
-  <channel id="3sat.fi">
-    <display-name>3sat.fi</display-name>
-  </channel>
-  <channel id="TalkSport.uk">
-    <icon src="https://images.open-epg.com/16281.png" />
-    <display-name>talkSPORT.uk</display-name>
-  </channel>
-  <channel id="ReallyPlus1.uk">
-    <icon src="https://images.open-epg.com/x923.png" />
-    <display-name>Really +1.uk</display-name>
-  </channel>
-  <channel id="UtsavPlus.uk">
-    <icon src="https://images.open-epg.com/16341.png" />
-    <display-name>Utsav Plus.uk</display-name>
-  </channel>
-  <channel id="PBC.uk">
-    <icon src="https://images.open-epg.com/16172.png" />
-    <display-name>PBC.uk</display-name>
-  </channel>
-  <channel id="IDPlus1.uk">
-    <icon src="https://images.open-epg.com/16103.png" />
-    <display-name>ID +1.uk</display-name>
-  </channel>
-  <channel id="AajTak.uk">
-    <icon src="https://images.open-epg.com/15934.png" />
-    <display-name>AajTak.uk</display-name>
-  </channel>
-  <channel id="SkyMix.uk">
-    <icon src="https://images.open-epg.com/x593.png" />
-    <display-name>Sky Mix.uk</display-name>
-  </channel>
-  <channel id="STV.uk">
-    <icon src="https://images.open-epg.com/x360.png" />
-    <display-name>STV.uk</display-name>
-  </channel>
-  <channel id="ShopOnTV.uk">
-    <icon src="https://images.open-epg.com/13094.png" />
-    <display-name>Shop On TV.uk</display-name>
-  </channel>
-  <channel id="Capital.uk">
-    <icon src="https://images.open-epg.com/16005.png" />
-    <display-name>Capital.uk</display-name>
-  </channel>
-  <channel id="UandYesterdayPlus1.uk">
-    <icon src="https://images.open-epg.com/16336.png" />
-    <display-name>U&amp;Yesterday +1.uk</display-name>
-  </channel>
-  <channel id="5Star.uk">
-    <icon src="https://images.open-epg.com/21432.png" />
-    <display-name>5Star.uk</display-name>
-  </channel>
-  <channel id="SkyCinemaSelect.uk">
-    <icon src="https://images.open-epg.com/x505.png" />
-    <display-name>Sky Cinema Select.uk</display-name>
-  </channel>
-  <channel id="CrimeandInvestigationPlus1.uk">
-    <icon src="https://images.open-epg.com/16040.png" />
-    <display-name>Crime And Investigation +1.uk</display-name>
-  </channel>
-  <channel id="ComedyCentralExtra.uk">
-    <icon src="https://images.open-epg.com/12908706.png" />
-    <display-name>Comedy Central Extra.uk</display-name>
-  </channel>
-  <channel id="EFLWrexham.uk">
-    <icon src="https://images.open-epg.com/16502411.png" />
-    <display-name>Wrexham.uk</display-name>
-  </channel>
-  <channel id="EFLBlackburnRovers.uk">
-    <icon src="https://images.open-epg.com/16501626.png" />
-    <display-name>Blackburn Rovers.uk</display-name>
-  </channel>
-  <channel id="SF Kanalen.fi">
-    <display-name>SF Kanalen.fi</display-name>
-  </channel>
-  <channel id="GreatTV.uk">
-    <icon src="https://images.open-epg.com/x832.png" />
-    <display-name>Great! TV.uk</display-name>
-  </channel>
-  <channel id="Frii HD.fi">
-    <display-name>Frii HD.fi</display-name>
-  </channel>
   <channel id="EFLCreweAlexandra.uk">
     <icon src="https://images.open-epg.com/16501688.png" />
     <display-name>Crewe Alexandra.uk</display-name>
-  </channel>
-  <channel id="Discovery Science.fi">
-    <display-name>Discovery Science.fi</display-name>
-  </channel>
-  <channel id="SkyDocumentaries.uk">
-    <icon src="https://images.open-epg.com/x598.png" />
-    <display-name>Sky Documentaries.uk</display-name>
-  </channel>
-  <channel id="SkySportsTennis.uk">
-    <icon src="https://images.open-epg.com/x471.png" />
-    <display-name>Sky Sports Tennis.uk</display-name>
-  </channel>
-  <channel id="NollyAfrica.uk">
-    <icon src="https://images.open-epg.com/10744206.png" />
-    <display-name>Nolly Africa.uk</display-name>
-  </channel>
-  <channel id="ITV1Granada.uk">
-    <icon src="https://images.open-epg.com/x379.png" />
-    <display-name>ITV1 Granada.uk</display-name>
-  </channel>
-  <channel id="HauntTV.uk">
-    <icon src="https://images.open-epg.com/19082.png" />
-    <display-name>Haunt TV.uk</display-name>
-  </channel>
-  <channel id="Cruise1stTV.uk">
-    <icon src="https://images.open-epg.com/16041.png" />
-    <display-name>Cruise1st TV.uk</display-name>
-  </channel>
-  <channel id="TNTSportsBoxOffice1.uk">
-    <icon src="https://images.open-epg.com/13209.png" />
-    <display-name>TNT Sports Box Office 1.uk</display-name>
-  </channel>
-  <channel id="FashionTV.uk">
-    <icon src="https://images.open-epg.com/12908726.png" />
-    <display-name>Fashion TV.uk</display-name>
-  </channel>
-  <channel id="ThatsTV.uk">
-    <icon src="https://images.open-epg.com/16289.png" />
-    <display-name>Thats TV.uk</display-name>
-  </channel>
-  <channel id="ITV1West.uk">
-    <icon src="https://images.open-epg.com/x379.png" />
-    <display-name>ITV1 West.uk</display-name>
-  </channel>
-  <channel id="5.uk">
-    <icon src="https://images.open-epg.com/x888.png" />
-    <display-name>5.uk</display-name>
-  </channel>
-  <channel id="OutdoorChannel.uk">
-    <icon src="https://images.open-epg.com/12949.png" />
-    <display-name>Outdoor Channel.uk</display-name>
-  </channel>
-  <channel id="EFLColchesterUnited.uk">
-    <icon src="https://images.open-epg.com/16501675.png" />
-    <display-name>Colchester United.uk</display-name>
-  </channel>
-  <channel id="NRK1 HD.fi">
-    <display-name>NRK1 HD.fi</display-name>
-  </channel>
-  <channel id="ITV1GranadaPlus1.uk">
-    <icon src="https://images.open-epg.com/x396.png" />
-    <display-name>ITV Granada +1.uk</display-name>
-  </channel>
-  <channel id="EPLBournemouth.uk">
-    <icon src="https://images.open-epg.com/16501494.png" />
-    <display-name>Bournemouth.uk</display-name>
-  </channel>
-  <channel id="SikhChannel.uk">
-    <icon src="https://images.open-epg.com/16209.png" />
-    <display-name>Sikh Channel.uk</display-name>
-  </channel>
-  <channel id="LocalTVNorthWales.uk">
-    <icon src="https://images.open-epg.com/x517.png" />
-    <display-name>Local TV North Wales.uk</display-name>
-  </channel>
-  <channel id="GeoTV.uk">
-    <icon src="https://images.open-epg.com/16079.png" />
-    <display-name>Geo TV.uk</display-name>
-  </channel>
-  <channel id="WordNetwork.uk">
-    <icon src="https://images.open-epg.com/16344.png" />
-    <display-name>Word Network.uk</display-name>
-  </channel>
-  <channel id="Blaze.uk">
-    <icon src="https://images.open-epg.com/21478.png" />
-    <display-name>Blaze.uk</display-name>
-  </channel>
-  <channel id="EFLPeterboroughUnited.uk">
-    <icon src="https://images.open-epg.com/16502014.png" />
-    <display-name>Peterborough United.uk</display-name>
-  </channel>
-  <channel id="EFLChesterfield.uk">
-    <icon src="https://images.open-epg.com/16501667.png" />
-    <display-name>Chesterfield.uk</display-name>
-  </channel>
-  <channel id="V sport live 1.fi">
-    <display-name>V sport live 1.fi</display-name>
-  </channel>
-  <channel id="MTV Sub.fi">
-    <display-name>MTV Sub.fi</display-name>
-  </channel>
-  <channel id="SPFLStJohnstone.uk">
-    <icon src="https://images.open-epg.com/16502300.png" />
-    <display-name>SPFL St Johnstone.uk</display-name>
-  </channel>
-  <channel id="ClublandTV.uk">
-    <icon src="https://images.open-epg.com/16024.png" />
-    <display-name>Clubland TV.uk</display-name>
-  </channel>
-  <channel id="BBCRadio4.uk">
-    <icon src="https://images.open-epg.com/12964.png" />
-    <display-name>BBC Radio 4.uk</display-name>
-  </channel>
-  <channel id="SkyComedy.uk">
-    <icon src="https://images.open-epg.com/x592.png" />
-    <display-name>Sky Comedy.uk</display-name>
-  </channel>
-  <channel id="LBC.uk">
-    <icon src="https://images.open-epg.com/16125.png" />
-    <display-name>LBC.uk</display-name>
-  </channel>
-  <channel id="EFLSwanseaCity.uk">
-    <icon src="https://images.open-epg.com/16502313.png" />
-    <display-name>Swansea City.uk</display-name>
-  </channel>
-  <channel id="BBCOneSW.uk">
-    <icon src="https://images.open-epg.com/x364.png" />
-    <display-name>BBC One South West.uk</display-name>
-  </channel>
-  <channel id="EFLDerbyCounty.uk">
-    <icon src="https://images.open-epg.com/16501707.png" />
-    <display-name>Derby County.uk</display-name>
-  </channel>
-  <channel id="GreatMysteryPlus1.uk">
-    <icon src="https://images.open-epg.com/x458.png" />
-    <display-name>Great! Mystery +1.uk</display-name>
-  </channel>
-  <channel id="EFLOxfordUnited.uk">
-    <icon src="https://images.open-epg.com/16502000.png" />
-    <display-name>Oxford United.uk</display-name>
-  </channel>
-  <channel id="BBCTwoWales.uk">
-    <icon src="https://images.open-epg.com/x370.png" />
-    <display-name>BBC Two Wales.uk</display-name>
-  </channel>
-  <channel id="EPLNewcastleUnited.uk">
-    <icon src="https://images.open-epg.com/16501954.png" />
-    <display-name>Newcastle United.uk</display-name>
-  </channel>
-  <channel id="EFLSalfordCity.uk">
-    <icon src="https://images.open-epg.com/16502067.png" />
-    <display-name>Salford City.uk</display-name>
-  </channel>
-  <channel id="CHSTV.uk">
-    <icon src="https://images.open-epg.com/16021.png" />
-    <display-name>CHS TV.uk</display-name>
-  </channel>
-  <channel id="V film hits.fi">
-    <display-name>V film hits.fi</display-name>
-  </channel>
-  <channel id="LegendXtra.uk">
-    <icon src="https://images.open-epg.com/16126.png" />
-    <display-name>Legend Xtra.uk</display-name>
-  </channel>
-  <channel id="RealWild.uk">
-    <icon src="https://images.open-epg.com/19142.png" />
-    <display-name>Real Wild.uk</display-name>
-  </channel>
-  <channel id="SkyWitness.uk">
-    <icon src="https://images.open-epg.com/x595.png" />
-    <display-name>Sky Witness.uk</display-name>
-  </channel>
-  <channel id="SPFLDundeeUnited.uk">
-    <icon src="https://images.open-epg.com/16501723.png" />
-    <display-name>SPFL Dundee United.uk</display-name>
-  </channel>
-  <channel id="wedotvMovies.uk">
-    <icon src="https://images.open-epg.com/21307119.png" />
-    <display-name>wedotv Movies.uk</display-name>
-  </channel>
-  <channel id="Kunskapskanalen.fi">
-    <display-name>Kunskapskanalen.fi</display-name>
-  </channel>
-  <channel id="BoomerangPlus1.uk">
-    <icon src="https://images.open-epg.com/16002.png" />
-    <display-name>Boomerang +1.uk</display-name>
-  </channel>
-  <channel id="Toto TV HD.fi">
-    <display-name>Toto TV HD.fi</display-name>
-  </channel>
-  <channel id="TNTSports6.uk">
-    <icon src="https://images.open-epg.com/13201.png" />
-    <display-name>TNT Sports 6.uk</display-name>
-  </channel>
-  <channel id="MadaniChannel.uk">
-    <icon src="https://images.open-epg.com/16132.png" />
-    <display-name>Madani Channel.uk</display-name>
-  </channel>
-  <channel id="BBCOneNEandC.uk">
-    <icon src="https://images.open-epg.com/x364.png" />
-    <display-name>BBC One North East And Cumbria.uk</display-name>
-  </channel>
-  <channel id="HumMasala.uk">
-    <icon src="https://images.open-epg.com/16101.png" />
-    <display-name>Hum Masala.uk</display-name>
-  </channel>
-  <channel id="DMAXPlus1.uk">
-    <icon src="https://images.open-epg.com/21523.png" />
-    <display-name>DMAX +1.uk</display-name>
-  </channel>
-  <channel id="BBCTwoNI.uk">
-    <icon src="https://images.open-epg.com/x369.png" />
-    <display-name>BBC Two Northern Ireland.uk</display-name>
-  </channel>
-  <channel id="MustHaveIdeas.uk">
-    <icon src="https://images.open-epg.com/3164594.png" />
-    <display-name>Must Have Ideas.uk</display-name>
-  </channel>
-  <channel id="ITV3.uk">
-    <icon src="https://images.open-epg.com/x382.png" />
-    <display-name>ITV3.uk</display-name>
-  </channel>
-  <channel id="YourChristmas.uk">
-    <icon src="https://images.open-epg.com/x2355.png" />
-    <display-name>Your Christmas.uk</display-name>
-  </channel>
-  <channel id="Really.uk">
-    <icon src="https://images.open-epg.com/16197.png" />
-    <display-name>Really.uk</display-name>
-  </channel>
-  <channel id="HistoryHunters.uk">
-    <icon src="https://images.open-epg.com/19085.png" />
-    <display-name>History Hunters.uk</display-name>
-  </channel>
-  <channel id="MTV Urheilu 1.fi">
-    <display-name>MTV Urheilu 1.fi</display-name>
-  </channel>
-  <channel id="PremierSports1.uk">
-    <icon src="https://images.open-epg.com/x920.png" />
-    <display-name>Premier Sports 1.uk</display-name>
-  </channel>
-  <channel id="Animal Planet.fi">
-    <display-name>Animal Planet.fi</display-name>
-  </channel>
-  <channel id="TV6.fi">
-    <display-name>TV6.fi</display-name>
-  </channel>
-  <channel id="BritAsiaTV.uk">
-    <icon src="https://images.open-epg.com/18929281.png" />
-    <display-name>Brit Asia TV.uk</display-name>
-  </channel>
-  <channel id="SkyHistory.uk">
-    <icon src="https://images.open-epg.com/x599.png" />
-    <display-name>Sky History.uk</display-name>
-  </channel>
-  <channel id="SkyOne.uk">
-    <icon src="https://images.open-epg.com/x589.png" />
-    <display-name>Sky One.uk</display-name>
-  </channel>
-  <channel id="TVE INTERNACIONAL.fi">
-    <display-name>TVE INTERNACIONAL.fi</display-name>
-  </channel>
-  <channel id="LBCNews.uk">
-    <icon src="https://images.open-epg.com/16124.png" />
-    <display-name>LBC News.uk</display-name>
-  </channel>
-  <channel id="TLC.fi">
-    <display-name>TLC.fi</display-name>
-  </channel>
-  <channel id="EFLMiltonKeynesDons.uk">
-    <icon src="https://images.open-epg.com/16501935.png" />
-    <display-name>Milton Keynes Dons.uk</display-name>
-  </channel>
-  <channel id="LocalTVBristol.uk">
-    <icon src="https://images.open-epg.com/x512.png" />
-    <display-name>Local TV Bristol.uk</display-name>
-  </channel>
-  <channel id="BBCOneSE.uk">
-    <icon src="https://images.open-epg.com/x364.png" />
-    <display-name>BBC One South East.uk</display-name>
-  </channel>
-  <channel id="TNTSports8.uk">
-    <icon src="https://images.open-epg.com/13205.png" />
-    <display-name>TNT Sports 8.uk</display-name>
-  </channel>
-  <channel id="IQRATV.uk">
-    <icon src="https://images.open-epg.com/16108.png" />
-    <display-name>IQRA TV.uk</display-name>
-  </channel>
-  <channel id="STAR Channel.fi">
-    <display-name>STAR Channel.fi</display-name>
-  </channel>
-  <channel id="TogetherTV.uk">
-    <icon src="https://images.open-epg.com/x831.png" />
-    <display-name>Together TV.uk</display-name>
-  </channel>
-  <channel id="ITV1CI.uk">
-    <icon src="https://images.open-epg.com/x379.png" />
-    <display-name>ITV1 Channel Islands.uk</display-name>
-  </channel>
-  <channel id="TVCNews.uk">
-    <icon src="https://images.open-epg.com/16315.png" />
-    <display-name>TVC News.uk</display-name>
-  </channel>
-  <channel id="SPFLDundee.uk">
-    <icon src="https://images.open-epg.com/16501722.png" />
-    <display-name>SPFL Dundee.uk</display-name>
-  </channel>
-  <channel id="BBCOneWest.uk">
-    <icon src="https://images.open-epg.com/x364.png" />
-    <display-name>BBC One West.uk</display-name>
-  </channel>
-  <channel id="EFLTranmereRovers.uk">
-    <icon src="https://images.open-epg.com/16502357.png" />
-    <display-name>Tranmer Rovers.uk</display-name>
-  </channel>
-  <channel id="GBNews.uk">
-    <icon src="https://images.open-epg.com/13024.png" />
-    <display-name>GB News.uk</display-name>
-  </channel>
-  <channel id="CartoonClassics.uk">
-    <icon src="https://images.open-epg.com/8459190.png" />
-    <display-name>Cartoon Classics.uk</display-name>
-  </channel>
-  <channel id="Extreme Sports.fi">
-    <display-name>Extreme Sports.fi</display-name>
-  </channel>
-  <channel id="LocalTVLiverpool.uk">
-    <icon src="https://images.open-epg.com/x524.png" />
-    <display-name>Local TV Liverpool.uk</display-name>
-  </channel>
-  <channel id="AlArabiya.uk">
-    <icon src="https://images.open-epg.com/1953089.png" />
-    <display-name>Al Arabiya.uk</display-name>
-  </channel>
-  <channel id="CourtTV.uk">
-    <icon src="https://images.open-epg.com/16037.png" />
-    <display-name>Court TV.uk</display-name>
-  </channel>
-  <channel id="BBCRadioWales.uk">
-    <icon src="https://images.open-epg.com/15978.png" />
-    <display-name>BBC Radio Wales.uk</display-name>
-  </channel>
-  <channel id="GODTV.uk">
-    <icon src="https://images.open-epg.com/16080.png" />
-    <display-name>GOD TV.uk</display-name>
-  </channel>
-  <channel id="HomesUnderTheHammer.uk">
-    <icon src="https://images.open-epg.com/19087.png" />
-    <display-name>Homes Under The Hammer.uk</display-name>
-  </channel>
-  <channel id="DisneyPlusCinema.uk">
-    <icon src="https://images.open-epg.com/x508.png" />
-    <display-name>Disney+ Cinema.uk</display-name>
-  </channel>
-  <channel id="EFLOldhamAthletic.uk">
-    <icon src="https://images.open-epg.com/16501999.png" />
-    <display-name>Oldham Athletic.uk</display-name>
-  </channel>
-  <channel id="BBCOneEM.uk">
-    <icon src="https://images.open-epg.com/x364.png" />
-    <display-name>BBC One East Midlands.uk</display-name>
-  </channel>
-  <channel id="MATVNational.uk">
-    <icon src="https://images.open-epg.com/16133.png" />
-    <display-name>MATV National.uk</display-name>
-  </channel>
-  <channel id="Movies24.uk">
-    <icon src="https://images.open-epg.com/19108.png" />
-    <display-name>Movies 24.uk</display-name>
-  </channel>
-  <channel id="ThatsTV2.uk">
-    <icon src="https://images.open-epg.com/16288.png" />
-    <display-name>Thats TV 2.uk</display-name>
-  </channel>
-  <channel id="OnDemand365.uk">
-    <icon src="https://images.open-epg.com/13074.png" />
-    <display-name>On Demand 365.uk</display-name>
-  </channel>
-  <channel id="Nat Geo Wild.fi">
-    <display-name>Nat Geo Wild.fi</display-name>
-  </channel>
-  <channel id="Euronews.fi">
-    <display-name>Euronews.fi</display-name>
-  </channel>
-  <channel id="BBCRadio3.uk">
-    <icon src="https://images.open-epg.com/12962.png" />
-    <display-name>BBC Radio 3.uk</display-name>
-  </channel>
-  <channel id="DiscoverySciencePlus1.uk">
-    <icon src="https://images.open-epg.com/21520.png" />
-    <display-name>Discovery Science +1.uk</display-name>
-  </channel>
-  <channel id="FIGHT SPORTS.fi">
-    <display-name>FIGHT SPORTS.fi</display-name>
-  </channel>
-  <channel id="BBCOneWM.uk">
-    <icon src="https://images.open-epg.com/x364.png" />
-    <display-name>BBC One West Midlands.uk</display-name>
-  </channel>
-  <channel id="FoodNetwork.uk">
-    <icon src="https://images.open-epg.com/16073.png" />
-    <display-name>Food Network.uk</display-name>
-  </channel>
-  <channel id="EFLGrimsbyTown.uk">
-    <icon src="https://images.open-epg.com/16501830.png" />
-    <display-name>Grimsby Town.uk</display-name>
-  </channel>
-  <channel id="TNTSports9.uk">
-    <icon src="https://images.open-epg.com/13207.png" />
-    <display-name>TNT Sports 9.uk</display-name>
-  </channel>
-  <channel id="MTV Urheilu 2.fi">
-    <display-name>MTV Urheilu 2.fi</display-name>
-  </channel>
-  <channel id="Sanskar.uk">
-    <icon src="https://images.open-epg.com/16208.png" />
-    <display-name>Sanskar.uk</display-name>
-  </channel>
-  <channel id="ZeeCinema.uk">
-    <icon src="https://images.open-epg.com/16348.png" />
-    <display-name>Zee Cinema.uk</display-name>
-  </channel>
-  <channel id="FUEL TV.fi">
-    <display-name>FUEL TV.fi</display-name>
-  </channel>
-  <channel id="EFLBlackpool.uk">
-    <icon src="https://images.open-epg.com/16501627.png" />
-    <display-name>Blackpool.uk</display-name>
-  </channel>
-  <channel id="EFLLincolnCity.uk">
-    <icon src="https://images.open-epg.com/x1923.png" />
-    <display-name>Lincoln City.uk</display-name>
-  </channel>
-  <channel id="DR1 HD.fi">
-    <display-name>DR1 HD.fi</display-name>
-  </channel>
-  <channel id="SkySportsPlus.uk">
-    <icon src="https://images.open-epg.com/x473.png" />
-    <display-name>Sky Sports+.uk</display-name>
-  </channel>
-  <channel id="FoodNetworkPlus1.uk">
-    <icon src="https://images.open-epg.com/16074.png" />
-    <display-name>Food Network +1.uk</display-name>
-  </channel>
-  <channel id="EPLSunderland.uk">
-    <icon src="https://images.open-epg.com/16502310.png" />
-    <display-name>Sunderland.uk</display-name>
-  </channel>
-  <channel id="EFLMillwall.uk">
-    <icon src="https://images.open-epg.com/16501934.png" />
-    <display-name>Millwall.uk</display-name>
-  </channel>
-  <channel id="UandW.uk">
-    <icon src="https://images.open-epg.com/x825.png" />
-    <display-name>U&amp;W.uk</display-name>
-  </channel>
-  <channel id="More4.uk">
-    <icon src="https://images.open-epg.com/16135.png" />
-    <display-name>More4.uk</display-name>
-  </channel>
-  <channel id="EFLMiddlesbrough.uk">
-    <icon src="https://images.open-epg.com/16501933.png" />
-    <display-name>Middlesbrough.uk</display-name>
-  </channel>
-  <channel id="Sky News.fi">
-    <display-name>Sky News.fi</display-name>
-  </channel>
-  <channel id="SPFLAberdeen.uk">
-    <icon src="https://images.open-epg.com/16501491.png" />
-    <display-name>SPFL Aberdeen.uk</display-name>
-  </channel>
-  <channel id="MysteryX.uk">
-    <icon src="https://images.open-epg.com/24104.png" />
-    <display-name>MysteryX.uk</display-name>
-  </channel>
-  <channel id="EFLStokeCity.uk">
-    <icon src="https://images.open-epg.com/16502303.png" />
-    <display-name>Stoke City.uk</display-name>
-  </channel>
-  <channel id="Nickelodeon.fi">
-    <display-name>Nickelodeon.fi</display-name>
-  </channel>
-  <channel id="EFLBristolRovers.uk">
-    <icon src="https://images.open-epg.com/16501640.png" />
-    <display-name>Bristol Rovers.uk</display-name>
-  </channel>
-  <channel id="Now80s.uk">
-    <icon src="https://images.open-epg.com/16166.png" />
-    <display-name>Now 80s.uk</display-name>
-  </channel>
-  <channel id="TinyPop.uk">
-    <icon src="https://images.open-epg.com/1994026.png" />
-    <display-name>Tiny Pop.uk</display-name>
-  </channel>
-  <channel id="LondonTV.uk">
-    <icon src="https://images.open-epg.com/16130.png" />
-    <display-name>London TV.uk</display-name>
-  </channel>
-  <channel id="AlJazeeraArabic.uk">
-    <icon src="https://images.open-epg.com/12947.png" />
-    <display-name>Al Jazeera Arabic.uk</display-name>
-  </channel>
-  <channel id="ITV1WestCountry.uk">
-    <icon src="https://images.open-epg.com/x379.png" />
-    <display-name>ITV1 West Country.uk</display-name>
-  </channel>
-  <channel id="TrueCrimePlus1.uk">
-    <icon src="https://images.open-epg.com/16312.png" />
-    <display-name>True Crime +1.uk</display-name>
-  </channel>
-  <channel id="EFLWiganAthletic.uk">
-    <icon src="https://images.open-epg.com/16502404.png" />
-    <display-name>Wigan Athletic.uk</display-name>
-  </channel>
-  <channel id="Aastha.uk">
-    <icon src="https://images.open-epg.com/15935.png" />
-    <display-name>Aastha.uk</display-name>
-  </channel>
-  <channel id="ITV4.uk">
-    <icon src="https://images.open-epg.com/x383.png" />
-    <display-name>ITV4.uk</display-name>
-  </channel>
-  <channel id="DiscoveryPlus1.uk">
-    <icon src="https://images.open-epg.com/16052.png" />
-    <display-name>Discovery +1.uk</display-name>
-  </channel>
-  <channel id="QVC.uk">
-    <icon src="https://images.open-epg.com/13086.png" />
-    <display-name>QVC.uk</display-name>
-  </channel>
-  <channel id="ITV2.uk">
-    <icon src="https://images.open-epg.com/x381.png" />
-    <display-name>ITV2.uk</display-name>
-  </channel>
-  <channel id="Talk.uk">
-    <icon src="https://images.open-epg.com/13177.png" />
-    <display-name>Talk.uk</display-name>
-  </channel>
-  <channel id="TV10.fi">
-    <display-name>TV10.fi</display-name>
-  </channel>
-  <channel id="EWTNCatholic.uk">
-    <icon src="https://images.open-epg.com/16066.png" />
-    <display-name>EWTN Catholic.uk</display-name>
-  </channel>
-  <channel id="UtsavGold.uk">
-    <icon src="https://images.open-epg.com/16339.png" />
-    <display-name>Utsav Gold.uk</display-name>
-  </channel>
-  <channel id="Elisa Viihde.fi">
-    <display-name>Elisa Viihde.fi</display-name>
-  </channel>
-  <channel id="ComedyCentral.uk">
-    <icon src="https://images.open-epg.com/12908708.png" />
-    <display-name>Comedy Central.uk</display-name>
-  </channel>
-  <channel id="CartoonNetwork.uk">
-    <icon src="https://images.open-epg.com/16007.png" />
-    <display-name>Cartoon Network.uk</display-name>
-  </channel>
-  <channel id="SkyCrimePlus1.uk">
-    <icon src="https://images.open-epg.com/x533.png" />
-    <display-name>Sky Crime +1.uk</display-name>
-  </channel>
-  <channel id="BBCRadio2.uk">
-    <icon src="https://images.open-epg.com/12961.png" />
-    <display-name>BBC Radio 2.uk</display-name>
-  </channel>
-  <channel id="ATN.uk">
-    <icon src="https://images.open-epg.com/15945.png" />
-    <display-name>ATN.uk</display-name>
-  </channel>
-  <channel id="GTCPunjabi.uk">
-    <icon src="https://images.open-epg.com/x513.png" />
-    <display-name>GTC Punjabi.uk</display-name>
-  </channel>
-  <channel id="MTV Max.fi">
-    <display-name>MTV Max.fi</display-name>
-  </channel>
-  <channel id="Film4.uk">
-    <icon src="https://images.open-epg.com/16071.png" />
-    <display-name>Film4.uk</display-name>
-  </channel>
-  <channel id="SmoothRadio.uk">
-    <icon src="https://images.open-epg.com/16271.png" />
-    <display-name>Smooth Radio.uk</display-name>
-  </channel>
-  <channel id="Liv.fi">
-    <display-name>Liv.fi</display-name>
-  </channel>
-  <channel id="SkyCinemaComedy.uk">
-    <icon src="https://images.open-epg.com/x498.png" />
-    <display-name>Sky Cinema Comedy.uk</display-name>
-  </channel>
-  <channel id="RadioX.uk">
-    <icon src="https://images.open-epg.com/16196.png" />
-    <display-name>Radio X.uk</display-name>
-  </channel>
-  <channel id="HighStreetTV4.uk">
-    <icon src="https://images.open-epg.com/16098.png" />
-    <display-name>High Street TV 4.uk</display-name>
-  </channel>
-  <channel id="Nicktoons.fi">
-    <display-name>Nicktoons.fi</display-name>
-  </channel>
-  <channel id="Discovery.fi">
-    <display-name>Discovery.fi</display-name>
-  </channel>
-  <channel id="EFLGillingham.uk">
-    <icon src="https://images.open-epg.com/16501818.png" />
-    <display-name>Gillingham.uk</display-name>
-  </channel>
-  <channel id="BBCRadioCymru.uk">
-    <icon src="https://images.open-epg.com/15973.png" />
-    <display-name>BBC Radio Cymru.uk</display-name>
-  </channel>
-  <channel id="Revelation.uk">
-    <icon src="https://images.open-epg.com/16198.png" />
-    <display-name>Revelation.uk</display-name>
-  </channel>
-  <channel id="Eurosport.fi">
-    <display-name>Eurosport.fi</display-name>
-  </channel>
-  <channel id="MTV Juniori.fi">
-    <display-name>MTV Juniori.fi</display-name>
-  </channel>
-  <channel id="EPLAstonVilla.uk">
-    <icon src="https://images.open-epg.com/16501560.png" />
-    <display-name>Aston Villa.uk</display-name>
-  </channel>
-  <channel id="Elisa Viihde Sport 2.fi">
-    <display-name>Elisa Viihde Sport 2.fi</display-name>
-  </channel>
-  <channel id="EFLQueensParkRangers.uk">
-    <icon src="https://images.open-epg.com/16502034.png" />
-    <display-name>Queens Park Rangers.uk</display-name>
-  </channel>
-  <channel id="EFLDoncasterRovers.uk">
-    <icon src="https://images.open-epg.com/16501720.png" />
-    <display-name>Doncaster Rovers.uk</display-name>
-  </channel>
-  <channel id="ITV1YorkshirePlus1.uk">
-    <icon src="https://images.open-epg.com/x396.png" />
-    <display-name>ITV1 Yorkshire +1.uk</display-name>
-  </channel>
-  <channel id="ITV1LondonPlus1.uk">
-    <icon src="https://images.open-epg.com/x396.png" />
-    <display-name>ITV1 London +1.uk</display-name>
-  </channel>
-  <channel id="EPLCoventryCity.uk">
-    <icon src="https://images.open-epg.com/16501684.png" />
-    <display-name>Coventry City.uk</display-name>
-  </channel>
-  <channel id="ShopUnlimited.uk">
-    <icon src="https://images.open-epg.com/x1640.png" />
-    <display-name>Shop Unlimited.uk</display-name>
-  </channel>
-  <channel id="NextUpLIVEComedy.uk">
-    <icon src="https://images.open-epg.com/19121.png" />
-    <display-name>NextUp LIVE Comedy.uk</display-name>
-  </channel>
-  <channel id="BBCOneEast.uk">
-    <icon src="https://images.open-epg.com/x364.png" />
-    <display-name>BBC One East.uk</display-name>
-  </channel>
-  <channel id="Panjab.Radio.uk">
-    <icon src="https://images.open-epg.com/17964036.png" />
-    <display-name>Panjab Radio.uk</display-name>
-  </channel>
-  <channel id="MTA1World.uk">
-    <icon src="https://images.open-epg.com/16138.png" />
-    <display-name>MTA1 World.uk</display-name>
-  </channel>
-  <channel id="EFLLeicesterCity.uk">
-    <icon src="https://images.open-epg.com/16501908.png" />
-    <display-name>Leicester City.uk</display-name>
-  </channel>
-  <channel id="EFLWycombeWanderers.uk">
-    <icon src="https://images.open-epg.com/16502413.png" />
-    <display-name>Wycombe Wanderers.uk</display-name>
-  </channel>
-  <channel id="SkyHistory2.uk">
-    <icon src="https://images.open-epg.com/x600.png" />
-    <display-name>Sky History 2.uk</display-name>
-  </channel>
-  <channel id="TrueCrimeXtra.uk">
-    <icon src="https://images.open-epg.com/16310.png" />
-    <display-name>True Crime Xtra.uk</display-name>
-  </channel>
-  <channel id="BBC Nordic.fi">
-    <display-name>BBC Nordic.fi</display-name>
-  </channel>
-  <channel id="arte.fi">
-    <display-name>arte.fi</display-name>
-  </channel>
-  <channel id="E4Extra.uk">
-    <icon src="https://images.open-epg.com/16056.png" />
-    <display-name>E4 Extra.uk</display-name>
-  </channel>
-  <channel id="EFLStockportCounty.uk">
-    <icon src="https://images.open-epg.com/16502302.png" />
-    <display-name>Stockport County.uk</display-name>
-  </channel>
-  <channel id="RNIBConnect.uk">
-    <icon src="https://images.open-epg.com/13092.png" />
-    <display-name>RNIB Connect.uk</display-name>
-  </channel>
-  <channel id="4Seven.uk">
-    <icon src="https://images.open-epg.com/15927.png" />
-    <display-name>4Seven.uk</display-name>
-  </channel>
-  <channel id="DiscoveryTurbo.uk">
-    <icon src="https://images.open-epg.com/21522.png" />
-    <display-name>Discovery Turbo.uk</display-name>
-  </channel>
-  <channel id="V film premiere.fi">
-    <display-name>V film premiere.fi</display-name>
-  </channel>
-  <channel id="MTV Liiga 6.fi">
-    <display-name>MTV Liiga 6.fi</display-name>
-  </channel>
-  <channel id="Hero HD.fi">
-    <display-name>Hero HD.fi</display-name>
-  </channel>
-  <channel id="Eurosport 2.fi">
-    <display-name>Eurosport 2.fi</display-name>
-  </channel>
-  <channel id="Euronews.uk">
-    <icon src="https://images.open-epg.com/21528.png" />
-    <display-name>Euronews.uk</display-name>
-  </channel>
-  <channel id="BBCAsianNetwork.uk">
-    <icon src="https://images.open-epg.com/12952.png" />
-    <display-name>BBC Asian Network.uk</display-name>
-  </channel>
-  <channel id="V sport live 5.fi">
-    <display-name>V sport live 5.fi</display-name>
-  </channel>
-  <channel id="V film family.fi">
-    <display-name>V film family.fi</display-name>
-  </channel>
-  <channel id="SPFLCeltic.uk">
-    <icon src="https://images.open-epg.com/16501656.png" />
-    <display-name>SPFL Celtic.uk</display-name>
-  </channel>
-  <channel id="TRTWorld.uk">
-    <icon src="https://images.open-epg.com/16309.png" />
-    <display-name>TRT World.uk</display-name>
-  </channel>
-  <channel id="OdysseyTV.uk">
-    <icon src="https://images.open-epg.com/13073.png" />
-    <display-name>Odyssey TV.uk</display-name>
-  </channel>
-  <channel id="SkyCinemaHits.uk">
-    <icon src="https://images.open-epg.com/x502.png" />
-    <display-name>Sky Cinema Hits.uk</display-name>
-  </channel>
-  <channel id="AhlebaitTV.uk">
-    <icon src="https://images.open-epg.com/15937.png" />
-    <display-name>Ahlebait TV.uk</display-name>
-  </channel>
-  <channel id="EPLCrystalPalace.uk">
-    <icon src="https://images.open-epg.com/16501692.png" />
-    <display-name>Crystal Palace.uk</display-name>
-  </channel>
-  <channel id="EFLBarnet.uk">
-    <icon src="https://images.open-epg.com/16501568.png" />
-    <display-name>Barnet.uk</display-name>
-  </channel>
-  <channel id="GemsTV.uk">
-    <icon src="https://images.open-epg.com/21544.png" />
-    <display-name>Gems TV.uk</display-name>
-  </channel>
-  <channel id="SonyMax.uk">
-    <icon src="https://images.open-epg.com/16275.png" />
-    <display-name>Sony Max.uk</display-name>
-  </channel>
-  <channel id="BBCRB1.uk">
-    <icon src="https://images.open-epg.com/x376.png" />
-    <display-name>BBC Red Button 1.uk</display-name>
-  </channel>
-  <channel id="GIGS.uk">
-    <icon src="https://images.open-epg.com/13026.png" />
-    <display-name>GIGS.uk</display-name>
-  </channel>
-  <channel id="Nosey.uk">
-    <icon src="https://images.open-epg.com/13072.png" />
-    <display-name>Nosey.uk</display-name>
-  </channel>
-  <channel id="Nicktoons.uk">
-    <icon src="https://images.open-epg.com/16163.png" />
-    <display-name>Nicktoons.uk</display-name>
-  </channel>
-  <channel id="Travelxp.uk">
-    <icon src="https://images.open-epg.com/16307.png" />
-    <display-name>Travelxp.uk</display-name>
-  </channel>
-  <channel id="Nelonen.fi">
-    <display-name>Nelonen.fi</display-name>
-  </channel>
-  <channel id="ColorsRishtey.uk">
-    <icon src="https://images.open-epg.com/16032.png" />
-    <display-name>Colors Rishtey.uk</display-name>
-  </channel>
-  <channel id="EFLBristolCity.uk">
-    <icon src="https://images.open-epg.com/16501639.png" />
-    <display-name>Bristol City.uk</display-name>
-  </channel>
-  <channel id="BabyTV.uk">
-    <icon src="https://images.open-epg.com/19028.png" />
-    <display-name>Baby TV.uk</display-name>
-  </channel>
-  <channel id="TrueCrime.uk">
-    <icon src="https://images.open-epg.com/16311.png" />
-    <display-name>True Crime.uk</display-name>
-  </channel>
-  <channel id="BBCFour.uk">
-    <icon src="https://images.open-epg.com/x373.png" />
-    <display-name>BBC Four.uk</display-name>
-  </channel>
-  <channel id="YourRock.uk">
-    <icon src="https://images.open-epg.com/x2357.png" />
-    <display-name>Your Rock.uk</display-name>
-  </channel>
-  <channel id="ZeePunjabi.uk">
-    <icon src="https://images.open-epg.com/16349.png" />
-    <display-name>Zee Punjabi.uk</display-name>
-  </channel>
-  <channel id="SkyCrime.uk">
-    <icon src="https://images.open-epg.com/x597.png" />
-    <display-name>Sky Crime.uk</display-name>
-  </channel>
-  <channel id="SkyCinemaSciFiandHorror.uk">
-    <icon src="https://images.open-epg.com/x504.png" />
-    <display-name>Sky Cinema Sci-Fi And Horror.uk</display-name>
-  </channel>
-  <channel id="LocalTVTyneandWear.uk">
-    <icon src="https://images.open-epg.com/x521.png" />
-    <display-name>Local TV Tyne And Wear.uk</display-name>
-  </channel>
-  <channel id="EFLNorthamptonTown.uk">
-    <icon src="https://images.open-epg.com/16501986.png" />
-    <display-name>Northampton Town.uk</display-name>
-  </channel>
-  <channel id="IslamBangla.uk">
-    <icon src="https://images.open-epg.com/16109.png" />
-    <display-name>Islam Bangla.uk</display-name>
-  </channel>
-  <channel id="ColorsGujarati.uk">
-    <icon src="https://images.open-epg.com/16031.png" />
-    <display-name>Colors Gujarati.uk</display-name>
-  </channel>
-  <channel id="SkySportsUHD1.uk">
-    <icon src="https://images.open-epg.com/21683.png" />
-    <display-name>Sky Sports UHD 1.uk</display-name>
-  </channel>
-  <channel id="Quest.uk">
-    <icon src="https://images.open-epg.com/16185.png" />
-    <display-name>Quest.uk</display-name>
-  </channel>
-  <channel id="AriseNews.uk">
-    <icon src="https://images.open-epg.com/15943.png" />
-    <display-name>Arise News.uk</display-name>
-  </channel>
-  <channel id="BBCNews.uk">
-    <icon src="https://images.open-epg.com/x374.png" />
-    <display-name>BBC News.uk</display-name>
-  </channel>
-  <channel id="DealMasters.uk">
-    <icon src="https://images.open-epg.com/19059.png" />
-    <display-name>Deal Masters.uk</display-name>
-  </channel>
-  <channel id="EFLSheffieldUnited.uk">
-    <icon src="https://images.open-epg.com/16502072.png" />
-    <display-name>Sheffield United.uk</display-name>
-  </channel>
-  <channel id="5Action.uk">
-    <icon src="https://images.open-epg.com/15929.png" />
-    <display-name>5Action.uk</display-name>
-  </channel>
-  <channel id="EFLFleetwoodTown.uk">
-    <icon src="https://images.open-epg.com/16501797.png" />
-    <display-name>Fleetwood Town.uk</display-name>
-  </channel>
-  <channel id="MTV.fi">
-    <display-name>MTV.fi</display-name>
-  </channel>
-  <channel id="ITV1London.uk">
-    <icon src="https://images.open-epg.com/x379.png" />
-    <display-name>ITV1 London.uk</display-name>
-  </channel>
-  <channel id="ZeeTV.uk">
-    <icon src="https://images.open-epg.com/16351.png" />
-    <display-name>Zee TV.uk</display-name>
-  </channel>
-  <channel id="Viasat Explore.fi">
-    <display-name>Viasat Explore.fi</display-name>
-  </channel>
-  <channel id="Kutonen.fi">
-    <display-name>Kutonen.fi</display-name>
-  </channel>
-  <channel id="SPFLRossCounty.uk">
-    <icon src="https://images.open-epg.com/16502054.png" />
-    <display-name>SPFL Ross County.uk</display-name>
-  </channel>
-  <channel id="BBCRadioNanGaidheal.uk">
-    <icon src="https://images.open-epg.com/15989.png" />
-    <display-name>BBC Radio Nan Gaidheal.uk</display-name>
-  </channel>
-  <channel id="EPLFulham.uk">
-    <icon src="https://images.open-epg.com/16501803.png" />
-    <display-name>Fulham.uk</display-name>
-  </channel>
-  <channel id="Baywatch.uk">
-    <icon src="https://images.open-epg.com/19029.png" />
-    <display-name>Baywatch.uk</display-name>
-  </channel>
-  <channel id="BBCOneSouth.uk">
-    <icon src="https://images.open-epg.com/x364.png" />
-    <display-name>BBC One South.uk</display-name>
-  </channel>
-  <channel id="Nick Jr.fi">
-    <display-name>Nick Jr.fi</display-name>
-  </channel>
-  <channel id="EPLChelsea.uk">
-    <icon src="https://images.open-epg.com/16501665.png" />
-    <display-name>Chelsea.uk</display-name>
-  </channel>
-  <channel id="TNTSports10.uk">
-    <icon src="https://images.open-epg.com/13191.png" />
-    <display-name>TNT Sports 10.uk</display-name>
-  </channel>
-  <channel id="RacingTV.uk">
-    <icon src="https://images.open-epg.com/19139.png" />
-    <display-name>Racing TV.uk</display-name>
-  </channel>
-  <channel id="E4Plus1.uk">
-    <icon src="https://images.open-epg.com/16059.png" />
-    <display-name>E4 +1.uk</display-name>
-  </channel>
-  <channel id="TV4.fi">
-    <display-name>TV4.fi</display-name>
-  </channel>
-  <channel id="Channels24.uk">
-    <icon src="https://images.open-epg.com/16017.png" />
-    <display-name>Channels 24.uk</display-name>
-  </channel>
-  <channel id="Elisa Viihde Sport 4.fi">
-    <display-name>Elisa Viihde Sport 4.fi</display-name>
-  </channel>
-  <channel id="Pitaara.uk">
-    <icon src="https://images.open-epg.com/16175.png" />
-    <display-name>Pitaara.uk</display-name>
-  </channel>
-  <channel id="BBCOne.uk">
-    <icon src="https://images.open-epg.com/x364.png" />
-    <display-name>BBC One.uk</display-name>
-  </channel>
-  <channel id="EPLLeedsUnited.uk">
-    <icon src="https://images.open-epg.com/16501904.png" />
-    <display-name>Leeds United.uk</display-name>
-  </channel>
-  <channel id="PremierRadio.uk">
-    <icon src="https://images.open-epg.com/13080.png" />
-    <display-name>Premier Radio.uk</display-name>
-  </channel>
-  <channel id="DeenTV.uk">
-    <icon src="https://images.open-epg.com/16043.png" />
-    <display-name>Deen TV.uk</display-name>
-  </channel>
-  <channel id="EFLWolverhamptonWanderers.uk">
-    <icon src="https://images.open-epg.com/16502408.png" />
-    <display-name>Wolverhampton Wanderers.uk</display-name>
-  </channel>
-  <channel id="BBCRadioScotland.uk">
-    <icon src="https://images.open-epg.com/15976.png" />
-    <display-name>BBC Radio Scotland.uk</display-name>
-  </channel>
-  <channel id="GeoNews.uk">
-    <icon src="https://images.open-epg.com/16078.png" />
-    <display-name>Geo News.uk</display-name>
-  </channel>
-  <channel id="GlobalArabicPlus.uk">
-    <icon src="https://images.open-epg.com/1953092.png" />
-    <display-name>Global Arabic+.uk</display-name>
-  </channel>
-  <channel id="Canal 24 Horas.fi">
-    <display-name>Canal 24 Horas.fi</display-name>
-  </channel>
-  <channel id="QuestRed.uk">
-    <icon src="https://images.open-epg.com/16186.png" />
-    <display-name>Quest Red.uk</display-name>
-  </channel>
-  <channel id="PopUp.uk">
-    <icon src="https://images.open-epg.com/13078.png" />
-    <display-name>Pop Up.uk</display-name>
-  </channel>
-  <channel id="CrimeandInvestigation.uk">
-    <icon src="https://images.open-epg.com/16039.png" />
-    <display-name>Crime And Investigation.uk</display-name>
-  </channel>
-  <channel id="ITV1Wales.uk">
-    <icon src="https://images.open-epg.com/x379.png" />
-    <display-name>ITV1 Wales.uk</display-name>
-  </channel>
-  <channel id="SkyArts.uk">
-    <icon src="https://images.open-epg.com/x590.png" />
-    <display-name>Sky Arts.uk</display-name>
-  </channel>
-  <channel id="BBCParliament.uk">
-    <icon src="https://images.open-epg.com/x375.png" />
-    <display-name>BBC Parliament.uk</display-name>
-  </channel>
-  <channel id="EPLBrentford.uk">
-    <icon src="https://images.open-epg.com/16501637.png" />
-    <display-name>Brentford.uk</display-name>
-  </channel>
-  <channel id="France 24.fi">
-    <display-name>France 24.fi</display-name>
-  </channel>
-  <channel id="EPLLiverpool.uk">
-    <icon src="https://images.open-epg.com/16501912.png" />
-    <display-name>iverpool.uk</display-name>
-  </channel>
-  <channel id="NickJrPlus1.uk">
-    <icon src="https://images.open-epg.com/16159.png" />
-    <display-name>Nick Jr. +1.uk</display-name>
-  </channel>
-  <channel id="EFLPlymouthArgyle.uk">
-    <icon src="https://images.open-epg.com/16502017.png" />
-    <display-name>Plymouth Argyle.uk</display-name>
-  </channel>
-  <channel id="SkyNewsArabia.uk">
-    <icon src="https://images.open-epg.com/x494.png" />
-    <display-name>Sky News Arabia.uk</display-name>
-  </channel>
-  <channel id="Travel Channel HD.fi">
-    <display-name>Travel Channel HD.fi</display-name>
-  </channel>
-  <channel id="FaithWorldTV.uk">
-    <icon src="https://images.open-epg.com/16068.png" />
-    <display-name>Faith World TV.uk</display-name>
-  </channel>
-  <channel id="LFCTV.uk">
-    <icon src="https://images.open-epg.com/x463.png" />
-    <display-name>LFC TV.uk</display-name>
-  </channel>
-  <channel id="QelloConcertsByStingray.uk">
-    <icon src="https://images.open-epg.com/19133.png" />
-    <display-name>Qello Concerts By Stingray.uk</display-name>
-  </channel>
-  <channel id="QVCExtra.uk">
-    <icon src="https://images.open-epg.com/16191.png" />
-    <display-name>QVC Extra.uk</display-name>
-  </channel>
-  <channel id="HorseTV HD.fi">
-    <display-name>HorseTV HD.fi</display-name>
-  </channel>
-  <channel id="CBeebies.uk">
-    <icon src="https://images.open-epg.com/x378.png" />
-    <display-name>CBeebies.uk</display-name>
-  </channel>
-  <channel id="SPFLLivingston.uk">
-    <icon src="https://images.open-epg.com/16501914.png" />
-    <display-name>SPFL Livingston.uk</display-name>
-  </channel>
-  <channel id="DiscoveryChannel.uk">
-    <icon src="https://images.open-epg.com/16051.png" />
-    <display-name>Discovery Channel.uk</display-name>
-  </channel>
-  <channel id="DiscoveryTurboPlus1.uk">
-    <icon src="https://images.open-epg.com/16049.png" />
-    <display-name>Discovery Turbo +1.uk</display-name>
-  </channel>
-  <channel id="TelevisionX.uk">
-    <icon src="https://images.open-epg.com/19015.png" />
-    <display-name>Television X.uk</display-name>
-  </channel>
-  <channel id="MTV Ava.fi">
-    <display-name>MTV Ava.fi</display-name>
-  </channel>
-  <channel id="EFLBradfordCity.uk">
-    <icon src="https://images.open-epg.com/16501635.png" />
-    <display-name>Bradford City.uk</display-name>
-  </channel>
-  <channel id="EFLCambridgeUnited.uk">
-    <icon src="https://images.open-epg.com/16501646.png" />
-    <display-name>Cambridge United.uk</display-name>
-  </channel>
-  <channel id="Yle TV1.fi">
-    <display-name>Yle TV1.fi</display-name>
-  </channel>
-  <channel id="History Channel.fi">
-    <display-name>History Channel.fi</display-name>
-  </channel>
-  <channel id="TNTSports4.uk">
-    <icon src="https://images.open-epg.com/16299.png" />
-    <display-name>TNT Sports 4.uk</display-name>
-  </channel>
-  <channel id="Jim.fi">
-    <display-name>Jim.fi</display-name>
-  </channel>
-  <channel id="QVCStyle.uk">
-    <icon src="https://images.open-epg.com/21626.png" />
-    <display-name>QVC Style.uk</display-name>
-  </channel>
-  <channel id="MTV Aitio.fi">
-    <display-name>MTV Aitio.fi</display-name>
-  </channel>
-  <channel id="EFLMansfieldTown.uk">
-    <icon src="https://images.open-epg.com/16501931.png" />
-    <display-name>Mansfield Town.uk</display-name>
-  </channel>
-  <channel id="BlazePlus1.uk">
-    <icon src="https://images.open-epg.com/12980.png" />
-    <display-name>Blaze +1.uk</display-name>
-  </channel>
-  <channel id="TBNUK.uk">
-    <icon src="https://images.open-epg.com/16282.png" />
-    <display-name>TBN UK.uk</display-name>
-  </channel>
-  <channel id="V sport 1.fi">
-    <display-name>V sport 1.fi</display-name>
-  </channel>
-  <channel id="Eurochannel.fi">
-    <display-name>Eurochannel.fi</display-name>
-  </channel>
-  <channel id="XpandedTV.uk">
-    <icon src="https://images.open-epg.com/12941.png" />
-    <display-name>Xpanded TV.uk</display-name>
-  </channel>
-  <channel id="SkyCinemaPremiere.uk">
-    <icon src="https://images.open-epg.com/x503.png" />
-    <display-name>Sky Cinema Premiere.uk</display-name>
-  </channel>
-  <channel id="MTV Liiga 7.fi">
-    <display-name>MTV Liiga 7.fi</display-name>
-  </channel>
-  <channel id="MEZZO.fi">
-    <display-name>MEZZO.fi</display-name>
-  </channel>
-  <channel id="Heart90s.uk">
-    <icon src="https://images.open-epg.com/16091.png" />
-    <display-name>Heart 90s.uk</display-name>
-  </channel>
-  <channel id="SkySportsBoxOffice.uk">
-    <icon src="https://images.open-epg.com/16268.png" />
-    <display-name>Sky Sports Box Office.uk</display-name>
-  </channel>
-  <channel id="V sport live 3.fi">
-    <display-name>V sport live 3.fi</display-name>
-  </channel>
-  <channel id="CapitalXTRA.uk">
-    <icon src="https://images.open-epg.com/16004.png" />
-    <display-name>Capital XTRA.uk</display-name>
-  </channel>
-  <channel id="BloombergTV.uk">
-    <icon src="https://images.open-epg.com/x457.png" />
-    <display-name>Bloomberg TV.uk</display-name>
-  </channel>
-  <channel id="UandYesterday.uk">
-    <icon src="https://images.open-epg.com/x829.png" />
-    <display-name>U&amp;Yesterday.uk</display-name>
-  </channel>
-  <channel id="TV5MONDE.fi">
-    <display-name>TV5MONDE.fi</display-name>
-  </channel>
-  <channel id="DiscoveryHistory.uk">
-    <icon src="https://images.open-epg.com/21519.png" />
-    <display-name>Discovery History.uk</display-name>
-  </channel>
-  <channel id="LocalTVBirmingham.uk">
-    <icon src="https://images.open-epg.com/x511.png" />
-    <display-name>Local TV Birmingham.uk</display-name>
-  </channel>
-  <channel id="UandDave.uk">
-    <icon src="https://images.open-epg.com/x826.png" />
-    <display-name>U&amp;Dave.uk</display-name>
-  </channel>
-  <channel id="BBCOneNW.uk">
-    <icon src="https://images.open-epg.com/x364.png" />
-    <display-name>BBC One North West.uk</display-name>
-  </channel>
-  <channel id="HobbyMaker.uk">
-    <icon src="https://images.open-epg.com/21559.png" />
-    <display-name>Hobby Maker.uk</display-name>
-  </channel>
-  <channel id="SPFLMotherwell.uk">
-    <icon src="https://images.open-epg.com/16501939.png" />
-    <display-name>SPFL Motherwell.uk</display-name>
-  </channel>
-  <channel id="TVWarehouse.uk">
-    <icon src="https://images.open-epg.com/16314.png" />
-    <display-name>TV Warehouse.uk</display-name>
-  </channel>
-  <channel id="EFLReading.uk">
-    <icon src="https://images.open-epg.com/16502047.png" />
-    <display-name>Reading.uk</display-name>
-  </channel>
-  <channel id="BBCThree.uk">
-    <icon src="https://images.open-epg.com/x372.png" />
-    <display-name>BBC Three.uk</display-name>
-  </channel>
-  <channel id="Viaplay 1 Urheilu.fi">
-    <display-name>Viaplay 1 Urheilu.fi</display-name>
-  </channel>
-  <channel id="MysteryTV.uk">
-    <icon src="https://images.open-epg.com/19116.png" />
-    <display-name>Mystery TV.uk</display-name>
-  </channel>
-  <channel id="WRNEurope.uk">
-    <icon src="https://images.open-epg.com/16345.png" />
-    <display-name>WRN Europe.uk</display-name>
-  </channel>
-  <channel id="5StarPlus1.uk">
-    <icon src="https://images.open-epg.com/15932.png" />
-    <display-name>5 Star +1.uk</display-name>
-  </channel>
-  <channel id="5Drama.uk">
-    <icon src="https://images.open-epg.com/x2354.png" />
-    <display-name>5Drama.uk</display-name>
-  </channel>
-  <channel id="LoveWorld.uk">
-    <icon src="https://images.open-epg.com/16131.png" />
-    <display-name>LoveWorld.uk</display-name>
-  </channel>
-  <channel id="NationalGeographic.uk">
-    <icon src="https://images.open-epg.com/16150.png" />
-    <display-name>National Geographic.uk</display-name>
-  </channel>
-  <channel id="NHKWorld.uk">
-    <icon src="https://images.open-epg.com/16155.png" />
-    <display-name>NHK World.uk</display-name>
-  </channel>
-  <channel id="ARYDigital.uk">
-    <icon src="https://images.open-epg.com/15944.png" />
-    <display-name>ARY Digital.uk</display-name>
-  </channel>
-  <channel id="EFLBarnsley.uk">
-    <icon src="https://images.open-epg.com/16501569.png" />
-    <display-name>Barnsley.uk</display-name>
-  </channel>
-  <channel id="Nautical Channel.fi">
-    <display-name>Nautical Channel.fi</display-name>
-  </channel>
-  <channel id="EPLHullCity.uk">
-    <icon src="https://images.open-epg.com/16501850.png" />
-    <display-name>Hull City.uk</display-name>
-  </channel>
-  <channel id="YourOldies.uk">
-    <icon src="https://images.open-epg.com/x2356.png" />
-    <display-name>Your Oldies.uk</display-name>
-  </channel>
-  <channel id="V sport football.fi">
-    <display-name>V sport football.fi</display-name>
-  </channel>
-  <channel id="UandTransport.uk">
-    <icon src="https://images.open-epg.com/19184.png" />
-    <display-name>U&amp;Transport.uk</display-name>
-  </channel>
-  <channel id="BBCOneYorks.uk">
-    <icon src="https://images.open-epg.com/x364.png" />
-    <display-name>BBC One Yorkshire.uk</display-name>
-  </channel>
-  <channel id="BBCTwo.uk">
-    <icon src="https://images.open-epg.com/x368.png" />
-    <display-name>BBC Two.uk</display-name>
-  </channel>
-  <channel id="AdultChannelNightly.uk">
-    <icon src="https://images.open-epg.com/19021.png" />
-    <display-name>Adult Channel Nightly.uk</display-name>
-  </channel>
-  <channel id="PremierSports2.uk">
-    <icon src="https://images.open-epg.com/x921.png" />
-    <display-name>Premier Sports 2.uk</display-name>
-  </channel>
-  <channel id="PTCPunjabi.uk">
-    <icon src="https://images.open-epg.com/16183.png" />
-    <display-name>PTC Punjabi.uk</display-name>
-  </channel>
-  <channel id="GINXeSportsTV.uk">
-    <icon src="https://images.open-epg.com/x523.png" />
-    <display-name>GINX eSports TV.uk</display-name>
-  </channel>
-  <channel id="EVEO.fi">
-    <display-name>EVEO.fi</display-name>
-  </channel>
-  <channel id="MTV Viihde.fi">
-    <display-name>MTV Viihde.fi</display-name>
-  </channel>
-  <channel id="V sport golf.fi">
-    <display-name>V sport golf.fi</display-name>
-  </channel>
-  <channel id="LocalTVLeeds.uk">
-    <icon src="https://images.open-epg.com/x514.png" />
-    <display-name>Local TV Leeds.uk</display-name>
-  </channel>
-  <channel id="TJC.uk">
-    <icon src="https://images.open-epg.com/13187.png" />
-    <display-name>TJC.uk</display-name>
-  </channel>
-  <channel id="SmileTV3.uk">
-    <icon src="https://images.open-epg.com/12940.png" />
-    <display-name>smileTV3.uk</display-name>
-  </channel>
-  <channel id="TNTSportsBoxOffice2.uk">
-    <icon src="https://images.open-epg.com/13208.png" />
-    <display-name>TNT Sports Box Office 2.uk</display-name>
-  </channel>
-  <channel id="QuestRedPlus1.uk">
-    <icon src="https://images.open-epg.com/16187.png" />
-    <display-name>Quest Red +1.uk</display-name>
-  </channel>
-  <channel id="MTV3.fi">
-    <display-name>MTV3.fi</display-name>
-  </channel>
-  <channel id="E4.uk">
-    <icon src="https://images.open-epg.com/16058.png" />
-    <display-name>E4.uk</display-name>
-  </channel>
-  <channel id="Heart.uk">
-    <icon src="https://images.open-epg.com/16093.png" />
-    <display-name>Heart.uk</display-name>
-  </channel>
-  <channel id="RewindTV.uk">
-    <icon src="https://images.open-epg.com/16199.png" />
-    <display-name>Rewind TV.uk</display-name>
-  </channel>
-  <channel id="V sport live 2.fi">
-    <display-name>V sport live 2.fi</display-name>
   </channel>
   <channel id="S4C.uk">
     <icon src="https://images.open-epg.com/16205.png" />
     <display-name>S4C.uk</display-name>
   </channel>
-  <channel id="ITV2Plus1.uk">
-    <icon src="https://images.open-epg.com/x397.png" />
-    <display-name>ITV2 +1.uk</display-name>
+  <channel id="BBCRadio2.uk">
+    <icon src="https://images.open-epg.com/12961.png" />
+    <display-name>BBC Radio 2.uk</display-name>
   </channel>
-  <channel id="Channelbox.uk">
-    <icon src="https://images.open-epg.com/12998.png" />
-    <display-name>Channelbox.uk</display-name>
+  <channel id="Eurochannel.fi">
+    <display-name>Eurochannel.fi</display-name>
   </channel>
-  <channel id="NDTVWorld.uk">
-    <icon src="https://images.open-epg.com/21599.png" />
-    <display-name>NDTV World.uk</display-name>
+  <channel id="ComedyCentralPlus1.uk">
+    <icon src="https://images.open-epg.com/21506.png" />
+    <display-name>Comedy Central +1.uk</display-name>
   </channel>
-  <channel id="DunamisTV.uk">
-    <icon src="https://images.open-epg.com/16055.png" />
-    <display-name>Dunamis TV.uk</display-name>
+  <channel id="EPLCrystalPalace.uk">
+    <icon src="https://images.open-epg.com/16501692.png" />
+    <display-name>Crystal Palace.uk</display-name>
   </channel>
-  <channel id="AmazingFacts.uk">
-    <icon src="https://images.open-epg.com/12950.png" />
-    <display-name>Amazing Facts.uk</display-name>
+  <channel id="UandDrama.uk">
+    <icon src="https://images.open-epg.com/x827.png" />
+    <display-name>U&amp;Drama.uk</display-name>
   </channel>
-  <channel id="AlarabyNetwork.uk">
-    <icon src="https://images.open-epg.com/1953090.png" />
-    <display-name>Alaraby Network.uk</display-name>
+  <channel id="BBCScotland.uk">
+    <icon src="https://images.open-epg.com/x371.png" />
+    <display-name>BBC Scotland.uk</display-name>
   </channel>
-  <channel id="Colors.uk">
-    <icon src="https://images.open-epg.com/16029.png" />
-    <display-name>Colors.uk</display-name>
+  <channel id="SkySportsUHD1.uk">
+    <icon src="https://images.open-epg.com/21683.png" />
+    <display-name>Sky Sports UHD 1.uk</display-name>
   </channel>
-  <channel id="ITV1Central.uk">
-    <icon src="https://images.open-epg.com/x379.png" />
-    <display-name>ITV1 Central.uk</display-name>
-  </channel>
-  <channel id="Sangat.uk">
-    <icon src="https://images.open-epg.com/16207.png" />
-    <display-name>Sangat.uk</display-name>
-  </channel>
-  <channel id="DealOrNoDeal.uk">
-    <icon src="https://images.open-epg.com/19060.png" />
-    <display-name>Deal Or No Deal.uk</display-name>
-  </channel>
-  <channel id="TalkingPicturesTV.uk">
-    <icon src="https://images.open-epg.com/13178.png" />
-    <display-name>Talking Pictures TV.uk</display-name>
-  </channel>
-  <channel id="TNTSports7.uk">
-    <icon src="https://images.open-epg.com/13203.png" />
-    <display-name>TNT Sports 7.uk</display-name>
-  </channel>
-  <channel id="ColorsCineplex.uk">
-    <icon src="https://images.open-epg.com/16030.png" />
-    <display-name>Colors Cineplex.uk</display-name>
-  </channel>
-  <channel id="Investigation Discovery.fi">
-    <display-name>Investigation Discovery.fi</display-name>
-  </channel>
-  <channel id="EFLBirminghamCity.uk">
-    <icon src="https://images.open-epg.com/16501624.png" />
-    <display-name>Birmingham City.uk</display-name>
-  </channel>
-  <channel id="NickJr.uk">
-    <icon src="https://images.open-epg.com/16158.png" />
-    <display-name>Nick Jr..uk</display-name>
-  </channel>
-  <channel id="TNTSports1.uk">
-    <icon src="https://images.open-epg.com/16296.png" />
-    <display-name>TNT Sports 1.uk</display-name>
-  </channel>
-  <channel id="ITV1CentralPlus1.uk">
-    <icon src="https://images.open-epg.com/x396.png" />
-    <display-name>ITV1 Central +1.uk</display-name>
-  </channel>
-  <channel id="GreatAction.uk">
-    <icon src="https://images.open-epg.com/x456.png" />
-    <display-name>Great! Action.uk</display-name>
-  </channel>
-  <channel id="BBCThreeCBBC.uk">
-    <icon src="https://images.open-epg.com/x372.png" />
-    <display-name>BBC Three / CBBC.uk</display-name>
-  </channel>
-  <channel id="NoorTV.uk">
-    <icon src="https://images.open-epg.com/16164.png" />
-    <display-name>Noor TV.uk</display-name>
-  </channel>
-  <channel id="AlJazeeraEnglish.uk">
-    <icon src="https://images.open-epg.com/12948.png" />
-    <display-name>Al Jazeera English.uk</display-name>
-  </channel>
-  <channel id="SkySportsMix.uk">
-    <icon src="https://images.open-epg.com/x477.png" />
-    <display-name>Sky Sports Mix.uk</display-name>
-  </channel>
-  <channel id="SPFLStMirren.uk">
-    <icon src="https://images.open-epg.com/16502301.png" />
-    <display-name>SPFL St Mirren.uk</display-name>
-  </channel>
-  <channel id="EFLAccringtonStanley.uk">
-    <icon src="https://images.open-epg.com/16501492.png" />
-    <display-name>Accrington Stanley.uk</display-name>
+  <channel id="MTA1World.uk">
+    <icon src="https://images.open-epg.com/16138.png" />
+    <display-name>MTA1 World.uk</display-name>
   </channel>
   <channel id="MTV Liiga 1.fi">
     <display-name>MTV Liiga 1.fi</display-name>
   </channel>
-  <channel id="TNTSportsUltimate.uk">
-    <icon src="https://images.open-epg.com/x833.png" />
-    <display-name>TNT Sports Ultimate.uk</display-name>
-  </channel>
-  <channel id="GreatActionPlus1.uk">
-    <icon src="https://images.open-epg.com/x459.png" />
-    <display-name>Great! Action +1.uk</display-name>
-  </channel>
-  <channel id="EFLRochdale.uk">
-    <icon src="https://images.open-epg.com/18929695.png" />
-    <display-name>Rochdale.uk</display-name>
-  </channel>
-  <channel id="UandRealHeroes.uk">
-    <icon src="https://images.open-epg.com/19182.png" />
-    <display-name>U&amp;Real Heroes.uk</display-name>
-  </channel>
-  <channel id="CBBC.uk">
-    <icon src="https://images.open-epg.com/x377.png" />
-    <display-name>CBBC.uk</display-name>
-  </channel>
-  <channel id="DW.fi">
-    <display-name>DW.fi</display-name>
-  </channel>
-  <channel id="MTV.uk">
-    <icon src="https://images.open-epg.com/16144.png" />
-    <display-name>MTV.uk</display-name>
-  </channel>
-  <channel id="TNTSports5.uk">
-    <icon src="https://images.open-epg.com/13199.png" />
-    <display-name>TNT Sports 5.uk</display-name>
+  <channel id="UandDaveJaVu.uk">
+    <icon src="https://images.open-epg.com/16323.png" />
+    <display-name>U&amp;DaveJaVu.uk</display-name>
   </channel>
   <channel id="BestDirect.uk">
     <icon src="https://images.open-epg.com/15996.png" />
     <display-name>Best Direct.uk</display-name>
   </channel>
-  <channel id="ITV1WalesPlus1.uk">
-    <icon src="https://images.open-epg.com/x396.png" />
-    <display-name>ITV1 Wales Plus1.uk</display-name>
+  <channel id="TVOne.uk">
+    <icon src="https://images.open-epg.com/16313.png" />
+    <display-name>TV One.uk</display-name>
   </channel>
-  <channel id="Cartoonito Nordic.fi">
-    <display-name>Cartoonito Nordic.fi</display-name>
+  <channel id="GreatActionPlus1.uk">
+    <icon src="https://images.open-epg.com/x459.png" />
+    <display-name>Great! Action +1.uk</display-name>
+  </channel>
+  <channel id="ITV1Wales.uk">
+    <icon src="https://images.open-epg.com/x379.png" />
+    <display-name>ITV1 Wales.uk</display-name>
+  </channel>
+  <channel id="EPLArsenal.uk">
+    <icon src="https://images.open-epg.com/16501558.png" />
+    <display-name>Arsenal.uk</display-name>
+  </channel>
+  <channel id="UandYesterdayPlus1.uk">
+    <icon src="https://images.open-epg.com/16336.png" />
+    <display-name>U&amp;Yesterday +1.uk</display-name>
+  </channel>
+  <channel id="EFLDerbyCounty.uk">
+    <icon src="https://images.open-epg.com/16501707.png" />
+    <display-name>Derby County.uk</display-name>
+  </channel>
+  <channel id="EFLMiddlesbrough.uk">
+    <icon src="https://images.open-epg.com/16501933.png" />
+    <display-name>Middlesbrough.uk</display-name>
+  </channel>
+  <channel id="SkySportsBoxOffice.uk">
+    <icon src="https://images.open-epg.com/16268.png" />
+    <display-name>Sky Sports Box Office.uk</display-name>
+  </channel>
+  <channel id="BabesandBrazzers.uk">
+    <icon src="https://images.open-epg.com/19015.png" />
+    <display-name>Babes and Brazzers.uk</display-name>
+  </channel>
+  <channel id="NoorTV.uk">
+    <icon src="https://images.open-epg.com/16164.png" />
+    <display-name>Noor TV.uk</display-name>
+  </channel>
+  <channel id="Cartoon Networks.fi">
+    <display-name>Cartoon Networks.fi</display-name>
+  </channel>
+  <channel id="SkyAtlantic.uk">
+    <icon src="https://images.open-epg.com/x591.png" />
+    <display-name>Sky Atlantic.uk</display-name>
+  </channel>
+  <channel id="LondonTV.uk">
+    <icon src="https://images.open-epg.com/16130.png" />
+    <display-name>London TV.uk</display-name>
+  </channel>
+  <channel id="Elisa Viihde Sport 4.fi">
+    <display-name>Elisa Viihde Sport 4.fi</display-name>
+  </channel>
+  <channel id="RadioX.uk">
+    <icon src="https://images.open-epg.com/16196.png" />
+    <display-name>Radio X.uk</display-name>
+  </channel>
+  <channel id="FoodNetwork.uk">
+    <icon src="https://images.open-epg.com/16073.png" />
+    <display-name>Food Network.uk</display-name>
   </channel>
   <channel id="EFLSwindonTown.uk">
     <icon src="https://images.open-epg.com/16502314.png" />
     <display-name>Swindon Town.uk</display-name>
   </channel>
-  <channel id="ITV4Plus1.uk">
-    <icon src="https://images.open-epg.com/x399.png" />
-    <display-name>ITV4 +1.uk</display-name>
+  <channel id="GreatChristmas.uk">
+    <icon src="https://images.open-epg.com/x2164.png" />
+    <display-name>Great! Christmas.uk</display-name>
   </channel>
-  <channel id="IslamTV.uk">
-    <icon src="https://images.open-epg.com/16112.png" />
-    <display-name>Islam TV.uk</display-name>
+  <channel id="Now90s00s.uk">
+    <icon src="https://images.open-epg.com/16168.png" />
+    <display-name>Now 90s And 00s.uk</display-name>
   </channel>
-  <channel id="GoodNewsTV.uk">
-    <icon src="https://images.open-epg.com/17963939.png" />
-    <display-name>Good News TV.uk</display-name>
+  <channel id="Viaplay 1 Urheilu.fi">
+    <display-name>Viaplay 1 Urheilu.fi</display-name>
   </channel>
-  <channel id="Legend.uk">
-    <icon src="https://images.open-epg.com/16128.png" />
-    <display-name>Legend.uk</display-name>
+  <channel id="AsharqNews.uk">
+    <icon src="https://images.open-epg.com/1953091.png" />
+    <display-name>Asharq News.uk</display-name>
   </channel>
-  <channel id="MBC.uk">
-    <icon src="https://images.open-epg.com/13058.png" />
-    <display-name>MBC.uk</display-name>
+  <channel id="BBCOneWM.uk">
+    <icon src="https://images.open-epg.com/x364.png" />
+    <display-name>BBC One West Midlands.uk</display-name>
+  </channel>
+  <channel id="Discovery Science.fi">
+    <display-name>Discovery Science.fi</display-name>
+  </channel>
+  <channel id="WRNEurope.uk">
+    <icon src="https://images.open-epg.com/16345.png" />
+    <display-name>WRN Europe.uk</display-name>
+  </channel>
+  <channel id="ITV1Anglia.uk">
+    <icon src="https://images.open-epg.com/x379.png" />
+    <display-name>ITV1 Anglia.uk</display-name>
+  </channel>
+  <channel id="Eurosport 2.fi">
+    <display-name>Eurosport 2.fi</display-name>
+  </channel>
+  <channel id="BBCRadioUlster.uk">
+    <icon src="https://images.open-epg.com/15977.png" />
+    <display-name>BBC Radio Ulster.uk</display-name>
+  </channel>
+  <channel id="MysteryTV.uk">
+    <icon src="https://images.open-epg.com/19116.png" />
+    <display-name>Mystery TV.uk</display-name>
+  </channel>
+  <channel id="ATN.uk">
+    <icon src="https://images.open-epg.com/15945.png" />
+    <display-name>ATN.uk</display-name>
+  </channel>
+  <channel id="Your80s.uk">
+    <icon src="https://images.open-epg.com/x2358.png" />
+    <display-name>Your 80s.uk</display-name>
+  </channel>
+  <channel id="AlArabiya.uk">
+    <icon src="https://images.open-epg.com/1953089.png" />
+    <display-name>Al Arabiya.uk</display-name>
+  </channel>
+  <channel id="ITV3Plus1.uk">
+    <icon src="https://images.open-epg.com/x398.png" />
+    <display-name>ITV3 +1.uk</display-name>
+  </channel>
+  <channel id="OdysseyTV.uk">
+    <icon src="https://images.open-epg.com/13073.png" />
+    <display-name>Odyssey TV.uk</display-name>
+  </channel>
+  <channel id="ThatsTV2.uk">
+    <icon src="https://images.open-epg.com/16288.png" />
+    <display-name>Thats TV 2.uk</display-name>
+  </channel>
+  <channel id="Elisa Viihde Sport 3.fi">
+    <display-name>Elisa Viihde Sport 3.fi</display-name>
+  </channel>
+  <channel id="TNTSports7.uk">
+    <icon src="https://images.open-epg.com/13203.png" />
+    <display-name>TNT Sports 7.uk</display-name>
+  </channel>
+  <channel id="TinyPop.uk">
+    <icon src="https://images.open-epg.com/1994026.png" />
+    <display-name>Tiny Pop.uk</display-name>
+  </channel>
+  <channel id="SkySportsF1.uk">
+    <icon src="https://images.open-epg.com/x479.png" />
+    <display-name>Sky Sports F1.uk</display-name>
+  </channel>
+  <channel id="ROK.uk">
+    <icon src="https://images.open-epg.com/13093.png" />
+    <display-name>ROK.uk</display-name>
+  </channel>
+  <channel id="EPLBrightonandHoveAlbion.uk">
+    <icon src="https://images.open-epg.com/16501638.png" />
+    <display-name>Brighton and Hove Albion.uk</display-name>
+  </channel>
+  <channel id="MTV Urheilu 3.fi">
+    <display-name>MTV Urheilu 3.fi</display-name>
+  </channel>
+  <channel id="TV7.fi">
+    <display-name>TV7.fi</display-name>
+  </channel>
+  <channel id="SPFLDundeeUnited.uk">
+    <icon src="https://images.open-epg.com/16501723.png" />
+    <display-name>SPFL Dundee United.uk</display-name>
+  </channel>
+  <channel id="TelevisionX.uk">
+    <icon src="https://images.open-epg.com/19015.png" />
+    <display-name>Television X.uk</display-name>
+  </channel>
+  <channel id="EFLWalsall.uk">
+    <icon src="https://images.open-epg.com/16502399.png" />
+    <display-name>Walsall.uk</display-name>
+  </channel>
+  <channel id="ZenLIFEbyStingray.uk">
+    <icon src="https://images.open-epg.com/19192.png" />
+    <display-name>ZenLIFE by Stingray.uk</display-name>
+  </channel>
+  <channel id="BloombergTV.uk">
+    <icon src="https://images.open-epg.com/x457.png" />
+    <display-name>Bloomberg TV.uk</display-name>
+  </channel>
+  <channel id="TNTSports10.uk">
+    <icon src="https://images.open-epg.com/13191.png" />
+    <display-name>TNT Sports 10.uk</display-name>
+  </channel>
+  <channel id="EPLSunderland.uk">
+    <icon src="https://images.open-epg.com/16502310.png" />
+    <display-name>Sunderland.uk</display-name>
+  </channel>
+  <channel id="ComedyCentralExtra.uk">
+    <icon src="https://images.open-epg.com/12908706.png" />
+    <display-name>Comedy Central Extra.uk</display-name>
+  </channel>
+  <channel id="PremierSportsRugby.uk">
+    <icon src="https://images.open-epg.com/x519.png" />
+    <display-name>Premier Sports Rugby.uk</display-name>
+  </channel>
+  <channel id="DR1 HD.fi">
+    <display-name>DR1 HD.fi</display-name>
+  </channel>
+  <channel id="QuestRedPlus1.uk">
+    <icon src="https://images.open-epg.com/16187.png" />
+    <display-name>Quest Red +1.uk</display-name>
+  </channel>
+  <channel id="AriseNews.uk">
+    <icon src="https://images.open-epg.com/15943.png" />
+    <display-name>Arise News.uk</display-name>
+  </channel>
+  <channel id="EVEO.fi">
+    <display-name>EVEO.fi</display-name>
+  </channel>
+  <channel id="DeenTV.uk">
+    <icon src="https://images.open-epg.com/16043.png" />
+    <display-name>Deen TV.uk</display-name>
+  </channel>
+  <channel id="EFLLutonTown.uk">
+    <icon src="https://images.open-epg.com/16501926.png" />
+    <display-name>Luton Town.uk</display-name>
+  </channel>
+  <channel id="BabyTV.uk">
+    <icon src="https://images.open-epg.com/19028.png" />
+    <display-name>Baby TV.uk</display-name>
+  </channel>
+  <channel id="LocalTVBirmingham.uk">
+    <icon src="https://images.open-epg.com/x511.png" />
+    <display-name>Local TV Birmingham.uk</display-name>
+  </channel>
+  <channel id="DiscoverySciencePlus1.uk">
+    <icon src="https://images.open-epg.com/21520.png" />
+    <display-name>Discovery Science +1.uk</display-name>
+  </channel>
+  <channel id="QVCExtra.uk">
+    <icon src="https://images.open-epg.com/16191.png" />
+    <display-name>QVC Extra.uk</display-name>
+  </channel>
+  <channel id="BBCOneNI.uk">
+    <icon src="https://images.open-epg.com/x366.png" />
+    <display-name>BBC One Northern Ireland.uk</display-name>
+  </channel>
+  <channel id="TNTSports1.uk">
+    <icon src="https://images.open-epg.com/16296.png" />
+    <display-name>TNT Sports 1.uk</display-name>
+  </channel>
+  <channel id="NDTVWorld.uk">
+    <icon src="https://images.open-epg.com/21599.png" />
+    <display-name>NDTV World.uk</display-name>
+  </channel>
+  <channel id="Sangat.uk">
+    <icon src="https://images.open-epg.com/16207.png" />
+    <display-name>Sangat.uk</display-name>
+  </channel>
+  <channel id="Channel4Plus1.uk">
+    <icon src="https://images.open-epg.com/x401.png" />
+    <display-name>Channel 4 +1.uk</display-name>
+  </channel>
+  <channel id="5USA.uk">
+    <icon src="https://images.open-epg.com/15928.png" />
+    <display-name>5USA.uk</display-name>
+  </channel>
+  <channel id="ReallyPlus1.uk">
+    <icon src="https://images.open-epg.com/x923.png" />
+    <display-name>Really +1.uk</display-name>
+  </channel>
+  <channel id="BBCRadioCymru.uk">
+    <icon src="https://images.open-epg.com/15973.png" />
+    <display-name>BBC Radio Cymru.uk</display-name>
+  </channel>
+  <channel id="BBC News.fi">
+    <display-name>BBC News.fi</display-name>
+  </channel>
+  <channel id="BFBSRadio.uk">
+    <icon src="https://images.open-epg.com/15997.png" />
+    <display-name>BFBS Radio.uk</display-name>
+  </channel>
+  <channel id="SkySportsUHD2.uk">
+    <icon src="https://images.open-epg.com/21683.png" />
+    <display-name>Sky Sports UHD 2.uk</display-name>
+  </channel>
+  <channel id="QVCBeauty.uk">
+    <icon src="https://images.open-epg.com/16190.png" />
+    <display-name>QVC Beauty.uk</display-name>
+  </channel>
+  <channel id="GlobalArabicPlus.uk">
+    <icon src="https://images.open-epg.com/1953092.png" />
+    <display-name>Global Arabic+.uk</display-name>
+  </channel>
+  <channel id="EFLFleetwoodTown.uk">
+    <icon src="https://images.open-epg.com/16501797.png" />
+    <display-name>Fleetwood Town.uk</display-name>
+  </channel>
+  <channel id="BBCOneWales.uk">
+    <icon src="https://images.open-epg.com/x365.png" />
+    <display-name>BBC One Wales.uk</display-name>
+  </channel>
+  <channel id="AlJazeeraEnglish.uk">
+    <icon src="https://images.open-epg.com/12948.png" />
+    <display-name>Al Jazeera English.uk</display-name>
+  </channel>
+  <channel id="EFLOxfordUnited.uk">
+    <icon src="https://images.open-epg.com/16502000.png" />
+    <display-name>Oxford United.uk</display-name>
+  </channel>
+  <channel id="KetchupToo.uk">
+    <icon src="https://images.open-epg.com/13053.png" />
+    <display-name>Ketchup Too.uk</display-name>
+  </channel>
+  <channel id="JewelleryMaker.uk">
+    <icon src="https://images.open-epg.com/16122.png" />
+    <display-name>Jewellery Maker.uk</display-name>
+  </channel>
+  <channel id="DiscoveryPlus1.uk">
+    <icon src="https://images.open-epg.com/16052.png" />
+    <display-name>Discovery +1.uk</display-name>
+  </channel>
+  <channel id="NickJrToo.uk">
+    <icon src="https://images.open-epg.com/16157.png" />
+    <display-name>Nick Jr. Too.uk</display-name>
+  </channel>
+  <channel id="BBCOneYandL.uk">
+    <icon src="https://images.open-epg.com/x364.png" />
+    <display-name>BBC One Yorkshire &amp; Lincolnshire.uk</display-name>
+  </channel>
+  <channel id="AlJazeeraArabic.uk">
+    <icon src="https://images.open-epg.com/12947.png" />
+    <display-name>Al Jazeera Arabic.uk</display-name>
+  </channel>
+  <channel id="VirginRadio.uk">
+    <icon src="https://images.open-epg.com/16342.png" />
+    <display-name>Virgin Radio.uk</display-name>
+  </channel>
+  <channel id="ITV1TyneTees.uk">
+    <icon src="https://images.open-epg.com/x379.png" />
+    <display-name>ITV1 Tyne Tees.uk</display-name>
+  </channel>
+  <channel id="NollyAfrica.uk">
+    <icon src="https://images.open-epg.com/10744206.png" />
+    <display-name>Nolly Africa.uk</display-name>
+  </channel>
+  <channel id="ARYDigital.uk">
+    <icon src="https://images.open-epg.com/15944.png" />
+    <display-name>ARY Digital.uk</display-name>
+  </channel>
+  <channel id="V sport live 3.fi">
+    <display-name>V sport live 3.fi</display-name>
+  </channel>
+  <channel id="DisneyPlusCinema.uk">
+    <icon src="https://images.open-epg.com/x508.png" />
+    <display-name>Disney+ Cinema.uk</display-name>
+  </channel>
+  <channel id="MTV.uk">
+    <icon src="https://images.open-epg.com/16144.png" />
+    <display-name>MTV.uk</display-name>
+  </channel>
+  <channel id="Channel4.uk">
+    <icon src="https://images.open-epg.com/x889.png" />
+    <display-name>Channel 4.uk</display-name>
+  </channel>
+  <channel id="CapitalXTRA.uk">
+    <icon src="https://images.open-epg.com/16004.png" />
+    <display-name>Capital XTRA.uk</display-name>
+  </channel>
+  <channel id="TV10.fi">
+    <display-name>TV10.fi</display-name>
+  </channel>
+  <channel id="Film4Plus1.uk">
+    <icon src="https://images.open-epg.com/16072.png" />
+    <display-name>Film4 +1.uk</display-name>
+  </channel>
+  <channel id="EFLWycombeWanderers.uk">
+    <icon src="https://images.open-epg.com/16502413.png" />
+    <display-name>Wycombe Wanderers.uk</display-name>
+  </channel>
+  <channel id="SkyCinemaSelect.uk">
+    <icon src="https://images.open-epg.com/x505.png" />
+    <display-name>Sky Cinema Select.uk</display-name>
+  </channel>
+  <channel id="ThatsClassics.uk">
+    <icon src="https://images.open-epg.com/x2307.png" />
+    <display-name>That&apos;s Classics.uk</display-name>
+  </channel>
+  <channel id="V sport live 4.fi">
+    <display-name>V sport live 4.fi</display-name>
+  </channel>
+  <channel id="BBCRadio5SportsExtra.uk">
+    <icon src="https://images.open-epg.com/12966.png" />
+    <display-name>BBC Radio 5 Sports Extra.uk</display-name>
+  </channel>
+  <channel id="EFLRotherhamUnited.uk">
+    <icon src="https://images.open-epg.com/16502055.png" />
+    <display-name>Rotherham United.uk</display-name>
+  </channel>
+  <channel id="RealWild.uk">
+    <icon src="https://images.open-epg.com/19142.png" />
+    <display-name>Real Wild.uk</display-name>
+  </channel>
+  <channel id="QuestRed.uk">
+    <icon src="https://images.open-epg.com/16186.png" />
+    <display-name>Quest Red.uk</display-name>
+  </channel>
+  <channel id="DiscoveryChannel.uk">
+    <icon src="https://images.open-epg.com/16051.png" />
+    <display-name>Discovery Channel.uk</display-name>
+  </channel>
+  <channel id="UandLaughs.uk">
+    <icon src="https://images.open-epg.com/19181.png" />
+    <display-name>U&amp;Laughs.uk</display-name>
+  </channel>
+  <channel id="Stingray Classica.fi">
+    <display-name>Stingray Classica.fi</display-name>
+  </channel>
+  <channel id="Sanskar.uk">
+    <icon src="https://images.open-epg.com/16208.png" />
+    <display-name>Sanskar.uk</display-name>
+  </channel>
+  <channel id="ITVQuizPlus1.uk">
+    <icon src="https://images.open-epg.com/x400.png" />
+    <display-name>ITV Quiz +1.uk</display-name>
+  </channel>
+  <channel id="E4Extra.uk">
+    <icon src="https://images.open-epg.com/16056.png" />
+    <display-name>E4 Extra.uk</display-name>
+  </channel>
+  <channel id="Canal 24 Horas.fi">
+    <display-name>Canal 24 Horas.fi</display-name>
+  </channel>
+  <channel id="DMAXPlus1.uk">
+    <icon src="https://images.open-epg.com/21523.png" />
+    <display-name>DMAX +1.uk</display-name>
+  </channel>
+  <channel id="MTV Juniori.fi">
+    <display-name>MTV Juniori.fi</display-name>
+  </channel>
+  <channel id="SkyWitness.uk">
+    <icon src="https://images.open-epg.com/x595.png" />
+    <display-name>Sky Witness.uk</display-name>
   </channel>
   <channel id="Ginx Esports TV.fi">
     <display-name>Ginx Esports TV.fi</display-name>
   </channel>
-  <channel id="CartoonNetworkPlus1.uk">
-    <icon src="https://images.open-epg.com/19043.png" />
-    <display-name>Cartoon Network +1.uk</display-name>
+  <channel id="MTV Liiga 7.fi">
+    <display-name>MTV Liiga 7.fi</display-name>
   </channel>
-  <channel id="QVC2.uk">
-    <icon src="https://images.open-epg.com/13087.png" />
-    <display-name>QVC2.uk</display-name>
+  <channel id="SkyCinemaAction.uk">
+    <icon src="https://images.open-epg.com/x496.png" />
+    <display-name>Sky Cinema Action.uk</display-name>
   </channel>
-  <channel id="CNN.fi">
-    <display-name>CNN.fi</display-name>
+  <channel id="CNBC NORDIC.fi">
+    <display-name>CNBC NORDIC.fi</display-name>
   </channel>
-  <channel id="Daystar.uk">
-    <icon src="https://images.open-epg.com/16042.png" />
-    <display-name>Daystar.uk</display-name>
+  <channel id="Cartoonito.uk">
+    <icon src="https://images.open-epg.com/16008.png" />
+    <display-name>Cartoonito.uk</display-name>
   </channel>
-  <channel id="BBCOneScotland.uk">
-    <icon src="https://images.open-epg.com/x367.png" />
-    <display-name>BBC One Scotland.uk</display-name>
+  <channel id="SkyCinemaPremiere.uk">
+    <icon src="https://images.open-epg.com/x503.png" />
+    <display-name>Sky Cinema Premiere.uk</display-name>
   </channel>
-  <channel id="IdealWorld.uk">
-    <icon src="https://images.open-epg.com/16104.png" />
-    <display-name>Ideal World.uk</display-name>
+  <channel id="LocalTVBristol.uk">
+    <icon src="https://images.open-epg.com/x512.png" />
+    <display-name>Local TV Bristol.uk</display-name>
   </channel>
-  <channel id="QTVReligious.uk">
-    <icon src="https://images.open-epg.com/16184.png" />
-    <display-name>QTV Religious.uk</display-name>
+  <channel id="EFLPeterboroughUnited.uk">
+    <icon src="https://images.open-epg.com/16502014.png" />
+    <display-name>Peterborough United.uk</display-name>
   </channel>
-  <channel id="English club TV.fi">
-    <display-name>English club TV.fi</display-name>
+  <channel id="Jouluradio.fi">
+    <display-name>Jouluradio.fi</display-name>
   </channel>
-  <channel id="RTL Television.fi">
-    <display-name>RTL Television.fi</display-name>
+  <channel id="BBCRadio1.uk">
+    <icon src="https://images.open-epg.com/12959.png" />
+    <display-name>BBC Radio 1.uk</display-name>
   </channel>
-  <channel id="HighStreetTV2.uk">
-    <icon src="https://images.open-epg.com/16097.png" />
-    <display-name>High Street TV 2.uk</display-name>
+  <channel id="BBCOneEM.uk">
+    <icon src="https://images.open-epg.com/x364.png" />
+    <display-name>BBC One East Midlands.uk</display-name>
+  </channel>
+  <channel id="SVT1.fi">
+    <display-name>SVT1.fi</display-name>
+  </channel>
+  <channel id="YourOldies.uk">
+    <icon src="https://images.open-epg.com/x2356.png" />
+    <display-name>Your Oldies.uk</display-name>
+  </channel>
+  <channel id="MTV Aitio.fi">
+    <display-name>MTV Aitio.fi</display-name>
+  </channel>
+  <channel id="5StarPlus1.uk">
+    <icon src="https://images.open-epg.com/15932.png" />
+    <display-name>5 Star +1.uk</display-name>
+  </channel>
+  <channel id="BBCAsianNetwork.uk">
+    <icon src="https://images.open-epg.com/12952.png" />
+    <display-name>BBC Asian Network.uk</display-name>
+  </channel>
+  <channel id="Blaze.uk">
+    <icon src="https://images.open-epg.com/21478.png" />
+    <display-name>Blaze.uk</display-name>
+  </channel>
+  <channel id="RallyTV.uk">
+    <icon src="https://images.open-epg.com/16502045.png" />
+    <display-name>Rally TV.uk</display-name>
+  </channel>
+  <channel id="TBNUK.uk">
+    <icon src="https://images.open-epg.com/16282.png" />
+    <display-name>TBN UK.uk</display-name>
   </channel>
   <channel id="Heart80s.uk">
     <icon src="https://images.open-epg.com/16090.png" />
     <display-name>Heart 80s.uk</display-name>
   </channel>
+  <channel id="EFLPortsmouth.uk">
+    <icon src="https://images.open-epg.com/16502023.png" />
+    <display-name>Portsmouth.uk</display-name>
+  </channel>
+  <channel id="InsideCrime.uk">
+    <icon src="https://images.open-epg.com/19090.png" />
+    <display-name>Inside Crime.uk</display-name>
+  </channel>
+  <channel id="EFLBromley.uk">
+    <icon src="https://images.open-epg.com/16501643.png" />
+    <display-name>Bromley.uk</display-name>
+  </channel>
+  <channel id="CBeebies.uk">
+    <icon src="https://images.open-epg.com/x378.png" />
+    <display-name>CBeebies.uk</display-name>
+  </channel>
+  <channel id="Pitaara.uk">
+    <icon src="https://images.open-epg.com/16175.png" />
+    <display-name>Pitaara.uk</display-name>
+  </channel>
+  <channel id="EFLPlymouthArgyle.uk">
+    <icon src="https://images.open-epg.com/16502017.png" />
+    <display-name>Plymouth Argyle.uk</display-name>
+  </channel>
+  <channel id="EPLNottinghamForest.uk">
+    <icon src="https://images.open-epg.com/16501989.png" />
+    <display-name>Nottingham Forest.uk</display-name>
+  </channel>
+  <channel id="SkySportsGolf.uk">
+    <icon src="https://images.open-epg.com/x472.png" />
+    <display-name>Sky Sports Golf.uk</display-name>
+  </channel>
+  <channel id="ITV1WestCountry.uk">
+    <icon src="https://images.open-epg.com/x379.png" />
+    <display-name>ITV1 West Country.uk</display-name>
+  </channel>
+  <channel id="SPFLKilmarnock.uk">
+    <icon src="https://images.open-epg.com/16501897.png" />
+    <display-name>SPFL Kilmarnock.uk</display-name>
+  </channel>
+  <channel id="Nosey.uk">
+    <icon src="https://images.open-epg.com/13072.png" />
+    <display-name>Nosey.uk</display-name>
+  </channel>
+  <channel id="DunamisTV.uk">
+    <icon src="https://images.open-epg.com/16055.png" />
+    <display-name>Dunamis TV.uk</display-name>
+  </channel>
+  <channel id="Viaplay 2 Urheilu.fi">
+    <display-name>Viaplay 2 Urheilu.fi</display-name>
+  </channel>
+  <channel id="TNTSports4.uk">
+    <icon src="https://images.open-epg.com/16299.png" />
+    <display-name>TNT Sports 4.uk</display-name>
+  </channel>
+  <channel id="FaithUK.uk">
+    <icon src="https://images.open-epg.com/16067.png" />
+    <display-name>Faith UK.uk</display-name>
+  </channel>
+  <channel id="HumEurope.uk">
+    <icon src="https://images.open-epg.com/16100.png" />
+    <display-name>Hum Europe.uk</display-name>
+  </channel>
+  <channel id="RewindTV.uk">
+    <icon src="https://images.open-epg.com/16199.png" />
+    <display-name>Rewind TV.uk</display-name>
+  </channel>
+  <channel id="SkyCinemaDrama.uk">
+    <icon src="https://images.open-epg.com/x499.png" />
+    <display-name>Sky Cinema Drama.uk</display-name>
+  </channel>
+  <channel id="EFLAFCWimbledon.uk">
+    <icon src="https://images.open-epg.com/16501496.png" />
+    <display-name>AFC Wimbledon.uk</display-name>
+  </channel>
+  <channel id="WordNetwork.uk">
+    <icon src="https://images.open-epg.com/16344.png" />
+    <display-name>Word Network.uk</display-name>
+  </channel>
+  <channel id="CNBC.uk">
+    <icon src="https://images.open-epg.com/x443.png" />
+    <display-name>CNBC.uk</display-name>
+  </channel>
+  <channel id="Kunskapskanalen.fi">
+    <display-name>Kunskapskanalen.fi</display-name>
+  </channel>
+  <channel id="DealMasters.uk">
+    <icon src="https://images.open-epg.com/19059.png" />
+    <display-name>Deal Masters.uk</display-name>
+  </channel>
+  <channel id="EFLRochdale.uk">
+    <icon src="https://images.open-epg.com/18929695.png" />
+    <display-name>Rochdale.uk</display-name>
+  </channel>
+  <channel id="BBCOneNEandC.uk">
+    <icon src="https://images.open-epg.com/x364.png" />
+    <display-name>BBC One North East And Cumbria.uk</display-name>
+  </channel>
+  <channel id="EFLOldhamAthletic.uk">
+    <icon src="https://images.open-epg.com/16501999.png" />
+    <display-name>Oldham Athletic.uk</display-name>
+  </channel>
+  <channel id="DMAX.uk">
+    <icon src="https://images.open-epg.com/21524.png" />
+    <display-name>DMAX.uk</display-name>
+  </channel>
+  <channel id="EFLBirminghamCity.uk">
+    <icon src="https://images.open-epg.com/16501624.png" />
+    <display-name>Birmingham City.uk</display-name>
+  </channel>
+  <channel id="wedotvMovies.uk">
+    <icon src="https://images.open-epg.com/21307119.png" />
+    <display-name>wedotv Movies.uk</display-name>
+  </channel>
+  <channel id="OutdoorChannel.uk">
+    <icon src="https://images.open-epg.com/12949.png" />
+    <display-name>Outdoor Channel.uk</display-name>
+  </channel>
+  <channel id="NTV.uk">
+    <icon src="https://images.open-epg.com/16170.png" />
+    <display-name>NTV.uk</display-name>
+  </channel>
+  <channel id="MadaniChannel.uk">
+    <icon src="https://images.open-epg.com/16132.png" />
+    <display-name>Madani Channel.uk</display-name>
+  </channel>
+  <channel id="UandGoldPlus1.uk">
+    <icon src="https://images.open-epg.com/16330.png" />
+    <display-name>U&amp;Gold +1.uk</display-name>
+  </channel>
+  <channel id="History Channel.fi">
+    <display-name>History Channel.fi</display-name>
+  </channel>
+  <channel id="SkyCinemaSciFiandHorror.uk">
+    <icon src="https://images.open-epg.com/x504.png" />
+    <display-name>Sky Cinema Sci-Fi And Horror.uk</display-name>
+  </channel>
+  <channel id="Disney Channel.fi">
+    <display-name>Disney Channel.fi</display-name>
+  </channel>
+  <channel id="EWTNCatholic.uk">
+    <icon src="https://images.open-epg.com/16066.png" />
+    <display-name>EWTN Catholic.uk</display-name>
+  </channel>
+  <channel id="SPFLStJohnstone.uk">
+    <icon src="https://images.open-epg.com/16502300.png" />
+    <display-name>SPFL St Johnstone.uk</display-name>
+  </channel>
+  <channel id="AnimalPlanet.uk">
+    <icon src="https://images.open-epg.com/15940.png" />
+    <display-name>Animal Planet.uk</display-name>
+  </channel>
+  <channel id="SkyDocumentaries.uk">
+    <icon src="https://images.open-epg.com/x598.png" />
+    <display-name>Sky Documentaries.uk</display-name>
+  </channel>
+  <channel id="MTV Liiga 4.fi">
+    <display-name>MTV Liiga 4.fi</display-name>
+  </channel>
+  <channel id="EFLWatford.uk">
+    <icon src="https://images.open-epg.com/16502400.png" />
+    <display-name>Watford.uk</display-name>
+  </channel>
+  <channel id="DiscoveryHistoryPlus1.uk">
+    <icon src="https://images.open-epg.com/16045.png" />
+    <display-name>Discovery History +1.uk</display-name>
+  </channel>
+  <channel id="ITV1Granada.uk">
+    <icon src="https://images.open-epg.com/x379.png" />
+    <display-name>ITV1 Granada.uk</display-name>
+  </channel>
+  <channel id="ITV1UTV.uk">
+    <icon src="https://images.open-epg.com/x379.png" />
+    <display-name>ITV1 UTV.uk</display-name>
+  </channel>
+  <channel id="V sport live 5.fi">
+    <display-name>V sport live 5.fi</display-name>
+  </channel>
+  <channel id="NowRock.uk">
+    <icon src="https://images.open-epg.com/16167.png" />
+    <display-name>Now Rock.uk</display-name>
+  </channel>
+  <channel id="AmazingFacts.uk">
+    <icon src="https://images.open-epg.com/12950.png" />
+    <display-name>Amazing Facts.uk</display-name>
+  </channel>
+  <channel id="Nicktoons.uk">
+    <icon src="https://images.open-epg.com/16163.png" />
+    <display-name>Nicktoons.uk</display-name>
+  </channel>
+  <channel id="BBCRadioNanGaidheal.uk">
+    <icon src="https://images.open-epg.com/15989.png" />
+    <display-name>BBC Radio Nan Gaidheal.uk</display-name>
+  </channel>
+  <channel id="SkyNews.uk">
+    <icon src="https://images.open-epg.com/x418.png" />
+    <display-name>Sky News.uk</display-name>
+  </channel>
+  <channel id="NickJr.uk">
+    <icon src="https://images.open-epg.com/16158.png" />
+    <display-name>Nick Jr..uk</display-name>
+  </channel>
+  <channel id="EPLNewcastleUnited.uk">
+    <icon src="https://images.open-epg.com/16501954.png" />
+    <display-name>Newcastle United.uk</display-name>
+  </channel>
+  <channel id="EFLGillingham.uk">
+    <icon src="https://images.open-epg.com/16501818.png" />
+    <display-name>Gillingham.uk</display-name>
+  </channel>
+  <channel id="PopUp.uk">
+    <icon src="https://images.open-epg.com/13078.png" />
+    <display-name>Pop Up.uk</display-name>
+  </channel>
+  <channel id="WorldWarTV.uk">
+    <icon src="https://images.open-epg.com/16502410.png" />
+    <display-name>World War TV.uk</display-name>
+  </channel>
+  <channel id="GODTV.uk">
+    <icon src="https://images.open-epg.com/16080.png" />
+    <display-name>GOD TV.uk</display-name>
+  </channel>
+  <channel id="EFLColchesterUnited.uk">
+    <icon src="https://images.open-epg.com/16501675.png" />
+    <display-name>Colchester United.uk</display-name>
+  </channel>
+  <channel id="LocalTVNorthWales.uk">
+    <icon src="https://images.open-epg.com/x517.png" />
+    <display-name>Local TV North Wales.uk</display-name>
+  </channel>
+  <channel id="Nickelodeon.uk">
+    <icon src="https://images.open-epg.com/16160.png" />
+    <display-name>Nickelodeon.uk</display-name>
+  </channel>
+  <channel id="SkyWitnessPlus1.uk">
+    <icon src="https://images.open-epg.com/x543.png" />
+    <display-name>Sky Witness +1.uk</display-name>
+  </channel>
+  <channel id="ClassicFM.uk">
+    <icon src="https://images.open-epg.com/12999.png" />
+    <display-name>Classic FM.uk</display-name>
+  </channel>
+  <channel id="SkyArts.uk">
+    <icon src="https://images.open-epg.com/x590.png" />
+    <display-name>Sky Arts.uk</display-name>
+  </channel>
+  <channel id="OnDemand365.uk">
+    <icon src="https://images.open-epg.com/13074.png" />
+    <display-name>On Demand 365.uk</display-name>
+  </channel>
   <channel id="Viasat History.fi">
     <display-name>Viasat History.fi</display-name>
+  </channel>
+  <channel id="SonyTV.uk">
+    <icon src="https://images.open-epg.com/16278.png" />
+    <display-name>Sony TV.uk</display-name>
+  </channel>
+  <channel id="EFLSheffieldWednesday.uk">
+    <icon src="https://images.open-epg.com/x1924.png" />
+    <display-name>Sheffield Wednesday.uk</display-name>
+  </channel>
+  <channel id="HomesUnderTheHammer.uk">
+    <icon src="https://images.open-epg.com/19087.png" />
+    <display-name>Homes Under The Hammer.uk</display-name>
+  </channel>
+  <channel id="BBCTwo.uk">
+    <icon src="https://images.open-epg.com/x368.png" />
+    <display-name>BBC Two.uk</display-name>
+  </channel>
+  <channel id="ITV1Central.uk">
+    <icon src="https://images.open-epg.com/x379.png" />
+    <display-name>ITV1 Central.uk</display-name>
+  </channel>
+  <channel id="GreatMovies.uk">
+    <icon src="https://images.open-epg.com/x466.png" />
+    <display-name>Great! Movies.uk</display-name>
+  </channel>
+  <channel id="Elisa Viihde.fi">
+    <display-name>Elisa Viihde.fi</display-name>
+  </channel>
+  <channel id="QVCStyle.uk">
+    <icon src="https://images.open-epg.com/21626.png" />
+    <display-name>QVC Style.uk</display-name>
+  </channel>
+  <channel id="SikhChannel.uk">
+    <icon src="https://images.open-epg.com/16209.png" />
+    <display-name>Sikh Channel.uk</display-name>
+  </channel>
+  <channel id="MTV Liiga 6.fi">
+    <display-name>MTV Liiga 6.fi</display-name>
+  </channel>
+  <channel id="UandAlibiPlus1.uk">
+    <icon src="https://images.open-epg.com/16320.png" />
+    <display-name>U&amp;Alibi +1.uk</display-name>
+  </channel>
+  <channel id="IONTV.uk">
+    <icon src="https://images.open-epg.com/16106.png" />
+    <display-name>iON TV.uk</display-name>
+  </channel>
+  <channel id="Panjab.Radio.uk">
+    <icon src="https://images.open-epg.com/17964036.png" />
+    <display-name>Panjab Radio.uk</display-name>
+  </channel>
+  <channel id="Babestation.uk">
+    <icon src="https://images.open-epg.com/12938.png" />
+    <display-name>Babestation.uk</display-name>
+  </channel>
+  <channel id="UtsavPlus.uk">
+    <icon src="https://images.open-epg.com/16341.png" />
+    <display-name>Utsav Plus.uk</display-name>
+  </channel>
+  <channel id="SkyCinemaComedy.uk">
+    <icon src="https://images.open-epg.com/x498.png" />
+    <display-name>Sky Cinema Comedy.uk</display-name>
+  </channel>
+  <channel id="EFLQueensParkRangers.uk">
+    <icon src="https://images.open-epg.com/16502034.png" />
+    <display-name>Queens Park Rangers.uk</display-name>
+  </channel>
+  <channel id="FIGHT SPORTS.fi">
+    <display-name>FIGHT SPORTS.fi</display-name>
+  </channel>
+  <channel id="SkySportsTennis.uk">
+    <icon src="https://images.open-epg.com/x471.png" />
+    <display-name>Sky Sports Tennis.uk</display-name>
+  </channel>
+  <channel id="TVWarehouse.uk">
+    <icon src="https://images.open-epg.com/16314.png" />
+    <display-name>TV Warehouse.uk</display-name>
+  </channel>
+  <channel id="GreatChristmasPlus1.uk">
+    <icon src="https://images.open-epg.com/x2165.png" />
+    <display-name>Great! Christmas +1.uk</display-name>
+  </channel>
+  <channel id="ITV1YorkshirePlus1.uk">
+    <icon src="https://images.open-epg.com/x396.png" />
+    <display-name>ITV1 Yorkshire +1.uk</display-name>
+  </channel>
+  <channel id="SkySportsRacing.uk">
+    <icon src="https://images.open-epg.com/x481.png" />
+    <display-name>Sky Sports Racing.uk</display-name>
+  </channel>
+  <channel id="ZeePunjabi.uk">
+    <icon src="https://images.open-epg.com/16349.png" />
+    <display-name>Zee Punjabi.uk</display-name>
+  </channel>
+  <channel id="GINXeSportsTV.uk">
+    <icon src="https://images.open-epg.com/x523.png" />
+    <display-name>GINX eSports TV.uk</display-name>
+  </channel>
+  <channel id="TrueCrime.uk">
+    <icon src="https://images.open-epg.com/16311.png" />
+    <display-name>True Crime.uk</display-name>
+  </channel>
+  <channel id="V sport premium.fi">
+    <display-name>V sport premium.fi</display-name>
+  </channel>
+  <channel id="GreatMysteryPlus1.uk">
+    <icon src="https://images.open-epg.com/x458.png" />
+    <display-name>Great! Mystery +1.uk</display-name>
+  </channel>
+  <channel id="V sport vinter.fi">
+    <display-name>V sport vinter.fi</display-name>
+  </channel>
+  <channel id="CBBC.uk">
+    <icon src="https://images.open-epg.com/x377.png" />
+    <display-name>CBBC.uk</display-name>
+  </channel>
+  <channel id="ColorsGujarati.uk">
+    <icon src="https://images.open-epg.com/16031.png" />
+    <display-name>Colors Gujarati.uk</display-name>
+  </channel>
+  <channel id="SonyMax2.uk">
+    <icon src="https://images.open-epg.com/16273.png" />
+    <display-name>Sony Max 2.uk</display-name>
+  </channel>
+  <channel id="Newsmax.uk">
+    <icon src="https://images.open-epg.com/13065.png" />
+    <display-name>Newsmax.uk</display-name>
+  </channel>
+  <channel id="UtsavGold.uk">
+    <icon src="https://images.open-epg.com/16339.png" />
+    <display-name>Utsav Gold.uk</display-name>
+  </channel>
+  <channel id="ShopOnTV.uk">
+    <icon src="https://images.open-epg.com/13094.png" />
+    <display-name>Shop On TV.uk</display-name>
+  </channel>
+  <channel id="BBCRadioFoyle.uk">
+    <icon src="https://images.open-epg.com/15974.png" />
+    <display-name>BBC Radio Foyle.uk</display-name>
+  </channel>
+  <channel id="Jim.fi">
+    <display-name>Jim.fi</display-name>
+  </channel>
+  <channel id="LaLigaTV.uk">
+    <icon src="https://images.open-epg.com/x515.png" />
+    <display-name>La Liga TV.uk</display-name>
+  </channel>
+  <channel id="Viasat Nature HD.fi">
+    <display-name>Viasat Nature HD.fi</display-name>
+  </channel>
+  <channel id="V film action.fi">
+    <display-name>V film action.fi</display-name>
+  </channel>
+  <channel id="NHK World.fi">
+    <display-name>NHK World.fi</display-name>
+  </channel>
+  <channel id="EFLBoltonWanderers.uk">
+    <icon src="https://images.open-epg.com/16501631.png" />
+    <display-name>Bolton Wanderers.uk</display-name>
+  </channel>
+  <channel id="FashionTV.uk">
+    <icon src="https://images.open-epg.com/12908726.png" />
+    <display-name>Fashion TV.uk</display-name>
+  </channel>
+  <channel id="SkyOne.uk">
+    <icon src="https://images.open-epg.com/x589.png" />
+    <display-name>Sky One.uk</display-name>
+  </channel>
+  <channel id="Kanal 10.fi">
+    <display-name>Kanal 10.fi</display-name>
+  </channel>
+  <channel id="MUTV.uk">
+    <icon src="https://images.open-epg.com/21593.png" />
+    <display-name>MUTV.uk</display-name>
+  </channel>
+  <channel id="EFLNorthamptonTown.uk">
+    <icon src="https://images.open-epg.com/16501986.png" />
+    <display-name>Northampton Town.uk</display-name>
+  </channel>
+  <channel id="MusicandMemories.uk">
+    <icon src="https://images.open-epg.com/15636615.png" />
+    <display-name>Music and Memories.uk</display-name>
+  </channel>
+  <channel id="Euronews.fi">
+    <display-name>Euronews.fi</display-name>
+  </channel>
+  <channel id="SmoothRadio.uk">
+    <icon src="https://images.open-epg.com/16271.png" />
+    <display-name>Smooth Radio.uk</display-name>
+  </channel>
+  <channel id="HighStreetTV2.uk">
+    <icon src="https://images.open-epg.com/16097.png" />
+    <display-name>High Street TV 2.uk</display-name>
+  </channel>
+  <channel id="MTV.fi">
+    <display-name>MTV.fi</display-name>
+  </channel>
+  <channel id="BBCRadioCymru2.uk">
+    <icon src="https://images.open-epg.com/15972.png" />
+    <display-name>BBC Radio Cymru 2.uk</display-name>
+  </channel>
+  <channel id="V sport football.fi">
+    <display-name>V sport football.fi</display-name>
+  </channel>
+  <channel id="CourtTV.uk">
+    <icon src="https://images.open-epg.com/16037.png" />
+    <display-name>Court TV.uk</display-name>
+  </channel>
+  <channel id="MTV Liiga 2.fi">
+    <display-name>MTV Liiga 2.fi</display-name>
+  </channel>
+  <channel id="BBCRadio6Music.uk">
+    <icon src="https://images.open-epg.com/12967.png" />
+    <display-name>BBC Radio 6 Music.uk</display-name>
+  </channel>
+  <channel id="TV3 Sverige.fi">
+    <display-name>TV3 Sverige.fi</display-name>
+  </channel>
+  <channel id="EFLStevenage.uk">
+    <icon src="https://images.open-epg.com/16502299.png" />
+    <display-name>Stevenage.uk</display-name>
+  </channel>
+  <channel id="AhlebaitTV.uk">
+    <icon src="https://images.open-epg.com/15937.png" />
+    <display-name>Ahlebait TV.uk</display-name>
+  </channel>
+  <channel id="BlazePlus1.uk">
+    <icon src="https://images.open-epg.com/12980.png" />
+    <display-name>Blaze +1.uk</display-name>
+  </channel>
+  <channel id="DW.fi">
+    <display-name>DW.fi</display-name>
+  </channel>
+  <channel id="EFLBurtonAlbion.uk">
+    <icon src="https://images.open-epg.com/16501645.png" />
+    <display-name>Burton Albion.uk</display-name>
+  </channel>
+  <channel id="CNAOriginals.uk">
+    <icon src="https://images.open-epg.com/13000.png" />
+    <display-name>CNA Originals.uk</display-name>
+  </channel>
+  <channel id="5Star.uk">
+    <icon src="https://images.open-epg.com/21432.png" />
+    <display-name>5Star.uk</display-name>
+  </channel>
+  <channel id="SVT Barn.fi">
+    <display-name>SVT Barn.fi</display-name>
+  </channel>
+  <channel id="YourRock.uk">
+    <icon src="https://images.open-epg.com/x2357.png" />
+    <display-name>Your Rock.uk</display-name>
+  </channel>
+  <channel id="V sport 1.fi">
+    <display-name>V sport 1.fi</display-name>
+  </channel>
+  <channel id="GreatBritishMenu.uk">
+    <icon src="https://images.open-epg.com/19078.png" />
+    <display-name>Great British Menu.uk</display-name>
+  </channel>
+  <channel id="Mezzo Live.fi">
+    <display-name>Mezzo Live.fi</display-name>
+  </channel>
+  <channel id="MTV Sub.fi">
+    <display-name>MTV Sub.fi</display-name>
+  </channel>
+  <channel id="EPLTottenhamHotspur.uk">
+    <icon src="https://images.open-epg.com/16502356.png" />
+    <display-name>Tottenham Hotspur.uk</display-name>
+  </channel>
+  <channel id="SkyCinemaThriller.uk">
+    <icon src="https://images.open-epg.com/x506.png" />
+    <display-name>Sky Cinema Thriller.uk</display-name>
+  </channel>
+  <channel id="ITV1West.uk">
+    <icon src="https://images.open-epg.com/x379.png" />
+    <display-name>ITV1 West.uk</display-name>
+  </channel>
+  <channel id="IdealWorld.uk">
+    <icon src="https://images.open-epg.com/16104.png" />
+    <display-name>Ideal World.uk</display-name>
+  </channel>
+  <channel id="Elisa Viihde Sport 1.fi">
+    <display-name>Elisa Viihde Sport 1.fi</display-name>
+  </channel>
+  <channel id="ITVQuiz.uk">
+    <icon src="https://images.open-epg.com/x384.png" />
+    <display-name>ITV Quiz.uk</display-name>
+  </channel>
+  <channel id="EPLCoventryCity.uk">
+    <icon src="https://images.open-epg.com/16501684.png" />
+    <display-name>Coventry City.uk</display-name>
+  </channel>
+  <channel id="5USAPlus1.uk">
+    <icon src="https://images.open-epg.com/15933.png" />
+    <display-name>5USA +1.uk</display-name>
+  </channel>
+  <channel id="STV.uk">
+    <icon src="https://images.open-epg.com/x360.png" />
+    <display-name>STV.uk</display-name>
+  </channel>
+  <channel id="BBCRadio4Extra.uk">
+    <icon src="https://images.open-epg.com/12963.png" />
+    <display-name>BBC Radio 4 Extra.uk</display-name>
+  </channel>
+  <channel id="SF Kanalen.fi">
+    <display-name>SF Kanalen.fi</display-name>
+  </channel>
+  <channel id="SkyCinemaGreats.uk">
+    <icon src="https://images.open-epg.com/x501.png" />
+    <display-name>Sky Cinema Greats.uk</display-name>
+  </channel>
+  <channel id="SkyCinemaHits.uk">
+    <icon src="https://images.open-epg.com/x502.png" />
+    <display-name>Sky Cinema Hits.uk</display-name>
+  </channel>
+  <channel id="Film4.uk">
+    <icon src="https://images.open-epg.com/16071.png" />
+    <display-name>Film4.uk</display-name>
+  </channel>
+  <channel id="QVC.uk">
+    <icon src="https://images.open-epg.com/13086.png" />
+    <display-name>QVC.uk</display-name>
+  </channel>
+  <channel id="SPFLHeartofMidlothian.uk">
+    <icon src="https://images.open-epg.com/16501839.png" />
+    <display-name>SPFL Heart of Midlothian.uk</display-name>
+  </channel>
+  <channel id="EFLMansfieldTown.uk">
+    <icon src="https://images.open-epg.com/16501931.png" />
+    <display-name>Mansfield Town.uk</display-name>
+  </channel>
+  <channel id="GTCPunjabi.uk">
+    <icon src="https://images.open-epg.com/x513.png" />
+    <display-name>GTC Punjabi.uk</display-name>
+  </channel>
+  <channel id="TV4.fi">
+    <display-name>TV4.fi</display-name>
+  </channel>
+  <channel id="BBCOneSW.uk">
+    <icon src="https://images.open-epg.com/x364.png" />
+    <display-name>BBC One South West.uk</display-name>
+  </channel>
+  <channel id="Nicktoons.fi">
+    <display-name>Nicktoons.fi</display-name>
+  </channel>
+  <channel id="TVE INTERNACIONAL.fi">
+    <display-name>TVE INTERNACIONAL.fi</display-name>
+  </channel>
+  <channel id="ITV3.uk">
+    <icon src="https://images.open-epg.com/x382.png" />
+    <display-name>ITV3.uk</display-name>
+  </channel>
+  <channel id="ITV1MeridianPlus1.uk">
+    <icon src="https://images.open-epg.com/x396.png" />
+    <display-name>ITV1 Meridian +1.uk</display-name>
+  </channel>
+  <channel id="STVPlus1.uk">
+    <icon src="https://images.open-epg.com/x525.png" />
+    <display-name>STV +1.uk</display-name>
+  </channel>
+  <channel id="TRTWorld.uk">
+    <icon src="https://images.open-epg.com/16309.png" />
+    <display-name>TRT World.uk</display-name>
+  </channel>
+  <channel id="BBCRadioWales.uk">
+    <icon src="https://images.open-epg.com/15978.png" />
+    <display-name>BBC Radio Wales.uk</display-name>
+  </channel>
+  <channel id="GeoTV.uk">
+    <icon src="https://images.open-epg.com/16079.png" />
+    <display-name>Geo TV.uk</display-name>
+  </channel>
+  <channel id="UandGold.uk">
+    <icon src="https://images.open-epg.com/x824.png" />
+    <display-name>U&amp;Gold.uk</display-name>
+  </channel>
+  <channel id="UandThePast.uk">
+    <icon src="https://images.open-epg.com/19183.png" />
+    <display-name>U&amp;The Past.uk</display-name>
+  </channel>
+  <channel id="HumMasala.uk">
+    <icon src="https://images.open-epg.com/16101.png" />
+    <display-name>Hum Masala.uk</display-name>
+  </channel>
+  <channel id="Elisa Viihde Sport 2.fi">
+    <display-name>Elisa Viihde Sport 2.fi</display-name>
+  </channel>
+  <channel id="TV8.fi">
+    <display-name>TV8.fi</display-name>
+  </channel>
+  <channel id="HighStreetTV1.uk">
+    <icon src="https://images.open-epg.com/16096.png" />
+    <display-name>High Street TV 1.uk</display-name>
+  </channel>
+  <channel id="PBSAmerica.uk">
+    <icon src="https://images.open-epg.com/16173.png" />
+    <display-name>PBS America.uk</display-name>
+  </channel>
+  <channel id="AdultChannel.uk">
+    <icon src="https://images.open-epg.com/19021.png" />
+    <display-name>Adult Channel.uk</display-name>
+  </channel>
+  <channel id="PremierRadio.uk">
+    <icon src="https://images.open-epg.com/13080.png" />
+    <display-name>Premier Radio.uk</display-name>
+  </channel>
+  <channel id="SkyHistory2.uk">
+    <icon src="https://images.open-epg.com/x600.png" />
+    <display-name>Sky History 2.uk</display-name>
+  </channel>
+  <channel id="OnniTV.fi">
+    <display-name>OnniTV.fi</display-name>
+  </channel>
+  <channel id="BoomerangPlus1.uk">
+    <icon src="https://images.open-epg.com/16002.png" />
+    <display-name>Boomerang +1.uk</display-name>
+  </channel>
+  <channel id="Wild Earth TV HD.fi">
+    <display-name>Wild Earth TV HD.fi</display-name>
+  </channel>
+  <channel id="NextUpLIVEComedy.uk">
+    <icon src="https://images.open-epg.com/19121.png" />
+    <display-name>NextUp LIVE Comedy.uk</display-name>
+  </channel>
+  <channel id="BBCOneLondon.uk">
+    <icon src="https://images.open-epg.com/x364.png" />
+    <display-name>BBC One London.uk</display-name>
+  </channel>
+  <channel id="HistoryHunters.uk">
+    <icon src="https://images.open-epg.com/19085.png" />
+    <display-name>History Hunters.uk</display-name>
+  </channel>
+  <channel id="NationalGeographic.uk">
+    <icon src="https://images.open-epg.com/16150.png" />
+    <display-name>National Geographic.uk</display-name>
+  </channel>
+  <channel id="IslamTV.uk">
+    <icon src="https://images.open-epg.com/16112.png" />
+    <display-name>Islam TV.uk</display-name>
+  </channel>
+  <channel id="YourTV.uk">
+    <icon src="https://images.open-epg.com/x2359.png" />
+    <display-name>Your TV.uk</display-name>
+  </channel>
+  <channel id="Bonuskanava.fi">
+    <display-name>Bonuskanava.fi</display-name>
+  </channel>
+  <channel id="ClublandTV.uk">
+    <icon src="https://images.open-epg.com/16024.png" />
+    <display-name>Clubland TV.uk</display-name>
+  </channel>
+  <channel id="LocalTVTeesside.uk">
+    <icon src="https://images.open-epg.com/x520.png" />
+    <display-name>Local TV Teeside.uk</display-name>
+  </channel>
+  <channel id="BBCParliament.uk">
+    <icon src="https://images.open-epg.com/x375.png" />
+    <display-name>BBC Parliament.uk</display-name>
+  </channel>
+  <channel id="MBCGroup.uk">
+    <icon src="https://images.open-epg.com/x464.png" />
+    <display-name>MBC Group.uk</display-name>
+  </channel>
+  <channel id="NRK1 HD.fi">
+    <display-name>NRK1 HD.fi</display-name>
+  </channel>
+  <channel id="Heart.uk">
+    <icon src="https://images.open-epg.com/16093.png" />
+    <display-name>Heart.uk</display-name>
+  </channel>
+  <channel id="BBCRadio4.uk">
+    <icon src="https://images.open-epg.com/12964.png" />
+    <display-name>BBC Radio 4.uk</display-name>
+  </channel>
+  <channel id="Travelxp.uk">
+    <icon src="https://images.open-epg.com/16307.png" />
+    <display-name>Travelxp.uk</display-name>
+  </channel>
+  <channel id="ColorsRishtey.uk">
+    <icon src="https://images.open-epg.com/16032.png" />
+    <display-name>Colors Rishtey.uk</display-name>
+  </channel>
+  <channel id="Capital.uk">
+    <icon src="https://images.open-epg.com/16005.png" />
+    <display-name>Capital.uk</display-name>
+  </channel>
+  <channel id="SonyMax.uk">
+    <icon src="https://images.open-epg.com/16275.png" />
+    <display-name>Sony Max.uk</display-name>
+  </channel>
+  <channel id="EFLNewportCounty.uk">
+    <icon src="https://images.open-epg.com/16501956.png" />
+    <display-name>Newport County.uk</display-name>
+  </channel>
+  <channel id="SkyNewsArabia.uk">
+    <icon src="https://images.open-epg.com/x494.png" />
+    <display-name>Sky News Arabia.uk</display-name>
+  </channel>
+  <channel id="Rai 1.fi">
+    <display-name>Rai 1.fi</display-name>
+  </channel>
+  <channel id="SPFLLivingston.uk">
+    <icon src="https://images.open-epg.com/16501914.png" />
+    <display-name>SPFL Livingston.uk</display-name>
+  </channel>
+  <channel id="CNNInternational.uk">
+    <icon src="https://images.open-epg.com/21501.png" />
+    <display-name>CNN International.uk</display-name>
+  </channel>
+  <channel id="TNTSports2.uk">
+    <icon src="https://images.open-epg.com/16297.png" />
+    <display-name>TNT Sports 2.uk</display-name>
+  </channel>
+  <channel id="QelloConcertsByStingray.uk">
+    <icon src="https://images.open-epg.com/19133.png" />
+    <display-name>Qello Concerts By Stingray.uk</display-name>
+  </channel>
+  <channel id="EFLWrexham.uk">
+    <icon src="https://images.open-epg.com/16502411.png" />
+    <display-name>Wrexham.uk</display-name>
+  </channel>
+  <channel id="MATVNational.uk">
+    <icon src="https://images.open-epg.com/16133.png" />
+    <display-name>MATV National.uk</display-name>
+  </channel>
+  <channel id="V sport live 2.fi">
+    <display-name>V sport live 2.fi</display-name>
+  </channel>
+  <channel id="GIGS.uk">
+    <icon src="https://images.open-epg.com/13026.png" />
+    <display-name>GIGS.uk</display-name>
+  </channel>
+  <channel id="HauntTV.uk">
+    <icon src="https://images.open-epg.com/19082.png" />
+    <display-name>Haunt TV.uk</display-name>
+  </channel>
+  <channel id="TNTSports5.uk">
+    <icon src="https://images.open-epg.com/13199.png" />
+    <display-name>TNT Sports 5.uk</display-name>
+  </channel>
+  <channel id="EFLBlackpool.uk">
+    <icon src="https://images.open-epg.com/16501627.png" />
+    <display-name>Blackpool.uk</display-name>
+  </channel>
+  <channel id="MTV Ava.fi">
+    <display-name>MTV Ava.fi</display-name>
+  </channel>
+  <channel id="SkySportsAction.uk">
+    <icon src="https://images.open-epg.com/x476.png" />
+    <display-name>Sky Sports Action.uk</display-name>
+  </channel>
+  <channel id="SkyComedy.uk">
+    <icon src="https://images.open-epg.com/x592.png" />
+    <display-name>Sky Comedy.uk</display-name>
+  </channel>
+  <channel id="SPFLStMirren.uk">
+    <icon src="https://images.open-epg.com/16502301.png" />
+    <display-name>SPFL St Mirren.uk</display-name>
+  </channel>
+  <channel id="ArirangTV.uk">
+    <icon src="https://images.open-epg.com/15942.png" />
+    <display-name>Arirang TV.uk</display-name>
+  </channel>
+  <channel id="Daystar.uk">
+    <icon src="https://images.open-epg.com/16042.png" />
+    <display-name>Daystar.uk</display-name>
+  </channel>
+  <channel id="UandTransport.uk">
+    <icon src="https://images.open-epg.com/19184.png" />
+    <display-name>U&amp;Transport.uk</display-name>
+  </channel>
+  <channel id="B4UMusic.uk">
+    <icon src="https://images.open-epg.com/15947.png" />
+    <display-name>B4U Music.uk</display-name>
+  </channel>
+  <channel id="Sky News.fi">
+    <display-name>Sky News.fi</display-name>
+  </channel>
+  <channel id="EFLMillwall.uk">
+    <icon src="https://images.open-epg.com/16501934.png" />
+    <display-name>Millwall.uk</display-name>
+  </channel>
+  <channel id="SkyHistory.uk">
+    <icon src="https://images.open-epg.com/x599.png" />
+    <display-name>Sky History.uk</display-name>
+  </channel>
+  <channel id="SkySportsMix.uk">
+    <icon src="https://images.open-epg.com/x477.png" />
+    <display-name>Sky Sports Mix.uk</display-name>
+  </channel>
+  <channel id="CartoonNetwork.uk">
+    <icon src="https://images.open-epg.com/16007.png" />
+    <display-name>Cartoon Network.uk</display-name>
+  </channel>
+  <channel id="UandWPlus1.uk">
+    <icon src="https://images.open-epg.com/16333.png" />
+    <display-name>U&amp;W +1.uk</display-name>
+  </channel>
+  <channel id="TrueCrimeXtra.uk">
+    <icon src="https://images.open-epg.com/16310.png" />
+    <display-name>True Crime Xtra.uk</display-name>
+  </channel>
+  <channel id="EFLBarnet.uk">
+    <icon src="https://images.open-epg.com/16501568.png" />
+    <display-name>Barnet.uk</display-name>
+  </channel>
+  <channel id="PBC.uk">
+    <icon src="https://images.open-epg.com/16172.png" />
+    <display-name>PBC.uk</display-name>
+  </channel>
+  <channel id="ITV1London.uk">
+    <icon src="https://images.open-epg.com/x379.png" />
+    <display-name>ITV1 London.uk</display-name>
+  </channel>
+  <channel id="ITV1Meridian.uk">
+    <icon src="https://images.open-epg.com/x379.png" />
+    <display-name>ITV1 Meridian.uk</display-name>
+  </channel>
+  <channel id="EPLBrentford.uk">
+    <icon src="https://images.open-epg.com/16501637.png" />
+    <display-name>Brentford.uk</display-name>
+  </channel>
+  <channel id="FUEL TV.fi">
+    <display-name>FUEL TV.fi</display-name>
+  </channel>
+  <channel id="CNN.fi">
+    <display-name>CNN.fi</display-name>
+  </channel>
+  <channel id="Investigation Discovery.fi">
+    <display-name>Investigation Discovery.fi</display-name>
+  </channel>
+  <channel id="TNTSportsBoxOffice2.uk">
+    <icon src="https://images.open-epg.com/13208.png" />
+    <display-name>TNT Sports Box Office 2.uk</display-name>
+  </channel>
+  <channel id="A1TV.uk">
+    <icon src="https://images.open-epg.com/17963772.png" />
+    <display-name>A1TV.uk</display-name>
+  </channel>
+  <channel id="EFLShrewsburyTown.uk">
+    <icon src="https://images.open-epg.com/16502074.png" />
+    <display-name>Shrewsbury Town.uk</display-name>
+  </channel>
+  <channel id="SkySportsCricket.uk">
+    <icon src="https://images.open-epg.com/x470.png" />
+    <display-name>Sky Sports Cricket.uk</display-name>
+  </channel>
+  <channel id="EFLReading.uk">
+    <icon src="https://images.open-epg.com/16502047.png" />
+    <display-name>Reading.uk</display-name>
+  </channel>
+  <channel id="Cartoonito Nordic.fi">
+    <display-name>Cartoonito Nordic.fi</display-name>
+  </channel>
+  <channel id="UandDave.uk">
+    <icon src="https://images.open-epg.com/x826.png" />
+    <display-name>U&amp;Dave.uk</display-name>
+  </channel>
+  <channel id="Nickelodeon.fi">
+    <display-name>Nickelodeon.fi</display-name>
+  </channel>
+  <channel id="TNTSportsUltimate.uk">
+    <icon src="https://images.open-epg.com/x833.png" />
+    <display-name>TNT Sports Ultimate.uk</display-name>
+  </channel>
+  <channel id="BBCRadio3.uk">
+    <icon src="https://images.open-epg.com/12962.png" />
+    <display-name>BBC Radio 3.uk</display-name>
+  </channel>
+  <channel id="STAR Channel.fi">
+    <display-name>STAR Channel.fi</display-name>
+  </channel>
+  <channel id="Nelonen.fi">
+    <display-name>Nelonen.fi</display-name>
+  </channel>
+  <channel id="EFLLeytonOrient.uk">
+    <icon src="https://images.open-epg.com/16501909.png" />
+    <display-name>Leyton Orient.uk</display-name>
+  </channel>
+  <channel id="EFLStockportCounty.uk">
+    <icon src="https://images.open-epg.com/16502302.png" />
+    <display-name>Stockport County.uk</display-name>
+  </channel>
+  <channel id="EPLManchesterCity.uk">
+    <icon src="https://images.open-epg.com/16501929.png" />
+    <display-name>Manchester City.uk</display-name>
+  </channel>
+  <channel id="BBCOneCI.uk">
+    <icon src="https://images.open-epg.com/x364.png" />
+    <display-name>BBC One Channel Islands.uk</display-name>
+  </channel>
+  <channel id="BBCOneSE.uk">
+    <icon src="https://images.open-epg.com/x364.png" />
+    <display-name>BBC One South East.uk</display-name>
+  </channel>
+  <channel id="UandEden.uk">
+    <icon src="https://images.open-epg.com/x828.png" />
+    <display-name>U&amp;Eden.uk</display-name>
+  </channel>
+  <channel id="BBC Nordic.fi">
+    <display-name>BBC Nordic.fi</display-name>
+  </channel>
+  <channel id="Movies24.uk">
+    <icon src="https://images.open-epg.com/19108.png" />
+    <display-name>Movies 24.uk</display-name>
+  </channel>
+  <channel id="EPLBournemouth.uk">
+    <icon src="https://images.open-epg.com/16501494.png" />
+    <display-name>Bournemouth.uk</display-name>
+  </channel>
+  <channel id="BBCOneEast.uk">
+    <icon src="https://images.open-epg.com/x364.png" />
+    <display-name>BBC One East.uk</display-name>
+  </channel>
+  <channel id="RNIBConnect.uk">
+    <icon src="https://images.open-epg.com/13092.png" />
+    <display-name>RNIB Connect.uk</display-name>
+  </channel>
+  <channel id="Channelbox.uk">
+    <icon src="https://images.open-epg.com/12998.png" />
+    <display-name>Channelbox.uk</display-name>
+  </channel>
+  <channel id="BBCRadio5Live.uk">
+    <icon src="https://images.open-epg.com/12965.png" />
+    <display-name>BBC Radio 5 Live.uk</display-name>
+  </channel>
+  <channel id="TakbeerTV.uk">
+    <icon src="https://images.open-epg.com/16279.png" />
+    <display-name>Takbeer TV.uk</display-name>
+  </channel>
+  <channel id="HighStreetTV3.uk">
+    <icon src="https://images.open-epg.com/16098.png" />
+    <display-name>High Street TV 3.uk</display-name>
+  </channel>
+  <channel id="Heart90s.uk">
+    <icon src="https://images.open-epg.com/16091.png" />
+    <display-name>Heart 90s.uk</display-name>
+  </channel>
+  <channel id="EFLCheltenhamTown.uk">
+    <icon src="https://images.open-epg.com/16501666.png" />
+    <display-name>Cheltenham Town.uk</display-name>
+  </channel>
+  <channel id="HeartDance.uk">
+    <icon src="https://images.open-epg.com/16092.png" />
+    <display-name>Heart Dance.uk</display-name>
+  </channel>
+  <channel id="NickelodeonPlus1.uk">
+    <icon src="https://images.open-epg.com/21603.png" />
+    <display-name>Nickelodeon +1.uk</display-name>
+  </channel>
+  <channel id="LBC.uk">
+    <icon src="https://images.open-epg.com/16125.png" />
+    <display-name>LBC.uk</display-name>
+  </channel>
+  <channel id="Toto TV HD.fi">
+    <display-name>Toto TV HD.fi</display-name>
+  </channel>
+  <channel id="English club TV.fi">
+    <display-name>English club TV.fi</display-name>
+  </channel>
+  <channel id="EFLYorkCity.uk">
+    <icon src="https://images.open-epg.com/28086525.png" />
+    <display-name>York City.uk</display-name>
+  </channel>
+  <channel id="EPLLeedsUnited.uk">
+    <icon src="https://images.open-epg.com/16501904.png" />
+    <display-name>Leeds United.uk</display-name>
+  </channel>
+  <channel id="Travel Channel HD.fi">
+    <display-name>Travel Channel HD.fi</display-name>
+  </channel>
+  <channel id="Quest.uk">
+    <icon src="https://images.open-epg.com/16185.png" />
+    <display-name>Quest.uk</display-name>
+  </channel>
+  <channel id="GemsTV.uk">
+    <icon src="https://images.open-epg.com/21544.png" />
+    <display-name>Gems TV.uk</display-name>
+  </channel>
+  <channel id="Al Jazeera English.fi">
+    <display-name>Al Jazeera English.fi</display-name>
+  </channel>
+  <channel id="GBNews.uk">
+    <icon src="https://images.open-epg.com/13024.png" />
+    <display-name>GB News.uk</display-name>
+  </channel>
+  <channel id="EFLWolverhamptonWanderers.uk">
+    <icon src="https://images.open-epg.com/16502408.png" />
+    <display-name>Wolverhampton Wanderers.uk</display-name>
+  </channel>
+  <channel id="BBCOneSouth.uk">
+    <icon src="https://images.open-epg.com/x364.png" />
+    <display-name>BBC One South.uk</display-name>
+  </channel>
+  <channel id="EmanChannel.uk">
+    <icon src="https://images.open-epg.com/16060.png" />
+    <display-name>Eman Channel.uk</display-name>
+  </channel>
+  <channel id="UandEdenPlus1.uk">
+    <icon src="https://images.open-epg.com/16327.png" />
+    <display-name>U&amp;Eden +1.uk</display-name>
+  </channel>
+  <channel id="ITV4.uk">
+    <icon src="https://images.open-epg.com/x383.png" />
+    <display-name>ITV4.uk</display-name>
+  </channel>
+  <channel id="More4Plus1.uk">
+    <icon src="https://images.open-epg.com/16136.png" />
+    <display-name>More4 +1.uk</display-name>
+  </channel>
+  <channel id="BBCFour.uk">
+    <icon src="https://images.open-epg.com/x373.png" />
+    <display-name>BBC Four.uk</display-name>
+  </channel>
+  <channel id="TLCPlus1.uk">
+    <icon src="https://images.open-epg.com/16295.png" />
+    <display-name>TLC +1.uk</display-name>
+  </channel>
+  <channel id="GreatTV.uk">
+    <icon src="https://images.open-epg.com/x832.png" />
+    <display-name>Great! TV.uk</display-name>
+  </channel>
+  <channel id="Nick Jr.fi">
+    <display-name>Nick Jr.fi</display-name>
+  </channel>
+  <channel id="DiscoveryTurbo.uk">
+    <icon src="https://images.open-epg.com/21522.png" />
+    <display-name>Discovery Turbo.uk</display-name>
+  </channel>
+  <channel id="Viaplay 3 Urheilu.fi">
+    <display-name>Viaplay 3 Urheilu.fi</display-name>
+  </channel>
+  <channel id="ITV1CentralPlus1.uk">
+    <icon src="https://images.open-epg.com/x396.png" />
+    <display-name>ITV1 Central +1.uk</display-name>
+  </channel>
+  <channel id="PTCPunjabi.uk">
+    <icon src="https://images.open-epg.com/16183.png" />
+    <display-name>PTC Punjabi.uk</display-name>
+  </channel>
+  <channel id="KanshiTV.uk">
+    <icon src="https://images.open-epg.com/16123.png" />
+    <display-name>Kanshi TV.uk</display-name>
+  </channel>
+  <channel id="Pop.uk">
+    <icon src="https://images.open-epg.com/1994025.png" />
+    <display-name>Pop.uk</display-name>
+  </channel>
+  <channel id="EFLBristolCity.uk">
+    <icon src="https://images.open-epg.com/16501639.png" />
+    <display-name>Bristol City.uk</display-name>
+  </channel>
+  <channel id="EFLHuddersfieldTown.uk">
+    <icon src="https://images.open-epg.com/16501849.png" />
+    <display-name>Huddersfield Town.uk</display-name>
+  </channel>
+  <channel id="AnimalPlanetPlus1.uk">
+    <icon src="https://images.open-epg.com/21438.png" />
+    <display-name>Animal Planet +1.uk</display-name>
+  </channel>
+  <channel id="RealCrime.uk">
+    <icon src="https://images.open-epg.com/19140.png" />
+    <display-name>Real Crime.uk</display-name>
+  </channel>
+  <channel id="LegendXtra.uk">
+    <icon src="https://images.open-epg.com/16126.png" />
+    <display-name>Legend Xtra.uk</display-name>
+  </channel>
+  <channel id="ComedyCentral.uk">
+    <icon src="https://images.open-epg.com/12908708.png" />
+    <display-name>Comedy Central.uk</display-name>
+  </channel>
+  <channel id="BBCFourCBeebies.uk">
+    <icon src="https://images.open-epg.com/x373.png" />
+    <display-name>BBC Four / CBeebies.uk</display-name>
+  </channel>
+  <channel id="ITV2Plus1.uk">
+    <icon src="https://images.open-epg.com/x397.png" />
+    <display-name>ITV2 +1.uk</display-name>
+  </channel>
+  <channel id="HorseandCountry.uk">
+    <icon src="https://images.open-epg.com/16501848.png" />
+    <display-name>Horse And Country.uk</display-name>
+  </channel>
+  <channel id="Baywatch.uk">
+    <icon src="https://images.open-epg.com/19029.png" />
+    <display-name>Baywatch.uk</display-name>
+  </channel>
+  <channel id="SPFLAberdeen.uk">
+    <icon src="https://images.open-epg.com/16501491.png" />
+    <display-name>SPFL Aberdeen.uk</display-name>
+  </channel>
+  <channel id="UandYesterday.uk">
+    <icon src="https://images.open-epg.com/x829.png" />
+    <display-name>U&amp;Yesterday.uk</display-name>
+  </channel>
+  <channel id="UandDramaPlus1.uk">
+    <icon src="https://images.open-epg.com/16325.png" />
+    <display-name>U&amp;Drama +1.uk</display-name>
+  </channel>
+  <channel id="BBCOneNW.uk">
+    <icon src="https://images.open-epg.com/x364.png" />
+    <display-name>BBC One North West.uk</display-name>
+  </channel>
+  <channel id="SkySciFi.uk">
+    <icon src="https://images.open-epg.com/x594.png" />
+    <display-name>Sky Sci-Fi.uk</display-name>
+  </channel>
+  <channel id="ITV1WalesPlus1.uk">
+    <icon src="https://images.open-epg.com/x396.png" />
+    <display-name>ITV1 Wales Plus1.uk</display-name>
+  </channel>
+  <channel id="PremierSports1.uk">
+    <icon src="https://images.open-epg.com/x920.png" />
+    <display-name>Premier Sports 1.uk</display-name>
+  </channel>
+  <channel id="BBCRadioScotland.uk">
+    <icon src="https://images.open-epg.com/15976.png" />
+    <display-name>BBC Radio Scotland.uk</display-name>
+  </channel>
+  <channel id="XpandedTV.uk">
+    <icon src="https://images.open-epg.com/12941.png" />
+    <display-name>Xpanded TV.uk</display-name>
+  </channel>
+  <channel id="TNTSports3.uk">
+    <icon src="https://images.open-epg.com/16298.png" />
+    <display-name>TNT Sports 3.uk</display-name>
+  </channel>
+  <channel id="B4UMovies.uk">
+    <icon src="https://images.open-epg.com/15946.png" />
+    <display-name>B4U Movies.uk</display-name>
+  </channel>
+  <channel id="AdultChannelNightly.uk">
+    <icon src="https://images.open-epg.com/19021.png" />
+    <display-name>Adult Channel Nightly.uk</display-name>
+  </channel>
+  <channel id="HobbyMaker.uk">
+    <icon src="https://images.open-epg.com/21559.png" />
+    <display-name>Hobby Maker.uk</display-name>
+  </channel>
+  <channel id="BBCTwoNI.uk">
+    <icon src="https://images.open-epg.com/x369.png" />
+    <display-name>BBC Two Northern Ireland.uk</display-name>
+  </channel>
+  <channel id="EFLGrimsbyTown.uk">
+    <icon src="https://images.open-epg.com/16501830.png" />
+    <display-name>Grimsby Town.uk</display-name>
+  </channel>
+  <channel id="TLC.uk">
+    <icon src="https://images.open-epg.com/16294.png" />
+    <display-name>TLC.uk</display-name>
+  </channel>
+  <channel id="Really.uk">
+    <icon src="https://images.open-epg.com/16197.png" />
+    <display-name>Really.uk</display-name>
+  </channel>
+  <channel id="NewVisionTV.uk">
+    <icon src="https://images.open-epg.com/16154.png" />
+    <display-name>New Vision TV.uk</display-name>
+  </channel>
+  <channel id="PoliticsPunjab.uk">
+    <icon src="https://images.open-epg.com/16176.png" />
+    <display-name>Politics Punjab.uk</display-name>
+  </channel>
+  <channel id="ITV1Border.uk">
+    <icon src="https://images.open-epg.com/x379.png" />
+    <display-name>ITV1 Border.uk</display-name>
+  </channel>
+  <channel id="Euronews.uk">
+    <icon src="https://images.open-epg.com/21528.png" />
+    <display-name>Euronews.uk</display-name>
+  </channel>
+  <channel id="Motorvision TV.fi">
+    <display-name>Motorvision TV.fi</display-name>
+  </channel>
+  <channel id="TalkSport.uk">
+    <icon src="https://images.open-epg.com/16281.png" />
+    <display-name>talkSPORT.uk</display-name>
+  </channel>
+  <channel id="TalkingPicturesTV.uk">
+    <icon src="https://images.open-epg.com/13178.png" />
+    <display-name>Talking Pictures TV.uk</display-name>
+  </channel>
+  <channel id="arte.fi">
+    <display-name>arte.fi</display-name>
+  </channel>
+  <channel id="LocalTVTyneandWear.uk">
+    <icon src="https://images.open-epg.com/x521.png" />
+    <display-name>Local TV Tyne And Wear.uk</display-name>
+  </channel>
+  <channel id="EFLWestHamUnited.uk">
+    <icon src="https://images.open-epg.com/16502403.png" />
+    <display-name>West Ham United.uk</display-name>
+  </channel>
+  <channel id="5Drama.uk">
+    <icon src="https://images.open-epg.com/x2354.png" />
+    <display-name>5Drama.uk</display-name>
+  </channel>
+  <channel id="Discovery.fi">
+    <display-name>Discovery.fi</display-name>
+  </channel>
+  <channel id="TogetherTV.uk">
+    <icon src="https://images.open-epg.com/x831.png" />
+    <display-name>Together TV.uk</display-name>
+  </channel>
+  <channel id="GreatMystery.uk">
+    <icon src="https://images.open-epg.com/x455.png" />
+    <display-name>Great! Mystery.uk</display-name>
+  </channel>
+  <channel id="OUTflixProud.uk">
+    <icon src="https://images.open-epg.com/13028.png" />
+    <display-name>OUTflix Proud.uk</display-name>
+  </channel>
+  <channel id="TVCNews.uk">
+    <icon src="https://images.open-epg.com/16315.png" />
+    <display-name>TVC News.uk</display-name>
+  </channel>
+  <channel id="Gemporia.uk">
+    <icon src="https://images.open-epg.com/13025.png" />
+    <display-name>Gemporia.uk</display-name>
+  </channel>
+  <channel id="AkaalChannel.uk">
+    <icon src="https://images.open-epg.com/15938.png" />
+    <display-name>Akaal Channel.uk</display-name>
+  </channel>
+  <channel id="EFLLeicesterCity.uk">
+    <icon src="https://images.open-epg.com/16501908.png" />
+    <display-name>Leicester City.uk</display-name>
+  </channel>
+  <channel id="BBCTwoWales.uk">
+    <icon src="https://images.open-epg.com/x370.png" />
+    <display-name>BBC Two Wales.uk</display-name>
+  </channel>
+  <channel id="4Seven.uk">
+    <icon src="https://images.open-epg.com/15927.png" />
+    <display-name>4Seven.uk</display-name>
+  </channel>
+  <channel id="LoveWorld.uk">
+    <icon src="https://images.open-epg.com/16131.png" />
+    <display-name>LoveWorld.uk</display-name>
+  </channel>
+  <channel id="ZeeCinema.uk">
+    <icon src="https://images.open-epg.com/16348.png" />
+    <display-name>Zee Cinema.uk</display-name>
+  </channel>
+  <channel id="Food Network.fi">
+    <display-name>Food Network.fi</display-name>
+  </channel>
+  <channel id="DiscoveryScience.uk">
+    <icon src="https://images.open-epg.com/21521.png" />
+    <display-name>Discovery Science.uk</display-name>
+  </channel>
+  <channel id="CartoonClassics.uk">
+    <icon src="https://images.open-epg.com/8459190.png" />
+    <display-name>Cartoon Classics.uk</display-name>
+  </channel>
+  <channel id="MTV Viihde.fi">
+    <display-name>MTV Viihde.fi</display-name>
+  </channel>
+  <channel id="UandRealHeroes.uk">
+    <icon src="https://images.open-epg.com/19182.png" />
+    <display-name>U&amp;Real Heroes.uk</display-name>
+  </channel>
+  <channel id="EPLLiverpool.uk">
+    <icon src="https://images.open-epg.com/16501912.png" />
+    <display-name>iverpool.uk</display-name>
+  </channel>
+  <channel id="Animal Planet.fi">
+    <display-name>Animal Planet.fi</display-name>
+  </channel>
+  <channel id="GeoNews.uk">
+    <icon src="https://images.open-epg.com/16078.png" />
+    <display-name>Geo News.uk</display-name>
+  </channel>
+  <channel id="EFLCardiffCity.uk">
+    <icon src="https://images.open-epg.com/16501649.png" />
+    <display-name>Cardiff City.uk</display-name>
+  </channel>
+  <channel id="5Plus1.uk">
+    <icon src="https://images.open-epg.com/x890.png" />
+    <display-name>5 +1.uk</display-name>
+  </channel>
+  <channel id="IQRABangla.uk">
+    <icon src="https://images.open-epg.com/16107.png" />
+    <display-name>IQRA Bangla.uk</display-name>
+  </channel>
+  <channel id="QVC2.uk">
+    <icon src="https://images.open-epg.com/13087.png" />
+    <display-name>QVC2.uk</display-name>
+  </channel>
+  <channel id="ITV1GranadaPlus1.uk">
+    <icon src="https://images.open-epg.com/x396.png" />
+    <display-name>ITV Granada +1.uk</display-name>
+  </channel>
+  <channel id="National Geographic.fi">
+    <display-name>National Geographic.fi</display-name>
+  </channel>
+  <channel id="YourChristmas.uk">
+    <icon src="https://images.open-epg.com/x2355.png" />
+    <display-name>Your Christmas.uk</display-name>
+  </channel>
+  <channel id="SkySportsMainEvent.uk">
+    <icon src="https://images.open-epg.com/x468.png" />
+    <display-name>Sky Sports Main Event.uk</display-name>
+  </channel>
+  <channel id="EFLSwanseaCity.uk">
+    <icon src="https://images.open-epg.com/16502313.png" />
+    <display-name>Swansea City.uk</display-name>
+  </channel>
+  <channel id="iConcerts.fi">
+    <display-name>iConcerts.fi</display-name>
+  </channel>
+  <channel id="France 2.fi">
+    <display-name>France 2.fi</display-name>
+  </channel>
+  <channel id="EPLFulham.uk">
+    <icon src="https://images.open-epg.com/16501803.png" />
+    <display-name>Fulham.uk</display-name>
+  </channel>
+  <channel id="DealOrNoDeal.uk">
+    <icon src="https://images.open-epg.com/19060.png" />
+    <display-name>Deal Or No Deal.uk</display-name>
+  </channel>
+  <channel id="EFLBarnsley.uk">
+    <icon src="https://images.open-epg.com/16501569.png" />
+    <display-name>Barnsley.uk</display-name>
+  </channel>
+  <channel id="BBCNews.uk">
+    <icon src="https://images.open-epg.com/x374.png" />
+    <display-name>BBC News.uk</display-name>
+  </channel>
+  <channel id="IQRATV.uk">
+    <icon src="https://images.open-epg.com/16108.png" />
+    <display-name>IQRA TV.uk</display-name>
+  </channel>
+  <channel id="Now80s.uk">
+    <icon src="https://images.open-epg.com/16166.png" />
+    <display-name>Now 80s.uk</display-name>
+  </channel>
+  <channel id="Extreme Sports.fi">
+    <display-name>Extreme Sports.fi</display-name>
+  </channel>
+  <channel id="SkySportsPlus.uk">
+    <icon src="https://images.open-epg.com/x473.png" />
+    <display-name>Sky Sports+.uk</display-name>
+  </channel>
+  <channel id="MTV Liiga 8.fi">
+    <display-name>MTV Liiga 8.fi</display-name>
+  </channel>
+  <channel id="RTL Television.fi">
+    <display-name>RTL Television.fi</display-name>
+  </channel>
+  <channel id="Now70s.uk">
+    <icon src="https://images.open-epg.com/16165.png" />
+    <display-name>Now 70s.uk</display-name>
+  </channel>
+  <channel id="TJC.uk">
+    <icon src="https://images.open-epg.com/13187.png" />
+    <display-name>TJC.uk</display-name>
+  </channel>
+  <channel id="France 24.fi">
+    <display-name>France 24.fi</display-name>
+  </channel>
+  <channel id="TNTSports6.uk">
+    <icon src="https://images.open-epg.com/13201.png" />
+    <display-name>TNT Sports 6.uk</display-name>
+  </channel>
+  <channel id="IDPlus1.uk">
+    <icon src="https://images.open-epg.com/16103.png" />
+    <display-name>ID +1.uk</display-name>
+  </channel>
+  <channel id="BBCOneYorks.uk">
+    <icon src="https://images.open-epg.com/x364.png" />
+    <display-name>BBC One Yorkshire.uk</display-name>
+  </channel>
+  <channel id="NHKWorld.uk">
+    <icon src="https://images.open-epg.com/16155.png" />
+    <display-name>NHK World.uk</display-name>
+  </channel>
+  <channel id="SPFLMotherwell.uk">
+    <icon src="https://images.open-epg.com/16501939.png" />
+    <display-name>SPFL Motherwell.uk</display-name>
+  </channel>
+  <channel id="ITV1CI.uk">
+    <icon src="https://images.open-epg.com/x379.png" />
+    <display-name>ITV1 Channel Islands.uk</display-name>
+  </channel>
+  <channel id="LocalTVLiverpool.uk">
+    <icon src="https://images.open-epg.com/x524.png" />
+    <display-name>Local TV Liverpool.uk</display-name>
+  </channel>
+  <channel id="LFCTV.uk">
+    <icon src="https://images.open-epg.com/x463.png" />
+    <display-name>LFC TV.uk</display-name>
+  </channel>
+  <channel id="LocalTVLeeds.uk">
+    <icon src="https://images.open-epg.com/x514.png" />
+    <display-name>Local TV Leeds.uk</display-name>
+  </channel>
+  <channel id="BBCOneWest.uk">
+    <icon src="https://images.open-epg.com/x364.png" />
+    <display-name>BBC One West.uk</display-name>
+  </channel>
+  <channel id="TNTSports9.uk">
+    <icon src="https://images.open-epg.com/13207.png" />
+    <display-name>TNT Sports 9.uk</display-name>
+  </channel>
+  <channel id="EFLBlackburnRovers.uk">
+    <icon src="https://images.open-epg.com/16501626.png" />
+    <display-name>Blackburn Rovers.uk</display-name>
+  </channel>
+  <channel id="E4Plus1.uk">
+    <icon src="https://images.open-epg.com/16059.png" />
+    <display-name>E4 +1.uk</display-name>
+  </channel>
+  <channel id="EFLDoncasterRovers.uk">
+    <icon src="https://images.open-epg.com/16501720.png" />
+    <display-name>Doncaster Rovers.uk</display-name>
+  </channel>
+  <channel id="TNTSportsBoxOffice1.uk">
+    <icon src="https://images.open-epg.com/13209.png" />
+    <display-name>TNT Sports Box Office 1.uk</display-name>
+  </channel>
+  <channel id="LegendXtraPlus1.uk">
+    <icon src="https://images.open-epg.com/16127.png" />
+    <display-name>Legend Xtra +1.uk</display-name>
+  </channel>
+  <channel id="PurposeMedia.uk">
+    <icon src="https://images.open-epg.com/13082.png" />
+    <display-name>Purpose Media.uk</display-name>
+  </channel>
+  <channel id="V film hits.fi">
+    <display-name>V film hits.fi</display-name>
+  </channel>
+  <channel id="SPFLHibernian.uk">
+    <icon src="https://images.open-epg.com/16501842.png" />
+    <display-name>SPFL Hibernian.uk</display-name>
+  </channel>
+  <channel id="ShopUnlimited.uk">
+    <icon src="https://images.open-epg.com/x1640.png" />
+    <display-name>Shop Unlimited.uk</display-name>
+  </channel>
+  <channel id="SkyKids.uk">
+    <icon src="https://images.open-epg.com/x596.png" />
+    <display-name>Sky Kids.uk</display-name>
+  </channel>
+  <channel id="EFLCrawleyTown.uk">
+    <icon src="https://images.open-epg.com/16501686.png" />
+    <display-name>Crawley Town.uk</display-name>
+  </channel>
+  <channel id="AajTak.uk">
+    <icon src="https://images.open-epg.com/15934.png" />
+    <display-name>AajTak.uk</display-name>
+  </channel>
+  <channel id="3sat.fi">
+    <display-name>3sat.fi</display-name>
+  </channel>
+  <channel id="SmileTV3.uk">
+    <icon src="https://images.open-epg.com/12940.png" />
+    <display-name>smileTV3.uk</display-name>
+  </channel>
+  <channel id="EFLNorwichCity.uk">
+    <icon src="https://images.open-epg.com/16501988.png" />
+    <display-name>Norwich City.uk</display-name>
+  </channel>
+  <channel id="UandW.uk">
+    <icon src="https://images.open-epg.com/x825.png" />
+    <display-name>U&amp;W.uk</display-name>
+  </channel>
+  <channel id="EFLBurnley.uk">
+    <icon src="https://images.open-epg.com/16501644.png" />
+    <display-name>Burnley.uk</display-name>
+  </channel>
+  <channel id="SkySportsFootball.uk">
+    <icon src="https://images.open-epg.com/x469.png" />
+    <display-name>Sky Sports Football.uk</display-name>
+  </channel>
+  <channel id="EFLTranmereRovers.uk">
+    <icon src="https://images.open-epg.com/16502357.png" />
+    <display-name>Tranmer Rovers.uk</display-name>
+  </channel>
+  <channel id="Legend.uk">
+    <icon src="https://images.open-epg.com/16128.png" />
+    <display-name>Legend.uk</display-name>
+  </channel>
+  <channel id="Eurosport.fi">
+    <display-name>Eurosport.fi</display-name>
+  </channel>
+  <channel id="MBC.uk">
+    <icon src="https://images.open-epg.com/13058.png" />
+    <display-name>MBC.uk</display-name>
+  </channel>
+  <channel id="Viasat Explore.fi">
+    <display-name>Viasat Explore.fi</display-name>
+  </channel>
+  <channel id="GoldRadio.uk">
+    <icon src="https://images.open-epg.com/16081.png" />
+    <display-name>Gold Radio.uk</display-name>
+  </channel>
+  <channel id="Colors.uk">
+    <icon src="https://images.open-epg.com/16029.png" />
+    <display-name>Colors.uk</display-name>
+  </channel>
+  <channel id="EFLPrestonNorthEnd.uk">
+    <icon src="https://images.open-epg.com/16502030.png" />
+    <display-name>Preston North End.uk</display-name>
+  </channel>
+  <channel id="Revelation.uk">
+    <icon src="https://images.open-epg.com/16198.png" />
+    <display-name>Revelation.uk</display-name>
+  </channel>
+  <channel id="Boomerang.uk">
+    <icon src="https://images.open-epg.com/16001.png" />
+    <display-name>Boomerang.uk</display-name>
+  </channel>
+  <channel id="CHSTV.uk">
+    <icon src="https://images.open-epg.com/16021.png" />
+    <display-name>CHS TV.uk</display-name>
+  </channel>
+  <channel id="ITV4Plus1.uk">
+    <icon src="https://images.open-epg.com/x399.png" />
+    <display-name>ITV4 +1.uk</display-name>
+  </channel>
+  <channel id="NatGeoWild.uk">
+    <icon src="https://images.open-epg.com/16149.png" />
+    <display-name>Nat Geo Wild.uk</display-name>
+  </channel>
+  <channel id="Liv.fi">
+    <display-name>Liv.fi</display-name>
+  </channel>
+  <channel id="BBCThree.uk">
+    <icon src="https://images.open-epg.com/x372.png" />
+    <display-name>BBC Three.uk</display-name>
+  </channel>
+  <channel id="V film premiere.fi">
+    <display-name>V film premiere.fi</display-name>
+  </channel>
+  <channel id="EFLStokeCity.uk">
+    <icon src="https://images.open-epg.com/16502303.png" />
+    <display-name>Stoke City.uk</display-name>
+  </channel>
+  <channel id="SkySportsNews.uk">
+    <icon src="https://images.open-epg.com/x482.png" />
+    <display-name>Sky Sports News.uk</display-name>
+  </channel>
+  <channel id="Channels24.uk">
+    <icon src="https://images.open-epg.com/16017.png" />
+    <display-name>Channels 24.uk</display-name>
+  </channel>
+  <channel id="Hero HD.fi">
+    <display-name>Hero HD.fi</display-name>
+  </channel>
+  <channel id="RacingTV.uk">
+    <icon src="https://images.open-epg.com/19139.png" />
+    <display-name>Racing TV.uk</display-name>
+  </channel>
+  <channel id="GoodNewsTV.uk">
+    <icon src="https://images.open-epg.com/17963939.png" />
+    <display-name>Good News TV.uk</display-name>
+  </channel>
+  <channel id="ThatsTV.uk">
+    <icon src="https://images.open-epg.com/16289.png" />
+    <display-name>Thats TV.uk</display-name>
+  </channel>
+  <channel id="LBCNews.uk">
+    <icon src="https://images.open-epg.com/16124.png" />
+    <display-name>LBC News.uk</display-name>
+  </channel>
+  <channel id="FaithWorldTV.uk">
+    <icon src="https://images.open-epg.com/16068.png" />
+    <display-name>Faith World TV.uk</display-name>
+  </channel>
+  <channel id="SkyCrimePlus1.uk">
+    <icon src="https://images.open-epg.com/x533.png" />
+    <display-name>Sky Crime +1.uk</display-name>
+  </channel>
+  <channel id="TogetherTVPlus1.uk">
+    <icon src="https://images.open-epg.com/13211.png" />
+    <display-name>Together TV +1.uk</display-name>
+  </channel>
+  <channel id="ZeeTV.uk">
+    <icon src="https://images.open-epg.com/16351.png" />
+    <display-name>Zee TV.uk</display-name>
+  </channel>
+  <channel id="EFLNottsCounty.uk">
+    <icon src="https://images.open-epg.com/16501990.png" />
+    <display-name>Notts County.uk</display-name>
+  </channel>
+  <channel id="EFLCharltonAthletic.uk">
+    <icon src="https://images.open-epg.com/16501664.png" />
+    <display-name>Charlton Athletic.uk</display-name>
+  </channel>
+  <channel id="ColorsCineplex.uk">
+    <icon src="https://images.open-epg.com/16030.png" />
+    <display-name>Colors Cineplex.uk</display-name>
+  </channel>
+  <channel id="QTVReligious.uk">
+    <icon src="https://images.open-epg.com/16184.png" />
+    <display-name>QTV Religious.uk</display-name>
+  </channel>
+  <channel id="IslamChannelUrdu.uk">
+    <icon src="https://images.open-epg.com/16110.png" />
+    <display-name>Islam Channel Urdu.uk</display-name>
+  </channel>
+  <channel id="SonyTVAsia.uk">
+    <icon src="https://images.open-epg.com/19160.png" />
+    <display-name>Sony TV Asia.uk</display-name>
+  </channel>
+  <channel id="SPFLDundee.uk">
+    <icon src="https://images.open-epg.com/16501722.png" />
+    <display-name>SPFL Dundee.uk</display-name>
+  </channel>
+  <channel id="MEZZO.fi">
+    <display-name>MEZZO.fi</display-name>
+  </channel>
+  <channel id="WildEarth.uk">
+    <icon src="https://images.open-epg.com/13232.png" />
+    <display-name>Wild Earth.uk</display-name>
+  </channel>
+  <channel id="NewMediaTV.uk">
+    <icon src="https://images.open-epg.com/1075561.png" />
+    <display-name>New Media TV.uk</display-name>
+  </channel>
+  <channel id="EPLIpswichTown.uk">
+    <icon src="https://images.open-epg.com/16501858.png" />
+    <display-name>Ipswich Town.uk</display-name>
+  </channel>
+  <channel id="EPLHullCity.uk">
+    <icon src="https://images.open-epg.com/16501850.png" />
+    <display-name>Hull City.uk</display-name>
+  </channel>
+  <channel id="Movies24Plus.uk">
+    <icon src="https://images.open-epg.com/19109.png" />
+    <display-name>Movies 24+.uk</display-name>
+  </channel>
+  <channel id="EFLCambridgeUnited.uk">
+    <icon src="https://images.open-epg.com/16501646.png" />
+    <display-name>Cambridge United.uk</display-name>
+  </channel>
+  <channel id="V sport golf.fi">
+    <display-name>V sport golf.fi</display-name>
+  </channel>
+  <channel id="5Action.uk">
+    <icon src="https://images.open-epg.com/15929.png" />
+    <display-name>5Action.uk</display-name>
+  </channel>
+  <channel id="Trailblazer.uk">
+    <icon src="https://images.open-epg.com/13214.png" />
+    <display-name>Trailblazer.uk</display-name>
+  </channel>
+  <channel id="SkyMix.uk">
+    <icon src="https://images.open-epg.com/x593.png" />
+    <display-name>Sky Mix.uk</display-name>
+  </channel>
+  <channel id="BBCOneScotland.uk">
+    <icon src="https://images.open-epg.com/x367.png" />
+    <display-name>BBC One Scotland.uk</display-name>
+  </channel>
+  <channel id="V sport live 1.fi">
+    <display-name>V sport live 1.fi</display-name>
+  </channel>
+  <channel id="TraceSportStars.uk">
+    <icon src="https://images.open-epg.com/19171.png" />
+    <display-name>Trace Sport Stars.uk</display-name>
+  </channel>
+  <channel id="MysteryX.uk">
+    <icon src="https://images.open-epg.com/24104.png" />
+    <display-name>MysteryX.uk</display-name>
+  </channel>
+  <channel id="EFLChesterfield.uk">
+    <icon src="https://images.open-epg.com/16501667.png" />
+    <display-name>Chesterfield.uk</display-name>
+  </channel>
+  <channel id="ITV2.uk">
+    <icon src="https://images.open-epg.com/x381.png" />
+    <display-name>ITV2.uk</display-name>
+  </channel>
+  <channel id="SVT2.fi">
+    <display-name>SVT2.fi</display-name>
+  </channel>
+  <channel id="France24.uk">
+    <icon src="https://images.open-epg.com/16075.png" />
+    <display-name>France24.uk</display-name>
+  </channel>
+  <channel id="CartoonNetworkPlus1.uk">
+    <icon src="https://images.open-epg.com/19043.png" />
+    <display-name>Cartoon Network +1.uk</display-name>
+  </channel>
+  <channel id="IslamBangla.uk">
+    <icon src="https://images.open-epg.com/16109.png" />
+    <display-name>Islam Bangla.uk</display-name>
+  </channel>
+  <channel id="DisneyJr.uk">
+    <icon src="https://images.open-epg.com/x509.png" />
+    <display-name>Disney Jr..uk</display-name>
+  </channel>
+  <channel id="DiscoveryHistory.uk">
+    <icon src="https://images.open-epg.com/21519.png" />
+    <display-name>Discovery History.uk</display-name>
+  </channel>
+  <channel id="BBCRB1.uk">
+    <icon src="https://images.open-epg.com/x376.png" />
+    <display-name>BBC Red Button 1.uk</display-name>
+  </channel>
+  <channel id="EFLSouthampton.uk">
+    <icon src="https://images.open-epg.com/16502237.png" />
+    <display-name>Southampton.uk</display-name>
+  </channel>
+  <channel id="EFLBristolRovers.uk">
+    <icon src="https://images.open-epg.com/16501640.png" />
+    <display-name>Bristol Rovers.uk</display-name>
+  </channel>
+  <channel id="EFLWiganAthletic.uk">
+    <icon src="https://images.open-epg.com/16502404.png" />
+    <display-name>Wigan Athletic.uk</display-name>
+  </channel>
+  <channel id="PCNEChinese.uk">
+    <icon src="https://images.open-epg.com/16174.png" />
+    <display-name>PCNE Chinese.uk</display-name>
+  </channel>
+  <channel id="MTV Liiga 3.fi">
+    <display-name>MTV Liiga 3.fi</display-name>
+  </channel>
+  <channel id="GreatTVPlus1.uk">
+    <icon src="https://images.open-epg.com/x461.png" />
+    <display-name>Great! TV +1.uk</display-name>
+  </channel>
+  <channel id="KetchupTV.uk">
+    <icon src="https://images.open-epg.com/13054.png" />
+    <display-name>Ketchup TV.uk</display-name>
+  </channel>
+  <channel id="Frii HD.fi">
+    <display-name>Frii HD.fi</display-name>
+  </channel>
+  <channel id="BBCWorldService.uk">
+    <icon src="https://images.open-epg.com/x507.png" />
+    <display-name>BBC World Service.uk</display-name>
+  </channel>
+  <channel id="BBCAlba.uk">
+    <icon src="https://images.open-epg.com/x363.png" />
+    <display-name>BBC Alba.uk</display-name>
+  </channel>
+  <channel id="Nat Geo Wild.fi">
+    <display-name>Nat Geo Wild.fi</display-name>
+  </channel>
+  <channel id="Viaplay TV.fi">
+    <display-name>Viaplay TV.fi</display-name>
+  </channel>
+  <channel id="HighStreetTV4.uk">
+    <icon src="https://images.open-epg.com/16098.png" />
+    <display-name>High Street TV 4.uk</display-name>
+  </channel>
+  <channel id="V film family.fi">
+    <display-name>V film family.fi</display-name>
+  </channel>
+  <channel id="HorseTV HD.fi">
+    <display-name>HorseTV HD.fi</display-name>
+  </channel>
+  <channel id="Yle Teema And Fem.fi">
+    <display-name>Yle Teema And Fem.fi</display-name>
+  </channel>
+  <channel id="TV5.fi">
+    <display-name>TV5.fi</display-name>
+  </channel>
+  <channel id="EFLExeterCity.uk">
+    <icon src="https://images.open-epg.com/16501789.png" />
+    <display-name>Exeter City.uk</display-name>
+  </channel>
+  <channel id="SonLife.uk">
+    <icon src="https://images.open-epg.com/16272.png" />
+    <display-name>SonLife.uk</display-name>
+  </channel>
+  <channel id="MTV Urheilu 2.fi">
+    <display-name>MTV Urheilu 2.fi</display-name>
+  </channel>
+  <channel id="Yle TV1.fi">
+    <display-name>Yle TV1.fi</display-name>
+  </channel>
+  <channel id="SkyNature.uk">
+    <icon src="https://images.open-epg.com/x601.png" />
+    <display-name>Sky Nature.uk</display-name>
+  </channel>
+  <channel id="Talk.uk">
+    <icon src="https://images.open-epg.com/13177.png" />
+    <display-name>Talk.uk</display-name>
+  </channel>
+  <channel id="TNTSports8.uk">
+    <icon src="https://images.open-epg.com/13205.png" />
+    <display-name>TNT Sports 8.uk</display-name>
+  </channel>
+  <channel id="ID.uk">
+    <icon src="https://images.open-epg.com/16102.png" />
+    <display-name>ID.uk</display-name>
+  </channel>
+  <channel id="Cruise1stTV.uk">
+    <icon src="https://images.open-epg.com/16041.png" />
+    <display-name>Cruise1st TV.uk</display-name>
+  </channel>
+  <channel id="EPLAstonVilla.uk">
+    <icon src="https://images.open-epg.com/16501560.png" />
+    <display-name>Aston Villa.uk</display-name>
+  </channel>
+  <channel id="E4.uk">
+    <icon src="https://images.open-epg.com/16058.png" />
+    <display-name>E4.uk</display-name>
+  </channel>
+  <channel id="SkyCrime.uk">
+    <icon src="https://images.open-epg.com/x597.png" />
+    <display-name>Sky Crime.uk</display-name>
+  </channel>
+  <channel id="IslamChannel.uk">
+    <icon src="https://images.open-epg.com/16111.png" />
+    <display-name>Islam Channel.uk</display-name>
+  </channel>
+  <channel id="TV5MONDE.fi">
+    <display-name>TV5MONDE.fi</display-name>
+  </channel>
+  <channel id="EFLLincolnCity.uk">
+    <icon src="https://images.open-epg.com/x1923.png" />
+    <display-name>Lincoln City.uk</display-name>
+  </channel>
+  <channel id="MustHaveIdeas.uk">
+    <icon src="https://images.open-epg.com/3164594.png" />
+    <display-name>Must Have Ideas.uk</display-name>
+  </channel>
+  <channel id="SPFLCeltic.uk">
+    <icon src="https://images.open-epg.com/16501656.png" />
+    <display-name>SPFL Celtic.uk</display-name>
+  </channel>
+  <channel id="EPLManchesterUnited.uk">
+    <icon src="https://images.open-epg.com/16501930.png" />
+    <display-name>Manchester United.uk</display-name>
+  </channel>
+  <channel id="EFLWestBromwichAlbion.uk">
+    <icon src="https://images.open-epg.com/16502402.png" />
+    <display-name>West Bromwich Albion.uk</display-name>
+  </channel>
+  <channel id="EFLSalfordCity.uk">
+    <icon src="https://images.open-epg.com/16502067.png" />
+    <display-name>Salford City.uk</display-name>
+  </channel>
+  <channel id="EFLMiltonKeynesDons.uk">
+    <icon src="https://images.open-epg.com/16501935.png" />
+    <display-name>Milton Keynes Dons.uk</display-name>
+  </channel>
+  <channel id="Yle TV2.fi">
+    <display-name>Yle TV2.fi</display-name>
+  </channel>
+  <channel id="Aastha.uk">
+    <icon src="https://images.open-epg.com/15935.png" />
+    <display-name>Aastha.uk</display-name>
+  </channel>
+  <channel id="ITV1Yorkshire.uk">
+    <icon src="https://images.open-epg.com/x379.png" />
+    <display-name>ITV1 Yorkshire.uk</display-name>
+  </channel>
+  <channel id="EPLEverton.uk">
+    <icon src="https://images.open-epg.com/16501787.png" />
+    <display-name>Everton.uk</display-name>
+  </channel>
+  <channel id="NTD.uk">
+    <icon src="https://images.open-epg.com/16169.png" />
+    <display-name>NTD.uk</display-name>
+  </channel>
+  <channel id="GreatAction.uk">
+    <icon src="https://images.open-epg.com/x456.png" />
+    <display-name>Great! Action.uk</display-name>
+  </channel>
+  <channel id="BBCOne.uk">
+    <icon src="https://images.open-epg.com/x364.png" />
+    <display-name>BBC One.uk</display-name>
+  </channel>
+  <channel id="TrueCrimePlus1.uk">
+    <icon src="https://images.open-epg.com/16312.png" />
+    <display-name>True Crime +1.uk</display-name>
+  </channel>
+  <channel id="MTV Urheilu 1.fi">
+    <display-name>MTV Urheilu 1.fi</display-name>
+  </channel>
+  <channel id="DiscoveryTurboPlus1.uk">
+    <icon src="https://images.open-epg.com/16049.png" />
+    <display-name>Discovery Turbo +1.uk</display-name>
+  </channel>
+  <channel id="PremierSports2.uk">
+    <icon src="https://images.open-epg.com/x921.png" />
+    <display-name>Premier Sports 2.uk</display-name>
+  </channel>
+  <channel id="ITV1LondonPlus1.uk">
+    <icon src="https://images.open-epg.com/x396.png" />
+    <display-name>ITV1 London +1.uk</display-name>
+  </channel>
+  <channel id="Kutonen.fi">
+    <display-name>Kutonen.fi</display-name>
+  </channel>
+  <channel id="EFLPortVale.uk">
+    <icon src="https://images.open-epg.com/16502024.png" />
+    <display-name>Port Vale.uk</display-name>
+  </channel>
+  <channel id="AlarabyNetwork.uk">
+    <icon src="https://images.open-epg.com/1953090.png" />
+    <display-name>Alaraby Network.uk</display-name>
+  </channel>
+  <channel id="SkyCinemaFamily.uk">
+    <icon src="https://images.open-epg.com/x500.png" />
+    <display-name>Sky Cinema Family.uk</display-name>
+  </channel>
+  <channel id="Challenge.uk">
+    <icon src="https://images.open-epg.com/16011.png" />
+    <display-name>Challenge.uk</display-name>
+  </channel>
+  <channel id="EPLChelsea.uk">
+    <icon src="https://images.open-epg.com/16501665.png" />
+    <display-name>Chelsea.uk</display-name>
+  </channel>
+  <channel id="FoodNetworkPlus1.uk">
+    <icon src="https://images.open-epg.com/16074.png" />
+    <display-name>Food Network +1.uk</display-name>
+  </channel>
+  <channel id="ItIsWrittenTV.uk">
+    <icon src="https://images.open-epg.com/1075556.png" />
+    <display-name>It Is Written TV.uk</display-name>
+  </channel>
+  <channel id="MTV Liiga 5.fi">
+    <display-name>MTV Liiga 5.fi</display-name>
+  </channel>
+  <channel id="SkyAtlanticPlus1.uk">
+    <icon src="https://images.open-epg.com/x530.png" />
+    <display-name>Sky Atlantic +1.uk</display-name>
+  </channel>
+  <channel id="CrimeandInvestigationPlus1.uk">
+    <icon src="https://images.open-epg.com/16040.png" />
+    <display-name>Crime And Investigation +1.uk</display-name>
+  </channel>
+  <channel id="MTV Max.fi">
+    <display-name>MTV Max.fi</display-name>
+  </channel>
+  <channel id="EFLSheffieldUnited.uk">
+    <icon src="https://images.open-epg.com/16502072.png" />
+    <display-name>Sheffield United.uk</display-name>
+  </channel>
+  <channel id="EFLAccringtonStanley.uk">
+    <icon src="https://images.open-epg.com/16501492.png" />
+    <display-name>Accrington Stanley.uk</display-name>
+  </channel>
+  <channel id="5.uk">
+    <icon src="https://images.open-epg.com/x888.png" />
+    <display-name>5.uk</display-name>
+  </channel>
+  <channel id="SPFLRossCounty.uk">
+    <icon src="https://images.open-epg.com/16502054.png" />
+    <display-name>SPFL Ross County.uk</display-name>
+  </channel>
+  <channel id="MTV3.fi">
+    <display-name>MTV3.fi</display-name>
+  </channel>
+  <channel id="HistoryHit.uk">
+    <icon src="https://images.open-epg.com/19084.png" />
+    <display-name>History Hit.uk</display-name>
+  </channel>
+  <channel id="SPFLFalkirk.uk">
+    <icon src="https://images.open-epg.com/16501792.png" />
+    <display-name>SPFL Falkirk.uk</display-name>
+  </channel>
+  <channel id="CrimeandInvestigation.uk">
+    <icon src="https://images.open-epg.com/16039.png" />
+    <display-name>Crime And Investigation.uk</display-name>
+  </channel>
+  <channel id="EFLBradfordCity.uk">
+    <icon src="https://images.open-epg.com/16501635.png" />
+    <display-name>Bradford City.uk</display-name>
+  </channel>
+  <channel id="More4.uk">
+    <icon src="https://images.open-epg.com/16135.png" />
+    <display-name>More4.uk</display-name>
+  </channel>
+  <channel id="NationalGeographicPlus1.uk">
+    <icon src="https://images.open-epg.com/16151.png" />
+    <display-name>National Geographic +1.uk</display-name>
+  </channel>
+  <channel id="NickJrPlus1.uk">
+    <icon src="https://images.open-epg.com/16159.png" />
+    <display-name>Nick Jr. +1.uk</display-name>
+  </channel>
+  <channel id="UandAlibi.uk">
+    <icon src="https://images.open-epg.com/x830.png" />
+    <display-name>U&amp;Alibi.uk</display-name>
+  </channel>
+  <channel id="BBCRadio1Xtra.uk">
+    <icon src="https://images.open-epg.com/12960.png" />
+    <display-name>BBC Radio 1Xtra.uk</display-name>
+  </channel>
+  <channel id="SPFLRangers.uk">
+    <icon src="https://images.open-epg.com/16502046.png" />
+    <display-name>SPFL Rangers.uk</display-name>
+  </channel>
+  <channel id="QuestPlus1.uk">
+    <icon src="https://images.open-epg.com/19134.png" />
+    <display-name>Quest +1.uk</display-name>
+  </channel>
+  <channel id="SkySportsPremierLeague.uk">
+    <icon src="https://images.open-epg.com/x467.png" />
+    <display-name>Sky Sports Premier League.uk</display-name>
+  </channel>
+  <channel id="TLC.fi">
+    <display-name>TLC.fi</display-name>
+  </channel>
+  <channel id="BBCThreeCBBC.uk">
+    <icon src="https://images.open-epg.com/x372.png" />
+    <display-name>BBC Three / CBBC.uk</display-name>
+  </channel>
+  <channel id="Bloomberg.fi">
+    <display-name>Bloomberg.fi</display-name>
+  </channel>
+  <channel id="UtsavBharat.uk">
+    <icon src="https://images.open-epg.com/16337.png" />
+    <display-name>Utsav Bharat.uk</display-name>
+  </channel>
+  <channel id="BritAsiaTV.uk">
+    <icon src="https://images.open-epg.com/18929281.png" />
+    <display-name>Brit Asia TV.uk</display-name>
+  </channel>
+  <channel id="Nautical Channel.fi">
+    <display-name>Nautical Channel.fi</display-name>
+  </channel>
+  <channel id="SonySAB.uk">
+    <icon src="https://images.open-epg.com/16276.png" />
+    <display-name>Sony SAB.uk</display-name>
+  </channel>
+  <channel id="TV6.fi">
+    <display-name>TV6.fi</display-name>
   </channel>
   <programme channel="4Seven.uk" start="20261029235000 +0000" stop="20261030005000 +0000">
     <title>Kevin McCloud&apos;s Classic Car Road Trips</title>
