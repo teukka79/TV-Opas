@@ -70,6 +70,11 @@
     "symbolID" : "logo-mtv-liiga-7-fi"
   },
   {
+    "channelID" : "MTV Sub.fi",
+    "name" : "sub",
+    "symbolID" : "logo-sub"
+  },
+  {
     "channelID" : "MTV Urheilu 1.fi",
     "name" : "MTV Urheilu 1",
     "symbolID" : "logo-mtv-urheilu-1"
@@ -86,7 +91,7 @@
   },
   {
     "channelID" : "MTV3.fi",
-    "name" : "MTV3-muokattu",
+    "name" : "MTV3",
     "symbolID" : "logo-mtv3"
   },
   {
@@ -101,7 +106,7 @@
   },
   {
     "channelID" : "Nelonen.fi",
-    "name" : "nelonen-muokattu",
+    "name" : "nelonen",
     "symbolID" : "logo-nelonen"
   },
   {
