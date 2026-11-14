@@ -5,6 +5,11 @@
     "symbolID" : "logo-bbc-nordic-fi"
   },
   {
+    "channelID" : "CNBC.uk",
+    "name" : "cnbc",
+    "symbolID" : "logo-cnbc"
+  },
+  {
     "channelID" : "Frii HD.fi",
     "name" : "Frii",
     "symbolID" : "logo-frii"
@@ -71,7 +76,7 @@
   },
   {
     "channelID" : "MTV Sub.fi",
-    "name" : "sub",
+    "name" : "logo-sub",
     "symbolID" : "logo-sub"
   },
   {
@@ -120,6 +125,11 @@
     "symbolID" : "logo-premier-sports-2"
   },
   {
+    "channelID" : "STAR Channel.fi",
+    "name" : "Star Channel 2023-muokattu-muokattu",
+    "symbolID" : "logo-star-channel"
+  },
+  {
     "channelID" : "SkyAtlantic.uk",
     "name" : "Sky_Atlantic_2026-muokattu",
     "symbolID" : "logo-sky-atlantic"
@@ -128,6 +138,11 @@
     "channelID" : "SkyComedy.uk",
     "name" : "Sky_Comedy_2026-muokattu",
     "symbolID" : "logo-sky-comedy"
+  },
+  {
+    "channelID" : "SkyCrime.uk",
+    "name" : "Sky_Crime_2026-muokattu",
+    "symbolID" : "logo-sky-crime"
   },
   {
     "channelID" : "SkyDocumentaries.uk",
