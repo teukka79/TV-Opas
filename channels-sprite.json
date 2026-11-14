@@ -1,0 +1,177 @@
+[
+  {
+    "channelID" : "BBC Nordic.fi",
+    "name" : "bbc-nordic-fi",
+    "symbolID" : "logo-bbc-nordic-fi"
+  },
+  {
+    "channelID" : "Frii HD.fi",
+    "name" : "Frii",
+    "symbolID" : "logo-frii"
+  },
+  {
+    "channelID" : "Hero HD.fi",
+    "name" : "Hero-muokattu",
+    "symbolID" : "logo-hero"
+  },
+  {
+    "channelID" : "Jim.fi",
+    "name" : "jim-muokattu",
+    "symbolID" : "logo-jim"
+  },
+  {
+    "channelID" : "Kutonen.fi",
+    "name" : "kutonen",
+    "symbolID" : "logo-kutonen"
+  },
+  {
+    "channelID" : "Liv.fi",
+    "name" : "liv-muokattu",
+    "symbolID" : "logo-liv"
+  },
+  {
+    "channelID" : "MTV Ava.fi",
+    "name" : "AVA-muokattu",
+    "symbolID" : "logo-ava"
+  },
+  {
+    "channelID" : "MTV Liiga 1.fi",
+    "name" : "mtv-liiga-1-fi",
+    "symbolID" : "logo-mtv-liiga-1-fi"
+  },
+  {
+    "channelID" : "MTV Liiga 2.fi",
+    "name" : "mtv-liiga-2-fi",
+    "symbolID" : "logo-mtv-liiga-2-fi"
+  },
+  {
+    "channelID" : "MTV Liiga 3.fi",
+    "name" : "mtv-liiga-3-fi",
+    "symbolID" : "logo-mtv-liiga-3-fi"
+  },
+  {
+    "channelID" : "MTV Liiga 4.fi",
+    "name" : "mtv-liiga-4-fi",
+    "symbolID" : "logo-mtv-liiga-4-fi"
+  },
+  {
+    "channelID" : "MTV Liiga 5.fi",
+    "name" : "mtv-liiga-5-fi",
+    "symbolID" : "logo-mtv-liiga-5-fi"
+  },
+  {
+    "channelID" : "MTV Liiga 6.fi",
+    "name" : "mtv-liiga-6-fi",
+    "symbolID" : "logo-mtv-liiga-6-fi"
+  },
+  {
+    "channelID" : "MTV Liiga 7.fi",
+    "name" : "mtv-liiga-7-fi",
+    "symbolID" : "logo-mtv-liiga-7-fi"
+  },
+  {
+    "channelID" : "MTV Urheilu 1.fi",
+    "name" : "MTV Urheilu 1",
+    "symbolID" : "logo-mtv-urheilu-1"
+  },
+  {
+    "channelID" : "MTV Urheilu 2.fi",
+    "name" : "MTV Urheilu 2",
+    "symbolID" : "logo-mtv-urheilu-2"
+  },
+  {
+    "channelID" : "MTV Urheilu 3.fi",
+    "name" : "MTV Urheilu 3",
+    "symbolID" : "logo-mtv-urheilu-3"
+  },
+  {
+    "channelID" : "MTV3.fi",
+    "name" : "MTV3-muokattu",
+    "symbolID" : "logo-mtv3"
+  },
+  {
+    "channelID" : "Nat Geo Wild.fi",
+    "name" : "Nat Geo Wild-muokattu",
+    "symbolID" : "logo-nat-geo-wild"
+  },
+  {
+    "channelID" : "National Geographic.fi",
+    "name" : "National-Geographic-muokattu",
+    "symbolID" : "logo-national-geographic"
+  },
+  {
+    "channelID" : "Nelonen.fi",
+    "name" : "nelonen-muokattu",
+    "symbolID" : "logo-nelonen"
+  },
+  {
+    "channelID" : "PremierSports1.uk",
+    "name" : "Premier_Sports_1",
+    "symbolID" : "logo-premier-sports-1"
+  },
+  {
+    "channelID" : "PremierSports2.uk",
+    "name" : "Premier_Sports_2",
+    "symbolID" : "logo-premier-sports-2"
+  },
+  {
+    "channelID" : "SkyAtlantic.uk",
+    "name" : "Sky_Atlantic_2026-muokattu",
+    "symbolID" : "logo-sky-atlantic"
+  },
+  {
+    "channelID" : "SkyComedy.uk",
+    "name" : "Sky_Comedy_2026-muokattu",
+    "symbolID" : "logo-sky-comedy"
+  },
+  {
+    "channelID" : "SkyDocumentaries.uk",
+    "name" : "Sky_Docs_2026-muokattu",
+    "symbolID" : "logo-sky-docs"
+  },
+  {
+    "channelID" : "SkyKids.uk",
+    "name" : "Sky_Kids_2026-muokattu",
+    "symbolID" : "logo-sky-kids"
+  },
+  {
+    "channelID" : "SkyMix.uk",
+    "name" : "Sky_Mix_2026-muokattu",
+    "symbolID" : "logo-sky-mix"
+  },
+  {
+    "channelID" : "SkyNature.uk",
+    "name" : "Sky_Nature_2026-muokattu",
+    "symbolID" : "logo-sky-nature"
+  },
+  {
+    "channelID" : "SkyOne.uk",
+    "name" : "Sky_One_2026-muokattu",
+    "symbolID" : "logo-sky-one"
+  },
+  {
+    "channelID" : "SkySciFi.uk",
+    "name" : "Sky_Sci-Fi_2026-muokattu",
+    "symbolID" : "logo-sky-sci-fi"
+  },
+  {
+    "channelID" : "SkyWitness.uk",
+    "name" : "Sky_Witness_2026-muokattu",
+    "symbolID" : "logo-sky-witness"
+  },
+  {
+    "channelID" : "TV5.fi",
+    "name" : "tv5",
+    "symbolID" : "logo-tv5"
+  },
+  {
+    "channelID" : "Yle TV1.fi",
+    "name" : "yle-tv1-muokattu",
+    "symbolID" : "logo-yle-tv1"
+  },
+  {
+    "channelID" : "Yle TV2.fi",
+    "name" : "yle-tv2-muokattu",
+    "symbolID" : "logo-yle-tv2"
+  }
+]
