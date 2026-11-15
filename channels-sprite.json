@@ -35,6 +35,11 @@
     "symbolID" : "logo-kutonen"
   },
   {
+    "channelID" : "MTV Ava.fi",
+    "name" : "ava",
+    "symbolID" : "logo-ava"
+  },
+  {
     "channelID" : "MTV Liiga 1.fi",
     "name" : "mtv-liiga-1-fi",
     "symbolID" : "logo-mtv-liiga-1-fi"
