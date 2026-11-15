@@ -110,6 +110,16 @@
     "symbolID" : "logo-nelonen"
   },
   {
+    "channelID" : "SkyHistory.uk",
+    "name" : "sky-history-icon-uk",
+    "symbolID" : "logo-sky-history-icon-uk"
+  },
+  {
+    "channelID" : "SkyHistory2.uk",
+    "name" : "sky-history-2-icon-uk",
+    "symbolID" : "logo-sky-history-2-icon-uk"
+  },
+  {
     "channelID" : "TLC.fi",
     "name" : "TLC",
     "symbolID" : "logo-tlc"
@@ -121,7 +131,7 @@
   },
   {
     "channelID" : "Yle Teema And Fem.fi",
-    "name" : "Yle Teema & Fem",
+    "name" : "logo-yle-teema-fem",
     "symbolID" : "logo-yle-teema-fem"
   }
 ]
