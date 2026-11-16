@@ -115,6 +115,11 @@
     "symbolID" : "logo-nelonen"
   },
   {
+    "channelID" : "STARZ HD (East).us",
+    "name" : "Starz",
+    "symbolID" : "logo-starz-west"
+  },
+  {
     "channelID" : "STARZ HD (West).us",
     "name" : "Starz",
     "symbolID" : "logo-starz-west"
