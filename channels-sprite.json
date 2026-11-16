@@ -105,9 +105,24 @@
     "symbolID" : "logo-mtv3"
   },
   {
+    "channelID" : "MTVHD.us",
+    "name" : "MTVHD",
+    "symbolID" : "logo-mtvhd"
+  },
+  {
     "channelID" : "Nelonen.fi",
     "name" : "nelonen",
     "symbolID" : "logo-nelonen"
+  },
+  {
+    "channelID" : "STARZ HD (West).us",
+    "name" : "Starz",
+    "symbolID" : "logo-starz-west"
+  },
+  {
+    "channelID" : "SYFY.us",
+    "name" : "syfy",
+    "symbolID" : "logo-syfy"
   },
   {
     "channelID" : "SkyHistory.uk",
