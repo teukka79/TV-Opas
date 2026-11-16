@@ -120,6 +120,21 @@
     "symbolID" : "logo-sky-history-2-icon-uk"
   },
   {
+    "channelID" : "Starz Cinema.us",
+    "name" : "Starz-Cinema",
+    "symbolID" : "logo-starz-cinema"
+  },
+  {
+    "channelID" : "Starz Comedy.us",
+    "name" : "Starz-Comedy",
+    "symbolID" : "logo-starz-comedy"
+  },
+  {
+    "channelID" : "Starz Edge.us",
+    "name" : "Starz Edge",
+    "symbolID" : "logo-starz-edge"
+  },
+  {
     "channelID" : "TLC.fi",
     "name" : "TLC",
     "symbolID" : "logo-tlc"
