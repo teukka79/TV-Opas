@@ -5,7 +5,22 @@
     "symbolID" : "logo-bbc-nordic-fi"
   },
   {
+    "channelID" : "BRAVOP.us",
+    "name" : "Bravo",
+    "symbolID" : "logo-bravo"
+  },
+  {
+    "channelID" : "CNBC NORDIC.fi",
+    "name" : "cnbc-us",
+    "symbolID" : "logo-cnbc-us"
+  },
+  {
     "channelID" : "CNBC.uk",
+    "name" : "cnbc-us",
+    "symbolID" : "logo-cnbc-us"
+  },
+  {
+    "channelID" : "CNBC.us",
     "name" : "cnbc-us",
     "symbolID" : "logo-cnbc-us"
   },
@@ -30,9 +45,19 @@
     "symbolID" : "logo-great-action-plus-uk"
   },
   {
+    "channelID" : "Hero HD.fi",
+    "name" : "Hero",
+    "symbolID" : "logo-hero"
+  },
+  {
     "channelID" : "Kutonen.fi",
     "name" : "kutonen",
     "symbolID" : "logo-kutonen"
+  },
+  {
+    "channelID" : "Liv.fi",
+    "name" : "liv-muokattu",
+    "symbolID" : "logo-liv-muokattu"
   },
   {
     "channelID" : "MTV Ava.fi",
@@ -86,7 +111,7 @@
   },
   {
     "channelID" : "MTV Urheilu 1.fi",
-    "name" : "MTV Urheilu 1",
+    "name" : "logo-mtv-urheilu-1",
     "symbolID" : "logo-mtv-urheilu-1"
   },
   {
@@ -96,7 +121,7 @@
   },
   {
     "channelID" : "MTV Urheilu 3.fi",
-    "name" : "MTV Urheilu 3",
+    "name" : "logo-mtv-urheilu-3",
     "symbolID" : "logo-mtv-urheilu-3"
   },
   {
@@ -110,9 +135,19 @@
     "symbolID" : "logo-mtvhd"
   },
   {
+    "channelID" : "National Geographic.fi",
+    "name" : "National-Geographic",
+    "symbolID" : "logo-national-geographic"
+  },
+  {
     "channelID" : "Nelonen.fi",
     "name" : "nelonen",
     "symbolID" : "logo-nelonen"
+  },
+  {
+    "channelID" : "STAR Channel.fi",
+    "name" : "Star",
+    "symbolID" : "logo-star"
   },
   {
     "channelID" : "STARZ HD (East).us",
@@ -163,6 +198,16 @@
     "channelID" : "TV5.fi",
     "name" : "tv5",
     "symbolID" : "logo-tv5"
+  },
+  {
+    "channelID" : "Yle TV1.fi",
+    "name" : "yle-tv1",
+    "symbolID" : "logo-yle-tv1"
+  },
+  {
+    "channelID" : "Yle TV2.fi",
+    "name" : "yle-tv2",
+    "symbolID" : "logo-yle-tv2"
   },
   {
     "channelID" : "Yle Teema And Fem.fi",
