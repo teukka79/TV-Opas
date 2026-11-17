@@ -34,11 +34,12 @@ jobs:
         curl -sL "https://www.open-epg.com/generate/DtpfnFX8Tu.xml.gz" | zcat > custom.xml
 
         # Yhdistetään lähteet vaiheittain tv_merge-komennolla
-        tv_merge -i f4.xml -m uk.xml -o temp.xml
-        tv_merge -i temp.xml -m custom.xml -o opas.xml
+        tv_merge -i f4.xml -m se.xml -o temp1.xml
+        tv_merge -i temp1.xml -m uk.xml -o temp2.xml
+        tv_merge -i temp2.xml -m custom.xml -o opas.xml
 
         # Siivotaan väliaikaiset tiedostot pois
-        rm f4.xml uk.xml custom.xml temp.xml
+        rm f4.xml se.xml uk.xml custom.xml temp1.xml temp2.xml
 
     - name: Commit ja Push muutokset
       run: |
