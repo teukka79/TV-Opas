@@ -12,17 +12,17 @@
   {
     "channelID" : "CNBC NORDIC.fi",
     "name" : "cnbc-us",
-    "symbolID" : "logo-cnbc-us"
+    "symbolID" : "logo-cnbc"
   },
   {
     "channelID" : "CNBC.uk",
     "name" : "cnbc-us",
-    "symbolID" : "logo-cnbc-us"
+    "symbolID" : "logo-cnbc"
   },
   {
     "channelID" : "CNBC.us",
     "name" : "cnbc-us",
-    "symbolID" : "logo-cnbc-us"
+    "symbolID" : "logo-cnbc"
   },
   {
     "channelID" : "Elisa Viihde.fi",
@@ -50,6 +50,11 @@
     "symbolID" : "logo-hero"
   },
   {
+    "channelID" : "Jim.fi",
+    "name" : "jim",
+    "symbolID" : "logo-jim"
+  },
+  {
     "channelID" : "Kutonen.fi",
     "name" : "kutonen",
     "symbolID" : "logo-kutonen"
@@ -57,7 +62,7 @@
   {
     "channelID" : "Liv.fi",
     "name" : "liv-muokattu",
-    "symbolID" : "logo-liv-muokattu"
+    "symbolID" : "logo-liv"
   },
   {
     "channelID" : "MTV Ava.fi",
@@ -146,8 +151,8 @@
   },
   {
     "channelID" : "STAR Channel.fi",
-    "name" : "Star Channel",
-    "symbolID" : "logo-star"
+    "name" : "Star",
+    "symbolID" : "logo-star-channel"
   },
   {
     "channelID" : "STARZ HD (East).us",
@@ -191,6 +196,11 @@
   },
   {
     "channelID" : "TLC.fi",
+    "name" : "TLC",
+    "symbolID" : "logo-tlc"
+  },
+  {
+    "channelID" : "TLC.uk",
     "name" : "TLC",
     "symbolID" : "logo-tlc"
   },
