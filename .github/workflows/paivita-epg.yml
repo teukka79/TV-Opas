@@ -29,6 +29,7 @@ jobs:
       run: |
         # Haetaan kaikki lähteet pakattuina (.xml.gz)
         curl -sL "https://www.open-epg.com/files/finland4.xml.gz" | zcat > f4.xml
+        curl -sL "https://www.open-epg.com/files/sweden.xml.gz" | zcat > se.xml
         curl -sL "https://www.open-epg.com/files/unitedkingdom.xml.gz" | zcat > uk.xml
         curl -sL "https://www.open-epg.com/generate/DtpfnFX8Tu.xml.gz" | zcat > custom.xml
 
